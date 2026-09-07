@@ -1,0 +1,6228 @@
+{
+  "$doc": "777 faction relations as an edge list (sandbox sim input, M6).",
+  "count": 777,
+  "reactions": {
+    "Enemy": 94,
+    "Friend": 262,
+    "Ally": 343,
+    "Neutral": 78
+  },
+  "edges": [
+    {
+      "from": "0x001F6113",
+      "from_edid": "AlienFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052407",
+      "from_edid": "AnimalFriend01Faction",
+      "to": "0x00153513",
+      "to_edid": "MS19MoleRatFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052407",
+      "from_edid": "AnimalFriend01Faction",
+      "to": "0x000B3D82",
+      "to_edid": "YaoGuaiFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052407",
+      "from_edid": "AnimalFriend01Faction",
+      "to": "0x000267BF",
+      "to_edid": "RadStagFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052407",
+      "from_edid": "AnimalFriend01Faction",
+      "to": "0x00028670",
+      "to_edid": "BugFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052407",
+      "from_edid": "AnimalFriend01Faction",
+      "to": "0x00020B89",
+      "to_edid": "RadScorpionFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052407",
+      "from_edid": "AnimalFriend01Faction",
+      "to": "0x0001D15B",
+      "to_edid": "ViciousDogFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052407",
+      "from_edid": "AnimalFriend01Faction",
+      "to": "0x00031B22",
+      "to_edid": "MoleRatFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052408",
+      "from_edid": "AnimalFriend02Faction",
+      "to": "0x00153513",
+      "to_edid": "MS19MoleRatFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052408",
+      "from_edid": "AnimalFriend02Faction",
+      "to": "0x000B3D82",
+      "to_edid": "YaoGuaiFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052408",
+      "from_edid": "AnimalFriend02Faction",
+      "to": "0x000267BF",
+      "to_edid": "RadStagFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052408",
+      "from_edid": "AnimalFriend02Faction",
+      "to": "0x00028670",
+      "to_edid": "BugFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052408",
+      "from_edid": "AnimalFriend02Faction",
+      "to": "0x00020B89",
+      "to_edid": "RadScorpionFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052408",
+      "from_edid": "AnimalFriend02Faction",
+      "to": "0x0001D15B",
+      "to_edid": "ViciousDogFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052408",
+      "from_edid": "AnimalFriend02Faction",
+      "to": "0x00031B22",
+      "to_edid": "MoleRatFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00020753",
+      "from_edid": "Arena_Fight_Faction",
+      "to": "0x00020753",
+      "to_edid": "Arena_Fight_Faction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EDCE3",
+      "from_edid": "BloatflyFaction",
+      "to": "0x001E5F60",
+      "to_edid": "VertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EDCE3",
+      "from_edid": "BloatflyFaction",
+      "to": "0x000EDCE3",
+      "to_edid": "BloatflyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EDCE2",
+      "from_edid": "BloodbugFaction",
+      "to": "0x001E5F60",
+      "to_edid": "VertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EDCE2",
+      "from_edid": "BloodbugFaction",
+      "to": "0x000EDCE2",
+      "to_edid": "BloodbugFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00091895",
+      "from_edid": "BoS100FeralGhoulFaction",
+      "to": "0x00077C6C",
+      "to_edid": "FeralGhoulFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00091895",
+      "from_edid": "BoS100FeralGhoulFaction",
+      "to": "0x00091895",
+      "to_edid": "BoS100FeralGhoulFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00091895",
+      "from_edid": "BoS100FeralGhoulFaction",
+      "to": "0x0005DE41",
+      "to_edid": "BrotherhoodofSteelFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00091895",
+      "from_edid": "BoS100FeralGhoulFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001B513D",
+      "from_edid": "BoS100FightFaction",
+      "to": "0x001B513D",
+      "to_edid": "BoS100FightFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001A7BCE",
+      "from_edid": "BoS101POIFaction",
+      "to": "0x001A7BCE",
+      "to_edid": "BoS101POIFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003A5F3",
+      "from_edid": "BoS302DanseFaction",
+      "to": "0x0003A5F9",
+      "to_edid": "BoS302RobotsFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003A5F3",
+      "from_edid": "BoS302DanseFaction",
+      "to": "0x0003A5F3",
+      "to_edid": "BoS302DanseFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003A5F9",
+      "from_edid": "BoS302RobotsFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003A5F9",
+      "from_edid": "BoS302RobotsFaction",
+      "to": "0x0003A5F9",
+      "to_edid": "BoS302RobotsFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003A5F9",
+      "from_edid": "BoS302RobotsFaction",
+      "to": "0x0003A5F3",
+      "to_edid": "BoS302DanseFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0019E9A6",
+      "from_edid": "BoSAttackingRailroadFaction",
+      "to": "0x0019E9A6",
+      "to_edid": "BoSAttackingRailroadFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001AC452",
+      "from_edid": "BoSDanseBoSEnemyFaction",
+      "to": "0x0005DE41",
+      "to_edid": "BrotherhoodofSteelFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x001479C1",
+      "from_edid": "BoSGenericNPCFaction",
+      "to": "0x0003C5A6",
+      "to_edid": "DN130TempRailroadFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x001479C1",
+      "from_edid": "BoSGenericNPCFaction",
+      "to": "0x0005DE41",
+      "to_edid": "BrotherhoodofSteelFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00152AEC",
+      "from_edid": "BoSPrydwenSpecialCombatFaction",
+      "to": "0x00152AEC",
+      "to_edid": "BoSPrydwenSpecialCombatFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005DE41",
+      "from_edid": "BrotherhoodofSteelFaction",
+      "to": "0x00083B31",
+      "to_edid": "SynthFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005DE41",
+      "from_edid": "BrotherhoodofSteelFaction",
+      "to": "0x00148B89",
+      "to_edid": "RR302TempBoSFriends",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005DE41",
+      "from_edid": "BrotherhoodofSteelFaction",
+      "to": "0x00135779",
+      "to_edid": "StrongFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005DE41",
+      "from_edid": "BrotherhoodofSteelFaction",
+      "to": "0x001AC452",
+      "to_edid": "BoSDanseBoSEnemyFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005DE41",
+      "from_edid": "BrotherhoodofSteelFaction",
+      "to": "0x001479C1",
+      "to_edid": "BoSGenericNPCFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005DE41",
+      "from_edid": "BrotherhoodofSteelFaction",
+      "to": "0x0017BB92",
+      "to_edid": "Inst307_BrotherhoodofSteelScoutVertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005DE41",
+      "from_edid": "BrotherhoodofSteelFaction",
+      "to": "0x0017958E",
+      "to_edid": "Inst307_BrotherhoodofSteelStopFiringFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005DE41",
+      "from_edid": "BrotherhoodofSteelFaction",
+      "to": "0x00175F2C",
+      "to_edid": "Inst307_BrotherhoodofSteelScoutFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005DE41",
+      "from_edid": "BrotherhoodofSteelFaction",
+      "to": "0x0014661B",
+      "to_edid": "RESceneKMK_MQ202Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005DE41",
+      "from_edid": "BrotherhoodofSteelFaction",
+      "to": "0x0003C5A6",
+      "to_edid": "DN130TempRailroadFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005DE41",
+      "from_edid": "BrotherhoodofSteelFaction",
+      "to": "0x0005DE41",
+      "to_edid": "BrotherhoodofSteelFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028670",
+      "from_edid": "BugFaction",
+      "to": "0x00178A61",
+      "to_edid": "MQ102CodsworthBugFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028670",
+      "from_edid": "BugFaction",
+      "to": "0x00052408",
+      "to_edid": "AnimalFriend02Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028670",
+      "from_edid": "BugFaction",
+      "to": "0x00052407",
+      "to_edid": "AnimalFriend01Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028670",
+      "from_edid": "BugFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028670",
+      "from_edid": "BugFaction",
+      "to": "0x00028670",
+      "to_edid": "BugFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF225",
+      "from_edid": "BunkerHillBoSFaction",
+      "to": "0x000EF226",
+      "to_edid": "BunkerHillRRFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF225",
+      "from_edid": "BunkerHillBoSFaction",
+      "to": "0x000EF224",
+      "to_edid": "BunkerHillInstituteFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF225",
+      "from_edid": "BunkerHillBoSFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF225",
+      "from_edid": "BunkerHillBoSFaction",
+      "to": "0x000EF225",
+      "to_edid": "BunkerHillBoSFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF224",
+      "from_edid": "BunkerHillInstituteFaction",
+      "to": "0x0005E558",
+      "to_edid": "InstituteFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF224",
+      "from_edid": "BunkerHillInstituteFaction",
+      "to": "0x000EF225",
+      "to_edid": "BunkerHillBoSFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF224",
+      "from_edid": "BunkerHillInstituteFaction",
+      "to": "0x000EF226",
+      "to_edid": "BunkerHillRRFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF224",
+      "from_edid": "BunkerHillInstituteFaction",
+      "to": "0x000EF224",
+      "to_edid": "BunkerHillInstituteFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF224",
+      "from_edid": "BunkerHillInstituteFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF226",
+      "from_edid": "BunkerHillRRFaction",
+      "to": "0x000EF224",
+      "to_edid": "BunkerHillInstituteFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF226",
+      "from_edid": "BunkerHillRRFaction",
+      "to": "0x000EF225",
+      "to_edid": "BunkerHillBoSFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF226",
+      "from_edid": "BunkerHillRRFaction",
+      "to": "0x000EF226",
+      "to_edid": "BunkerHillRRFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF226",
+      "from_edid": "BunkerHillRRFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000AC57B",
+      "from_edid": "CZRaiderFaction",
+      "to": "0x000AC57B",
+      "to_edid": "CZRaiderFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000AC57B",
+      "from_edid": "CZRaiderFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00247303",
+      "from_edid": "CZ_CombatantFaction",
+      "to": "0x00247303",
+      "to_edid": "CZ_CombatantFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00247303",
+      "from_edid": "CZ_CombatantFaction",
+      "to": "0x00117D52",
+      "to_edid": "CZ_Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00117D52",
+      "from_edid": "CZ_Faction",
+      "to": "0x00247303",
+      "to_edid": "CZ_CombatantFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00117D52",
+      "from_edid": "CZ_Faction",
+      "to": "0x000C73DE",
+      "to_edid": "CZ_TommyCaitFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00117D52",
+      "from_edid": "CZ_Faction",
+      "to": "0x00117D52",
+      "to_edid": "CZ_Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001069A5",
+      "from_edid": "CZ_SpecialCombatFaction",
+      "to": "0x001069A5",
+      "to_edid": "CZ_SpecialCombatFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000C73DE",
+      "from_edid": "CZ_TommyCaitFaction",
+      "to": "0x000C73DE",
+      "to_edid": "CZ_TommyCaitFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000C73DE",
+      "from_edid": "CZ_TommyCaitFaction",
+      "to": "0x00117D52",
+      "to_edid": "CZ_Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00210E26",
+      "from_edid": "CZ_TommyCaitPlayerAllyFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000C3C55",
+      "from_edid": "CambridgeDrifterFaction",
+      "to": "0x00031B22",
+      "to_edid": "MoleRatFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x000E0762",
+      "to_edid": "MS04SinjinFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x0002B746",
+      "to_edid": "MS04SinjinLastBattleFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x0001D15B",
+      "to_edid": "ViciousDogFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x001B4590",
+      "to_edid": "MS04SinjinPersonalFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x0019DEF1",
+      "to_edid": "DN019CultistLeaderFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x00083B31",
+      "to_edid": "SynthFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x00058305",
+      "to_edid": "SuperMutantFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x0013101D",
+      "to_edid": "TheForgedFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x0005E558",
+      "to_edid": "InstituteFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x00083AD0",
+      "to_edid": "TriggermanFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x00058304",
+      "to_edid": "RobotFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x00123A16",
+      "to_edid": "PrewarCultistGuardFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x00058303",
+      "to_edid": "GunnerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x00077C6C",
+      "to_edid": "FeralGhoulFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x000C518D",
+      "to_edid": "DN019CultistFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x00091895",
+      "to_edid": "BoS100FeralGhoulFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x00031B22",
+      "to_edid": "MoleRatFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x000BBF88",
+      "to_edid": "PrewarCultistFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x0011EA70",
+      "to_edid": "TurretFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x0001CBED",
+      "to_edid": "RaiderFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x000267BF",
+      "to_edid": "RadStagFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x0002689D",
+      "to_edid": "MirelurkFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x00028FD6",
+      "to_edid": "GhoulFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x00022B31",
+      "to_edid": "CreatureFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x0002FB84",
+      "to_edid": "ChildrenOfAtomFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x00028670",
+      "to_edid": "BugFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0C8",
+      "from_edid": "CaptiveFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00130B7B",
+      "from_edid": "CaravanFaction",
+      "to": "0x00130B7B",
+      "to_edid": "CaravanFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00130FAC",
+      "from_edid": "CaravanGuardFaction",
+      "to": "0x00130FAC",
+      "to_edid": "CaravanGuardFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001328B9",
+      "from_edid": "CaravanLeaderFaction",
+      "to": "0x001328B9",
+      "to_edid": "CaravanLeaderFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002FB84",
+      "from_edid": "ChildrenOfAtomFaction",
+      "to": "0x00090861",
+      "to_edid": "DN011CuratorGivensFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002FB84",
+      "from_edid": "ChildrenOfAtomFaction",
+      "to": "0x0008CCED",
+      "to_edid": "DN072_GlowingOneFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002FB84",
+      "from_edid": "ChildrenOfAtomFaction",
+      "to": "0x00052507",
+      "to_edid": "ChildrenOfAtomFriendFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002FB84",
+      "from_edid": "ChildrenOfAtomFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002FB84",
+      "from_edid": "ChildrenOfAtomFaction",
+      "to": "0x0002FB84",
+      "to_edid": "ChildrenOfAtomFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00052507",
+      "from_edid": "ChildrenOfAtomFriendFaction",
+      "to": "0x0002FB84",
+      "to_edid": "ChildrenOfAtomFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00062030",
+      "from_edid": "CovenantFaction",
+      "to": "0x000F0C6A",
+      "to_edid": "CrimeCovenant",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00062030",
+      "from_edid": "CovenantFaction",
+      "to": "0x00062030",
+      "to_edid": "CovenantFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00062030",
+      "from_edid": "CovenantFaction",
+      "to": "0x00074794",
+      "to_edid": "CovenantHQSecurityFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000D4D9C",
+      "from_edid": "CovenantFactionGenericNPCs",
+      "to": "0x00074794",
+      "to_edid": "CovenantHQSecurityFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00074794",
+      "from_edid": "CovenantHQSecurityFaction",
+      "to": "0x000D4D9C",
+      "to_edid": "CovenantFactionGenericNPCs",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00074794",
+      "from_edid": "CovenantHQSecurityFaction",
+      "to": "0x00074794",
+      "to_edid": "CovenantHQSecurityFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00074794",
+      "from_edid": "CovenantHQSecurityFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00074794",
+      "from_edid": "CovenantHQSecurityFaction",
+      "to": "0x00062030",
+      "to_edid": "CovenantFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00022B31",
+      "from_edid": "CreatureFaction",
+      "to": "0x0001CBED",
+      "to_edid": "RaiderFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00022B31",
+      "from_edid": "CreatureFaction",
+      "to": "0x00022B31",
+      "to_edid": "CreatureFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00022B31",
+      "from_edid": "CreatureFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00022B31",
+      "from_edid": "CreatureFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0018BB4F",
+      "from_edid": "CrimeBobbisPlace",
+      "to": "0x001324C9",
+      "to_edid": "FFGoodneighbor07BobbiFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00047EBD",
+      "from_edid": "CrimeCabotHouse",
+      "to": "0x0004B28F",
+      "to_edid": "ParsonsGuardFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00047EBD",
+      "from_edid": "CrimeCabotHouse",
+      "to": "0x00047EBD",
+      "to_edid": "CrimeCabotHouse",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F0C6A",
+      "from_edid": "CrimeCovenant",
+      "to": "0x00062030",
+      "to_edid": "CovenantFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00002CB4",
+      "from_edid": "CrimeDiamondCity",
+      "to": "0x0017CD64",
+      "to_edid": "DiamondCityEnemyFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00002CB4",
+      "from_edid": "CrimeDiamondCity",
+      "to": "0x00002F65",
+      "to_edid": "SecurityDiamondCity",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00002CB4",
+      "from_edid": "CrimeDiamondCity",
+      "to": "0x00083900",
+      "to_edid": "MS13ThugFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000228A8",
+      "from_edid": "CrimeGoodneighbor",
+      "to": "0x000E1ACC",
+      "to_edid": "GoodneighborGuardFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000228A8",
+      "from_edid": "CrimeGoodneighbor",
+      "to": "0x00083900",
+      "to_edid": "MS13ThugFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0024903B",
+      "from_edid": "CrimeInstituteExterior",
+      "to": "0x0005E558",
+      "to_edid": "InstituteFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0022BC1E",
+      "from_edid": "CrimeMS07cEddieWinterFaction",
+      "to": "0x0014BF23",
+      "to_edid": "MS07cEddieWinterFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BDAAA",
+      "from_edid": "CrimeRailroadHQ",
+      "to": "0x001E742F",
+      "to_edid": "RebelSynthFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BDAAA",
+      "from_edid": "CrimeRailroadHQ",
+      "to": "0x000994F6",
+      "to_edid": "RailroadFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BDAAA",
+      "from_edid": "CrimeRailroadHQ",
+      "to": "0x00061BE6",
+      "to_edid": "RailroadGenericNPCFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000581B3",
+      "from_edid": "CrimeVault81",
+      "to": "0x000581B3",
+      "to_edid": "CrimeVault81",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000581B3",
+      "from_edid": "CrimeVault81",
+      "to": "0x0004F4A4",
+      "to_edid": "Vault81GuardFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00153514",
+      "from_edid": "CurieFaction",
+      "to": "0x00153513",
+      "to_edid": "MS19MoleRatFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00023C01",
+      "from_edid": "CurrentCompanionFaction",
+      "to": "0x00023C01",
+      "to_edid": "CurrentCompanionFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00023C01",
+      "from_edid": "CurrentCompanionFaction",
+      "to": "0x0014661B",
+      "to_edid": "RESceneKMK_MQ202Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00023C01",
+      "from_edid": "CurrentCompanionFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000FEB54",
+      "from_edid": "DN001_TurretStartFaction",
+      "to": "0x000FEB54",
+      "to_edid": "DN001_TurretStartFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00090861",
+      "from_edid": "DN011CuratorGivensFaction",
+      "to": "0x00090861",
+      "to_edid": "DN011CuratorGivensFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00090861",
+      "from_edid": "DN011CuratorGivensFaction",
+      "to": "0x00052507",
+      "to_edid": "ChildrenOfAtomFriendFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00090861",
+      "from_edid": "DN011CuratorGivensFaction",
+      "to": "0x0002FB84",
+      "to_edid": "ChildrenOfAtomFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000FF404",
+      "from_edid": "DN011SecurityFaction",
+      "to": "0x000FF404",
+      "to_edid": "DN011SecurityFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB2",
+      "from_edid": "DN015_DirectorFaction",
+      "to": "0x00028FB1",
+      "to_edid": "DN015_GhoulResearcherFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB2",
+      "from_edid": "DN015_DirectorFaction",
+      "to": "0x00028FB4",
+      "to_edid": "DN015_TurretOfficeFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB2",
+      "from_edid": "DN015_DirectorFaction",
+      "to": "0x00028FB0",
+      "to_edid": "DN015_RobotFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB2",
+      "from_edid": "DN015_DirectorFaction",
+      "to": "0x00028FB3",
+      "to_edid": "DN015_TurretResearchFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB1",
+      "from_edid": "DN015_GhoulResearcherFaction",
+      "to": "0x00028FB3",
+      "to_edid": "DN015_TurretResearchFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB1",
+      "from_edid": "DN015_GhoulResearcherFaction",
+      "to": "0x00028FB0",
+      "to_edid": "DN015_RobotFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB0",
+      "from_edid": "DN015_RobotFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB0",
+      "from_edid": "DN015_RobotFaction",
+      "to": "0x00028FB4",
+      "to_edid": "DN015_TurretOfficeFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB0",
+      "from_edid": "DN015_RobotFaction",
+      "to": "0x00028FB2",
+      "to_edid": "DN015_DirectorFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB0",
+      "from_edid": "DN015_RobotFaction",
+      "to": "0x00028FB1",
+      "to_edid": "DN015_GhoulResearcherFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB4",
+      "from_edid": "DN015_TurretOfficeFaction",
+      "to": "0x00028FB4",
+      "to_edid": "DN015_TurretOfficeFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB4",
+      "from_edid": "DN015_TurretOfficeFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB4",
+      "from_edid": "DN015_TurretOfficeFaction",
+      "to": "0x00028FB3",
+      "to_edid": "DN015_TurretResearchFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB4",
+      "from_edid": "DN015_TurretOfficeFaction",
+      "to": "0x00028FB2",
+      "to_edid": "DN015_DirectorFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB4",
+      "from_edid": "DN015_TurretOfficeFaction",
+      "to": "0x00028FB0",
+      "to_edid": "DN015_RobotFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB3",
+      "from_edid": "DN015_TurretResearchFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB3",
+      "from_edid": "DN015_TurretResearchFaction",
+      "to": "0x00028FB4",
+      "to_edid": "DN015_TurretOfficeFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB3",
+      "from_edid": "DN015_TurretResearchFaction",
+      "to": "0x00028FB0",
+      "to_edid": "DN015_RobotFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FB3",
+      "from_edid": "DN015_TurretResearchFaction",
+      "to": "0x00028FB1",
+      "to_edid": "DN015_GhoulResearcherFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000C518D",
+      "from_edid": "DN019CultistFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000C518D",
+      "from_edid": "DN019CultistFaction",
+      "to": "0x000BBF88",
+      "to_edid": "PrewarCultistFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0019DEF1",
+      "from_edid": "DN019CultistLeaderFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0019DEF1",
+      "from_edid": "DN019CultistLeaderFaction",
+      "to": "0x000BBF88",
+      "to_edid": "PrewarCultistFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0007E1BD",
+      "from_edid": "DN028_BloodbugFaction",
+      "to": "0x0019A782",
+      "to_edid": "DN028_RaiderBossRoomFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0007E1BD",
+      "from_edid": "DN028_BloodbugFaction",
+      "to": "0x0007E1BD",
+      "to_edid": "DN028_BloodbugFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0007E1BD",
+      "from_edid": "DN028_BloodbugFaction",
+      "to": "0x0007E1BC",
+      "to_edid": "DN028_RaiderFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0019A782",
+      "from_edid": "DN028_RaiderBossRoomFaction",
+      "to": "0x0019A782",
+      "to_edid": "DN028_RaiderBossRoomFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0019A782",
+      "from_edid": "DN028_RaiderBossRoomFaction",
+      "to": "0x0007E1BC",
+      "to_edid": "DN028_RaiderFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0019A782",
+      "from_edid": "DN028_RaiderBossRoomFaction",
+      "to": "0x0007E1BD",
+      "to_edid": "DN028_BloodbugFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0007E1BC",
+      "from_edid": "DN028_RaiderFaction",
+      "to": "0x0019A782",
+      "to_edid": "DN028_RaiderBossRoomFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0007E1BC",
+      "from_edid": "DN028_RaiderFaction",
+      "to": "0x0007E1BC",
+      "to_edid": "DN028_RaiderFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0007E1BC",
+      "from_edid": "DN028_RaiderFaction",
+      "to": "0x0007E1BD",
+      "to_edid": "DN028_BloodbugFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000AC5F7",
+      "from_edid": "DN029ScavengerAttackFaction",
+      "to": "0x0008C9DB",
+      "to_edid": "MS11IronsidesRobotsFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000AC5F7",
+      "from_edid": "DN029ScavengerAttackFaction",
+      "to": "0x000AC5F7",
+      "to_edid": "DN029ScavengerAttackFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000AC5F7",
+      "from_edid": "DN029ScavengerAttackFaction",
+      "to": "0x0008C9DA",
+      "to_edid": "MS11ScavengersNPCFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF40E",
+      "from_edid": "DN035_RoboRaceLeaderFaction",
+      "to": "0x000EF40E",
+      "to_edid": "DN035_RoboRaceLeaderFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF40E",
+      "from_edid": "DN035_RoboRaceLeaderFaction",
+      "to": "0x0001CBED",
+      "to_edid": "RaiderFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF40E",
+      "from_edid": "DN035_RoboRaceLeaderFaction",
+      "to": "0x000EF3F9",
+      "to_edid": "DN035_RoboRacerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF3F9",
+      "from_edid": "DN035_RoboRacerFaction",
+      "to": "0x000EF3F9",
+      "to_edid": "DN035_RoboRacerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF3F9",
+      "from_edid": "DN035_RoboRacerFaction",
+      "to": "0x000EF40E",
+      "to_edid": "DN035_RoboRaceLeaderFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EF3F9",
+      "from_edid": "DN035_RoboRacerFaction",
+      "to": "0x0001CBED",
+      "to_edid": "RaiderFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F9341",
+      "from_edid": "DN047ChemLabWorkerFaction",
+      "to": "0x000F9341",
+      "to_edid": "DN047ChemLabWorkerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F9341",
+      "from_edid": "DN047ChemLabWorkerFaction",
+      "to": "0x00077C6C",
+      "to_edid": "FeralGhoulFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E7B5C",
+      "from_edid": "DN049BakeryFaction",
+      "to": "0x000E7B5C",
+      "to_edid": "DN049BakeryFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E933D",
+      "from_edid": "DN049BowlingAlleyFaction",
+      "to": "0x000E933D",
+      "to_edid": "DN049BowlingAlleyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E8D5D",
+      "from_edid": "DN049DinerFaction",
+      "to": "0x000E8D5D",
+      "to_edid": "DN049DinerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E990D",
+      "from_edid": "DN049DirectorFaction",
+      "to": "0x000E990D",
+      "to_edid": "DN049DirectorFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E8D4E",
+      "from_edid": "DN049FallonsFaction",
+      "to": "0x000E8D4E",
+      "to_edid": "DN049FallonsFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001AC2B4",
+      "from_edid": "DN049MaddensChampFaction",
+      "to": "0x001AC2B4",
+      "to_edid": "DN049MaddensChampFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E5251",
+      "from_edid": "DN049MaddensFaction",
+      "to": "0x000E5251",
+      "to_edid": "DN049MaddensFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E8D59",
+      "from_edid": "DN049OutletFaction",
+      "to": "0x000E8D59",
+      "to_edid": "DN049OutletFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E8D59",
+      "from_edid": "DN049OutletFaction",
+      "to": "0x000E8E74",
+      "to_edid": "DN049OutletHandyDemoModelsFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E8D59",
+      "from_edid": "DN049OutletFaction",
+      "to": "0x000EAC9C",
+      "to_edid": "DN049OutletGutsyDemoModelsFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EAC9C",
+      "from_edid": "DN049OutletGutsyDemoModelsFaction",
+      "to": "0x000EAC9C",
+      "to_edid": "DN049OutletGutsyDemoModelsFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EAC9C",
+      "from_edid": "DN049OutletGutsyDemoModelsFaction",
+      "to": "0x000E8D59",
+      "to_edid": "DN049OutletFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E8E74",
+      "from_edid": "DN049OutletHandyDemoModelsFaction",
+      "to": "0x000E8E74",
+      "to_edid": "DN049OutletHandyDemoModelsFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E8E74",
+      "from_edid": "DN049OutletHandyDemoModelsFaction",
+      "to": "0x000E8D59",
+      "to_edid": "DN049OutletFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000FD52F",
+      "from_edid": "DN049SecurityFaction",
+      "to": "0x000FD52F",
+      "to_edid": "DN049SecurityFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E7AFD",
+      "from_edid": "DN049SlocumFaction",
+      "to": "0x000E7AFD",
+      "to_edid": "DN049SlocumFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000ADDF7",
+      "from_edid": "DN053_VirgilFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000ADDF7",
+      "from_edid": "DN053_VirgilFaction",
+      "to": "0x000ADDF7",
+      "to_edid": "DN053_VirgilFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00048641",
+      "from_edid": "DN054AtomCatFaction",
+      "to": "0x00048641",
+      "to_edid": "DN054AtomCatFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00048641",
+      "from_edid": "DN054AtomCatFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002CB62",
+      "from_edid": "DN058RaiderFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002CB62",
+      "from_edid": "DN058RaiderFaction",
+      "to": "0x0002CB62",
+      "to_edid": "DN058RaiderFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0008CCED",
+      "from_edid": "DN072_GlowingOneFaction",
+      "to": "0x0002FB84",
+      "to_edid": "ChildrenOfAtomFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00056DE6",
+      "from_edid": "DN078TunnelWorkerFaction",
+      "to": "0x00056DE6",
+      "to_edid": "DN078TunnelWorkerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003EFAE",
+      "from_edid": "DN079_CanneryFaction",
+      "to": "0x0003EFAE",
+      "to_edid": "DN079_CanneryFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003EFAE",
+      "from_edid": "DN079_CanneryFaction",
+      "to": "0x0019EC30",
+      "to_edid": "DN079_CanneryTurretFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0019EC30",
+      "from_edid": "DN079_CanneryTurretFaction",
+      "to": "0x0019EC30",
+      "to_edid": "DN079_CanneryTurretFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0019EC30",
+      "from_edid": "DN079_CanneryTurretFaction",
+      "to": "0x0003EFAE",
+      "to_edid": "DN079_CanneryFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00128216",
+      "from_edid": "DN083_BarneyFaction",
+      "to": "0x0002689D",
+      "to_edid": "MirelurkFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00128216",
+      "from_edid": "DN083_BarneyFaction",
+      "to": "0x000CFB81",
+      "to_edid": "DN083_IntroBarneyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00128216",
+      "from_edid": "DN083_BarneyFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00128216",
+      "from_edid": "DN083_BarneyFaction",
+      "to": "0x00128216",
+      "to_edid": "DN083_BarneyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000CFB81",
+      "from_edid": "DN083_IntroBarneyFaction",
+      "to": "0x00128216",
+      "to_edid": "DN083_BarneyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000CFB81",
+      "from_edid": "DN083_IntroBarneyFaction",
+      "to": "0x000CFB82",
+      "to_edid": "DN083_IntroMirelurkFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000CFB81",
+      "from_edid": "DN083_IntroBarneyFaction",
+      "to": "0x000CFB81",
+      "to_edid": "DN083_IntroBarneyFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000CFB82",
+      "from_edid": "DN083_IntroMirelurkFaction",
+      "to": "0x000CFB81",
+      "to_edid": "DN083_IntroBarneyFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000CFB82",
+      "from_edid": "DN083_IntroMirelurkFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014EED8",
+      "from_edid": "DN084_MassFusionLabSecurityFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014EED8",
+      "from_edid": "DN084_MassFusionLabSecurityFaction",
+      "to": "0x0014EED8",
+      "to_edid": "DN084_MassFusionLabSecurityFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0007EE3F",
+      "from_edid": "DN094_RobotFaction",
+      "to": "0x0002689D",
+      "to_edid": "MirelurkFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0007EE3F",
+      "from_edid": "DN094_RobotFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0007EE3F",
+      "from_edid": "DN094_RobotFaction",
+      "to": "0x0007EE3F",
+      "to_edid": "DN094_RobotFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F5C3A",
+      "from_edid": "DN101_PickmanFaction",
+      "to": "0x0001CBED",
+      "to_edid": "RaiderFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F5C3A",
+      "from_edid": "DN101_PickmanFaction",
+      "to": "0x000F17C1",
+      "to_edid": "DN101_RaiderFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F5C3A",
+      "from_edid": "DN101_PickmanFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F17C1",
+      "from_edid": "DN101_RaiderFaction",
+      "to": "0x000F5C3A",
+      "to_edid": "DN101_PickmanFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F17C1",
+      "from_edid": "DN101_RaiderFaction",
+      "to": "0x000F17C1",
+      "to_edid": "DN101_RaiderFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F17C1",
+      "from_edid": "DN101_RaiderFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000A4CE3",
+      "from_edid": "DN116MilitaryBotFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002AAB6",
+      "from_edid": "DN121_JakeFaction",
+      "to": "0x0002AAB5",
+      "to_edid": "DN121_SaugusBossRoomFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002AAB5",
+      "from_edid": "DN121_SaugusBossRoomFaction",
+      "to": "0x0002AAB5",
+      "to_edid": "DN121_SaugusBossRoomFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002AAB5",
+      "from_edid": "DN121_SaugusBossRoomFaction",
+      "to": "0x0002AAB6",
+      "to_edid": "DN121_JakeFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0004B36B",
+      "from_edid": "DN123_NessMercenaryFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0004B36B",
+      "from_edid": "DN123_NessMercenaryFaction",
+      "to": "0x0004B36B",
+      "to_edid": "DN123_NessMercenaryFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0012758C",
+      "from_edid": "DN123_SkylanesRaiderFaction",
+      "to": "0x0012758C",
+      "to_edid": "DN123_SkylanesRaiderFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000D5225",
+      "from_edid": "DN129_RobotFaction",
+      "to": "0x00077C6C",
+      "to_edid": "FeralGhoulFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003C5A6",
+      "from_edid": "DN130TempRailroadFaction",
+      "to": "0x0005DE41",
+      "to_edid": "BrotherhoodofSteelFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0022D9EE",
+      "from_edid": "DN136_ScientistFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0022D9EE",
+      "from_edid": "DN136_ScientistFaction",
+      "to": "0x0022D9EE",
+      "to_edid": "DN136_ScientistFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0022D9EF",
+      "from_edid": "DN136_ScientistFaction02",
+      "to": "0x00083B31",
+      "to_edid": "SynthFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0022D9EF",
+      "from_edid": "DN136_ScientistFaction02",
+      "to": "0x0022D9EF",
+      "to_edid": "DN136_ScientistFaction02",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0024800B",
+      "from_edid": "DN136_ScientistFaction03",
+      "to": "0x0024800B",
+      "to_edid": "DN136_ScientistFaction03",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00249966",
+      "from_edid": "DN136_ScientistFaction04",
+      "to": "0x00249967",
+      "to_edid": "DN136_ScientistFaction05",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00249966",
+      "from_edid": "DN136_ScientistFaction04",
+      "to": "0x00249966",
+      "to_edid": "DN136_ScientistFaction04",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00249967",
+      "from_edid": "DN136_ScientistFaction05",
+      "to": "0x00249966",
+      "to_edid": "DN136_ScientistFaction04",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00249967",
+      "from_edid": "DN136_ScientistFaction05",
+      "to": "0x00249967",
+      "to_edid": "DN136_ScientistFaction05",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001648F0",
+      "from_edid": "DN157MirelurkFaction",
+      "to": "0x001648F0",
+      "to_edid": "DN157MirelurkFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001648F0",
+      "from_edid": "DN157MirelurkFaction",
+      "to": "0x0001CBED",
+      "to_edid": "RaiderFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x001648F0",
+      "from_edid": "DN157MirelurkFaction",
+      "to": "0x0002689D",
+      "to_edid": "MirelurkFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00144047",
+      "from_edid": "DN166AtomFaction",
+      "to": "0x00144047",
+      "to_edid": "DN166AtomFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00097199",
+      "from_edid": "DNFinancial_OpalFaction",
+      "to": "0x000975FC",
+      "to_edid": "DNFinancial_OpalVendorFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000975FC",
+      "from_edid": "DNFinancial_OpalVendorFaction",
+      "to": "0x00097199",
+      "to_edid": "DNFinancial_OpalFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001A0416",
+      "from_edid": "DeaconForeshadowFaction",
+      "to": "0x00002F65",
+      "to_edid": "SecurityDiamondCity",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001A0416",
+      "from_edid": "DeaconForeshadowFaction",
+      "to": "0x0001995B",
+      "to_edid": "SettlementBunkerHill",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001A0416",
+      "from_edid": "DeaconForeshadowFaction",
+      "to": "0x000E1ACC",
+      "to_edid": "GoodneighborGuardFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001A0416",
+      "from_edid": "DeaconForeshadowFaction",
+      "to": "0x001A0416",
+      "to_edid": "DeaconForeshadowFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001E722",
+      "from_edid": "DeathclawFaction",
+      "to": "0x0001CBED",
+      "to_edid": "RaiderFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001E722",
+      "from_edid": "DeathclawFaction",
+      "to": "0x0001E722",
+      "to_edid": "DeathclawFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001E722",
+      "from_edid": "DeathclawFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0017CD64",
+      "from_edid": "DiamondCityEnemyFaction",
+      "to": "0x00002CB4",
+      "to_edid": "CrimeDiamondCity",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00092013",
+      "from_edid": "DmndAllFaithsChapelFaction",
+      "to": "0x00092013",
+      "to_edid": "DmndAllFaithsChapelFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00064127",
+      "from_edid": "DmndArturoHouseOwnerFaction",
+      "to": "0x00064127",
+      "to_edid": "DmndArturoHouseOwnerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0006A676",
+      "from_edid": "DmndCodmanOwnerFaction",
+      "to": "0x0006A676",
+      "to_edid": "DmndCodmanOwnerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0006A683",
+      "from_edid": "DmndHawthorneOwnerFaction",
+      "to": "0x0006A683",
+      "to_edid": "DmndHawthorneOwnerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0006A68C",
+      "from_edid": "DmndLatimerOwnerFaction",
+      "to": "0x0006A68C",
+      "to_edid": "DmndLatimerOwnerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0006A699",
+      "from_edid": "DmndMayorOfficeOwnerFaction",
+      "to": "0x0006A699",
+      "to_edid": "DmndMayorOfficeOwnerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000644E5",
+      "from_edid": "DmndPublickOwnerFaction",
+      "to": "0x000644E5",
+      "to_edid": "DmndPublickOwnerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0006A60C",
+      "from_edid": "DmndSchoolhouseOwnerFaction",
+      "to": "0x0006A60C",
+      "to_edid": "DmndSchoolhouseOwnerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0006A69B",
+      "from_edid": "DmndSuperSalonFaction",
+      "to": "0x0006A69B",
+      "to_edid": "DmndSuperSalonFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0006E269",
+      "from_edid": "DogmeatFaction",
+      "to": "0x0014661B",
+      "to_edid": "RESceneKMK_MQ202Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0006E269",
+      "from_edid": "DogmeatFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0006E269",
+      "from_edid": "DogmeatFaction",
+      "to": "0x0001D15B",
+      "to_edid": "ViciousDogFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00106A03",
+      "from_edid": "DrumlinChemDealerFaction",
+      "to": "0x00106A03",
+      "to_edid": "DrumlinChemDealerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001069FD",
+      "from_edid": "DrumlinDinerFaction",
+      "to": "0x001069FD",
+      "to_edid": "DrumlinDinerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EDCE5",
+      "from_edid": "EyebotFaction",
+      "to": "0x000EDCE5",
+      "to_edid": "EyebotFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001324C9",
+      "from_edid": "FFGoodneighbor07BobbiFaction",
+      "to": "0x0018BB4F",
+      "to_edid": "CrimeBobbisPlace",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001324C9",
+      "from_edid": "FFGoodneighbor07BobbiFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x001324C9",
+      "from_edid": "FFGoodneighbor07BobbiFaction",
+      "to": "0x001324C9",
+      "to_edid": "FFGoodneighbor07BobbiFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00155253",
+      "from_edid": "Farm01Faction",
+      "to": "0x00155253",
+      "to_edid": "Farm01Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00156A11",
+      "from_edid": "Farm02Faction",
+      "to": "0x00190AE6",
+      "to_edid": "Farm02FactionBed",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00156A11",
+      "from_edid": "Farm02Faction",
+      "to": "0x00156A11",
+      "to_edid": "Farm02Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00190AE6",
+      "from_edid": "Farm02FactionBed",
+      "to": "0x00156A11",
+      "to_edid": "Farm02Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00156A1A",
+      "from_edid": "Farm03Faction",
+      "to": "0x00156A1A",
+      "to_edid": "Farm03Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00156A1B",
+      "from_edid": "Farm04Faction",
+      "to": "0x00156A1B",
+      "to_edid": "Farm04Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00156A1F",
+      "from_edid": "Farm05Faction",
+      "to": "0x00156A1F",
+      "to_edid": "Farm05Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00156A26",
+      "from_edid": "Farm06Faction",
+      "to": "0x00156A26",
+      "to_edid": "Farm06Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0006B4D4",
+      "from_edid": "FarmFactionAbernathy",
+      "to": "0x0006B4D4",
+      "to_edid": "FarmFactionAbernathy",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003F229",
+      "from_edid": "FarmFactionFinch",
+      "to": "0x0003F229",
+      "to_edid": "FarmFactionFinch",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003F228",
+      "from_edid": "FarmFactionGraygarden",
+      "to": "0x0003F228",
+      "to_edid": "FarmFactionGraygarden",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003F227",
+      "from_edid": "FarmFactionSlog",
+      "to": "0x0003F227",
+      "to_edid": "FarmFactionSlog",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003F22A",
+      "from_edid": "FarmFactionWarwick",
+      "to": "0x0003F22A",
+      "to_edid": "FarmFactionWarwick",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003F22A",
+      "from_edid": "FarmFactionWarwick",
+      "to": "0x000A274A",
+      "to_edid": "WarwickHostile",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00077C6C",
+      "from_edid": "FeralGhoulFaction",
+      "to": "0x001E5F60",
+      "to_edid": "VertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00077C6C",
+      "from_edid": "FeralGhoulFaction",
+      "to": "0x0018E8C0",
+      "to_edid": "MS02ZaoFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00077C6C",
+      "from_edid": "FeralGhoulFaction",
+      "to": "0x000F9341",
+      "to_edid": "DN047ChemLabWorkerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00077C6C",
+      "from_edid": "FeralGhoulFaction",
+      "to": "0x000D5225",
+      "to_edid": "DN129_RobotFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00077C6C",
+      "from_edid": "FeralGhoulFaction",
+      "to": "0x00091895",
+      "to_edid": "BoS100FeralGhoulFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00077C6C",
+      "from_edid": "FeralGhoulFaction",
+      "to": "0x000BC0F7",
+      "to_edid": "BoSInitiateClarkeFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00077C6C",
+      "from_edid": "FeralGhoulFaction",
+      "to": "0x00077C6C",
+      "to_edid": "FeralGhoulFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00077C6C",
+      "from_edid": "FeralGhoulFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000ECA5F",
+      "from_edid": "GenericBrawlPlayerAllyFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000ECA5F",
+      "from_edid": "GenericBrawlPlayerAllyFaction",
+      "to": "0x000ECA5F",
+      "to_edid": "GenericBrawlPlayerAllyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FD6",
+      "from_edid": "GhoulFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FD6",
+      "from_edid": "GhoulFaction",
+      "to": "0x0002689D",
+      "to_edid": "MirelurkFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FD6",
+      "from_edid": "GhoulFaction",
+      "to": "0x000361D2",
+      "to_edid": "GhoulNonFeralFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00028FD6",
+      "from_edid": "GhoulFaction",
+      "to": "0x00028FD6",
+      "to_edid": "GhoulFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000361D2",
+      "from_edid": "GhoulNonFeralFaction",
+      "to": "0x000361D2",
+      "to_edid": "GhoulNonFeralFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000361D2",
+      "from_edid": "GhoulNonFeralFaction",
+      "to": "0x0002689D",
+      "to_edid": "MirelurkFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000361D2",
+      "from_edid": "GhoulNonFeralFaction",
+      "to": "0x00028FD6",
+      "to_edid": "GhoulFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00134270",
+      "from_edid": "GlowingSeaChildrenFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00134270",
+      "from_edid": "GlowingSeaChildrenFaction",
+      "to": "0x00134270",
+      "to_edid": "GlowingSeaChildrenFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E1ACC",
+      "from_edid": "GoodneighborGuardFaction",
+      "to": "0x001A0416",
+      "to_edid": "DeaconForeshadowFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E1ACC",
+      "from_edid": "GoodneighborGuardFaction",
+      "to": "0x000E1ACC",
+      "to_edid": "GoodneighborGuardFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E1ACC",
+      "from_edid": "GoodneighborGuardFaction",
+      "to": "0x000228A8",
+      "to_edid": "CrimeGoodneighbor",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0008AF6C",
+      "from_edid": "GoodneighborMarowskiFaction",
+      "to": "0x0008AF6C",
+      "to_edid": "GoodneighborMarowskiFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001A0421",
+      "from_edid": "GoodneighborMemoryDenMiscPodOwnerFaction",
+      "to": "0x001A0421",
+      "to_edid": "GoodneighborMemoryDenMiscPodOwnerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00058303",
+      "from_edid": "GunnerFaction",
+      "to": "0x0013101D",
+      "to_edid": "TheForgedFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00058303",
+      "from_edid": "GunnerFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00058303",
+      "from_edid": "GunnerFaction",
+      "to": "0x00058303",
+      "to_edid": "GunnerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00058303",
+      "from_edid": "GunnerFaction",
+      "to": "0x00106CA3",
+      "to_edid": "MS01BulletFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000A1B85",
+      "from_edid": "HasBeenCompanionFaction",
+      "to": "0x000A1B85",
+      "to_edid": "HasBeenCompanionFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000A1B85",
+      "from_edid": "HasBeenCompanionFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F8F07",
+      "from_edid": "HoldupFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F8F07",
+      "from_edid": "HoldupFaction",
+      "to": "0x000F8F07",
+      "to_edid": "HoldupFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F8F08",
+      "from_edid": "HoldupFactionHostile",
+      "to": "0x000F8F07",
+      "to_edid": "HoldupFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E73C6",
+      "from_edid": "Inst301BossGuardFaction",
+      "to": "0x000E73C6",
+      "to_edid": "Inst301BossGuardFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E73CC",
+      "from_edid": "Inst301GuardEnemyFaction",
+      "to": "0x000E73C6",
+      "to_edid": "Inst301BossGuardFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E73CA",
+      "from_edid": "Inst301PlayerEnemyFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E73CA",
+      "from_edid": "Inst301PlayerEnemyFaction",
+      "to": "0x000E73CB",
+      "to_edid": "Inst301CourserFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00175F2C",
+      "from_edid": "Inst307_BrotherhoodofSteelScoutFaction",
+      "to": "0x0017BB92",
+      "to_edid": "Inst307_BrotherhoodofSteelScoutVertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00175F2C",
+      "from_edid": "Inst307_BrotherhoodofSteelScoutFaction",
+      "to": "0x0005DE41",
+      "to_edid": "BrotherhoodofSteelFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00175F2C",
+      "from_edid": "Inst307_BrotherhoodofSteelScoutFaction",
+      "to": "0x00175F2C",
+      "to_edid": "Inst307_BrotherhoodofSteelScoutFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0017BB92",
+      "from_edid": "Inst307_BrotherhoodofSteelScoutVertibirdFaction",
+      "to": "0x0017BB92",
+      "to_edid": "Inst307_BrotherhoodofSteelScoutVertibirdFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0017BB92",
+      "from_edid": "Inst307_BrotherhoodofSteelScoutVertibirdFaction",
+      "to": "0x0017958E",
+      "to_edid": "Inst307_BrotherhoodofSteelStopFiringFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0017BB92",
+      "from_edid": "Inst307_BrotherhoodofSteelScoutVertibirdFaction",
+      "to": "0x0005DE41",
+      "to_edid": "BrotherhoodofSteelFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0017BB92",
+      "from_edid": "Inst307_BrotherhoodofSteelScoutVertibirdFaction",
+      "to": "0x00175F2C",
+      "to_edid": "Inst307_BrotherhoodofSteelScoutFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0017958E",
+      "from_edid": "Inst307_BrotherhoodofSteelStopFiringFaction",
+      "to": "0x0017BB92",
+      "to_edid": "Inst307_BrotherhoodofSteelScoutVertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0017958E",
+      "from_edid": "Inst307_BrotherhoodofSteelStopFiringFaction",
+      "to": "0x0005DE41",
+      "to_edid": "BrotherhoodofSteelFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BE800",
+      "from_edid": "InstM03EnemyFaction",
+      "to": "0x000BE801",
+      "to_edid": "InstM03RebelFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BE800",
+      "from_edid": "InstM03EnemyFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BE806",
+      "from_edid": "InstM03GorillaFaction",
+      "to": "0x000C32D9",
+      "to_edid": "InstM03GuardFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BE806",
+      "from_edid": "InstM03GorillaFaction",
+      "to": "0x0005E558",
+      "to_edid": "InstituteFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BE806",
+      "from_edid": "InstM03GorillaFaction",
+      "to": "0x000BE801",
+      "to_edid": "InstM03RebelFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000C32D9",
+      "from_edid": "InstM03GuardFaction",
+      "to": "0x000BE801",
+      "to_edid": "InstM03RebelFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0013B091",
+      "from_edid": "InstM03PlayerEnemyFaction",
+      "to": "0x0013B091",
+      "to_edid": "InstM03PlayerEnemyFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0013B091",
+      "from_edid": "InstM03PlayerEnemyFaction",
+      "to": "0x000BE801",
+      "to_edid": "InstM03RebelFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0013B091",
+      "from_edid": "InstM03PlayerEnemyFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BE801",
+      "from_edid": "InstM03RebelFaction",
+      "to": "0x000BE801",
+      "to_edid": "InstM03RebelFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BE801",
+      "from_edid": "InstM03RebelFaction",
+      "to": "0x0013B091",
+      "to_edid": "InstM03PlayerEnemyFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BE801",
+      "from_edid": "InstM03RebelFaction",
+      "to": "0x000C32D9",
+      "to_edid": "InstM03GuardFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BE801",
+      "from_edid": "InstM03RebelFaction",
+      "to": "0x000BE806",
+      "to_edid": "InstM03GorillaFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BE801",
+      "from_edid": "InstM03RebelFaction",
+      "to": "0x000BE800",
+      "to_edid": "InstM03EnemyFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005E558",
+      "from_edid": "InstituteFaction",
+      "to": "0x00167FB7",
+      "to_edid": "InstituteRefugeeFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005E558",
+      "from_edid": "InstituteFaction",
+      "to": "0x00083B31",
+      "to_edid": "SynthFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005E558",
+      "from_edid": "InstituteFaction",
+      "to": "0x000EF224",
+      "to_edid": "BunkerHillInstituteFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005E558",
+      "from_edid": "InstituteFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005E558",
+      "from_edid": "InstituteFaction",
+      "to": "0x000BE806",
+      "to_edid": "InstM03GorillaFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005E558",
+      "from_edid": "InstituteFaction",
+      "to": "0x0024903B",
+      "to_edid": "CrimeInstituteExterior",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005E558",
+      "from_edid": "InstituteFaction",
+      "to": "0x0014661B",
+      "to_edid": "RESceneKMK_MQ202Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005E558",
+      "from_edid": "InstituteFaction",
+      "to": "0x0005E558",
+      "to_edid": "InstituteFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00167FB7",
+      "from_edid": "InstituteRefugeeFaction",
+      "to": "0x0005E558",
+      "to_edid": "InstituteFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00167FB7",
+      "from_edid": "InstituteRefugeeFaction",
+      "to": "0x00167FB7",
+      "to_edid": "InstituteRefugeeFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00167FB7",
+      "from_edid": "InstituteRefugeeFaction",
+      "to": "0x00083B31",
+      "to_edid": "SynthFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0007B3F2",
+      "from_edid": "LorenzoCabotFaction",
+      "to": "0x0007B3F2",
+      "to_edid": "LorenzoCabotFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00178A61",
+      "from_edid": "MQ102CodsworthBugFaction",
+      "to": "0x00028670",
+      "to_edid": "BugFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0004DDF1",
+      "from_edid": "MQ102CodsworthDogFaction",
+      "to": "0x0004DDF1",
+      "to_edid": "MQ102CodsworthDogFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001D6AD",
+      "from_edid": "MQ102PrestonFaction",
+      "to": "0x0001D6AC",
+      "to_edid": "MQ102RaiderFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001D6AC",
+      "from_edid": "MQ102RaiderFaction",
+      "to": "0x0001D6AD",
+      "to_edid": "MQ102PrestonFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0004D1EC",
+      "from_edid": "MQ102RaiderSurvivorFaction",
+      "to": "0x0004D1EC",
+      "to_edid": "MQ102RaiderSurvivorFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0006F3B5",
+      "from_edid": "MQ102SurvivorFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001B2CC0",
+      "from_edid": "MQ104NickHatesTriggermanFaction",
+      "to": "0x00083AD0",
+      "to_edid": "TriggermanFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00017C34",
+      "from_edid": "MQ104PlayerAllyFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0010C265",
+      "from_edid": "MQ104TriggermanAllyFaction",
+      "to": "0x00083AD0",
+      "to_edid": "TriggermanFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F949A",
+      "from_edid": "MQ105PlayerAllyFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00249CCB",
+      "from_edid": "MQ302RRZ1AllyFaction",
+      "to": "0x00249CCB",
+      "to_edid": "MQ302RRZ1AllyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00249CCB",
+      "from_edid": "MQ302RRZ1AllyFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00106CA3",
+      "from_edid": "MS01BulletFaction",
+      "to": "0x000A9833",
+      "to_edid": "RECheckpointOwnerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00106CA3",
+      "from_edid": "MS01BulletFaction",
+      "to": "0x00058303",
+      "to_edid": "GunnerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00106CA3",
+      "from_edid": "MS01BulletFaction",
+      "to": "0x00106CA3",
+      "to_edid": "MS01BulletFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0018E8C0",
+      "from_edid": "MS02ZaoFaction",
+      "to": "0x00077C6C",
+      "to_edid": "FeralGhoulFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00128CF5",
+      "from_edid": "MS04AJBodyguardFaction",
+      "to": "0x00128CF5",
+      "to_edid": "MS04AJBodyguardFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00128CEF",
+      "from_edid": "MS04AJFaction",
+      "to": "0x00128CEF",
+      "to_edid": "MS04AJFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00128CF7",
+      "from_edid": "MS04KendraFaction",
+      "to": "0x00128CF7",
+      "to_edid": "MS04KendraFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E0762",
+      "from_edid": "MS04SinjinFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E0762",
+      "from_edid": "MS04SinjinFaction",
+      "to": "0x0002B746",
+      "to_edid": "MS04SinjinLastBattleFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E0762",
+      "from_edid": "MS04SinjinFaction",
+      "to": "0x000E0762",
+      "to_edid": "MS04SinjinFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002B746",
+      "from_edid": "MS04SinjinLastBattleFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002B746",
+      "from_edid": "MS04SinjinLastBattleFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002B746",
+      "from_edid": "MS04SinjinLastBattleFaction",
+      "to": "0x0002B746",
+      "to_edid": "MS04SinjinLastBattleFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002B746",
+      "from_edid": "MS04SinjinLastBattleFaction",
+      "to": "0x000E0762",
+      "to_edid": "MS04SinjinFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001B4590",
+      "from_edid": "MS04SinjinPersonalFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001B4590",
+      "from_edid": "MS04SinjinPersonalFaction",
+      "to": "0x001B4590",
+      "to_edid": "MS04SinjinPersonalFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00186971",
+      "from_edid": "MS04SmilingKatesPosseFaction",
+      "to": "0x00186971",
+      "to_edid": "MS04SmilingKatesPosseFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00128CEA",
+      "from_edid": "MS04WayneDelancyFaction",
+      "to": "0x00128CEA",
+      "to_edid": "MS04WayneDelancyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001685FF",
+      "from_edid": "MS05PoppaDeathclawFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x001685FF",
+      "from_edid": "MS05PoppaDeathclawFaction",
+      "to": "0x001685FF",
+      "to_edid": "MS05PoppaDeathclawFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014BF23",
+      "from_edid": "MS07cEddieWinterFaction",
+      "to": "0x0022BC1E",
+      "to_edid": "CrimeMS07cEddieWinterFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014BF23",
+      "from_edid": "MS07cEddieWinterFaction",
+      "to": "0x002141AA",
+      "to_edid": "MS07cNickFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014BF23",
+      "from_edid": "MS07cEddieWinterFaction",
+      "to": "0x002141A9",
+      "to_edid": "MS07cRaiderFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014BF23",
+      "from_edid": "MS07cEddieWinterFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014BF23",
+      "from_edid": "MS07cEddieWinterFaction",
+      "to": "0x0014BF23",
+      "to_edid": "MS07cEddieWinterFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x002141AA",
+      "from_edid": "MS07cNickFaction",
+      "to": "0x0014BF23",
+      "to_edid": "MS07cEddieWinterFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x002141AA",
+      "from_edid": "MS07cNickFaction",
+      "to": "0x002141A9",
+      "to_edid": "MS07cRaiderFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x002141A9",
+      "from_edid": "MS07cRaiderFaction",
+      "to": "0x0006E269",
+      "to_edid": "DogmeatFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x002141A9",
+      "from_edid": "MS07cRaiderFaction",
+      "to": "0x002141AA",
+      "to_edid": "MS07cNickFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x002141A9",
+      "from_edid": "MS07cRaiderFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x002141A9",
+      "from_edid": "MS07cRaiderFaction",
+      "to": "0x0014BF23",
+      "to_edid": "MS07cEddieWinterFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x002170E6",
+      "from_edid": "MS07cRaiderNoEE_Faction",
+      "to": "0x0006E269",
+      "to_edid": "DogmeatFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x002170E6",
+      "from_edid": "MS07cRaiderNoEE_Faction",
+      "to": "0x002141AA",
+      "to_edid": "MS07cNickFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x002170E6",
+      "from_edid": "MS07cRaiderNoEE_Faction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x002170E6",
+      "from_edid": "MS07cRaiderNoEE_Faction",
+      "to": "0x0014BF23",
+      "to_edid": "MS07cEddieWinterFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x001A7341",
+      "from_edid": "MS09LorenzoRoomFriendsFaction",
+      "to": "0x001A7341",
+      "to_edid": "MS09LorenzoRoomFriendsFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F47ED",
+      "from_edid": "MS10RexFriendFaction",
+      "to": "0x000F47ED",
+      "to_edid": "MS10RexFriendFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000F0B7B",
+      "from_edid": "MS10RexGoodmanFaction",
+      "to": "0x000F0B7B",
+      "to_edid": "MS10RexGoodmanFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001A45A7",
+      "from_edid": "MS11IronsidesRobotsCrimeFaction",
+      "to": "0x001A45A7",
+      "to_edid": "MS11IronsidesRobotsCrimeFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001A45A7",
+      "from_edid": "MS11IronsidesRobotsCrimeFaction",
+      "to": "0x0008C9DB",
+      "to_edid": "MS11IronsidesRobotsFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0008C9DB",
+      "from_edid": "MS11IronsidesRobotsFaction",
+      "to": "0x001A45A7",
+      "to_edid": "MS11IronsidesRobotsCrimeFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0008C9DB",
+      "from_edid": "MS11IronsidesRobotsFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0008C9DB",
+      "from_edid": "MS11IronsidesRobotsFaction",
+      "to": "0x0008C9DB",
+      "to_edid": "MS11IronsidesRobotsFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0008C9DA",
+      "from_edid": "MS11ScavengersNPCFaction",
+      "to": "0x000AC5F7",
+      "to_edid": "DN029ScavengerAttackFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0008C9DA",
+      "from_edid": "MS11ScavengersNPCFaction",
+      "to": "0x00096EA3",
+      "to_edid": "MS11ScavengersOwnerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0008C9DA",
+      "from_edid": "MS11ScavengersNPCFaction",
+      "to": "0x0008C9DA",
+      "to_edid": "MS11ScavengersNPCFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00096EA3",
+      "from_edid": "MS11ScavengersOwnerFaction",
+      "to": "0x0008C9DA",
+      "to_edid": "MS11ScavengersNPCFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00096EA3",
+      "from_edid": "MS11ScavengersOwnerFaction",
+      "to": "0x00096EA3",
+      "to_edid": "MS11ScavengersOwnerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00092AF6",
+      "from_edid": "MS11ScavengersRogueFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00092AF6",
+      "from_edid": "MS11ScavengersRogueFaction",
+      "to": "0x0008C9DB",
+      "to_edid": "MS11IronsidesRobotsFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000433C8",
+      "from_edid": "MS13SideA",
+      "to": "0x000433C8",
+      "to_edid": "MS13SideA",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000433C8",
+      "from_edid": "MS13SideA",
+      "to": "0x000433CA",
+      "to_edid": "MS13SideB",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000433CA",
+      "from_edid": "MS13SideB",
+      "to": "0x000433C8",
+      "to_edid": "MS13SideA",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000433CA",
+      "from_edid": "MS13SideB",
+      "to": "0x000433CA",
+      "to_edid": "MS13SideB",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083900",
+      "from_edid": "MS13ThugFaction",
+      "to": "0x00083900",
+      "to_edid": "MS13ThugFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083900",
+      "from_edid": "MS13ThugFaction",
+      "to": "0x00002F65",
+      "to_edid": "SecurityDiamondCity",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083900",
+      "from_edid": "MS13ThugFaction",
+      "to": "0x000228A8",
+      "to_edid": "CrimeGoodneighbor",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083900",
+      "from_edid": "MS13ThugFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083900",
+      "from_edid": "MS13ThugFaction",
+      "to": "0x00002CB4",
+      "to_edid": "CrimeDiamondCity",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0008B6ED",
+      "from_edid": "MS13ThugPhotoFaction",
+      "to": "0x0008B6ED",
+      "to_edid": "MS13ThugPhotoFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0008B6ED",
+      "from_edid": "MS13ThugPhotoFaction",
+      "to": "0x0008B6EE",
+      "to_edid": "MS13ThugPhotoEnemyFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E356E",
+      "from_edid": "MS14BadGuyFaction",
+      "to": "0x000E356E",
+      "to_edid": "MS14BadGuyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E356E",
+      "from_edid": "MS14BadGuyFaction",
+      "to": "0x000E83B7",
+      "to_edid": "MS14VadimBeantownFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E356E",
+      "from_edid": "MS14BadGuyFaction",
+      "to": "0x0001CBED",
+      "to_edid": "RaiderFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E83B7",
+      "from_edid": "MS14VadimBeantownFaction",
+      "to": "0x0001CBED",
+      "to_edid": "RaiderFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0024755C",
+      "from_edid": "MS16DigGangFaction",
+      "to": "0x0024755C",
+      "to_edid": "MS16DigGangFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0024755C",
+      "from_edid": "MS16DigGangFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001C8728",
+      "from_edid": "MS16TriggermanFaction",
+      "to": "0x001C8728",
+      "to_edid": "MS16TriggermanFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000786F1",
+      "from_edid": "MS17HonestDanFaction",
+      "to": "0x000786F1",
+      "to_edid": "MS17HonestDanFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00153513",
+      "from_edid": "MS19MoleRatFaction",
+      "to": "0x00031B22",
+      "to_edid": "MoleRatFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00153513",
+      "from_edid": "MS19MoleRatFaction",
+      "to": "0x00153514",
+      "to_edid": "CurieFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x00153513",
+      "from_edid": "MS19MoleRatFaction",
+      "to": "0x00052408",
+      "to_edid": "AnimalFriend02Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00153513",
+      "from_edid": "MS19MoleRatFaction",
+      "to": "0x00052407",
+      "to_edid": "AnimalFriend01Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00153513",
+      "from_edid": "MS19MoleRatFaction",
+      "to": "0x00153513",
+      "to_edid": "MS19MoleRatFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00181286",
+      "from_edid": "MagnoliaAllyFaction",
+      "to": "0x00181286",
+      "to_edid": "MagnoliaAllyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0018FBBC",
+      "from_edid": "MinDefendCastleAttackerFaction",
+      "to": "0x0018FBBC",
+      "to_edid": "MinDefendCastleAttackerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0018FBBC",
+      "from_edid": "MinDefendCastleAttackerFaction",
+      "to": "0x0018FBBD",
+      "to_edid": "MinDefendCastleDefenderFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0018FBBD",
+      "from_edid": "MinDefendCastleDefenderFaction",
+      "to": "0x0018FBBD",
+      "to_edid": "MinDefendCastleDefenderFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0018FBBD",
+      "from_edid": "MinDefendCastleDefenderFaction",
+      "to": "0x0018FBBC",
+      "to_edid": "MinDefendCastleAttackerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000E4792",
+      "from_edid": "MinRadiantOwned04AttackerFaction",
+      "to": "0x000337F3",
+      "to_edid": "WorkshopNPCFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00249985",
+      "from_edid": "MinVsInstEnricoFaction",
+      "to": "0x00249986",
+      "to_edid": "MinVsInstMinutemenFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00249986",
+      "from_edid": "MinVsInstMinutemenFaction",
+      "to": "0x00249985",
+      "to_edid": "MinVsInstEnricoFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00068043",
+      "from_edid": "MinutemenFaction",
+      "to": "0x0001D567",
+      "to_edid": "SettlementConcordArea",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00068043",
+      "from_edid": "MinutemenFaction",
+      "to": "0x0014661B",
+      "to_edid": "RESceneKMK_MQ202Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00068043",
+      "from_edid": "MinutemenFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00068043",
+      "from_edid": "MinutemenFaction",
+      "to": "0x00068043",
+      "to_edid": "MinutemenFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002689D",
+      "from_edid": "MirelurkFaction",
+      "to": "0x00128216",
+      "to_edid": "DN083_BarneyFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002689D",
+      "from_edid": "MirelurkFaction",
+      "to": "0x001E5F60",
+      "to_edid": "VertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002689D",
+      "from_edid": "MirelurkFaction",
+      "to": "0x001648F0",
+      "to_edid": "DN157MirelurkFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002689D",
+      "from_edid": "MirelurkFaction",
+      "to": "0x0007EE3F",
+      "to_edid": "DN094_RobotFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002689D",
+      "from_edid": "MirelurkFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002689D",
+      "from_edid": "MirelurkFaction",
+      "to": "0x000361D2",
+      "to_edid": "GhoulNonFeralFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002689D",
+      "from_edid": "MirelurkFaction",
+      "to": "0x00028FD6",
+      "to_edid": "GhoulFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002689D",
+      "from_edid": "MirelurkFaction",
+      "to": "0x0002689D",
+      "to_edid": "MirelurkFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00031B22",
+      "from_edid": "MoleRatFaction",
+      "to": "0x001E5F60",
+      "to_edid": "VertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00031B22",
+      "from_edid": "MoleRatFaction",
+      "to": "0x00153513",
+      "to_edid": "MS19MoleRatFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00031B22",
+      "from_edid": "MoleRatFaction",
+      "to": "0x000C3C55",
+      "to_edid": "CambridgeDrifterFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00031B22",
+      "from_edid": "MoleRatFaction",
+      "to": "0x0006E269",
+      "to_edid": "DogmeatFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00031B22",
+      "from_edid": "MoleRatFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00031B22",
+      "from_edid": "MoleRatFaction",
+      "to": "0x00052408",
+      "to_edid": "AnimalFriend02Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00031B22",
+      "from_edid": "MoleRatFaction",
+      "to": "0x00052407",
+      "to_edid": "AnimalFriend01Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00031B22",
+      "from_edid": "MoleRatFaction",
+      "to": "0x00031B22",
+      "to_edid": "MoleRatFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000948B4",
+      "from_edid": "MutantHoundFaction",
+      "to": "0x001E5F60",
+      "to_edid": "VertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000948B4",
+      "from_edid": "MutantHoundFaction",
+      "to": "0x00058305",
+      "to_edid": "SuperMutantFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000948B4",
+      "from_edid": "MutantHoundFaction",
+      "to": "0x000948B4",
+      "to_edid": "MutantHoundFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001D289",
+      "from_edid": "NonHostileFaction",
+      "to": "0x0001D289",
+      "to_edid": "NonHostileFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0023B858",
+      "from_edid": "POIJS011CatMerchantFaction",
+      "to": "0x0023B858",
+      "to_edid": "POIJS011CatMerchantFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E810F",
+      "from_edid": "POIRJ11Faction",
+      "to": "0x001E8110",
+      "to_edid": "POIRJ11VendorFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E810F",
+      "from_edid": "POIRJ11Faction",
+      "to": "0x001E810F",
+      "to_edid": "POIRJ11Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E8110",
+      "from_edid": "POIRJ11VendorFaction",
+      "to": "0x001E8110",
+      "to_edid": "POIRJ11VendorFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E8110",
+      "from_edid": "POIRJ11VendorFaction",
+      "to": "0x001E810F",
+      "to_edid": "POIRJ11Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E1F40",
+      "from_edid": "POISC06_Faction",
+      "to": "0x001E1F41",
+      "to_edid": "POISC06_VendorFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E1F40",
+      "from_edid": "POISC06_Faction",
+      "to": "0x001E1F40",
+      "to_edid": "POISC06_Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E1F41",
+      "from_edid": "POISC06_VendorFaction",
+      "to": "0x001E1F40",
+      "to_edid": "POISC06_Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E1F41",
+      "from_edid": "POISC06_VendorFaction",
+      "to": "0x001E1F41",
+      "to_edid": "POISC06_VendorFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0004B28F",
+      "from_edid": "ParsonsGuardFaction",
+      "to": "0x00047EBD",
+      "to_edid": "CrimeCabotHouse",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0004B28F",
+      "from_edid": "ParsonsGuardFaction",
+      "to": "0x0004B28F",
+      "to_edid": "ParsonsGuardFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0019E968",
+      "from_edid": "PeabodyFaction",
+      "to": "0x000A9833",
+      "to_edid": "RECheckpointOwnerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0019E968",
+      "from_edid": "PeabodyFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0019E968",
+      "from_edid": "PeabodyFaction",
+      "to": "0x0019E968",
+      "to_edid": "PeabodyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00106C30",
+      "from_edid": "PlayerAllyFaction",
+      "to": "0x0014661B",
+      "to_edid": "RESceneKMK_MQ202Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00106C30",
+      "from_edid": "PlayerAllyFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00106C2F",
+      "from_edid": "PlayerEnemyFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x000ADDF7",
+      "to_edid": "DN053_VirgilFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0011EA70",
+      "to_edid": "TurretFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0022D9EE",
+      "to_edid": "DN136_ScientistFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0024755C",
+      "to_edid": "MS16DigGangFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x00249CCB",
+      "to_edid": "MQ302RRZ1AllyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0002DFF0",
+      "to_edid": "REPlayerFriend",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0019E968",
+      "to_edid": "PeabodyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x00188AE0",
+      "to_edid": "terminalHackedPlayerAllyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x00048641",
+      "to_edid": "DN054AtomCatFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0008C9DB",
+      "to_edid": "MS11IronsidesRobotsFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0005FEF7",
+      "to_edid": "RR102TurretFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x000CFB82",
+      "to_edid": "DN083_IntroMirelurkFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x00128216",
+      "to_edid": "DN083_BarneyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x002141A9",
+      "to_edid": "MS07cRaiderFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0002B746",
+      "to_edid": "MS04SinjinLastBattleFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x00023C01",
+      "to_edid": "CurrentCompanionFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0014EED8",
+      "to_edid": "DN084_MassFusionLabSecurityFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x00210E26",
+      "to_edid": "CZ_TommyCaitPlayerAllyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x00106C2F",
+      "to_edid": "PlayerEnemyFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x00106C30",
+      "to_edid": "PlayerAllyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0002CB62",
+      "to_edid": "DN058RaiderFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x00106C31",
+      "to_edid": "PlayerFriendFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x000F5C3A",
+      "to_edid": "DN101_PickmanFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x000EF224",
+      "to_edid": "BunkerHillInstituteFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x000EF225",
+      "to_edid": "BunkerHillBoSFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x000EF226",
+      "to_edid": "BunkerHillRRFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x000ECA5F",
+      "to_edid": "GenericBrawlPlayerAllyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0002DFEF",
+      "to_edid": "REPlayerEnemy",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x000F17C1",
+      "to_edid": "DN101_RaiderFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x000A4CE3",
+      "to_edid": "DN116MilitaryBotFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0004B36B",
+      "to_edid": "DN123_NessMercenaryFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x00068043",
+      "to_edid": "MinutemenFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x000F949A",
+      "to_edid": "MQ105PlayerAllyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x00030BAC",
+      "to_edid": "REPlayerAlly",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0007EE3F",
+      "to_edid": "DN094_RobotFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0006F3B5",
+      "to_edid": "MQ102SurvivorFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x00017C34",
+      "to_edid": "MQ104PlayerAllyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x000BBF88",
+      "to_edid": "PrewarCultistFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0006E269",
+      "to_edid": "DogmeatFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x000A1B85",
+      "to_edid": "HasBeenCompanionFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001C21C",
+      "from_edid": "PlayerFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00106C31",
+      "from_edid": "PlayerFriendFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1B9",
+      "from_edid": "PotentialCompanionFaction",
+      "to": "0x001EC1B9",
+      "to_edid": "PotentialCompanionFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BBF88",
+      "from_edid": "PrewarCultistFaction",
+      "to": "0x00123A16",
+      "to_edid": "PrewarCultistGuardFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BBF88",
+      "from_edid": "PrewarCultistFaction",
+      "to": "0x000C518D",
+      "to_edid": "DN019CultistFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BBF88",
+      "from_edid": "PrewarCultistFaction",
+      "to": "0x000BBF88",
+      "to_edid": "PrewarCultistFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BBF88",
+      "from_edid": "PrewarCultistFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BBF88",
+      "from_edid": "PrewarCultistFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000BBF88",
+      "from_edid": "PrewarCultistFaction",
+      "to": "0x0019DEF1",
+      "to_edid": "DN019CultistLeaderFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00123A16",
+      "from_edid": "PrewarCultistGuardFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00123A16",
+      "from_edid": "PrewarCultistGuardFaction",
+      "to": "0x000BBF88",
+      "to_edid": "PrewarCultistFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000342D1",
+      "from_edid": "REAssaultFactionAttacker",
+      "to": "0x000342D1",
+      "to_edid": "REAssaultFactionAttacker",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000342D1",
+      "from_edid": "REAssaultFactionAttacker",
+      "to": "0x000342D2",
+      "to_edid": "REAssaultFactionDefender",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000342D2",
+      "from_edid": "REAssaultFactionDefender",
+      "to": "0x000342D2",
+      "to_edid": "REAssaultFactionDefender",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000342D2",
+      "from_edid": "REAssaultFactionDefender",
+      "to": "0x000342D1",
+      "to_edid": "REAssaultFactionAttacker",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005894B",
+      "from_edid": "REAssaultFactionFriend",
+      "to": "0x0005894B",
+      "to_edid": "REAssaultFactionFriend",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001A02BF",
+      "from_edid": "REBrahminVendorFaction",
+      "to": "0x001A02BF",
+      "to_edid": "REBrahminVendorFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0021BDF7",
+      "from_edid": "RECampKMK01Faction",
+      "to": "0x0021BDF7",
+      "to_edid": "RECampKMK01Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0021BDF6",
+      "from_edid": "RECampKMK02Faction",
+      "to": "0x0021BDF6",
+      "to_edid": "RECampKMK02Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001905F0",
+      "from_edid": "RECampLC01_CaptorFaction",
+      "to": "0x001905F0",
+      "to_edid": "RECampLC01_CaptorFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001ED5C3",
+      "from_edid": "RECampRJ02Faction",
+      "to": "0x001ED5C3",
+      "to_edid": "RECampRJ02Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000AC4FB",
+      "from_edid": "RECheckpointFactionAttacker",
+      "to": "0x000AC4FB",
+      "to_edid": "RECheckpointFactionAttacker",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000AC4FB",
+      "from_edid": "RECheckpointFactionAttacker",
+      "to": "0x000AC4FC",
+      "to_edid": "RECheckpointFactionDefender",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000AC4FC",
+      "from_edid": "RECheckpointFactionDefender",
+      "to": "0x000AC4FC",
+      "to_edid": "RECheckpointFactionDefender",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000AC4FC",
+      "from_edid": "RECheckpointFactionDefender",
+      "to": "0x000AC4FB",
+      "to_edid": "RECheckpointFactionAttacker",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000AC4FD",
+      "from_edid": "RECheckpointFactionFriend",
+      "to": "0x000AC4FD",
+      "to_edid": "RECheckpointFactionFriend",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000A9833",
+      "from_edid": "RECheckpointOwnerFaction",
+      "to": "0x00106CA3",
+      "to_edid": "MS01BulletFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x000A9833",
+      "from_edid": "RECheckpointOwnerFaction",
+      "to": "0x0019E968",
+      "to_edid": "PeabodyFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0018A6D8",
+      "from_edid": "REChokepointCT02_MerchantFaction",
+      "to": "0x0018A6D8",
+      "to_edid": "REChokepointCT02_MerchantFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00084EB8",
+      "from_edid": "REChokepointMS13Faction",
+      "to": "0x00084EB8",
+      "to_edid": "REChokepointMS13Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002E4EF",
+      "from_edid": "REFarmerEnemy",
+      "to": "0x0002E005",
+      "to_edid": "REFarmerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002E005",
+      "from_edid": "REFarmerFaction",
+      "to": "0x0002E005",
+      "to_edid": "REFarmerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003D647",
+      "from_edid": "REMerchant02Faction",
+      "to": "0x0003D647",
+      "to_edid": "REMerchant02Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00184492",
+      "from_edid": "REMerchant03Faction",
+      "to": "0x00184492",
+      "to_edid": "REMerchant03Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002F5FD",
+      "from_edid": "REMerchantFaction",
+      "to": "0x0002F5FD",
+      "to_edid": "REMerchantFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00030BAC",
+      "from_edid": "REPlayerAlly",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002DFEF",
+      "from_edid": "REPlayerEnemy",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002DFF0",
+      "from_edid": "REPlayerFriend",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00148903",
+      "from_edid": "REPrisonerFreedCombatCaptorFaction",
+      "to": "0x00148904",
+      "to_edid": "REPrisonerFreedCombatPrisonerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00148904",
+      "from_edid": "REPrisonerFreedCombatPrisonerFaction",
+      "to": "0x00148903",
+      "to_edid": "REPrisonerFreedCombatCaptorFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000342D0",
+      "from_edid": "REScavengerFaction",
+      "to": "0x000342D0",
+      "to_edid": "REScavengerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00194336",
+      "from_edid": "RESceneKMK08Faction",
+      "to": "0x00194336",
+      "to_edid": "RESceneKMK08Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014661B",
+      "from_edid": "RESceneKMK_MQ202Faction",
+      "to": "0x000994F6",
+      "to_edid": "RailroadFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014661B",
+      "from_edid": "RESceneKMK_MQ202Faction",
+      "to": "0x0014661E",
+      "to_edid": "RESceneKMK_MQ202FactionFriend",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014661B",
+      "from_edid": "RESceneKMK_MQ202Faction",
+      "to": "0x00188AE0",
+      "to_edid": "terminalHackedPlayerAllyFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014661B",
+      "from_edid": "RESceneKMK_MQ202Faction",
+      "to": "0x00106C30",
+      "to_edid": "PlayerAllyFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014661B",
+      "from_edid": "RESceneKMK_MQ202Faction",
+      "to": "0x0014661B",
+      "to_edid": "RESceneKMK_MQ202Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014661B",
+      "from_edid": "RESceneKMK_MQ202Faction",
+      "to": "0x0005E558",
+      "to_edid": "InstituteFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014661B",
+      "from_edid": "RESceneKMK_MQ202Faction",
+      "to": "0x00068043",
+      "to_edid": "MinutemenFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014661B",
+      "from_edid": "RESceneKMK_MQ202Faction",
+      "to": "0x0005DE41",
+      "to_edid": "BrotherhoodofSteelFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014661B",
+      "from_edid": "RESceneKMK_MQ202Faction",
+      "to": "0x0006E269",
+      "to_edid": "DogmeatFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014661B",
+      "from_edid": "RESceneKMK_MQ202Faction",
+      "to": "0x00023C01",
+      "to_edid": "CurrentCompanionFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014661E",
+      "from_edid": "RESceneKMK_MQ202FactionFriend",
+      "to": "0x0014661B",
+      "to_edid": "RESceneKMK_MQ202Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001AC03D",
+      "from_edid": "RETraveLCT03Faction",
+      "to": "0x001AC03D",
+      "to_edid": "RETraveLCT03Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001AB2E6",
+      "from_edid": "RETravelRJ01Faction",
+      "to": "0x001AB2E6",
+      "to_edid": "RETravelRJ01Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005FEF7",
+      "from_edid": "RR102TurretFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005FEF7",
+      "from_edid": "RR102TurretFaction",
+      "to": "0x000994F6",
+      "to_edid": "RailroadFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0005FEF7",
+      "from_edid": "RR102TurretFaction",
+      "to": "0x00083B31",
+      "to_edid": "SynthFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0015EF6C",
+      "from_edid": "RR201TunnelGuardFaction",
+      "to": "0x0015EF6C",
+      "to_edid": "RR201TunnelGuardFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0010C4F4",
+      "from_edid": "RR301SynthFaction",
+      "to": "0x0010C4F4",
+      "to_edid": "RR301SynthFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0010C4F4",
+      "from_edid": "RR301SynthFaction",
+      "to": "0x00083B31",
+      "to_edid": "SynthFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00148B89",
+      "from_edid": "RR302TempBoSFriends",
+      "to": "0x00148B89",
+      "to_edid": "RR302TempBoSFriends",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00148B89",
+      "from_edid": "RR302TempBoSFriends",
+      "to": "0x0005DE41",
+      "to_edid": "BrotherhoodofSteelFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0014613F",
+      "from_edid": "RRMercerEscapedSynthFaction",
+      "to": "0x0014613F",
+      "to_edid": "RRMercerEscapedSynthFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00020B89",
+      "from_edid": "RadScorpionFaction",
+      "to": "0x001E5F60",
+      "to_edid": "VertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00020B89",
+      "from_edid": "RadScorpionFaction",
+      "to": "0x00052408",
+      "to_edid": "AnimalFriend02Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00020B89",
+      "from_edid": "RadScorpionFaction",
+      "to": "0x00052407",
+      "to_edid": "AnimalFriend01Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00020B89",
+      "from_edid": "RadScorpionFaction",
+      "to": "0x00020B89",
+      "to_edid": "RadScorpionFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000267BF",
+      "from_edid": "RadStagFaction",
+      "to": "0x001E5F60",
+      "to_edid": "VertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000267BF",
+      "from_edid": "RadStagFaction",
+      "to": "0x000267BF",
+      "to_edid": "RadStagFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000267BF",
+      "from_edid": "RadStagFaction",
+      "to": "0x00052408",
+      "to_edid": "AnimalFriend02Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000267BF",
+      "from_edid": "RadStagFaction",
+      "to": "0x00052407",
+      "to_edid": "AnimalFriend01Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000267BF",
+      "from_edid": "RadStagFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EDCE1",
+      "from_edid": "RadroachFaction",
+      "to": "0x001E5F60",
+      "to_edid": "VertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EDCE1",
+      "from_edid": "RadroachFaction",
+      "to": "0x000EDCE1",
+      "to_edid": "RadroachFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000D356D",
+      "from_edid": "RaiderEnemyFaction",
+      "to": "0x000D356D",
+      "to_edid": "RaiderEnemyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000D356D",
+      "from_edid": "RaiderEnemyFaction",
+      "to": "0x0001CBED",
+      "to_edid": "RaiderFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001CBED",
+      "from_edid": "RaiderFaction",
+      "to": "0x0001CBED",
+      "to_edid": "RaiderFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001CBED",
+      "from_edid": "RaiderFaction",
+      "to": "0x0013101D",
+      "to_edid": "TheForgedFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001CBED",
+      "from_edid": "RaiderFaction",
+      "to": "0x000E83B7",
+      "to_edid": "MS14VadimBeantownFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001CBED",
+      "from_edid": "RaiderFaction",
+      "to": "0x000E356E",
+      "to_edid": "MS14BadGuyFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001CBED",
+      "from_edid": "RaiderFaction",
+      "to": "0x000F5C3A",
+      "to_edid": "DN101_PickmanFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001CBED",
+      "from_edid": "RaiderFaction",
+      "to": "0x000EF40E",
+      "to_edid": "DN035_RoboRaceLeaderFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001CBED",
+      "from_edid": "RaiderFaction",
+      "to": "0x000EF3F9",
+      "to_edid": "DN035_RoboRacerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001CBED",
+      "from_edid": "RaiderFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001CBED",
+      "from_edid": "RaiderFaction",
+      "to": "0x0001E722",
+      "to_edid": "DeathclawFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000994F6",
+      "from_edid": "RailroadFaction",
+      "to": "0x001E742F",
+      "to_edid": "RebelSynthFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000994F6",
+      "from_edid": "RailroadFaction",
+      "to": "0x0005FEF7",
+      "to_edid": "RR102TurretFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000994F6",
+      "from_edid": "RailroadFaction",
+      "to": "0x0014661B",
+      "to_edid": "RESceneKMK_MQ202Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000994F6",
+      "from_edid": "RailroadFaction",
+      "to": "0x000BDAAA",
+      "to_edid": "CrimeRailroadHQ",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000994F6",
+      "from_edid": "RailroadFaction",
+      "to": "0x00061BE6",
+      "to_edid": "RailroadGenericNPCFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000994F6",
+      "from_edid": "RailroadFaction",
+      "to": "0x000994F6",
+      "to_edid": "RailroadFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00061BE6",
+      "from_edid": "RailroadGenericNPCFaction",
+      "to": "0x001E742F",
+      "to_edid": "RebelSynthFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00061BE6",
+      "from_edid": "RailroadGenericNPCFaction",
+      "to": "0x000BDAAA",
+      "to_edid": "CrimeRailroadHQ",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00061BE6",
+      "from_edid": "RailroadGenericNPCFaction",
+      "to": "0x000994F6",
+      "to_edid": "RailroadFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00061BE6",
+      "from_edid": "RailroadGenericNPCFaction",
+      "to": "0x00061BE6",
+      "to_edid": "RailroadGenericNPCFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003D02A",
+      "from_edid": "RailroadGenericSynthFaction",
+      "to": "0x0003D02A",
+      "to_edid": "RailroadGenericSynthFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000A93D1",
+      "from_edid": "RailroadOvertAgentFaction",
+      "to": "0x000A93D1",
+      "to_edid": "RailroadOvertAgentFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E742F",
+      "from_edid": "RebelSynthFaction",
+      "to": "0x000BDAAA",
+      "to_edid": "CrimeRailroadHQ",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E742F",
+      "from_edid": "RebelSynthFaction",
+      "to": "0x00061BE6",
+      "to_edid": "RailroadGenericNPCFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E742F",
+      "from_edid": "RebelSynthFaction",
+      "to": "0x000994F6",
+      "to_edid": "RailroadFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00058304",
+      "from_edid": "RobotFaction",
+      "to": "0x0011EA70",
+      "to_edid": "TurretFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00058304",
+      "from_edid": "RobotFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00058304",
+      "from_edid": "RobotFaction",
+      "to": "0x00058304",
+      "to_edid": "RobotFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00002F65",
+      "from_edid": "SecurityDiamondCity",
+      "to": "0x001A0416",
+      "to_edid": "DeaconForeshadowFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00002F65",
+      "from_edid": "SecurityDiamondCity",
+      "to": "0x0002B075",
+      "to_edid": "SecurityDiamondCityTurrets",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00002F65",
+      "from_edid": "SecurityDiamondCity",
+      "to": "0x00002F65",
+      "to_edid": "SecurityDiamondCity",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00002F65",
+      "from_edid": "SecurityDiamondCity",
+      "to": "0x00002CB4",
+      "to_edid": "CrimeDiamondCity",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00002F65",
+      "from_edid": "SecurityDiamondCity",
+      "to": "0x00083900",
+      "to_edid": "MS13ThugFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0002B075",
+      "from_edid": "SecurityDiamondCityTurrets",
+      "to": "0x00002F65",
+      "to_edid": "SecurityDiamondCity",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001814F7",
+      "from_edid": "ServicesInstituteMisc",
+      "to": "0x001814F7",
+      "to_edid": "ServicesInstituteMisc",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001814F7",
+      "from_edid": "ServicesInstituteMisc",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Neutral",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001995B",
+      "from_edid": "SettlementBunkerHill",
+      "to": "0x001A0416",
+      "to_edid": "DeaconForeshadowFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001995B",
+      "from_edid": "SettlementBunkerHill",
+      "to": "0x0001995B",
+      "to_edid": "SettlementBunkerHill",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001D567",
+      "from_edid": "SettlementConcordArea",
+      "to": "0x00068043",
+      "to_edid": "MinutemenFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001D567",
+      "from_edid": "SettlementConcordArea",
+      "to": "0x0001D567",
+      "to_edid": "SettlementConcordArea",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0024842A",
+      "from_edid": "SettlementFactionEgretToursMarina",
+      "to": "0x0024842A",
+      "to_edid": "SettlementFactionEgretToursMarina",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000228A9",
+      "from_edid": "SettlementGoodneighbor",
+      "to": "0x00083AD0",
+      "to_edid": "TriggermanFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EDCE4",
+      "from_edid": "StingwingFaction",
+      "to": "0x001E5F60",
+      "to_edid": "VertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000EDCE4",
+      "from_edid": "StingwingFaction",
+      "to": "0x000EDCE4",
+      "to_edid": "StingwingFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00135779",
+      "from_edid": "StrongFaction",
+      "to": "0x0005DE41",
+      "to_edid": "BrotherhoodofSteelFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00058305",
+      "from_edid": "SuperMutantFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00058305",
+      "from_edid": "SuperMutantFaction",
+      "to": "0x00058305",
+      "to_edid": "SuperMutantFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00058305",
+      "from_edid": "SuperMutantFaction",
+      "to": "0x000948B4",
+      "to_edid": "MutantHoundFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083B31",
+      "from_edid": "SynthFaction",
+      "to": "0x0022D9EF",
+      "to_edid": "DN136_ScientistFaction02",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083B31",
+      "from_edid": "SynthFaction",
+      "to": "0x0005DE41",
+      "to_edid": "BrotherhoodofSteelFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083B31",
+      "from_edid": "SynthFaction",
+      "to": "0x0010C4F4",
+      "to_edid": "RR301SynthFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083B31",
+      "from_edid": "SynthFaction",
+      "to": "0x00167FB7",
+      "to_edid": "InstituteRefugeeFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083B31",
+      "from_edid": "SynthFaction",
+      "to": "0x0005E558",
+      "to_edid": "InstituteFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083B31",
+      "from_edid": "SynthFaction",
+      "to": "0x00083B31",
+      "to_edid": "SynthFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083B31",
+      "from_edid": "SynthFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0013101D",
+      "from_edid": "TheForgedFaction",
+      "to": "0x0001CBED",
+      "to_edid": "RaiderFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0013101D",
+      "from_edid": "TheForgedFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0013101D",
+      "from_edid": "TheForgedFaction",
+      "to": "0x0013101D",
+      "to_edid": "TheForgedFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0013101D",
+      "from_edid": "TheForgedFaction",
+      "to": "0x00058303",
+      "to_edid": "GunnerFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0015CD38",
+      "from_edid": "TheaterDrifter_FactionDondo",
+      "to": "0x0015CD38",
+      "to_edid": "TheaterDrifter_FactionDondo",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083AD0",
+      "from_edid": "TriggermanFaction",
+      "to": "0x001B2CC0",
+      "to_edid": "MQ104NickHatesTriggermanFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083AD0",
+      "from_edid": "TriggermanFaction",
+      "to": "0x000228A9",
+      "to_edid": "SettlementGoodneighbor",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083AD0",
+      "from_edid": "TriggermanFaction",
+      "to": "0x0010C265",
+      "to_edid": "MQ104TriggermanAllyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083AD0",
+      "from_edid": "TriggermanFaction",
+      "to": "0x00083AD1",
+      "to_edid": "TriggermanFriendFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083AD0",
+      "from_edid": "TriggermanFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083AD0",
+      "from_edid": "TriggermanFaction",
+      "to": "0x00083AD0",
+      "to_edid": "TriggermanFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00083AD1",
+      "from_edid": "TriggermanFriendFaction",
+      "to": "0x00083AD0",
+      "to_edid": "TriggermanFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0011EA70",
+      "from_edid": "TurretFaction",
+      "to": "0x0011EA70",
+      "to_edid": "TurretFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0011EA70",
+      "from_edid": "TurretFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0011EA70",
+      "from_edid": "TurretFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0011EA70",
+      "from_edid": "TurretFaction",
+      "to": "0x00058304",
+      "to_edid": "RobotFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0024A3E8",
+      "from_edid": "VRWorkshopShared_AlienFaction",
+      "to": "0x0024A3E8",
+      "to_edid": "VRWorkshopShared_AlienFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0024A3E8",
+      "from_edid": "VRWorkshopShared_AlienFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0004F4A4",
+      "from_edid": "Vault81GuardFaction",
+      "to": "0x000581B3",
+      "to_edid": "CrimeVault81",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0004F4A4",
+      "from_edid": "Vault81GuardFaction",
+      "to": "0x0004F4A4",
+      "to_edid": "Vault81GuardFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0004F4A4",
+      "from_edid": "Vault81GuardFaction",
+      "to": "0x0008B5F0",
+      "to_edid": "MS19Fugitive",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E5F60",
+      "from_edid": "VertibirdFaction",
+      "to": "0x0002689D",
+      "to_edid": "MirelurkFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E5F60",
+      "from_edid": "VertibirdFaction",
+      "to": "0x000948B4",
+      "to_edid": "MutantHoundFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E5F60",
+      "from_edid": "VertibirdFaction",
+      "to": "0x00077C6C",
+      "to_edid": "FeralGhoulFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E5F60",
+      "from_edid": "VertibirdFaction",
+      "to": "0x00020B89",
+      "to_edid": "RadScorpionFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E5F60",
+      "from_edid": "VertibirdFaction",
+      "to": "0x000EDCE1",
+      "to_edid": "RadroachFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E5F60",
+      "from_edid": "VertibirdFaction",
+      "to": "0x000EDCE3",
+      "to_edid": "BloatflyFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E5F60",
+      "from_edid": "VertibirdFaction",
+      "to": "0x000EDCE2",
+      "to_edid": "BloodbugFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E5F60",
+      "from_edid": "VertibirdFaction",
+      "to": "0x000EDCE4",
+      "to_edid": "StingwingFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E5F60",
+      "from_edid": "VertibirdFaction",
+      "to": "0x00031B22",
+      "to_edid": "MoleRatFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E5F60",
+      "from_edid": "VertibirdFaction",
+      "to": "0x000B3D82",
+      "to_edid": "YaoGuaiFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E5F60",
+      "from_edid": "VertibirdFaction",
+      "to": "0x000267BF",
+      "to_edid": "RadStagFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E5F60",
+      "from_edid": "VertibirdFaction",
+      "to": "0x0001D15B",
+      "to_edid": "ViciousDogFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x001E5F60",
+      "from_edid": "VertibirdFaction",
+      "to": "0x001E5F60",
+      "to_edid": "VertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001D15B",
+      "from_edid": "ViciousDogFaction",
+      "to": "0x001E5F60",
+      "to_edid": "VertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001D15B",
+      "from_edid": "ViciousDogFaction",
+      "to": "0x0006E269",
+      "to_edid": "DogmeatFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001D15B",
+      "from_edid": "ViciousDogFaction",
+      "to": "0x0003E0C8",
+      "to_edid": "CaptiveFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001D15B",
+      "from_edid": "ViciousDogFaction",
+      "to": "0x00052408",
+      "to_edid": "AnimalFriend02Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001D15B",
+      "from_edid": "ViciousDogFaction",
+      "to": "0x00052407",
+      "to_edid": "AnimalFriend01Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x0001D15B",
+      "from_edid": "ViciousDogFaction",
+      "to": "0x0001D15B",
+      "to_edid": "ViciousDogFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000A274A",
+      "from_edid": "WarwickHostile",
+      "to": "0x0003F22A",
+      "to_edid": "FarmFactionWarwick",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000A274A",
+      "from_edid": "WarwickHostile",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x0003E0CD",
+      "from_edid": "WorkshopCaravanFaction",
+      "to": "0x0003E0CD",
+      "to_edid": "WorkshopCaravanFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EBAFE",
+      "from_edid": "WorkshopCrimeFaction01",
+      "to": "0x001EBAFE",
+      "to_edid": "WorkshopCrimeFaction01",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC191",
+      "from_edid": "WorkshopCrimeFaction02",
+      "to": "0x001EC191",
+      "to_edid": "WorkshopCrimeFaction02",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC192",
+      "from_edid": "WorkshopCrimeFaction03",
+      "to": "0x001EC192",
+      "to_edid": "WorkshopCrimeFaction03",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC193",
+      "from_edid": "WorkshopCrimeFaction04",
+      "to": "0x001EC193",
+      "to_edid": "WorkshopCrimeFaction04",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC194",
+      "from_edid": "WorkshopCrimeFaction05",
+      "to": "0x001EC194",
+      "to_edid": "WorkshopCrimeFaction05",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC195",
+      "from_edid": "WorkshopCrimeFaction06",
+      "to": "0x001EC195",
+      "to_edid": "WorkshopCrimeFaction06",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC196",
+      "from_edid": "WorkshopCrimeFaction07",
+      "to": "0x001EC196",
+      "to_edid": "WorkshopCrimeFaction07",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC197",
+      "from_edid": "WorkshopCrimeFaction08",
+      "to": "0x001EC197",
+      "to_edid": "WorkshopCrimeFaction08",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC198",
+      "from_edid": "WorkshopCrimeFaction09",
+      "to": "0x001EC198",
+      "to_edid": "WorkshopCrimeFaction09",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC199",
+      "from_edid": "WorkshopCrimeFaction10",
+      "to": "0x001EC199",
+      "to_edid": "WorkshopCrimeFaction10",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC19A",
+      "from_edid": "WorkshopCrimeFaction11",
+      "to": "0x001EC19A",
+      "to_edid": "WorkshopCrimeFaction11",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC19B",
+      "from_edid": "WorkshopCrimeFaction12",
+      "to": "0x001EC19B",
+      "to_edid": "WorkshopCrimeFaction12",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC19C",
+      "from_edid": "WorkshopCrimeFaction13",
+      "to": "0x001EC19C",
+      "to_edid": "WorkshopCrimeFaction13",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC19D",
+      "from_edid": "WorkshopCrimeFaction14",
+      "to": "0x001EC19D",
+      "to_edid": "WorkshopCrimeFaction14",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC19E",
+      "from_edid": "WorkshopCrimeFaction15",
+      "to": "0x001EC19E",
+      "to_edid": "WorkshopCrimeFaction15",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC19F",
+      "from_edid": "WorkshopCrimeFaction16",
+      "to": "0x001EC19F",
+      "to_edid": "WorkshopCrimeFaction16",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1A0",
+      "from_edid": "WorkshopCrimeFaction17",
+      "to": "0x001EC1A0",
+      "to_edid": "WorkshopCrimeFaction17",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1A1",
+      "from_edid": "WorkshopCrimeFaction18",
+      "to": "0x001EC1A1",
+      "to_edid": "WorkshopCrimeFaction18",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1A2",
+      "from_edid": "WorkshopCrimeFaction19",
+      "to": "0x001EC1A2",
+      "to_edid": "WorkshopCrimeFaction19",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1A3",
+      "from_edid": "WorkshopCrimeFaction20",
+      "to": "0x001EC1A3",
+      "to_edid": "WorkshopCrimeFaction20",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1A4",
+      "from_edid": "WorkshopCrimeFaction21",
+      "to": "0x001EC1A4",
+      "to_edid": "WorkshopCrimeFaction21",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1A5",
+      "from_edid": "WorkshopCrimeFaction22",
+      "to": "0x001EC1A5",
+      "to_edid": "WorkshopCrimeFaction22",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1A6",
+      "from_edid": "WorkshopCrimeFaction23",
+      "to": "0x001EC1A6",
+      "to_edid": "WorkshopCrimeFaction23",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1A7",
+      "from_edid": "WorkshopCrimeFaction24",
+      "to": "0x001EC1A7",
+      "to_edid": "WorkshopCrimeFaction24",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1A8",
+      "from_edid": "WorkshopCrimeFaction25",
+      "to": "0x001EC1A8",
+      "to_edid": "WorkshopCrimeFaction25",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1A9",
+      "from_edid": "WorkshopCrimeFaction26",
+      "to": "0x001EC1A9",
+      "to_edid": "WorkshopCrimeFaction26",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1AA",
+      "from_edid": "WorkshopCrimeFaction27",
+      "to": "0x001EC1AA",
+      "to_edid": "WorkshopCrimeFaction27",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1AB",
+      "from_edid": "WorkshopCrimeFaction28",
+      "to": "0x001EC1AB",
+      "to_edid": "WorkshopCrimeFaction28",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1AC",
+      "from_edid": "WorkshopCrimeFaction29",
+      "to": "0x001EC1AC",
+      "to_edid": "WorkshopCrimeFaction29",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1AD",
+      "from_edid": "WorkshopCrimeFaction30",
+      "to": "0x001EC1AD",
+      "to_edid": "WorkshopCrimeFaction30",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1AE",
+      "from_edid": "WorkshopCrimeFaction31",
+      "to": "0x001EC1AE",
+      "to_edid": "WorkshopCrimeFaction31",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1AF",
+      "from_edid": "WorkshopCrimeFaction32",
+      "to": "0x001EC1AF",
+      "to_edid": "WorkshopCrimeFaction32",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1B0",
+      "from_edid": "WorkshopCrimeFaction33",
+      "to": "0x001EC1B0",
+      "to_edid": "WorkshopCrimeFaction33",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1B1",
+      "from_edid": "WorkshopCrimeFaction34",
+      "to": "0x001EC1B1",
+      "to_edid": "WorkshopCrimeFaction34",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1B2",
+      "from_edid": "WorkshopCrimeFaction35",
+      "to": "0x001EC1B2",
+      "to_edid": "WorkshopCrimeFaction35",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1B3",
+      "from_edid": "WorkshopCrimeFaction36",
+      "to": "0x001EC1B3",
+      "to_edid": "WorkshopCrimeFaction36",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1B4",
+      "from_edid": "WorkshopCrimeFaction37",
+      "to": "0x001EC1B4",
+      "to_edid": "WorkshopCrimeFaction37",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1B5",
+      "from_edid": "WorkshopCrimeFaction38",
+      "to": "0x001EC1B5",
+      "to_edid": "WorkshopCrimeFaction38",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1B6",
+      "from_edid": "WorkshopCrimeFaction39",
+      "to": "0x001EC1B6",
+      "to_edid": "WorkshopCrimeFaction39",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001EC1B7",
+      "from_edid": "WorkshopCrimeFaction40",
+      "to": "0x001EC1B7",
+      "to_edid": "WorkshopCrimeFaction40",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x001357E7",
+      "from_edid": "WorkshopEnemyFaction",
+      "to": "0x000337F3",
+      "to_edid": "WorkshopNPCFaction",
+      "reaction": "Enemy",
+      "modifier": 0
+    },
+    {
+      "from": "0x000337F3",
+      "from_edid": "WorkshopNPCFaction",
+      "to": "0x000337F3",
+      "to_edid": "WorkshopNPCFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000B3D82",
+      "from_edid": "YaoGuaiFaction",
+      "to": "0x001E5F60",
+      "to_edid": "VertibirdFaction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000B3D82",
+      "from_edid": "YaoGuaiFaction",
+      "to": "0x00052408",
+      "to_edid": "AnimalFriend02Faction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x000B3D82",
+      "from_edid": "YaoGuaiFaction",
+      "to": "0x00052407",
+      "to_edid": "AnimalFriend01Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x000B3D82",
+      "from_edid": "YaoGuaiFaction",
+      "to": "0x000B3D82",
+      "to_edid": "YaoGuaiFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00188AE0",
+      "from_edid": "terminalHackedPlayerAllyFaction",
+      "to": "0x00188AE0",
+      "to_edid": "terminalHackedPlayerAllyFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    },
+    {
+      "from": "0x00188AE0",
+      "from_edid": "terminalHackedPlayerAllyFaction",
+      "to": "0x0014661B",
+      "to_edid": "RESceneKMK_MQ202Faction",
+      "reaction": "Friend",
+      "modifier": 0
+    },
+    {
+      "from": "0x00188AE0",
+      "from_edid": "terminalHackedPlayerAllyFaction",
+      "to": "0x0001C21C",
+      "to_edid": "PlayerFaction",
+      "reaction": "Ally",
+      "modifier": 0
+    }
+  ]
+}

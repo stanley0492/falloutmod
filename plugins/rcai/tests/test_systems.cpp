@@ -117,3 +117,21 @@ RCAI_TEST(faction_memory_lifecycle) {
     for (int i = 0; i < 200; ++i) fm.decay(0.9f);
     CHECK(std::fabs(fm.hostility("Goodneighbor")) < 0.5f);
 }
+
+RCAI_TEST(faction_memory_seed) {
+    // Seed loader over the tools/worldsim.py schema.
+    const std::string seed =
+        "{\"factions\": [\n"
+        "  {\"edid\": \"RAIDERS\", \"hostility_class\": \"Hostile\"},\n"
+        "  {\"edid\": \"INSTITUTE\", \"hostility_class\": \"Ally\"},\n"
+        "  {\"edid\": \"GOODNEIGHBOR\", \"hostility_class\": \"Friendly\"},\n"
+        "  {\"edid\": \"YAOGUAI\", \"hostility_class\": \"Neutral\"} ]}";
+    const worldsim::FactionMemory fm = worldsim::FactionMemory::loadSeed(seed);
+    CHECK_EQ(int(fm.size()), 4);
+    CHECK(fm.hostility("faction:RAIDERS") > 0.7f);
+    CHECK(fm.hostility("faction:INSTITUTE") < -0.6f);
+    CHECK_NEAR(fm.hostility("faction:YAOGUAI"), 0.f, 1e-6f);
+    // Corrupt input: no throw, empty memory.
+    const worldsim::FactionMemory bad = worldsim::FactionMemory::loadSeed("not json");
+    CHECK_EQ(int(bad.size()), 0);
+}

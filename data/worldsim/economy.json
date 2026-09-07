@@ -1,0 +1,72 @@
+{
+  "$doc": "Trade-goods table + price dynamics (M6/P2-a4).",
+  "price_dynamics": "price = base_price * scarcity * (1 + k_raid * raid_events_30d) * (1 - k_trade * active_trades_30d); clamped to [0.5, 3] * base*scarcity",
+  "k_raid": 0.15,
+  "k_trade": 0.05,
+  "doc": "Sandbox economy (P2-a4): raids raise local prices, trade routes lower them. Settlements publish offers; the faction ledger records who paid what (trust/distrust feeds faction_memory).",
+  "goods": [
+    {
+      "good": "caps",
+      "base_price": 1.0,
+      "scarcity": 1.0,
+      "perishable": false,
+      "weight": 0.0
+    },
+    {
+      "good": "scrap_metal",
+      "base_price": 0.8,
+      "scarcity": 1.2,
+      "perishable": false,
+      "weight": 5.0
+    },
+    {
+      "good": "components",
+      "base_price": 4.0,
+      "scarcity": 1.6,
+      "perishable": false,
+      "weight": 2.0
+    },
+    {
+      "good": "ammunition",
+      "base_price": 2.5,
+      "scarcity": 1.4,
+      "perishable": false,
+      "weight": 1.0
+    },
+    {
+      "good": "meds",
+      "base_price": 6.0,
+      "scarcity": 1.8,
+      "perishable": true,
+      "weight": 0.5
+    },
+    {
+      "good": "food",
+      "base_price": 1.5,
+      "scarcity": 1.1,
+      "perishable": true,
+      "weight": 0.5
+    },
+    {
+      "good": "water",
+      "base_price": 0.5,
+      "scarcity": 0.9,
+      "perishable": true,
+      "weight": 1.0
+    },
+    {
+      "good": "luxury",
+      "base_price": 12.0,
+      "scarcity": 2.2,
+      "perishable": false,
+      "weight": 0.2
+    },
+    {
+      "good": "intel",
+      "base_price": 25.0,
+      "scarcity": 3.0,
+      "perishable": false,
+      "weight": 0.0
+    }
+  ]
+}

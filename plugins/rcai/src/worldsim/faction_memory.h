@@ -92,6 +92,30 @@ public:
         return v;
     }
 
+    // Seed attitudes from data/worldsim/factions.json (tools/worldsim.py):
+    // {"factions": [{"edid": "...", "hostility_class": "Hostile|Ally|Friendly|Neutral|Isolated"}, ...]}
+    static FactionMemory loadSeed(const std::string& text) {
+        FactionMemory fm;
+        try {
+            const json::Value v = json::Value::parse(text);
+            const json::Value* arr = v.find("factions");
+            if (!arr || !arr->isArray()) return fm;
+            for (const auto& f : arr->asArray()) {
+                const std::string edid = f.find("edid") ? f.find("edid")->asString() : "";
+                const std::string cls = f.find("hostility_class") ? f.find("hostility_class")->asString() : "";
+                if (edid.empty()) continue;
+                float att = 0.f;
+                if (cls == "Hostile") att = -0.8f;
+                else if (cls == "Ally") att = 0.7f;
+                else if (cls == "Friendly") att = 0.4f;
+                fm.settlement("faction:" + edid, edid).attitude = att;
+            }
+        } catch (...) {
+            return FactionMemory{}; // corrupt seed file: run unseeded, never throw
+        }
+        return fm;
+    }
+
     static FactionMemory fromJson(const std::string& text) {
         FactionMemory fm;
         const json::Value v = json::Value::parse(text);
