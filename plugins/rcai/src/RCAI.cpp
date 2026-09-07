@@ -209,9 +209,11 @@ void Tick(const std::uint64_t now) {
     g_tickCount.fetch_add(1, std::memory_order_relaxed);
 
     void* playerPtr = GetPlayerPtr();
-    if (playerPtr) {
-        f4se::g_playerInstance = reinterpret_cast<f4se::PlayerCharacter*>(playerPtr);
+    if (!playerPtr || (uintptr_t)playerPtr < 0x10000) {
+        f4se::g_playerInstance = nullptr;
+        return;
     }
+    f4se::g_playerInstance = reinterpret_cast<f4se::PlayerCharacter*>(playerPtr);
 
     g_profiler.beginFrame();
     const float dt = (g_config.iUpdateIntervalMS > 0)
@@ -340,6 +342,8 @@ std::atomic<bool> g_gameReady{false};
 
 class RCAITickTask : public ITaskDelegate {
 public:
+    virtual ~RCAITickTask() = default;
+
     void Run() override {
         if (!g_gameReady.load(std::memory_order_acquire)) {
             return;
@@ -353,7 +357,7 @@ public:
                 __try {
                     Tick(now);
                 } __except (EXCEPTION_EXECUTE_HANDLER) {
-                    // Safety: never crash if engine state is transitioning
+                    Log("RCAI: caught exception during Tick, skipping frame");
                 }
 #else
                 try {
@@ -364,12 +368,10 @@ public:
         }
 
         if (g_task && g_gameReady.load(std::memory_order_acquire)) {
-            g_task->AddTask(this);
+            g_task->AddTask(new RCAITickTask());
         }
     }
 };
-
-RCAITickTask g_tickTask;
 
 void OnF4SEMessage(F4SEMessagingInterface::Message* msg) {
     if (!msg) return;
@@ -382,7 +384,7 @@ void OnF4SEMessage(F4SEMessagingInterface::Message* msg) {
         Log("RCAI: game world active (msg type %u), starting tick task", msg->type);
         g_gameReady.store(true, std::memory_order_release);
         if (g_task) {
-            g_task->AddTask(&g_tickTask);
+            g_task->AddTask(new RCAITickTask());
         }
     }
 }

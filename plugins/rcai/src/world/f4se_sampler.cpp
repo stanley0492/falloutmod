@@ -161,7 +161,11 @@ bool F4SEWorldSampler::samplePlayer(f4se::PlayerCharacter* player, WorldSnapshot
         const float yaw = player->rot.z;
         out.player.facing = Vec2{std::cos(yaw), std::sin(yaw)};
 
-        out.player.health = player->getActorValue(f4se::kActorValue_Health, 100.0f);
+        if (testPlayer_) {
+            out.player.health = player->getActorValue(f4se::kActorValue_Health, 100.0f);
+        } else {
+            out.player.health = 100.0f;
+        }
         out.player.maxHealth = 100.0f;
         out.player.speed = 3.5f;
 
@@ -270,29 +274,39 @@ bool F4SEWorldSampler::sampleActors(f4se::TESObjectCELL* cell, f4se::PlayerChara
             const float yaw = actor->rot.z;
             state.facing = Vec2{std::cos(yaw), std::sin(yaw)};
 
-            state.health = actor->getActorValue(f4se::kActorValue_Health, 100.0f);
-            state.maxHealth = 100.0f;
-            state.inCombat = actor->isInCombat();
+            if (testPlayer_) {
+                state.health = actor->getActorValue(f4se::kActorValue_Health, 100.0f);
+                state.maxHealth = 100.0f;
+                state.inCombat = actor->isInCombat();
 
-            // Archetype lookup from decompiled combat styles
-            std::string arch = "generic";
-            f4se::TESNPC* npc = actor->getNPC();
-            if (npc && npc->combatStyle) {
-                arch = lookupArchetype(npc->combatStyle->formID, "");
-            } else if (npc && npc->templateNPC && npc->templateNPC->combatStyle) {
-                arch = lookupArchetype(npc->templateNPC->combatStyle->formID, "");
-            }
+                // Archetype lookup from decompiled combat styles
+                std::string arch = "generic";
+                f4se::TESNPC* npc = actor->getNPC();
+                if (npc && npc->combatStyle) {
+                    arch = lookupArchetype(npc->combatStyle->formID, "");
+                } else if (npc && npc->templateNPC && npc->templateNPC->combatStyle) {
+                    arch = lookupArchetype(npc->templateNPC->combatStyle->formID, "");
+                }
 
-            CombatStyle cs = styleForArchetype(arch);
-            state.speed = 3.0f + cs.aggression * 0.8f;
-            state.accuracy = 0.5f + cs.discipline * 0.15f;
-            state.weaponDamage = 10.0f;
-            state.fireInterval = 0.8f + cs.caution * 0.8f;
+                CombatStyle cs = styleForArchetype(arch);
+                state.speed = 3.0f + cs.aggression * 0.8f;
+                state.accuracy = 0.5f + cs.discipline * 0.15f;
+                state.weaponDamage = 10.0f;
+                state.fireInterval = 0.8f + cs.caution * 0.8f;
 
-            // Factions
-            state.factionIndex = 0;
-            if (actor->vendorFaction) {
-                state.factionIndex = static_cast<int>(actor->vendorFaction->formID & 0xFF);
+                state.factionIndex = 0;
+                if (actor->vendorFaction) {
+                    state.factionIndex = static_cast<int>(actor->vendorFaction->formID & 0xFF);
+                }
+            } else {
+                state.health = 100.0f;
+                state.maxHealth = 100.0f;
+                state.inCombat = (actor->actorFlags & (1 << 5)) != 0;
+                state.speed = 3.5f;
+                state.accuracy = 0.6f;
+                state.weaponDamage = 10.0f;
+                state.fireInterval = 1.0f;
+                state.factionIndex = 0;
             }
 
             out.actors.push_back(state);
@@ -389,9 +403,11 @@ void F4SEWorldSampler::applyUtilityAction(f4se::Actor* actor, const Action& a) {
                 pkg.actionType = f4se::AIUtilityPackage::kAction_MoveTo;
                 break;
         }
-        // Steer / pathing target updated safely on actor
-        actor->pos.x = a.target.x;
-        actor->pos.y = a.target.z;
+        // Steer / pathing target updated safely on mock actor in test harness
+        if (testPlayer_) {
+            actor->pos.x = a.target.x;
+            actor->pos.y = a.target.z;
+        }
     } catch (const std::exception& e) {
         std::fprintf(stderr, "RCAI: warning in applyUtilityAction: %s\n", e.what());
     }
@@ -406,7 +422,9 @@ void F4SEWorldSampler::applyCombatAction(f4se::Actor* actor, const Action& a) {
         if (!a.targetActorId.empty()) {
             try { pkg.targetActorId = static_cast<f4se::UInt32>(std::stoul(a.targetActorId)); } catch (...) {}
         }
-        pkg.faction = actor->vendorFaction;
+        if (testPlayer_) {
+            pkg.faction = actor->vendorFaction;
+        }
     } catch (const std::exception& e) {
         std::fprintf(stderr, "RCAI: warning in applyCombatAction: %s\n", e.what());
     }
