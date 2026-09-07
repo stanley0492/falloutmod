@@ -1,0 +1,17 @@
+{
+  "$doc": "RCAI per-frame CPU budgets (P0-a). Values are milliseconds of CPU per frame at the stated actor load. The in-game profiler (RCAIDumpProf) emits CSV consumed by tools/perf_report.py, which gates against these budgets in CI and release soaks.",
+  "targets": {
+    "hz60":  { "frame_ms": 16.67, "rcai_total_ms": 3.0 },
+    "hz120": { "frame_ms": 8.33,  "rcai_total_ms": 1.5 }
+  },
+  "subsystems": {
+    "perception":   { "budget_ms": 0.50, "at_actors": 100, "doc": "sight cones, hearing, smell for all active actors in cell" },
+    "decision":     { "budget_ms": 1.00, "at_actors": 20,  "doc": "utility Brain ticks (goal scoring)" },
+    "cover":        { "budget_ms": 0.25, "at_actors": 20,  "doc": "occlusion queries + cover cache lookups" },
+    "squad":        { "budget_ms": 0.10, "at_actors": 20,  "doc": "role assignment, alert propagation, memory ledger" },
+    "sim_step":     { "budget_ms": 0.50, "at_actors": 20,  "doc": "movement, firing resolution, flanking stats" },
+    "serialisation":{ "budget_ms": 0.25, "at_actors": 20,  "doc": "state I/O, dump commands, persistence" }
+  },
+  "jank_gate_ms": 25.0,
+  "jank_gate_doc": "a single frame > 25 ms during an RCAI soak is a regression (visible hitch at 60 Hz)"
+}

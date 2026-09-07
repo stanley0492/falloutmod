@@ -1,0 +1,1211 @@
+{
+  "total_unique_events": 167,
+  "events": [
+    {
+      "event": "OnACTIVATE",
+      "signatures": [
+        "OBJECTREFERENCE akActionRef",
+        "OBJECTREFERENCE obj",
+        "OBJECTREFERENCE triggerRef"
+      ]
+    },
+    {
+      "event": "OnAction",
+      "signatures": [
+        "int auiActionID, ReferenceAlias akAlias"
+      ]
+    },
+    {
+      "event": "OnActivate",
+      "signatures": [
+        "ObjectReference ActionRef",
+        "ObjectReference ActivateRef",
+        "ObjectReference ActiveRef",
+        "ObjectReference AkActivator",
+        "ObjectReference actronaut",
+        "ObjectReference akActionRef",
+        "ObjectReference akActivateRef",
+        "ObjectReference akActivator",
+        "ObjectReference akActor",
+        "ObjectReference akSenderRef, ObjectReference akActionRef",
+        "ObjectReference akSenderRef, ObjectReference akActivateRef",
+        "ObjectReference akSource",
+        "ObjectReference source, ObjectReference akActivator",
+        "ObjectReference triggerRef",
+        "Objectreference akActionRef",
+        "objectReference TriggerRef",
+        "objectReference activateRef",
+        "objectReference akActionRef",
+        "objectReference akActivator",
+        "objectReference triggerRef"
+      ]
+    },
+    {
+      "event": "OnAliasInit",
+      "signatures": [
+        ""
+      ]
+    },
+    {
+      "event": "OnAliasReset",
+      "signatures": [
+        ""
+      ]
+    },
+    {
+      "event": "OnAliasShutdown",
+      "signatures": [
+        ""
+      ]
+    },
+    {
+      "event": "OnAnimationEvent",
+      "signatures": [
+        "ObjectReference akSource, String asEventName",
+        "ObjectReference akSource, string asEventName",
+        "ObjectReference source, string eventName",
+        "objectReference akSource, string asEventName"
+      ]
+    },
+    {
+      "event": "OnAnimationEventUnregistered",
+      "signatures": [
+        "ObjectReference akSource, string asEventName"
+      ]
+    },
+    {
+      "event": "OnBegin",
+      "signatures": [
+        "",
+        "ObjectReference akSpeakerRef, bool abHasBeenSaid"
+      ]
+    },
+    {
+      "event": "OnBeginState",
+      "signatures": [
+        "String asOldState",
+        "String oldState",
+        "string asOldState",
+        "string previousState"
+      ]
+    },
+    {
+      "event": "OnCELLLOAD",
+      "signatures": [
+        ""
+      ]
+    },
+    {
+      "event": "OnCONTAINERCHANGED",
+      "signatures": [
+        "OBJECTREFERENCE akNewContainer, OBJECTREFERENCE akOldContainer"
+      ]
+    },
+    {
+      "event": "OnCellAttach",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnCellDetach",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnCellLoad",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnChange",
+      "signatures": [
+        "Actor akActor"
+      ]
+    },
+    {
+      "event": "OnClose",
+      "signatures": [
+        "ObjectReference akActionRef",
+        "ObjectReference akSenderRef, ObjectReference akActionRef"
+      ]
+    },
+    {
+      "event": "OnCombatStateChanged",
+      "signatures": [
+        "Actor Target, Int aeCombatState",
+        "Actor actorRef,int aeCombatState",
+        "Actor akTarget, Int aeCombatState",
+        "Actor akTarget, int aeCombatState",
+        "ObjectReference akSenderRef, Actor akTarget, int aeCombatState",
+        "ObjectReference triggeredRef, Actor akTarget, int aeCombatState"
+      ]
+    },
+    {
+      "event": "OnCommandModeCompleteCommand",
+      "signatures": [
+        "ObjectReference akSenderRef,  int aeCommand, ObjectReference akTarget",
+        "int aeCommandType, ObjectReference akTarget"
+      ]
+    },
+    {
+      "event": "OnCommandModeEnter",
+      "signatures": [
+        "",
+        "ObjectReference akSender",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnCommandModeExit",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnCommandModeGiveCommand",
+      "signatures": [
+        "ObjectReference akSenderRef, int aeCommand, ObjectReference akTarget",
+        "int aeCommandType, ObjectReference akTarget"
+      ]
+    },
+    {
+      "event": "OnCompanionDismiss",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnConsciousnessStateChanged",
+      "signatures": [
+        "ObjectReference akSenderRef, bool abUnconscious",
+        "ObjectReference source, bool abUnconscious",
+        "bool abUnconscious"
+      ]
+    },
+    {
+      "event": "OnContainerChanged",
+      "signatures": [
+        "ObjectReference akNew, ObjectReference akOld",
+        "ObjectReference akNewContainer, ObjectReference akOldContainer",
+        "ObjectReference akSenderRef, ObjectReference akNewContainer, ObjectReference akOldContainer",
+        "ObjectReference newContainer, ObjectReference oldContainer",
+        "ObjectReference triggeredRef, ObjectReference akNewContainer, ObjectReference akOldContainer"
+      ]
+    },
+    {
+      "event": "OnControlDown",
+      "signatures": [
+        "string control"
+      ]
+    },
+    {
+      "event": "OnControlUp",
+      "signatures": [
+        "string control, float time"
+      ]
+    },
+    {
+      "event": "OnCripple",
+      "signatures": [
+        "ActorValue akActorValue, Bool abCrippled",
+        "ActorValue akActorValue, bool abCrippled",
+        "ObjectReference akSenderRef, ActorValue akActorValue, bool abCrippled"
+      ]
+    },
+    {
+      "event": "OnDYING",
+      "signatures": [
+        "ACTOR akKiller"
+      ]
+    },
+    {
+      "event": "OnDeath",
+      "signatures": [
+        "Actor AkKiller",
+        "Actor Killer",
+        "Actor aKiller",
+        "Actor akKiller",
+        "ObjectReference akSender, Actor akKiller",
+        "ObjectReference akSenderRef, Actor akKiller",
+        "ObjectReference akSource, Actor akKiller",
+        "ObjectReference source, Actor killer",
+        "actor Killer",
+        "actor akKiller",
+        "actor killer"
+      ]
+    },
+    {
+      "event": "OnDeferredKill",
+      "signatures": [
+        "Actor akKiller",
+        "ObjectReference akSenderRef, Actor akKiller"
+      ]
+    },
+    {
+      "event": "OnDestructionStageChanged",
+      "signatures": [
+        "ObjectReference akSenderRef, int aiOldStage, int aiCurrentStage",
+        "int OldStage, int CurrentStage",
+        "int aiOldStage, int aiCurrentStage"
+      ]
+    },
+    {
+      "event": "OnDifficultyChanged",
+      "signatures": [
+        "ObjectReference akSenderRef, int aOldDifficulty, int aNewDifficulty",
+        "int aOldDifficulty, int aNewDifficulty"
+      ]
+    },
+    {
+      "event": "OnDistanceGreaterThan",
+      "signatures": [
+        "ObjectReference akObj1, ObjectReference akObj2, float afDistance"
+      ]
+    },
+    {
+      "event": "OnDistanceLessThan",
+      "signatures": [
+        "ObjectReference akObj1, ObjectReference akObj2, Float afDistance",
+        "ObjectReference akObj1, ObjectReference akObj2, float afDistance"
+      ]
+    },
+    {
+      "event": "OnDying",
+      "signatures": [
+        "ACTOR akKiller",
+        "Actor Killer",
+        "Actor akKiller",
+        "ObjectReference akSenderRef, Actor akKiller",
+        "ObjectReference akSource, Actor akKiller",
+        "ObjectReference source, Actor akKiller"
+      ]
+    },
+    {
+      "event": "OnEQUIPPED",
+      "signatures": [
+        "ACTOR akActor"
+      ]
+    },
+    {
+      "event": "OnEffectFinish",
+      "signatures": [
+        "Actor Target, Actor Caster",
+        "Actor akTarget, Actor akCaster"
+      ]
+    },
+    {
+      "event": "OnEffectStart",
+      "signatures": [
+        "ACTOR akTarget, ACTOR akCaster",
+        "Actor Target, Actor Caster",
+        "Actor akTarget, Actor akCaster",
+        "Actor akTarget, Actor akCastor",
+        "Actor akVictim, Actor akCaster",
+        "actor Target, actor Caster"
+      ]
+    },
+    {
+      "event": "OnEnd",
+      "signatures": [
+        "",
+        "Actor akActor",
+        "ObjectReference akSpeakerRef, bool abHasBeenSaid"
+      ]
+    },
+    {
+      "event": "OnEndState",
+      "signatures": [
+        "String asNewState",
+        "String newState",
+        "string asNewState"
+      ]
+    },
+    {
+      "event": "OnEnterBleedOut",
+      "signatures": [
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnEnterBleedout",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnEnterSneaking",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnEntryRun",
+      "signatures": [
+        "int auiEntryID, ObjectReference akTarget, Actor akOwner"
+      ]
+    },
+    {
+      "event": "OnEquipped",
+      "signatures": [
+        "Actor akActor",
+        "ObjectReference akSenderRef, Actor akActor"
+      ]
+    },
+    {
+      "event": "OnEscortWaitStart",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnEscortWaitStop",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnExitFurniture",
+      "signatures": [
+        "ObjectReference akActionRef",
+        "ObjectReference akSenderRef, ObjectReference akActionRef"
+      ]
+    },
+    {
+      "event": "OnFurnitureEvent",
+      "signatures": [
+        "Actor akActor, ObjectReference akFurniture, bool isGettingUp"
+      ]
+    },
+    {
+      "event": "OnGainLOS",
+      "signatures": [
+        "ObjectReference akViewer, ObjectReference akTarget"
+      ]
+    },
+    {
+      "event": "OnGetUp",
+      "signatures": [
+        "ObjectReference akFurniture",
+        "ObjectReference akSenderRef, ObjectReference akFurniture",
+        "ObjectReference myFurniture"
+      ]
+    },
+    {
+      "event": "OnGrab",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef",
+        "ObjectReference source"
+      ]
+    },
+    {
+      "event": "OnHit",
+      "signatures": [
+        "ObjectReference RemoteSource, ObjectReference akAggressor, Form akSource, Projectile akProjectile, bool abPowerAttack, bool abSneakAttack, bool abBashAttack, bool abHitBlocked, string asMaterialName",
+        "ObjectReference akAggressor, Form akSource, Projectile akProjectile, bool abPowerAttack, bool abSneakAttack, bool abBashAttack, bool abHitBlocked, string asMaterialName",
+        "ObjectReference akSenderRef, ObjectReference akAggressor, Form akSource, Projectile akProjectile, bool abPowerAttack, bool abSneakAttack, bool abBashAttack, bool abHitBlocked, string asMaterialName",
+        "ObjectReference akTarget, ObjectReference aggressor, Form akSource, Projectile akProjectile, bool abPowerAttack, bool abSneakAttack, bool abBashAttack, bool abHitBlocked, string asMaterialName",
+        "ObjectReference akTarget, ObjectReference akAggressor, Form akSource, Projectile akProjectile, Bool abPowerAttack, Bool abSneakAttack, Bool abBashAttack, Bool abHitBlocked, String apMaterial",
+        "ObjectReference akTarget, ObjectReference akAggressor, Form akSource, Projectile akProjectile, bool abPowerAttack,  bool abSneakAttack, bool abBashAttack, bool abHitBlocked, string apMaterial",
+        "ObjectReference akTarget, ObjectReference akAggressor, Form akSource, Projectile akProjectile, bool abPowerAttack, bool abSneakAttack, bool abBashAttack, bool abHitBlocked, string apMaterial",
+        "ObjectReference akTarget, ObjectReference akAggressor, Form akSource, Projectile akProjectile, bool abPowerAttack, bool abSneakAttack, bool abBashAttack, bool abHitBlocked, string asMaterialName",
+        "ObjectReference akTarget, ObjectReference akAggressor, Form akWeapon, Projectile akProjectile, bool abPowerAttack, bool abSneakAttack, bool abBashAttack, bool abHitBlocked, string asMaterialName",
+        "ObjectReference akTarget, ObjectReference var1, Form var2, Projectile var3, bool var4, bool var5, bool var6, bool var7, string asMaterialName",
+        "ObjectReference akTarget, objectReference akAggressor, Form akWeapon, Projectile akProjectile, bool abPowerAttack, bool abSneakAttack, bool abBashAttack, bool abHitBlocked, string asMaterialName",
+        "objectReference akTarget, objectReference akAggressor, Form akSource, Projectile akProjectile, bool abPowerAttack, bool abSneakAttack, bool abBashAttack, bool abHitBlocked, string apMaterial"
+      ]
+    },
+    {
+      "event": "OnHolotapeChatter",
+      "signatures": [
+        "ObjectReference akSenderRef, string astrChatter, float afNumericData",
+        "string astrChatter, float afNumericData"
+      ]
+    },
+    {
+      "event": "OnHolotapePlay",
+      "signatures": [
+        "ObjectReference aTerminalRef",
+        "ObjectReference akSenderRef, ObjectReference aTerminalRef",
+        "ObjectReference akTerminalRef"
+      ]
+    },
+    {
+      "event": "OnITEMADDED",
+      "signatures": [
+        "FORM akBaseItem, int aiItemCount, OBJECTREFERENCE akItemReference, OBJECTREFERENCE akSourceContainer"
+      ]
+    },
+    {
+      "event": "OnITEMREMOVED",
+      "signatures": [
+        "FORM akBaseItem, int aiItemCount, OBJECTREFERENCE akItemReference, OBJECTREFERENCE akSourceContainer"
+      ]
+    },
+    {
+      "event": "OnInit",
+      "signatures": [
+        ""
+      ]
+    },
+    {
+      "event": "OnItemAdded",
+      "signatures": [
+        "Form akBaseItem, int aiItemCount, ObjectReference akItemReference, ObjectReference akSourceContainer",
+        "Form akBaseItem, int akItemCount, ObjectReference akItemReference, ObjectReference akSourceContainer",
+        "ObjectReference akSenderRef, Form akBaseItem, int aiItemCount, ObjectReference akItemReference, ObjectReference akSourceContainer"
+      ]
+    },
+    {
+      "event": "OnItemEquipped",
+      "signatures": [
+        "Form akBaseObject, ObjectReference akReference",
+        "ObjectReference akSenderRef, Form akBaseObject, ObjectReference akReference"
+      ]
+    },
+    {
+      "event": "OnItemRemoved",
+      "signatures": [
+        "Form akBaseItem, int aiItemCount, ObjectReference akItemReference, ObjectReference akDestContainer",
+        "Form akBaseItem, int aiItemCount, ObjectReference akItemReference, ObjectReference akSourceContainer",
+        "ObjectReference akSenderRef, Form akBaseItem, int aiItemCount, ObjectReference akItemReference, ObjectReference akDestContainer"
+      ]
+    },
+    {
+      "event": "OnItemUnequipped",
+      "signatures": [
+        "Form akBaseObject, ObjectReference akReference",
+        "ObjectReference akSenderRef, Form akBaseObject, ObjectReference akReference"
+      ]
+    },
+    {
+      "event": "OnKeyDown",
+      "signatures": [
+        "int keyCode"
+      ]
+    },
+    {
+      "event": "OnKeyUp",
+      "signatures": [
+        "int keyCode, float time"
+      ]
+    },
+    {
+      "event": "OnKill",
+      "signatures": [
+        "Actor akVictim",
+        "ObjectReference akSenderRef, Actor akVictim"
+      ]
+    },
+    {
+      "event": "OnLoad",
+      "signatures": [
+        "",
+        "ObjectReference akSender",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnLocationChange",
+      "signatures": [
+        "Location OldLoc, Location NewLoc",
+        "Location akOldLoc, Location akNewLoc",
+        "ObjectReference akSenderRef, Location akOldLoc, Location akNewLoc"
+      ]
+    },
+    {
+      "event": "OnLocationCleared",
+      "signatures": [
+        ""
+      ]
+    },
+    {
+      "event": "OnLocationLoaded",
+      "signatures": [
+        ""
+      ]
+    },
+    {
+      "event": "OnLockStateChanged",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnLooksMenuEvent",
+      "signatures": [
+        "int aiFlavor"
+      ]
+    },
+    {
+      "event": "OnLostLOS",
+      "signatures": [
+        "ObjectReference akViewer, ObjectReference akTarget"
+      ]
+    },
+    {
+      "event": "OnMagicEffectApply",
+      "signatures": [
+        "ObjectReference akTarget, ObjectReference akCaster, MagicEffect akEffect"
+      ]
+    },
+    {
+      "event": "OnMenuItemRun",
+      "signatures": [
+        "int auiMenuItemID, ObjectReference akTerminalRef"
+      ]
+    },
+    {
+      "event": "OnMenuOpenCloseEvent",
+      "signatures": [
+        "string asMenuName, bool abOpening"
+      ]
+    },
+    {
+      "event": "OnOpen",
+      "signatures": [
+        "ObjectReference akActionRef",
+        "ObjectReference akSenderRef, ObjectReference akActionRef"
+      ]
+    },
+    {
+      "event": "OnPackageChange",
+      "signatures": [
+        "ObjectReference akSenderRef, Package akOldPackage",
+        "Package akOldPackage"
+      ]
+    },
+    {
+      "event": "OnPackageEnd",
+      "signatures": [
+        "ObjectReference akSenderRef, Package akOldPackage",
+        "Package akOldPackage"
+      ]
+    },
+    {
+      "event": "OnPackageStart",
+      "signatures": [
+        "ObjectReference akSenderRef, Package akNewPackage",
+        "Package akNewPackage"
+      ]
+    },
+    {
+      "event": "OnPartialCripple",
+      "signatures": [
+        "ActorValue akActorValue, Bool abCrippled",
+        "ActorValue akActorValue, bool abCrippled",
+        "ObjectReference akSenderRef, ActorValue akActorValue, bool abCrippled"
+      ]
+    },
+    {
+      "event": "OnPhaseBegin",
+      "signatures": [
+        "int auiPhaseIndex"
+      ]
+    },
+    {
+      "event": "OnPhaseEnd",
+      "signatures": [
+        "int auiPhaseIndex"
+      ]
+    },
+    {
+      "event": "OnPickpocketFailed",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnPipboyRadioDetection",
+      "signatures": [
+        "ObjectReference akSenderRef, bool abDetected",
+        "bool abDetected"
+      ]
+    },
+    {
+      "event": "OnPlayerCameraState",
+      "signatures": [
+        "int oldState, int newState"
+      ]
+    },
+    {
+      "event": "OnPlayerCreateRobot",
+      "signatures": [
+        "Actor akNewRobot",
+        "ObjectReference akSenderRef, Actor akNewRobot"
+      ]
+    },
+    {
+      "event": "OnPlayerDialogueTarget",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnPlayerEnterVertibird",
+      "signatures": [
+        "ObjectReference akSenderRef, ObjectReference akVertibird",
+        "ObjectReference akVertibird"
+      ]
+    },
+    {
+      "event": "OnPlayerFallLongDistance",
+      "signatures": [
+        "ObjectReference akSenderRef, float afDamage",
+        "float afDamage"
+      ]
+    },
+    {
+      "event": "OnPlayerFireWeapon",
+      "signatures": [
+        "Form akBaseObject",
+        "ObjectReference akSenderRef, Form akBaseObject"
+      ]
+    },
+    {
+      "event": "OnPlayerHealTeammate",
+      "signatures": [
+        "Actor akTeammate",
+        "ObjectReference akSenderRef, Actor akTeammate"
+      ]
+    },
+    {
+      "event": "OnPlayerLoadGame",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnPlayerModArmorWeapon",
+      "signatures": [
+        "Form akBaseObject, ObjectMod akModBaseObject",
+        "ObjectReference akSenderRef, Form akBaseObject, ObjectMod akModBaseObject"
+      ]
+    },
+    {
+      "event": "OnPlayerModRobot",
+      "signatures": [
+        "Actor akRobot, ObjectMod akModBaseObject",
+        "ObjectReference akSenderRef, Actor akRobot, ObjectMod akModBaseObject"
+      ]
+    },
+    {
+      "event": "OnPlayerSleepStart",
+      "signatures": [
+        "float afSleepStartTime, float afDesiredSleepEndTime, ObjectReference akBed"
+      ]
+    },
+    {
+      "event": "OnPlayerSleepStop",
+      "signatures": [
+        "bool abInterrupted, ObjectReference akBed"
+      ]
+    },
+    {
+      "event": "OnPlayerSwimming",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnPlayerTeleport",
+      "signatures": [
+        ""
+      ]
+    },
+    {
+      "event": "OnPlayerUseWorkBench",
+      "signatures": [
+        "ObjectReference akSenderRef, ObjectReference akWorkBench",
+        "ObjectReference akWorkBench"
+      ]
+    },
+    {
+      "event": "OnPlayerWaitStart",
+      "signatures": [
+        "float afWaitStartTime, float afDesiredWaitEndTime"
+      ]
+    },
+    {
+      "event": "OnPlayerWaitStop",
+      "signatures": [
+        "bool abInterrupted"
+      ]
+    },
+    {
+      "event": "OnPowerOff",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnPowerOn",
+      "signatures": [
+        "ObjectReference akPowerGenerator",
+        "ObjectReference akSenderRef, ObjectReference akPowerGenerator"
+      ]
+    },
+    {
+      "event": "OnQuestInit",
+      "signatures": [
+        ""
+      ]
+    },
+    {
+      "event": "OnQuestShutdown",
+      "signatures": [
+        ""
+      ]
+    },
+    {
+      "event": "OnREAD",
+      "signatures": [
+        ""
+      ]
+    },
+    {
+      "event": "OnRaceSwitchComplete",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnRadiationDamage",
+      "signatures": [
+        "ObjectReference akTarget, Bool abIngested",
+        "ObjectReference akTarget, bool abIngested"
+      ]
+    },
+    {
+      "event": "OnRead",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnRelease",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnReset",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnSell",
+      "signatures": [
+        "Actor akSeller",
+        "ObjectReference akSenderRef, Actor akSeller"
+      ]
+    },
+    {
+      "event": "OnSit",
+      "signatures": [
+        "ObjectReference AkFurniture",
+        "ObjectReference akFurniture",
+        "ObjectReference akSenderRef, ObjectReference akFurniture"
+      ]
+    },
+    {
+      "event": "OnSpeechChallengeAvailable",
+      "signatures": [
+        "ObjectReference akSenderRef, ObjectReference akSpeaker",
+        "ObjectReference akSpeaker"
+      ]
+    },
+    {
+      "event": "OnSpellCast",
+      "signatures": [
+        "Form akSpell",
+        "ObjectReference akSenderRef, Form akSpell"
+      ]
+    },
+    {
+      "event": "OnStageSet",
+      "signatures": [
+        "int auiStageID, int auiItemID"
+      ]
+    },
+    {
+      "event": "OnStart",
+      "signatures": [
+        "Actor akActor"
+      ]
+    },
+    {
+      "event": "OnStoryActivateActor",
+      "signatures": [
+        "Location akLocation, ObjectReference akActor"
+      ]
+    },
+    {
+      "event": "OnStoryActorAttach",
+      "signatures": [
+        "ObjectReference akActor, Location akLocation"
+      ]
+    },
+    {
+      "event": "OnStoryBribeNPC",
+      "signatures": [
+        "ObjectReference akActor"
+      ]
+    },
+    {
+      "event": "OnStoryClearLocation",
+      "signatures": [
+        "Location akOldLocation"
+      ]
+    },
+    {
+      "event": "OnStoryCraftItem",
+      "signatures": [
+        "ObjectReference akBench, Location akLocation, Form akCreatedItem"
+      ]
+    },
+    {
+      "event": "OnStoryCure",
+      "signatures": [
+        "Form akInfection"
+      ]
+    },
+    {
+      "event": "OnStoryDialogue",
+      "signatures": [
+        "Location akLocation, ObjectReference akActor1, ObjectReference akActor2"
+      ]
+    },
+    {
+      "event": "OnStoryEscapeJail",
+      "signatures": [
+        "Location akLocation, Form akCrimeGroup"
+      ]
+    },
+    {
+      "event": "OnStoryFlatterNPC",
+      "signatures": [
+        "ObjectReference akActor"
+      ]
+    },
+    {
+      "event": "OnStoryHackTerminal",
+      "signatures": [
+        "ObjectReference akComputer, bool abSucceeded"
+      ]
+    },
+    {
+      "event": "OnStoryHello",
+      "signatures": [
+        "Location akLocation, ObjectReference akActor1, ObjectReference akActor2"
+      ]
+    },
+    {
+      "event": "OnStoryIncreaseLevel",
+      "signatures": [
+        "int aiNewLevel"
+      ]
+    },
+    {
+      "event": "OnStoryInfection",
+      "signatures": [
+        "ObjectReference akTransmittingActor, Form akInfection"
+      ]
+    },
+    {
+      "event": "OnStoryIntimidateNPC",
+      "signatures": [
+        "ObjectReference akActor"
+      ]
+    },
+    {
+      "event": "OnStoryIronSights",
+      "signatures": [
+        "ObjectReference akActor, Form akWeapon"
+      ]
+    },
+    {
+      "event": "OnStoryKillActor",
+      "signatures": [
+        "ObjectReference akVictim, ObjectReference akKiller, Location akLocation, int aiCrimeStatus, int aiRelationshipRank"
+      ]
+    },
+    {
+      "event": "OnStoryLocationLoaded",
+      "signatures": [
+        "Location akLocation"
+      ]
+    },
+    {
+      "event": "OnStoryMineExplosion",
+      "signatures": [
+        "ObjectReference akVictim, ObjectReference akAttacker"
+      ]
+    },
+    {
+      "event": "OnStoryNewVoicePower",
+      "signatures": [
+        "ObjectReference akActor, Form akVoicePower"
+      ]
+    },
+    {
+      "event": "OnStoryPickLock",
+      "signatures": [
+        "ObjectReference akActor, ObjectReference akLock"
+      ]
+    },
+    {
+      "event": "OnStoryPickPocket",
+      "signatures": [
+        "ObjectReference akVictim, bool abSuccess"
+      ]
+    },
+    {
+      "event": "OnStoryPlayerGetsFavor",
+      "signatures": [
+        "ObjectReference akActor"
+      ]
+    },
+    {
+      "event": "OnStoryScript",
+      "signatures": [
+        "Keyword akKeyword, Location akLocation, ObjectReference akRef1, ObjectReference akRef2, int aiValue1, int aiValue2"
+      ]
+    },
+    {
+      "event": "OnTRIGGERENTER",
+      "signatures": [
+        "OBJECTREFERENCE obj",
+        "ObjectReference akActionRef"
+      ]
+    },
+    {
+      "event": "OnTimer",
+      "signatures": [
+        "Int aiTimerID",
+        "int Timer",
+        "int aeTimerID",
+        "int aiTimerID",
+        "int aiTimerId",
+        "int iTimer",
+        "int timer",
+        "int timerID"
+      ]
+    },
+    {
+      "event": "OnTimerGameTime",
+      "signatures": [
+        "Int aiTimerID",
+        "int TimerID",
+        "int aiTimerID",
+        "int iTimer",
+        "int timerID"
+      ]
+    },
+    {
+      "event": "OnTrackedStatsEvent",
+      "signatures": [
+        "string arStatName, int aiStatValue",
+        "string asStat, int aiStatValue",
+        "string statFilter, int statValue"
+      ]
+    },
+    {
+      "event": "OnTranslationAlmostComplete",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnTranslationComplete",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnTranslationFailed",
+      "signatures": [
+        "",
+        "ObjectReference akSenderRef"
+      ]
+    },
+    {
+      "event": "OnTrapHitStart",
+      "signatures": [
+        "ObjectReference akTarget, float afXVel, float afYVel, float afZVel, float afXPos, float afYPos, float afZPos, int aeMaterial, bool abInitialHit, int aeMotionType"
+      ]
+    },
+    {
+      "event": "OnTrapHitStop",
+      "signatures": [
+        "ObjectReference akSenderRef, ObjectReference akTarget",
+        "ObjectReference akTarget"
+      ]
+    },
+    {
+      "event": "OnTriggerEnter",
+      "signatures": [
+        "ObjectReference ActionRef",
+        "ObjectReference AkTrigger",
+        "ObjectReference AkTriggerRef",
+        "ObjectReference TriggerRef",
+        "ObjectReference actronaut",
+        "ObjectReference akActionRef",
+        "ObjectReference akActionref",
+        "ObjectReference akActivator",
+        "ObjectReference akActorRef",
+        "ObjectReference akObjectRef",
+        "ObjectReference akSenderRef, ObjectReference akActionRef",
+        "ObjectReference akTriggerRef",
+        "ObjectReference obj",
+        "objectReference TriggerRef",
+        "objectReference akActionref",
+        "objectReference akTrigger",
+        "objectReference akTriggerRef",
+        "objectReference triggerRef"
+      ]
+    },
+    {
+      "event": "OnTriggerLeave",
+      "signatures": [
+        "ObjectReference ActionRef",
+        "ObjectReference actronaut",
+        "ObjectReference akActionRef",
+        "ObjectReference akActivator",
+        "ObjectReference akSenderRef, ObjectReference akActionRef",
+        "ObjectReference akTriggerRef",
+        "objectReference akTriggerRef",
+        "objectReference triggerRef"
+      ]
+    },
+    {
+      "event": "OnTutorialEvent",
+      "signatures": [
+        "String asEventName, Message aMessage"
+      ]
+    },
+    {
+      "event": "OnUNEQUIPPED",
+      "signatures": [
+        "ACTOR akActor"
+      ]
+    },
+    {
+      "event": "OnUnLoad",
+      "signatures": [
+        ""
+      ]
+    },
+    {
+      "event": "OnUnequipped",
+      "signatures": [
+        "Actor akActor",
+        "ObjectReference akSenderRef, Actor akActor"
+      ]
+    },
+    {
+      "event": "OnUnload",
+      "signatures": [
+        "",
+        "ObjectReference akSender",
+        "ObjectReference akSenderRef",
+        "ObjectReference ref",
+        "ObjectReference source"
+      ]
+    },
+    {
+      "event": "OnWorkshopMode",
+      "signatures": [
+        "ObjectReference akSenderRef, bool aStart",
+        "bool aStart"
+      ]
+    },
+    {
+      "event": "OnWorkshopNPCTransfer",
+      "signatures": [
+        "Location akNewWorkshop, Keyword akActionKW",
+        "Location akNewWorkshopLocation, Keyword akActionKW",
+        "ObjectReference akSenderRef, Location akNewWorkshop, Keyword akActionKW"
+      ]
+    },
+    {
+      "event": "OnWorkshopObjectDestroyed",
+      "signatures": [
+        "ObjectReference akActionRef",
+        "ObjectReference akReference",
+        "ObjectReference akSenderRef, ObjectReference akReference"
+      ]
+    },
+    {
+      "event": "OnWorkshopObjectGrabbed",
+      "signatures": [
+        "ObjectReference akReference",
+        "ObjectReference akSenderRef, ObjectReference akReference"
+      ]
+    },
+    {
+      "event": "OnWorkshopObjectMoved",
+      "signatures": [
+        "ObjectReference akReference",
+        "ObjectReference akSenderRef, ObjectReference akReference"
+      ]
+    },
+    {
+      "event": "OnWorkshopObjectPlaced",
+      "signatures": [
+        "ObjectReference akReference",
+        "ObjectReference akSenderRef, ObjectReference akReference"
+      ]
+    },
+    {
+      "event": "OnWorkshopObjectRepaired",
+      "signatures": [
+        "ObjectReference akReference",
+        "ObjectReference akSenderRef, ObjectReference akReference"
+      ]
+    },
+    {
+      "event": "Oninit",
+      "signatures": [
+        ""
+      ]
+    },
+    {
+      "event": "Onload",
+      "signatures": [
+        ""
+      ]
+    },
+    {
+      "event": "OnworkshopObjectMoved",
+      "signatures": [
+        "ObjectReference akReference"
+      ]
+    }
+  ]
+}

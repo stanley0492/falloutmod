@@ -1,0 +1,523 @@
+{
+  "active_user_settings": {
+    "Fallout4.ini": {
+      "General": {
+        "slanguage": "en",
+        "ugridstoload": "5",
+        "uexterior cell buffer": "47",
+        "bdisableallgore": "0",
+        "ballowconsole": "1",
+        "bplaymainmenumusic": "1",
+        "bforceupdatediffuseonly": "0",
+        "itexturedegradedistance0": "1600",
+        "itexturedegradedistance1": "3000",
+        "itextureupgradedistance0": "1200",
+        "itextureupgradedistance1": "2400"
+      },
+      "ScreenSplatter": {
+        "bbloodsplatterenabled": "1"
+      },
+      "Display": {
+        "fdefaultworldfov": "103.0000",
+        "fdefault1stpersonfov": "103.0000",
+        "ipresentinterval": "0",
+        "bdeferredcommands": "1",
+        "fshadowlodmaxstartfade": "1000.0",
+        "fspecularlodmaxstartfade": "2000.0",
+        "flightlodmaxstartfade": "3500.0",
+        "ishadowmapresolutionprimary": "2048",
+        "ballowscreenshot": "1",
+        "fmeshlodlevel1fadedist": "3500.0000",
+        "fmeshlodlevel2fadedist": "2000.0000",
+        "fmeshlodfadepercentdefault": "1.2000",
+        "bnvgodraysenable": "1",
+        "bdynamicobjectquerymanager": "1",
+        "bmultithreadedaccumulation": "1",
+        "bmultithreadedrenderingunp": "1",
+        "fsaoradius": "108.2",
+        "fsaobias": "0.6",
+        "fsaointensity": "7.1",
+        "fsunshadowupdatetime": "1",
+        "fsunupdatethreshold": "1",
+        "fdecallifetime": "30.0000",
+        "fdecallod0": "1000.0000",
+        "fpipboyscreenemitintensity": "1.2500",
+        "fpipboyscreendiffuseintensity": "0.150",
+        "fpipboyscreenemitintensitypa": "3.000",
+        "fpipboyscreendiffuseintensitypa": "1.0000"
+      },
+      "HairLighting": {
+        "fhairprimspecscale": "0.02",
+        "fhairprimspecpow": "125.0",
+        "fhairprimspecshift": "0.36",
+        "fhairsecspecscale": "1.2",
+        "fhairsecspecpow": "160.0",
+        "fhairsecspecshift": "-0.40"
+      },
+      "SSSSS": {
+        "fssssspower": "4.0"
+      },
+      "Audio": {
+        "benableaudio": "1"
+      },
+      "Interface": {
+        "fdefaultworldfov": "70",
+        "fdefault1stpersonfov": "80",
+        "fsafezonex": "64.0",
+        "fsafezoney": "36",
+        "fsafezonexwide": "64.0",
+        "fsafezonexwide16x10": "64.0",
+        "fsafezoneywide16x10": "36",
+        "fsafezoneywide": "36",
+        "fcrosshairalphapercent": "100"
+      },
+      "MapMenu": {
+        "ulockedobjectmaplod": "16",
+        "ulockedterrainlod": "32"
+      },
+      "Controls": {
+        "fmouseheadingxscale": ".0210",
+        "fmouseheadingyscale": ".0210",
+        "binvertyvalues": "0",
+        "fenterworkshopdelay": "1.5000",
+        "fpipboylightdelay": "0.3000",
+        "fzkeydelay": "0.2000",
+        "fthrowdelay": "0.3000",
+        "fpowerarmorexitdelay": "0.4000",
+        "fironsightspitchspeedratio": "1",
+        "fpitchspeedratio": "1.0000",
+        "fmouseheadingnormalizemax": "100.0000",
+        "fmouseheadingsensitivity": "0.0038",
+        "bforceignoresmoothness": "1"
+      },
+      "Grass": {
+        "imingrasssize": "15",
+        "ballowcreategrass": "1"
+      },
+      "ImageSpace": {
+        "bdoradialblur": "0"
+      },
+      "Weather": {
+        "bprecipitation": "1"
+      },
+      "Archive": {
+        "sresourceindexfilelist": "Fallout4 - Textures1.ba2, Fallout4 - Textures2.ba2, Fallout4 - Textures3.ba2, Fallout4 - Textures4.ba2, Fallout4 - Textures5.ba2, Fallout4 - Textures6.ba2, Fallout4 - Textures7.ba2, Fallout4 - Textures8.ba2, Fallout4 - Textures9.ba2",
+        "sresourcestartuparchivelist": "Fallout4 - Startup.ba2, Fallout4 - Shaders.ba2, Fallout4 - Interface.ba2",
+        "sresourcearchivelist": "Fallout4 - Voices.ba2, Fallout4 - Meshes.ba2, Fallout4 - MeshesExtra.ba2, Fallout4 - Misc.ba2, Fallout4 - Sounds.ba2, Fallout4 - Materials.ba2",
+        "sresourcearchivelist2": "Fallout4 - Animations.ba2",
+        "sresourcedatadirsfinal": "",
+        "sgeometrypackagelist": "Fallout4 - Geometry.csg",
+        "scellresourceindexfilelist": "Fallout4.cdx",
+        "sresourcearchivememorycachelist": "Fallout4 - Misc.ba2, Fallout4 - Shaders.ba2, Fallout4 - Interface.ba2, Fallout4 - Materials.ba2",
+        "binvalidateolderfiles": "1"
+      },
+      "Papyrus": {
+        "fpostloadupdatetimems": "500.0",
+        "benablelogging": "0",
+        "benabletrace": "0",
+        "bloaddebuginformation": "0",
+        "fextrataskletbudgetms": "1.6",
+        "fupdatebudgetms": "1.6",
+        "imaxallocatedmemorybytes": "307200",
+        "imaxmemorypagesize": "1024",
+        "iminmemorypagesize": "256"
+      },
+      "LOD": {
+        "flodfadeoutmultobjects": "4.5000",
+        "flodfadeoutmultitems": "2.5000"
+      },
+      "Pathfinding": {
+        "fwarpmaxtime": "4",
+        "iwarpmaxpathfailurecount": "3"
+      },
+      "Water": {
+        "breflectlodobjects": "0",
+        "breflectlodland": "0",
+        "breflectsky": "0",
+        "breflectlodtrees": "0"
+      },
+      "Launcher": {
+        "benablefileselection": "1"
+      },
+      "HAVOK": {
+        "fmaxtime": "0.00208333"
+      },
+      "Main": {
+        "fironsightsfovrotatemult": "1.0000"
+      },
+      "Camera": {
+        "f3rdpersonaimfov": "70"
+      },
+      "Decals": {
+        "umaxskindecals": "100",
+        "umaxskindecalperactor": "50",
+        "bdecals": "1",
+        "bskinneddecals": "1"
+      },
+      "Combat": {
+        "bforcenpcsuseammo": "0"
+      },
+      "Gameplay": {
+        "bhealthbarshowing": "0"
+      },
+      "VATS": {
+        "fvatsrangedlongdistance": "2500"
+      },
+      "Workshop": {
+        "bworkshopenablegridbasedsnapping": "0"
+      }
+    },
+    "Fallout4Custom.ini": {
+      "Display": {
+        "ilocation x": "0",
+        "ilocation y": "0",
+        "ipresentinterval": "0",
+        "fdefaultworldfov": "103.0000",
+        "fdefault1stpersonfov": "103.0000"
+      },
+      "General": {
+        "busethreadedai": "1",
+        "inumhwthreads": "16",
+        "sintrosequence": "0",
+        "fchancestoplayalternateintro": "0",
+        "slocalsavepath": "Saves\\"
+      },
+      "Archive": {
+        "binvalidateolderfiles": "1",
+        "sresourcedatadirsfinal": ""
+      },
+      "Controls": {
+        "bforceignoresmoothness": "1",
+        "fmouseheadingsensitivity": "0.0038",
+        "fmouseheadingxscale": ".0210",
+        "fpitchspeedratio": "1.0000",
+        "fmouseheadingyscale": ".0210",
+        "fmouseheadingnormalizemax": "100.0000",
+        "fironsightspitchspeedratio": "1.0000"
+      },
+      "Launcher": {
+        "benablefileselection": "1"
+      },
+      "Papyrus": {
+        "fupdatebudgetms": "2.4",
+        "bloaddebuginformation": "0",
+        "fextrataskletbudgetms": "2.4",
+        "benablelogging": "0",
+        "benabletrace": "0"
+      },
+      "Combat": {
+        "fgunshotdetectionradius": "6000.0",
+        "fcombatstealthpointregenhostilemult": "3.0",
+        "fcombatsoundnoticeradius": "5000.0",
+        "fcombatdistancesearchradius": "5000.0",
+        "fcombatstealthpointregenalertmult": "5.0",
+        "fcombatsearchradiusmax": "5000.0",
+        "fcombatstealthpointregenlostmult": "4.0",
+        "fcombatteammatefollowradiusmult": "6.0",
+        "fcombatfleehealthpercent": "0.30",
+        "fcombatdistancecoversearchmax": "4000.0",
+        "fcombatcoverwaittimemin": "1.2",
+        "fcombatcoverwaittimemax": "4.5"
+      },
+      "Main": {
+        "fironsightsfovrotatemult": "1.0000"
+      },
+      "Decals": {
+        "umaxdecals": "1000",
+        "umaxskindecals": "500",
+        "umaxskindecalsperactor": "100",
+        "bskinneddecals": "1",
+        "bdecals": "1",
+        "fdecallifetime": "1200.0"
+      },
+      "Particles": {
+        "imaxcartridges": "250",
+        "fcartridgelifetime": "300.0"
+      }
+    },
+    "Fallout4Prefs.ini": {
+      "Display": {
+        "flocalshadowmaphalveeveryxunit": "750.0000",
+        "bsaoenable": "1",
+        "fdirshadowdistance": "3000.0000",
+        "uiorthoshadowfilter": "3",
+        "focusshadowmapdoubleeveryxunit": "450.0000",
+        "fmeshlodlevel2fadetreedistance": "2048.0000",
+        "fshadowdistance": "3000.0000",
+        "benablerainocclusion": "1",
+        "uishadowfilter": "3",
+        "fshadowbiasscale": "1.0000",
+        "ishadowmapresolution": "4096",
+        "bvolumetriclightingenable": "0",
+        "isize h": "1440",
+        "itexmipmapskip": "0",
+        "upipboytargetheight": "700",
+        "imaxdecalsperframe": "100",
+        "upipboytargetwidth": "876",
+        "finteriormeshlodlevel2fadedist": "1950.0000",
+        "isize w": "2560",
+        "ivolumetriclightingquality": "0",
+        "fmeshlodlevel1fadedist": "999999.0000",
+        "idirshadowsplits": "2",
+        "bvolumetriclightingforcecasters": "0",
+        "itiledlightingminlights": "40",
+        "bcomputeshaderdeferredtiledlighting": "1",
+        "imaxfocusshadowsdialogue": "4",
+        "imaxfocusshadows": "4",
+        "bmaximizewindow": "1",
+        "bforceignoresmoothness": "0",
+        "fblendsplitdirshadow": "48.0000",
+        "bsinglepassdirshadow": "1",
+        "bprecipitationocclusion": "1",
+        "benablewetnessmaterials": "1",
+        "ftessfactormaxdistancescale": "100.0000",
+        "santialiasing": "TAA",
+        "fleafanimdampendistend": "4600.0000",
+        "fleafanimdampendiststart": "3600.0000",
+        "btopmostwindow": "0",
+        "fmeshlodfadepercentdefault": "1.2000",
+        "fmeshlodfadebounddefault": "256.0000",
+        "iadapter": "0",
+        "fmeshlodfadescalar": "1.0000",
+        "fmeshlodlevel1fadetreedistance": "2844.0000",
+        "finteriormeshlodlevel1fadedist": "2600.0000",
+        "fmeshlodlevel2fadedist": "999999.0000",
+        "imaxanisotropy": "16",
+        "ipresentinterval": "0",
+        "bborderless": "1",
+        "sd3ddevice": "\"NVIDIA GeForce RTX 4070\"",
+        "bfull screen": "1",
+        "imaxskindecalsperframe": "25",
+        "ballowshadowcasternpclights": "1",
+        "fmaxfocusshadowmapdistance": "450.0000",
+        "iscreenshotindex": "0",
+        "fsunupdatethreshold": "0.0",
+        "fsunshadowupdatetime": "0.0",
+        "benableweapondebris": "0",
+        "nvflexmaxsamples": "0"
+      },
+      "Imagespace": {
+        "bdodepthoffield": "1",
+        "blensflare": "1",
+        "bscreenspacebokeh": "0",
+        "bmbenable": "0"
+      },
+      "Pipboy": {
+        "fpipboyeffectcolorb": "0.9500",
+        "fpipboyeffectcolorg": "0.9000",
+        "fpipboyeffectcolorr": "0.9000"
+      },
+      "VATS": {
+        "fmodmenueffecthighlightpacolorb": "0.4100",
+        "fmodmenueffectpacolorg": "0.8200",
+        "fmodmenueffecthighlightpacolorg": "0.8200",
+        "fmodmenueffecthighlightcolorg": "1.0000",
+        "fmodmenueffecthighlightpacolorr": "1.0000",
+        "fmodmenueffectpacolorb": "0.4100",
+        "fmodmenueffectpacolorr": "1.0000",
+        "fmodmenueffecthighlightcolorb": "0.0824",
+        "fmodmenueffecthighlightcolorr": "0.0706",
+        "fmodmenueffectcolorb": "0.4200",
+        "fmodmenueffectcolorg": "0.9900",
+        "fmodmenueffectcolorr": "0.4900"
+      },
+      "MAIN": {
+        "fskycellreffadedistance": "150000.0000",
+        "fhudopacity": "0.8500",
+        "bcrosshairenabled": "0",
+        "bsaveonpause": "1",
+        "bsaveontravel": "1",
+        "bsaveonwait": "1",
+        "bsaveonrest": "1",
+        "fironsightsfovrotatemult": "1.0000"
+      },
+      "LightingShader": {
+        "bscreenspacesubsurfacescattering": "1",
+        "bscreenspacereflections": "1"
+      },
+      "General": {
+        "bgamepadenable": "1",
+        "bpipboycompanionenabled": "0",
+        "istorymanagerloggingevent": "-1",
+        "benablestorymanagerlogging": "0",
+        "ugridstoload": "5",
+        "bshowdownloadanniversarycontent": "1",
+        "bfreebiesseen": "1",
+        "bincludedcontentmessageseen": "1",
+        "bupsellowned": "0",
+        "uimarketplaceupdatedhash": "4294967295"
+      },
+      "Interface": {
+        "bdialoguesubtitles": "0",
+        "bgeneralsubtitles": "0",
+        "ihudcolorb": "240",
+        "bdialoguecameraenable": "1",
+        "ihudcolorg": "235",
+        "ihudcolorr": "235",
+        "bshowcompass": "1",
+        "uhudactiveeffectwidget": "2"
+      },
+      "Controls": {
+        "fmouseheadingsensitivity": "0.0038",
+        "fgamepadheadingsensitivity": "0.6667",
+        "balwaysrunbydefault": "1",
+        "binvertyvalues": "0",
+        "bgamepadrumble": "1",
+        "fpitchspeedratio": "1.0000",
+        "fmouseheadingxscale": ".0210",
+        "fmouseheadingyscale": ".0210",
+        "fmouseheadingnormalizemax": "100.0000",
+        "fironsightspitchspeedratio": "1.0000",
+        "bforceignoresmoothness": "1"
+      },
+      "GamePlay": {
+        "idifficulty": "2",
+        "bshowfloatingquestmarkers": "1",
+        "bshowquestmarkers": "1",
+        "bcheckformissingcontentonstartup": "1"
+      },
+      "Particles": {
+        "imaxdesired": "750"
+      },
+      "SaveGame": {
+        "fautosaveeveryxmins": "10.0000"
+      },
+      "AudioMenu": {
+        "faudiomastervolume": "0.2355",
+        "uid6": "150997059",
+        "fval3": "0.6500",
+        "uid5": "150997057",
+        "fval7": "1.0000",
+        "uid7": "419605785",
+        "fval6": "1.0000",
+        "fval4": "0.6500",
+        "fval5": "1.0000",
+        "uid4": "138006",
+        "uid3": "1007612",
+        "fval2": "1.0000",
+        "uid2": "94881",
+        "fval1": "0.0000",
+        "uid1": "466532",
+        "fval0": "0.6500",
+        "uid0": "554685"
+      },
+      "Water": {
+        "busewaterdisplacements": "1",
+        "busewaterrefractions": "1",
+        "busewaterreflections": "1",
+        "busewaterdepth": "1"
+      },
+      "TerrainManager": {
+        "ftreeloaddistance": "75000.0000",
+        "fblockmaximumdistance": "250000.0000",
+        "fblocklevel2distance": "110000.0000",
+        "fblocklevel1distance": "90000.0000",
+        "fblocklevel0distance": "60000.0000",
+        "fsplitdistancemult": "1.5000",
+        "bshowlodineditor": "0"
+      },
+      "Grass": {
+        "fgrassstartfadedistance": "7000.0000",
+        "fgrassminstartfadedistance": "400.0000",
+        "fgrassmaxstartfadedistance": "10000.0000"
+      },
+      "Decals": {
+        "umaxdecals": "250",
+        "bdecals": "1",
+        "umaxskindecalsperactor": "40",
+        "umaxskindecals": "50",
+        "bskinneddecals": "1",
+        "fdecallod0": "1500.0000",
+        "fdecallifetime": "800.0000"
+      },
+      "LOD": {
+        "flodfadeoutmultskycell": "1.0000",
+        "flodfadeoutmultobjects": "30.0000",
+        "flodfadeoutmultitems": "10.0000",
+        "flodfadeoutmultactors": "15.0000"
+      },
+      "NVHBAO": {
+        "benable": "1",
+        "fdetailao": "0.6500",
+        "fcoarseao": "1.0000",
+        "bblurenable": "1",
+        "bbackgroundaoenable": "1",
+        "fbackgroundaoviewdepth": "750.0000",
+        "fdepththresholdsharpness": "100.0000",
+        "fdepththresholdmaxviewdepth": "500.0000",
+        "idepthclampmodeenum": "0",
+        "bdepththresholdenable": "0",
+        "fblursharpnessprofilebackgroundviewdepth": "1.0000",
+        "fblursharpnessprofileforegroundviewdepth": "0.0000",
+        "fblursharpnessprofileforegroundsharpnessscale": "4.0000",
+        "bblursharpnessprofileenable": "0",
+        "fblursharpness": "16.0000",
+        "iblurradiusenum": "1",
+        "fpowerexponent": "2.5000",
+        "fbias": "0.1000",
+        "fradius": "0.6500"
+      },
+      "NVFlex": {
+        "iquality": "0",
+        "bnvflexenable": "0",
+        "imaxneighbors2": "64",
+        "imaxneighbors0": "32",
+        "imaxparticles2": "32768",
+        "imaxneighbors1": "48",
+        "imaxparticles1": "16000",
+        "imaxparticles0": "6000",
+        "fkillradius2": "4000.0000",
+        "fkillradius1": "3000.0000",
+        "fkillradius0": "2000.0000",
+        "bnvflexdrawdebris": "1",
+        "bnvflexinstancedebris": "1"
+      },
+      "BlurShaderHDR": {
+        "bdohighdynamicrange": "0"
+      },
+      "BlurShader": {
+        "buseblurshader": "0"
+      },
+      "Launcher": {
+        "ulastaspectratio": "1"
+      },
+      "Bethesda.net": {
+        "upersistentuuiddata1": "60247894",
+        "upersistentuuiddata2": "2688535751",
+        "upersistentuuiddata3": "1175760449",
+        "upersistentuuiddata0": "2480530916"
+      },
+      "CreationsMenu": {
+        "bmusicon": "1"
+      }
+    }
+  },
+  "engine_subsystem_domains": {
+    "Display & Graphics": {
+      "iPresentInterval": "V-Sync toggle (1 = locked to monitor refresh or 60Hz, 0 = uncapped)",
+      "bDeferredShadowing": "Screen-space deferred shadow calculations",
+      "fShadowLODMaxStartFade": "Maximum shadow draw distance boundary",
+      "iSize W / iSize H": "Render resolution"
+    },
+    "Physics & Havok": {
+      "fMaxTime": "Base Havok physics timestep (0.01666667 = 60 FPS baseline; above 60 causes fast-forward without HighFPSPhysicsFix)",
+      "fMaxTimeComplex": "Havok complex collision physics delta"
+    },
+    "Papyrus Virtual Machine": {
+      "fUpdateBudgetMS": "Execution time slice per frame allocated to Papyrus (default 1.2ms; raising too high stalls render thread)",
+      "fExtraTaskletBudgetMS": "Background thread budget for script tasklets (default 1.2ms)",
+      "iMinMemoryPageSize": "Papyrus stack memory page minimum allocation (default 128 bytes)",
+      "iMaxMemoryPageSize": "Papyrus stack memory page maximum allocation (default 512 bytes)"
+    },
+    "General & Cell Streaming": {
+      "uGridsToLoad": "Grid radius of active cells loaded around the player (default 5 = 25 cells; 7 = 49 cells causes script quest desync)",
+      "uInterior Cell Buffer": "Number of interior cell buffers kept resident in RAM (default 3)",
+      "uExterior Cell Buffer": "Number of exterior cell buffers kept resident in RAM (default 36)",
+      "bUseThreadedAI": "Multithreaded AI actor simulation toggle"
+    },
+    "Archive & Loose File Loading": {
+      "bInvalidateOlderFiles": "Forces engine to prioritize loose files in Data/ over BA2 archives (1 = required for modding)",
+      "sResourceDataDirsFinal": "Path string override for loose resource directories"
+    }
+  }
+}

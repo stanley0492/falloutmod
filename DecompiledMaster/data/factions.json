@@ -1,0 +1,9123 @@
+[
+  {
+    "edid": "AO_SuspicionFaction",
+    "formid": "0x00079772",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "AlienFaction",
+    "formid": "0x001F6113",
+    "name": "\ufffd&\u0003",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "AnimalFriend01Faction",
+    "formid": "0x00052407",
+    "name": "",
+    "relations_count": 7,
+    "relations": [
+      {
+        "target_faction_fid": "0x00153513",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000B3D82",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000267BF",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00028670",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00020B89",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001D15B",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00031B22",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "AnimalFriend02Faction",
+    "formid": "0x00052408",
+    "name": "",
+    "relations_count": 7,
+    "relations": [
+      {
+        "target_faction_fid": "0x00153513",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000B3D82",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000267BF",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00028670",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00020B89",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001D15B",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00031B22",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "Arena_Fight_Faction",
+    "formid": "0x00020753",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00020753",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "Arena_Rank_Faction",
+    "formid": "0x0004E644",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "Arena_RingMaster_Dialogue_Faction",
+    "formid": "0x0004D116",
+    "name": "\u0214\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BloatflyFaction",
+    "formid": "0x000EDCE3",
+    "name": "\u007f\ufffd\u0001",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E5F60",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000EDCE3",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "BloodbugFaction",
+    "formid": "0x000EDCE2",
+    "name": "\ufffd \u0002",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E5F60",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000EDCE2",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "BoS100FeralGhoulFaction",
+    "formid": "0x00091895",
+    "name": "o\ufffd\u0001",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x00077C6C",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00091895",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0005DE41",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "BoS100FightFaction",
+    "formid": "0x001B513D",
+    "name": "C\t\u0003",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001B513D",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "BoS101POIFaction",
+    "formid": "0x001A7BCE",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001A7BCE",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "BoS201TempNPCFaction",
+    "formid": "0x00152697",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoS302DanseFaction",
+    "formid": "0x0003A5F3",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003A5F9",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0003A5F3",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "BoS302RobotsFaction",
+    "formid": "0x0003A5F9",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0003A5F9",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0003A5F3",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "BoS304EscortFaction",
+    "formid": "0x001AC002",
+    "name": "U\u0006\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSAirportDialogueFaction",
+    "formid": "0x001AC336",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSAttackingRailroadFaction",
+    "formid": "0x0019E9A6",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0019E9A6",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "BoSBarracksScribesFaction",
+    "formid": "0x0015267E",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSBridgeLancersFaction",
+    "formid": "0x0016CC7B",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSDanseBoSEnemyFaction",
+    "formid": "0x001AC452",
+    "name": "Z\u0003\u0003",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0005DE41",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "BoSDeckScribesFaction",
+    "formid": "0x000A93D8",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSEngineeringScribeConvFaction",
+    "formid": "0x00153569",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSGantryScribesFaction",
+    "formid": "0x0019EAFC",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSGenericNPCFaction",
+    "formid": "0x001479C1",
+    "name": "\f\ufffd\u0001",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003C5A6",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0005DE41",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "BoSInitiateClarkeFaction",
+    "formid": "0x000BC0F7",
+    "name": "(\ufffd\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSLabScribeFaction",
+    "formid": "0x00152BFB",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSM01_BrandisFaction",
+    "formid": "0x000B3D7D",
+    "name": ".\ufffd\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSMessOfficerFaction",
+    "formid": "0x001526A9",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSPatrollerConvoFaction",
+    "formid": "0x00152BFC",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSPlayerCantUseFaction",
+    "formid": "0x001E2342",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSPrimeScribesFaction",
+    "formid": "0x00056925",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSPrydwenSpecialCombatFaction",
+    "formid": "0x00152AEC",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00152AEC",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "BoSScienceScribeConvFaction",
+    "formid": "0x0015356A",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSSoldierConvFaction",
+    "formid": "0x0015356B",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSSquireFaction",
+    "formid": "0x0014EB44",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSVendorCadeFaction",
+    "formid": "0x0006A396",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoSVendorTeaganFaction",
+    "formid": "0x0006A397",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BoundCaptiveFaction",
+    "formid": "0x00058610",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BrahminFaction",
+    "formid": "0x00114A64",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BrotherhoodofSteelFaction",
+    "formid": "0x0005DE41",
+    "name": "h\ufffd\u0001",
+    "relations_count": 11,
+    "relations": [
+      {
+        "target_faction_fid": "0x00083B31",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x00148B89",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00135779",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x001AC452",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x001479C1",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0017BB92",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0017958E",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00175F2C",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0014661B",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0003C5A6",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0005DE41",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "BugFaction",
+    "formid": "0x00028670",
+    "name": "\ufffd9\u0002",
+    "relations_count": 5,
+    "relations": [
+      {
+        "target_faction_fid": "0x00178A61",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x00052408",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00052407",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00028670",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "BunkerHillBoSFaction",
+    "formid": "0x000EF225",
+    "name": "",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x000EF226",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x000EF224",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000EF225",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "BunkerHillFF03PrisonerFaction",
+    "formid": "0x0012544B",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BunkerHillGenericNPCFaction",
+    "formid": "0x0005FD58",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "BunkerHillInstituteFaction",
+    "formid": "0x000EF224",
+    "name": "",
+    "relations_count": 5,
+    "relations": [
+      {
+        "target_faction_fid": "0x0005E558",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000EF225",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x000EF226",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x000EF224",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "BunkerHillRRFaction",
+    "formid": "0x000EF226",
+    "name": "",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x000EF224",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x000EF225",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x000EF226",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "CC_PetDogFaction",
+    "formid": "0x0024A157",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_ChatWithNPCFaction_Cait",
+    "formid": "0x00176055",
+    "name": "\u06f3\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_ChatWithNPCFaction_Codsworth",
+    "formid": "0x00176056",
+    "name": "\u001fc\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_ChatWithNPCFaction_Curie",
+    "formid": "0x0016FBC5",
+    "name": "\ufffdN\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_ChatWithNPCFaction_Danse",
+    "formid": "0x00176057",
+    "name": "\u0006\ufffd\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_ChatWithNPCFaction_Deacon",
+    "formid": "0x00176058",
+    "name": "\ufffd\ufffd\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_ChatWithNPCFaction_Hancock",
+    "formid": "0x00176059",
+    "name": "6L\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_ChatWithNPCFaction_MacCready",
+    "formid": "0x0017605A",
+    "name": "AV\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_ChatWithNPCFaction_Piper",
+    "formid": "0x0017605B",
+    "name": "\ufffd\u0000\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_ChatWithNPCFaction_Preston",
+    "formid": "0x0017605C",
+    "name": "*;\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_ChatWithNPCFaction_Strong",
+    "formid": "0x0017605D",
+    "name": "\ufffdH\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_ChatWithNPCFaction_Valentine",
+    "formid": "0x0017605E",
+    "name": "o\n\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_ChatWithNPCFaction_X688",
+    "formid": "0x0017605F",
+    "name": ";;\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_CompanionInSceneFaction",
+    "formid": "0x00249D44",
+    "name": "\ufffdd\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_CurieScanFaction",
+    "formid": "0x0016FBC4",
+    "name": "W\ufffd\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_DeaconGiveInfoFaction",
+    "formid": "0x001703DC",
+    "name": "\u0001b\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_PiperDiscountFaction",
+    "formid": "0x00184E59",
+    "name": "7|\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_RacialCommentsFaction_Codsworth",
+    "formid": "0x0018310D",
+    "name": "#\ufffd\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_RacialCommentsFaction_Hancock",
+    "formid": "0x0018310E",
+    "name": "OB\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_RacialCommentsFaction_Strong",
+    "formid": "0x0018310A",
+    "name": "\u000f\ufffd\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_RacialCommentsFaction_Valentine",
+    "formid": "0x0018310B",
+    "name": "\ufffd^\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CIS_RacialCommentsFaction_X6",
+    "formid": "0x0018310C",
+    "name": "K\u0001\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CZOwnerFaction",
+    "formid": "0x001388D2",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CZRaiderFaction",
+    "formid": "0x000AC57B",
+    "name": "g\ufffd\u0002",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000AC57B",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "CZ_BystanderDialogueFaction",
+    "formid": "0x001388CF",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CZ_CombatantFaction",
+    "formid": "0x00247303",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x00247303",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00117D52",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "CZ_CrimeFaction",
+    "formid": "0x0010699F",
+    "name": "\ufffdg\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CZ_DialogueFaction",
+    "formid": "0x000D0144",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CZ_ExteriorGuardDialogueFaction",
+    "formid": "0x0013CB63",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CZ_Faction",
+    "formid": "0x00117D52",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x00247303",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000C73DE",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00117D52",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "CZ_SpecialCombatFaction",
+    "formid": "0x001069A5",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001069A5",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "CZ_TommyCaitFaction",
+    "formid": "0x000C73DE",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000C73DE",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00117D52",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "CZ_TommyCaitPlayerAllyFaction",
+    "formid": "0x00210E26",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "CZ_VendorBarFaction",
+    "formid": "0x00097F59",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CabotHouseEmogeneBedroomFaction",
+    "formid": "0x00019BF1",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CabotHouseJackCabotBedroomFaction",
+    "formid": "0x00019BF2",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CabotHouseLabFaction",
+    "formid": "0x0002D56E",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CabotHouseMasterBedroomFaction",
+    "formid": "0x00019BF0",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CambridgeDrifterFaction",
+    "formid": "0x000C3C55",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00031B22",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "Cambridge_ScienceCenterVendorFaction",
+    "formid": "0x001AC6E1",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CaptiveFaction",
+    "formid": "0x0003E0C8",
+    "name": "\u007fG\u0002",
+    "relations_count": 28,
+    "relations": [
+      {
+        "target_faction_fid": "0x000E0762",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0002B746",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001D15B",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x001B4590",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0019DEF1",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00083B31",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00058305",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0013101D",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0005E558",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00083AD0",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00058304",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00123A16",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00058303",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00077C6C",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000C518D",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00091895",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00031B22",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000BBF88",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0011EA70",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001CBED",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000267BF",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0002689D",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00028FD6",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00022B31",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0002FB84",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00028670",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "CaravanFaction",
+    "formid": "0x00130B7B",
+    "name": "\u001a!\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00130B7B",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "CaravanGuardFaction",
+    "formid": "0x00130FAC",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00130FAC",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "CaravanLeaderFaction",
+    "formid": "0x001328B9",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001328B9",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "CaravanVendorCarlaFaction",
+    "formid": "0x001679C8",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CaravanVendorCricketFaction",
+    "formid": "0x001679CA",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CaravanVendorDocWeathersFaction",
+    "formid": "0x001679D1",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CaravanVendorLucasFaction",
+    "formid": "0x001679CE",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ChildrenOfAtomFaction",
+    "formid": "0x0002FB84",
+    "name": "",
+    "relations_count": 5,
+    "relations": [
+      {
+        "target_faction_fid": "0x00090861",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0008CCED",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00052507",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0002FB84",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "ChildrenOfAtomFriendFaction",
+    "formid": "0x00052507",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0002FB84",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "CompanionCrimeFaction_Cait",
+    "formid": "0x002494F5",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionCrimeFaction_Codsworth",
+    "formid": "0x002494F6",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionCrimeFaction_Curie",
+    "formid": "0x002494F7",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionCrimeFaction_Danse",
+    "formid": "0x002494F8",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionCrimeFaction_Deacon",
+    "formid": "0x002494F9",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionCrimeFaction_Hancock",
+    "formid": "0x002494FA",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionCrimeFaction_MacCready",
+    "formid": "0x002494FB",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionCrimeFaction_Piper",
+    "formid": "0x002494FC",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionCrimeFaction_Preston",
+    "formid": "0x002494FD",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionCrimeFaction_Strong",
+    "formid": "0x002494FE",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionCrimeFaction_Valentine",
+    "formid": "0x002494FF",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionCrimeFaction_X6-88",
+    "formid": "0x00249500",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionIgnoreCrimeFaction_All",
+    "formid": "0x002495D0",
+    "name": "Ka\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionIgnoreCrimeFaction_Cait",
+    "formid": "0x002495C4",
+    "name": "Oa\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionIgnoreCrimeFaction_Codsworth",
+    "formid": "0x002495C5",
+    "name": "Qa\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionIgnoreCrimeFaction_Curie",
+    "formid": "0x002495C6",
+    "name": "La\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionIgnoreCrimeFaction_Danse",
+    "formid": "0x002495C7",
+    "name": "Ca\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionIgnoreCrimeFaction_Deacon",
+    "formid": "0x002495C8",
+    "name": "Na\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionIgnoreCrimeFaction_Hancock",
+    "formid": "0x002495C9",
+    "name": "Aa\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionIgnoreCrimeFaction_MacCready",
+    "formid": "0x002495CA",
+    "name": "Ha\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionIgnoreCrimeFaction_Piper",
+    "formid": "0x002495CB",
+    "name": "Ma\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionIgnoreCrimeFaction_Preston",
+    "formid": "0x002495CC",
+    "name": "Ja\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionIgnoreCrimeFaction_Strong",
+    "formid": "0x002495CD",
+    "name": "@a\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionIgnoreCrimeFaction_Valentine",
+    "formid": "0x002495CE",
+    "name": ">a\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionIgnoreCrimeFaction_X6-88",
+    "formid": "0x002495CF",
+    "name": "Ea\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionsNeverConsiderMurderFaction",
+    "formid": "0x0022118A",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CompanionsNeverConsiderMurderFaction_Danse",
+    "formid": "0x002492BC",
+    "name": "\u001ba\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CovenantFaction",
+    "formid": "0x00062030",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x000F0C6A",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00062030",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00074794",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "CovenantFactionGenericNPCs",
+    "formid": "0x000D4D9C",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00074794",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "CovenantFactionMurphies",
+    "formid": "0x000890C0",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CovenantHQSecurityFaction",
+    "formid": "0x00074794",
+    "name": "",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x000D4D9C",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00074794",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00062030",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "CreatureFaction",
+    "formid": "0x00022B31",
+    "name": "\ufffds\u0002",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001CBED",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00022B31",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "CrimeBobbisPlace",
+    "formid": "0x0018BB4F",
+    "name": "\ufffd\ufffd\u0001",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001324C9",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "CrimeCabotHouse",
+    "formid": "0x00047EBD",
+    "name": "\ufffdk\u0002",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0004B28F",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00047EBD",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "CrimeConcordArea",
+    "formid": "0x0001D566",
+    "name": "\ufffdi\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CrimeCovenant",
+    "formid": "0x000F0C6A",
+    "name": "\ufffd\ufffd\u0001",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00062030",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "CrimeDiamondCity",
+    "formid": "0x00002CB4",
+    "name": "\ufffd\u000f\u0002",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0017CD64",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x00002F65",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00083900",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "CrimeGoodneighbor",
+    "formid": "0x000228A8",
+    "name": "4y\u0002",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000E1ACC",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00083900",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "CrimeInstitute",
+    "formid": "0x000A95E6",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "CrimeInstituteExterior",
+    "formid": "0x0024903B",
+    "name": "\ufffd`\u0003",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0005E558",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "CrimeMS07cEddieWinterFaction",
+    "formid": "0x0022BC1E",
+    "name": "\ufffdE\u0003",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0014BF23",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "CrimeRailroadHQ",
+    "formid": "0x000BDAAA",
+    "name": "vD\u0001",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E742F",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000994F6",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00061BE6",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "CrimeVault81",
+    "formid": "0x000581B3",
+    "name": "\ufffd\ufffd\u0001",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000581B3",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0004F4A4",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "CurieFaction",
+    "formid": "0x00153514",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00153513",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "CurrentCompanionFaction",
+    "formid": "0x00023C01",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x00023C01",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0014661B",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN001_TurretStartFaction",
+    "formid": "0x000FEB54",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000FEB54",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN011CuratorGivensFaction",
+    "formid": "0x00090861",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x00090861",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00052507",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0002FB84",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "DN011SecurityFaction",
+    "formid": "0x000FF404",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000FF404",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN015_DirectorFaction",
+    "formid": "0x00028FB2",
+    "name": "",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x00028FB1",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00028FB4",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00028FB0",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00028FB3",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "DN015_GhoulResearcherFaction",
+    "formid": "0x00028FB1",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x00028FB3",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00028FB0",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "DN015_RobotFaction",
+    "formid": "0x00028FB0",
+    "name": "",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00028FB4",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00028FB2",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00028FB1",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "DN015_TurretOfficeFaction",
+    "formid": "0x00028FB4",
+    "name": "",
+    "relations_count": 5,
+    "relations": [
+      {
+        "target_faction_fid": "0x00028FB4",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00028FB3",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00028FB2",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00028FB0",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN015_TurretResearchFaction",
+    "formid": "0x00028FB3",
+    "name": "",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00028FB4",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00028FB0",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00028FB1",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "DN017_CrimeFactionArcjet",
+    "formid": "0x00248414",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN019CultistFaction",
+    "formid": "0x000C518D",
+    "name": "\u000bs\u0001",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000BBF88",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN019CultistLeader01",
+    "formid": "0x002470B5",
+    "name": "\ufffdW\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN019CultistLeader02",
+    "formid": "0x002470B6",
+    "name": "\ufffdW\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN019CultistLeader03",
+    "formid": "0x002470B7",
+    "name": "\ufffdW\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN019CultistLeaderFaction",
+    "formid": "0x0019DEF1",
+    "name": "\u0112\u0002",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000BBF88",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN028_BloodbugFaction",
+    "formid": "0x0007E1BD",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0019A782",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0007E1BD",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0007E1BC",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN028_RaiderBossRoomFaction",
+    "formid": "0x0019A782",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0019A782",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0007E1BC",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0007E1BD",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN028_RaiderFaction",
+    "formid": "0x0007E1BC",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0019A782",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0007E1BC",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0007E1BD",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN029ScavengerAttackFaction",
+    "formid": "0x000AC5F7",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0008C9DB",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x000AC5F7",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0008C9DA",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN035_EasyCityDownsRaiderFaction",
+    "formid": "0x001AC2B2",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN035_RoboRaceLeaderFaction",
+    "formid": "0x000EF40E",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x000EF40E",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001CBED",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000EF3F9",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN035_RoboRacerFaction",
+    "formid": "0x000EF3F9",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x000EF3F9",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000EF40E",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001CBED",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN036PhyllisFaction",
+    "formid": "0x00026DCF",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN047ChemLabWorkerFaction",
+    "formid": "0x000F9341",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000F9341",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00077C6C",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN049BakeryClerkFaction",
+    "formid": "0x00157ACE",
+    "name": "[\ufffd\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN049BakeryFaction",
+    "formid": "0x000E7B5C",
+    "name": "\u0005\ufffd\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000E7B5C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN049BowlingAlleyFaction",
+    "formid": "0x000E933D",
+    "name": "5\ufffd\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000E933D",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN049DinerClerkFaction",
+    "formid": "0x00157B8A",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN049DinerFaction",
+    "formid": "0x000E8D5D",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000E8D5D",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN049DirectorFaction",
+    "formid": "0x000E990D",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000E990D",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN049FallonsClerkFaction",
+    "formid": "0x000E8D7B",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN049FallonsFaction",
+    "formid": "0x000E8D4E",
+    "name": "2\ufffd\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000E8D4E",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN049MaddensChampFaction",
+    "formid": "0x001AC2B4",
+    "name": "z\u0001\u0003",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001AC2B4",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN049MaddensClerkFaction",
+    "formid": "0x000E5275",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN049MaddensFaction",
+    "formid": "0x000E5251",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000E5251",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN049OutletClerkFaction",
+    "formid": "0x00157A91",
+    "name": "l\ufffd\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN049OutletFaction",
+    "formid": "0x000E8D59",
+    "name": "\u0003\ufffd\u0002",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x000E8D59",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000E8E74",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000EAC9C",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN049OutletGutsyDemoModelsFaction",
+    "formid": "0x000EAC9C",
+    "name": "\u000e\ufffd\u0002",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000EAC9C",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000E8D59",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN049OutletHandyDemoModelsFaction",
+    "formid": "0x000E8E74",
+    "name": "I\ufffd\u0002",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000E8E74",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000E8D59",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN049RobotFaction",
+    "formid": "0x00046D1A",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN049SecurityFaction",
+    "formid": "0x000FD52F",
+    "name": "E\ufffd\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000FD52F",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN049SlocumFaction",
+    "formid": "0x000E7AFD",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000E7AFD",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN049SlocumsClerkFaction",
+    "formid": "0x00157AC6",
+    "name": "\u0017\ufffd\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN053_VirgilFaction",
+    "formid": "0x000ADDF7",
+    "name": "\ufffdX\u0002",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000ADDF7",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN054AtomCatFaction",
+    "formid": "0x00048641",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x00048641",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN054AtomCatPowerArmorVendorFaction",
+    "formid": "0x00056902",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN054AtomCatVendorFaction",
+    "formid": "0x000568FF",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN058RaiderFaction",
+    "formid": "0x0002CB62",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0002CB62",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN072_GlowingOneFaction",
+    "formid": "0x0008CCED",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0002FB84",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "DN078TunnelWorkerFaction",
+    "formid": "0x00056DE6",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00056DE6",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN079_CanneryFaction",
+    "formid": "0x0003EFAE",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003EFAE",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0019EC30",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN079_CanneryTurretFaction",
+    "formid": "0x0019EC30",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0019EC30",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0003EFAE",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN079_VendorFaction",
+    "formid": "0x0003EFB3",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN083_BarneyFaction",
+    "formid": "0x00128216",
+    "name": "",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x0002689D",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x000CFB81",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00128216",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN083_IntroBarneyFaction",
+    "formid": "0x000CFB81",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x00128216",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000CFB82",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x000CFB81",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN083_IntroMirelurkFaction",
+    "formid": "0x000CFB82",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000CFB81",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN084_MassFusionDescentOwnerFaction",
+    "formid": "0x000F5B6C",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN084_MassFusionLabSecurityFaction",
+    "formid": "0x0014EED8",
+    "name": "|[\u0001",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0014EED8",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN094_RobotFaction",
+    "formid": "0x0007EE3F",
+    "name": "<M\u0002",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0002689D",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0007EE3F",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "DN101CrimeFaction",
+    "formid": "0x0023F742",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN101_PickmanFaction",
+    "formid": "0x000F5C3A",
+    "name": "\u0014\ufffd\u0001",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001CBED",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x000F17C1",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "DN101_RaiderFaction",
+    "formid": "0x000F17C1",
+    "name": "\ufffd6\u0001",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x000F5C3A",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x000F17C1",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN102_FrenziedGunnerFaction",
+    "formid": "0x000AF8D9",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN116MilitaryBotFaction",
+    "formid": "0x000A4CE3",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "DN121_JakeFaction",
+    "formid": "0x0002AAB6",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0002AAB5",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN121_SaugusBossRoomFaction",
+    "formid": "0x0002AAB5",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0002AAB5",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0002AAB6",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN123_NessMercenaryFaction",
+    "formid": "0x0004B36B",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0004B36B",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN123_SkylanesRaiderFaction",
+    "formid": "0x0012758C",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0012758C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN129_RobotFaction",
+    "formid": "0x000D5225",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00077C6C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "DN130TempRailroadFaction",
+    "formid": "0x0003C5A6",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0005DE41",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "DN131_Commons_RetreatTriggerExclusionFaction",
+    "formid": "0x00019F7E",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN131_SwanFaction",
+    "formid": "0x000966B2",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DN136_ScientistFaction",
+    "formid": "0x0022D9EE",
+    "name": "\u000eG\u0003",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0022D9EE",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "DN136_ScientistFaction02",
+    "formid": "0x0022D9EF",
+    "name": "\ufffdG\u0003",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x00083B31",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0022D9EF",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "DN136_ScientistFaction03",
+    "formid": "0x0024800B",
+    "name": "\ufffdZ\u0003",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0024800B",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "DN136_ScientistFaction04",
+    "formid": "0x00249966",
+    "name": "8c\u0003",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x00249967",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x00249966",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN136_ScientistFaction05",
+    "formid": "0x00249967",
+    "name": "#c\u0003",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x00249966",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x00249967",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN157MirelurkFaction",
+    "formid": "0x001648F0",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x001648F0",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001CBED",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0002689D",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DN166AtomFaction",
+    "formid": "0x00144047",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00144047",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DNFinancial_OpalFaction",
+    "formid": "0x00097199",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000975FC",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DNFinancial_OpalVendorFaction",
+    "formid": "0x000975FC",
+    "name": "|\ufffd\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00097199",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DanversFaction",
+    "formid": "0x0005A9AE",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DeaconForeshadowFaction",
+    "formid": "0x001A0416",
+    "name": "",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x00002F65",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001995B",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000E1ACC",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x001A0416",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DeathclawFaction",
+    "formid": "0x0001E722",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001CBED",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0001E722",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "DebugAODogmeatFindHostileSpecialFaction",
+    "formid": "0x0004928C",
+    "name": "Dq\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DebugJPAlwaysOfferServices",
+    "formid": "0x0017610C",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DialogueDoctorsFaction",
+    "formid": "0x0007925A",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DialogueMerchantsFaction",
+    "formid": "0x000792F2",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DiamondCityBoSEnvoyFaction",
+    "formid": "0x0017D883",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DiamondCityEnemyFaction",
+    "formid": "0x0017CD64",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00002CB4",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "DiamondCityMinutemenEnvoyFaction",
+    "formid": "0x0017D88A",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DiamondCityRailroadEnvoyFaction",
+    "formid": "0x0017D88F",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DiamondCitySynthEnvoyFaction",
+    "formid": "0x0017D880",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DisallowedCompanionFaction",
+    "formid": "0x00075D56",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndAllFaithsChapelFaction",
+    "formid": "0x00092013",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00092013",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DmndArturoHouseOwnerFaction",
+    "formid": "0x00064127",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00064127",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DmndBarPatronsFaction",
+    "formid": "0x00021D8C",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndCodmanOwnerFaction",
+    "formid": "0x0006A676",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0006A676",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DmndColonialTaphouseOwnerFaction",
+    "formid": "0x000C8667",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndCookeOwnerFaction",
+    "formid": "0x001994CE",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndDugoutInnOwnerFaction",
+    "formid": "0x00060C16",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndFarmerFaction",
+    "formid": "0x0002CB15",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndFisherFaction",
+    "formid": "0x0002CB14",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndGenericNPCFaction",
+    "formid": "0x00005818",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndHawthorneOwnerFaction",
+    "formid": "0x0006A683",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0006A683",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DmndLatimerOwnerFaction",
+    "formid": "0x0006A68C",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0006A68C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DmndMayorOfficeOwnerFaction",
+    "formid": "0x0006A699",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0006A699",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DmndMegaSurgeryOwnerFaction",
+    "formid": "0x00020B92",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndNoodlePatronFaction",
+    "formid": "0x00005816",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndPaulDarcyOwnerFaction",
+    "formid": "0x00140C34",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndPembrokeOwnerFaction",
+    "formid": "0x000644E1",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndPublickOwnerFaction",
+    "formid": "0x000644E5",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000644E5",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DmndSchoolChildrenFaction",
+    "formid": "0x00056614",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndSchoolhouseOwnerFaction",
+    "formid": "0x0006A60C",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0006A60C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DmndScienceCenterOwnerFaction",
+    "formid": "0x000C8666",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndSecurityFoughtMutants",
+    "formid": "0x0002B076",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndShoppersFaction",
+    "formid": "0x00058262",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndSuperSalonFaction",
+    "formid": "0x0006A69B",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0006A69B",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DmndSurplusOwnerFaction",
+    "formid": "0x000C865F",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndValentinesOwnerFaction",
+    "formid": "0x000C866B",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DmndWallAudienceFaction",
+    "formid": "0x00059AAB",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DogFaction",
+    "formid": "0x001C4030",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DogmeatFaction",
+    "formid": "0x0006E269",
+    "name": "<R\u0002",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0014661B",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001D15B",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "DomesticAnimalFaction",
+    "formid": "0x000330BB",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "DrumlinChemDealerFaction",
+    "formid": "0x00106A03",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00106A03",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "DrumlinDinerFaction",
+    "formid": "0x001069FD",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001069FD",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "EdwardDeeganFaction",
+    "formid": "0x0007B3F9",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "EyebotFaction",
+    "formid": "0x000EDCE5",
+    "name": "\ufffd\u0018\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000EDCE5",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "FFDiamondCity12HidingFaction",
+    "formid": "0x001CBF52",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "FFGoodneighbor07BobbiFaction",
+    "formid": "0x001324C9",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0018BB4F",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x001324C9",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "Farm01Faction",
+    "formid": "0x00155253",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00155253",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "Farm02Faction",
+    "formid": "0x00156A11",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x00190AE6",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00156A11",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "Farm02FactionBed",
+    "formid": "0x00190AE6",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00156A11",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "Farm03Faction",
+    "formid": "0x00156A1A",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00156A1A",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "Farm04Faction",
+    "formid": "0x00156A1B",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00156A1B",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "Farm05Faction",
+    "formid": "0x00156A1F",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00156A1F",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "Farm06Faction",
+    "formid": "0x00156A26",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00156A26",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "FarmDiscountFaction",
+    "formid": "0x0019FFC4",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "FarmFactionAbernathy",
+    "formid": "0x0006B4D4",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0006B4D4",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "FarmFactionFinch",
+    "formid": "0x0003F229",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003F229",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "FarmFactionGraygarden",
+    "formid": "0x0003F228",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003F228",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "FarmFactionSlog",
+    "formid": "0x0003F227",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003F227",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "FarmFactionWarwick",
+    "formid": "0x0003F22A",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003F22A",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000A274A",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "FarmVendorAbernathy",
+    "formid": "0x001091E6",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "FarmVendorFaction",
+    "formid": "0x00107ADD",
+    "name": "\ufffdx\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "FarmVendorFinch",
+    "formid": "0x001091E8",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "FarmVendorGraygarden",
+    "formid": "0x001091E9",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "FarmVendorSlog",
+    "formid": "0x001091E7",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "FarmVendorTheSlog",
+    "formid": "0x0014EB97",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "FarmVendorWarwick",
+    "formid": "0x001091E5",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "FarmerGenericChild",
+    "formid": "0x0018B88A",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "FarmerGenericDialogue",
+    "formid": "0x00155251",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "FeralGhoulFaction",
+    "formid": "0x00077C6C",
+    "name": "\ufffdh\u0002",
+    "relations_count": 8,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E5F60",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0018E8C0",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000F9341",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000D5225",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00091895",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000BC0F7",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x00077C6C",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "FilmoreCoupleBedFaction",
+    "formid": "0x001ADB56",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GenericBrawlFaction",
+    "formid": "0x000AC06B",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GenericBrawlPlayerAllyFaction",
+    "formid": "0x000ECA5F",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000ECA5F",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "GenericNPCFaction",
+    "formid": "0x000035DE",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GenericOwnershipFaction",
+    "formid": "0x0019B645",
+    "name": "M\u0004\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GhoulFaction",
+    "formid": "0x00028FD6",
+    "name": "\ufffd \u0002",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0002689D",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x000361D2",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00028FD6",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "GhoulNonFeralFaction",
+    "formid": "0x000361D2",
+    "name": "\ufffdb\u0002",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x000361D2",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0002689D",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x00028FD6",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "Ghoulish03PerkExclusionFaction",
+    "formid": "0x001D33E6",
+    "name": "r\u001a\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GlowingSeaChildrenFaction",
+    "formid": "0x00134270",
+    "name": "\ufffd?\u0002",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00134270",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "GoodneighborGenericNPCFaction",
+    "formid": "0x00023325",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GoodneighborGuardFaction",
+    "formid": "0x000E1ACC",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x001A0416",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000E1ACC",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000228A8",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "GoodneighborHotelRexfordOwnerFaction",
+    "formid": "0x000E1ACA",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GoodneighborMarowskiFaction",
+    "formid": "0x0008AF6C",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0008AF6C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "GoodneighborMemoryDenMiscPodOwnerFaction",
+    "formid": "0x001A0421",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001A0421",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "GoodneighborMemoryDenOwnerFaction",
+    "formid": "0x000E1ACE",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GoodneighborNPCShoppersFaction",
+    "formid": "0x00050729",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GoodneighborOldStateHouseOwnerFaction",
+    "formid": "0x000E1ACD",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GoodneighborOutsideMemoryDenOwner",
+    "formid": "0x001B19C7",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GoodneighborOutsideShack01Owner",
+    "formid": "0x001B19C9",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GoodneighborThirdRailOwnerFaction",
+    "formid": "0x000E1AD3",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GraygardenWorkIndoors",
+    "formid": "0x000FDEDF",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GraygardenWorkOutdoors",
+    "formid": "0x000FDEE0",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GuardFaction",
+    "formid": "0x000A179C",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "GunnerFaction",
+    "formid": "0x00058303",
+    "name": "\ufffd\u000b\u0002",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x0013101D",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00058303",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00106CA3",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "HandToHandNoPairedMoves",
+    "formid": "0x001CD02A",
+    "name": "v\u0014\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "HasBeenCompanionFaction",
+    "formid": "0x000A1B85",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000A1B85",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "HoldupFaction",
+    "formid": "0x000F8F07",
+    "name": "*f\u0001",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x000F8F07",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "HoldupFactionHostile",
+    "formid": "0x000F8F08",
+    "name": "9\ufffd\u0001",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000F8F07",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "ImmunityDeathclawIntimidate",
+    "formid": "0x00143A56",
+    "name": "\ufffdP\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "Inst301BossGuardFaction",
+    "formid": "0x000E73C6",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000E73C6",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "Inst301CourserFaction",
+    "formid": "0x000E73CB",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "Inst301GuardEnemyFaction",
+    "formid": "0x000E73CC",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000E73C6",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "Inst301PlayerEnemyFaction",
+    "formid": "0x000E73CA",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x000E73CB",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "Inst307_BrotherhoodofSteelScoutFaction",
+    "formid": "0x00175F2C",
+    "name": "l\ufffd\u0001",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0017BB92",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0005DE41",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00175F2C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "Inst307_BrotherhoodofSteelScoutVertibirdFaction",
+    "formid": "0x0017BB92",
+    "name": "{<\u0002",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x0017BB92",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0017958E",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0005DE41",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00175F2C",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "Inst307_BrotherhoodofSteelStopFiringFaction",
+    "formid": "0x0017958E",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0017BB92",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0005DE41",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "InstM03EnemyFaction",
+    "formid": "0x000BE800",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000BE801",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "InstM03GorillaFaction",
+    "formid": "0x000BE806",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x000C32D9",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0005E558",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x000BE801",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "InstM03GuardFaction",
+    "formid": "0x000C32D9",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000BE801",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "InstM03PlayerEnemyFaction",
+    "formid": "0x0013B091",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0013B091",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000BE801",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "InstM03RebelFaction",
+    "formid": "0x000BE801",
+    "name": "",
+    "relations_count": 5,
+    "relations": [
+      {
+        "target_faction_fid": "0x000BE801",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0013B091",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000C32D9",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000BE806",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x000BE800",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "InstituteCommonFurniture",
+    "formid": "0x001CB6BB",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "InstituteFaction",
+    "formid": "0x0005E558",
+    "name": "@g\u0001",
+    "relations_count": 8,
+    "relations": [
+      {
+        "target_faction_fid": "0x00167FB7",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00083B31",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000EF224",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000BE806",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0024903B",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0014661B",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0005E558",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "InstituteMaintenanceFaction",
+    "formid": "0x001C4E5C",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "InstituteMaintenanceSynthFaction",
+    "formid": "0x001F6B20",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "InstituteRefugeeFaction",
+    "formid": "0x00167FB7",
+    "name": "!\ufffd\u0002",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0005E558",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00167FB7",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00083B31",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "InstituteSynthFurniture",
+    "formid": "0x001CB6C1",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "JobBartenderFaction",
+    "formid": "0x000844A9",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "LatimerCrimeFaction",
+    "formid": "0x001E889D",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "LorenzoCabotFaction",
+    "formid": "0x0007B3F2",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0007B3F2",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MQ101RunnerRespawnFaction",
+    "formid": "0x00198B72",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MQ101RunnerRespawnFaction02",
+    "formid": "0x00198B73",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MQ101RunnerVoiceFaction",
+    "formid": "0x0019C8E1",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MQ101SpouseOwnerFaction",
+    "formid": "0x0019C057",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MQ101VertibirdRespawnFaction",
+    "formid": "0x0019CD0A",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MQ102CodsworthBugFaction",
+    "formid": "0x00178A61",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00028670",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "MQ102CodsworthDogFaction",
+    "formid": "0x0004DDF1",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0004DDF1",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "MQ102PrestonFaction",
+    "formid": "0x0001D6AD",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001D6AC",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "MQ102RaiderFaction",
+    "formid": "0x0001D6AC",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001D6AD",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "MQ102RaiderSurvivorFaction",
+    "formid": "0x0004D1EC",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0004D1EC",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MQ102SurvivorFaction",
+    "formid": "0x0006F3B5",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MQ104NickHatesTriggermanFaction",
+    "formid": "0x001B2CC0",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00083AD0",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "MQ104PlayerAllyFaction",
+    "formid": "0x00017C34",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MQ104TriggermanAllyFaction",
+    "formid": "0x0010C265",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00083AD0",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MQ105MemoryFaction",
+    "formid": "0x00108A30",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MQ105PlayerAllyFaction",
+    "formid": "0x000F949A",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MQ202AmariDoorOwnerFaction",
+    "formid": "0x0005202D",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MQ203NPCFaction",
+    "formid": "0x000D41A5",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MQ302RRZ1AllyFaction",
+    "formid": "0x00249CCB",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x00249CCB",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS01BulletFaction",
+    "formid": "0x00106CA3",
+    "name": "qn\u0001",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x000A9833",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00058303",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00106CA3",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS02ZaoFaction",
+    "formid": "0x0018E8C0",
+    "name": "T\ufffd\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00077C6C",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "MS04AJBodyguardFaction",
+    "formid": "0x00128CF5",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00128CF5",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS04AJFaction",
+    "formid": "0x00128CEF",
+    "name": "U\ufffd\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00128CEF",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS04KendraFaction",
+    "formid": "0x00128CF7",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00128CF7",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS04ShellyCrimeFaction",
+    "formid": "0x0024966F",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MS04SinjinFaction",
+    "formid": "0x000E0762",
+    "name": "\u0018\ufffd\u0001",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0002B746",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000E0762",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS04SinjinLastBattleFaction",
+    "formid": "0x0002B746",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0002B746",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000E0762",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS04SinjinPersonalFaction",
+    "formid": "0x001B4590",
+    "name": "\u0013\b\u0003",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x001B4590",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS04SmilingKatesPosseFaction",
+    "formid": "0x00186971",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00186971",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS04WayneDelancyFaction",
+    "formid": "0x00128CEA",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00128CEA",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS05PoppaDeathclawFaction",
+    "formid": "0x001685FF",
+    "name": "n\ufffd\u0001",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x001685FF",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS07cEddieWinterFaction",
+    "formid": "0x0014BF23",
+    "name": "6\u0001\u0002",
+    "relations_count": 5,
+    "relations": [
+      {
+        "target_faction_fid": "0x0022BC1E",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x002141AA",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x002141A9",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0014BF23",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "MS07cEddieWinterOwnerFaction",
+    "formid": "0x0022BC1F",
+    "name": "\"E\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MS07cNickFaction",
+    "formid": "0x002141AA",
+    "name": "v5\u0003",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0014BF23",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x002141A9",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "MS07cRaiderFaction",
+    "formid": "0x002141A9",
+    "name": "M9\u0003",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x0006E269",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x002141AA",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0014BF23",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "MS07cRaiderNoEE_Faction",
+    "formid": "0x002170E6",
+    "name": "\ufffd<\u0003",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x0006E269",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x002141AA",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0014BF23",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "MS09AmphitheaterFaction",
+    "formid": "0x000C1732",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MS09LorenzoRoomFriendsFaction",
+    "formid": "0x001A7341",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001A7341",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "MS09POIRaiderFaction",
+    "formid": "0x000BE952",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MS09SpecialCombatFaction",
+    "formid": "0x000EE4B8",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MS10RexFriendFaction",
+    "formid": "0x000F47ED",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000F47ED",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS10RexGoodmanFaction",
+    "formid": "0x000F0B7B",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000F0B7B",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS11IronsidesRobotsCrimeFaction",
+    "formid": "0x001A45A7",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x001A45A7",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0008C9DB",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "MS11IronsidesRobotsFaction",
+    "formid": "0x0008C9DB",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x001A45A7",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0008C9DB",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS11ScavengersNPCFaction",
+    "formid": "0x0008C9DA",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x000AC5F7",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00096EA3",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0008C9DA",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS11ScavengersOwnerFaction",
+    "formid": "0x00096EA3",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0008C9DA",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00096EA3",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS11ScavengersRogueFaction",
+    "formid": "0x00092AF6",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0008C9DB",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "MS13ColetteFaction",
+    "formid": "0x0008CA6C",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MS13ConfrontationCombatFaction",
+    "formid": "0x001D2776",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MS13SideA",
+    "formid": "0x000433C8",
+    "name": "\ufffd~\u0002",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000433C8",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000433CA",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "MS13SideB",
+    "formid": "0x000433CA",
+    "name": "\ufffd)\u0001",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000433C8",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x000433CA",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS13SpecialCombatFaction",
+    "formid": "0x000433CB",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MS13ThugFaction",
+    "formid": "0x00083900",
+    "name": "",
+    "relations_count": 5,
+    "relations": [
+      {
+        "target_faction_fid": "0x00083900",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00002F65",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000228A8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x00002CB4",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "MS13ThugPhotoEnemyFaction",
+    "formid": "0x0008B6EE",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MS13ThugPhotoFaction",
+    "formid": "0x0008B6ED",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0008B6ED",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0008B6EE",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "MS14BadGuyFaction",
+    "formid": "0x000E356E",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x000E356E",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000E83B7",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0001CBED",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "MS14VadimBeantownFaction",
+    "formid": "0x000E83B7",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001CBED",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "MS16DigGangFaction",
+    "formid": "0x0024755C",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0024755C",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS16TriggermanFaction",
+    "formid": "0x001C8728",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001C8728",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS17AmeliaCrimeFaction",
+    "formid": "0x00249670",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MS17HonestDanFaction",
+    "formid": "0x000786F1",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000786F1",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MS19Fugitive",
+    "formid": "0x0008B5F0",
+    "name": "\ufffd\ufffd\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MS19MoleRatFaction",
+    "formid": "0x00153513",
+    "name": "",
+    "relations_count": 5,
+    "relations": [
+      {
+        "target_faction_fid": "0x00031B22",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00153514",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x00052408",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00052407",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00153513",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MagnoliaAllyFaction",
+    "formid": "0x00181286",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00181286",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "Min02_MinutemenFaction",
+    "formid": "0x0022FEB3",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "Min02_MirelurkFaction",
+    "formid": "0x0022FEB2",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "Min03RonnieSandboxFaction",
+    "formid": "0x0005238B",
+    "name": "\u016f\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MinDefendCastleAttackerFaction",
+    "formid": "0x0018FBBC",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0018FBBC",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0018FBBD",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "MinDefendCastleDefenderFaction",
+    "formid": "0x0018FBBD",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0018FBBD",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0018FBBC",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "MinRadiantDialogueDisappointed",
+    "formid": "0x001ABC42",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MinRadiantDialogueFailure",
+    "formid": "0x001ABC45",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MinRadiantDialogueHopeful",
+    "formid": "0x001ABC43",
+    "name": "}\ufffd\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MinRadiantDialogueThankful",
+    "formid": "0x001ABC44",
+    "name": "\ufffd\u0005\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MinRadiantDialogueWorried",
+    "formid": "0x001ABC41",
+    "name": "5\u0001\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MinRadiantOwned01RaiderFaction",
+    "formid": "0x000A3775",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MinRadiantOwned04AttackerFaction",
+    "formid": "0x000E4792",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000337F3",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "MinRadiantOwned08RaiderFaction",
+    "formid": "0x00070516",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MinRadiantOwned09AttackerFaction",
+    "formid": "0x0005E5F8",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MinRadiantOwned10SpecialCombatFaction",
+    "formid": "0x00109DD8",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MinRadiantOwned11AttackerFaction",
+    "formid": "0x00153414",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MinVsInstEnricoFaction",
+    "formid": "0x00249985",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00249986",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "MinVsInstMinutemenFaction",
+    "formid": "0x00249986",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00249985",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "MinutemenDialogueFaction",
+    "formid": "0x0017E8A7",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MinutemenFaction",
+    "formid": "0x00068043",
+    "name": "\ufffdZ\u0002",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001D567",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0014661B",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00068043",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MinutemenRadiantNoForcegreet",
+    "formid": "0x00115CE7",
+    "name": "\ufffd\ufffd\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "MirelurkFaction",
+    "formid": "0x0002689D",
+    "name": "",
+    "relations_count": 8,
+    "relations": [
+      {
+        "target_faction_fid": "0x00128216",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x001E5F60",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x001648F0",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0007EE3F",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000361D2",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x00028FD6",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0002689D",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MoleRatFaction",
+    "formid": "0x00031B22",
+    "name": "",
+    "relations_count": 8,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E5F60",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00153513",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000C3C55",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0006E269",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00052408",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00052407",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00031B22",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "MutantHoundFaction",
+    "formid": "0x000948B4",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E5F60",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00058305",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000948B4",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "NPC11Scavengers",
+    "formid": "0x00096EA2",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "NonHostileFaction",
+    "formid": "0x0001D289",
+    "name": "%B\u0002",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001D289",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "POIDL030_VendorFaction",
+    "formid": "0x0022B4A5",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "POIJS011CatMerchantFaction",
+    "formid": "0x0023B858",
+    "name": "\ufffdO\u0003",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0023B858",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "POIJS011CatMerchantVendorFaction",
+    "formid": "0x00249862",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "POIRJ11Faction",
+    "formid": "0x001E810F",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E8110",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x001E810F",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "POIRJ11VendorFaction",
+    "formid": "0x001E8110",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E8110",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x001E810F",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "POISC06_Faction",
+    "formid": "0x001E1F40",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E1F41",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x001E1F40",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "POISC06_VendorFaction",
+    "formid": "0x001E1F41",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E1F40",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x001E1F41",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "POISC21_DogFaction",
+    "formid": "0x0020619D",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "POIWastelanderFaction",
+    "formid": "0x001C88A4",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ParsonsGuardFaction",
+    "formid": "0x0004B28F",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x00047EBD",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0004B28F",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "PeabodyFaction",
+    "formid": "0x0019E968",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x000A9833",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0019E968",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "PlayerAllyFaction",
+    "formid": "0x00106C30",
+    "name": "c\ufffd\u0001",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0014661B",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "PlayerEnemyFaction",
+    "formid": "0x00106C2F",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "PlayerFaction",
+    "formid": "0x0001C21C",
+    "name": "\ufffd\ufffd\u0002",
+    "relations_count": 42,
+    "relations": [
+      {
+        "target_faction_fid": "0x000ADDF7",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0011EA70",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0022D9EE",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0024755C",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00249CCB",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0002DFF0",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0019E968",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00188AE0",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00048641",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0008C9DB",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0005FEF7",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000CFB82",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00128216",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x002141A9",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0002B746",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00023C01",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0014EED8",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x00210E26",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00106C2F",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x00106C30",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0002CB62",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00106C31",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000F5C3A",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x000EF224",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000EF225",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000EF226",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000ECA5F",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0002DFEF",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x000F17C1",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000A4CE3",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0004B36B",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00068043",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000F949A",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00030BAC",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0007EE3F",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0006F3B5",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00017C34",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000BBF88",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0006E269",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000A1B85",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "PlayerFriendFaction",
+    "formid": "0x00106C31",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "PlayerNoHelloFaction",
+    "formid": "0x0003A29F",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "PotentialCompanionFaction",
+    "formid": "0x001EC1B9",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1B9",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "PotentialMinutemen",
+    "formid": "0x00068042",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "PrewarCultistFaction",
+    "formid": "0x000BBF88",
+    "name": "",
+    "relations_count": 6,
+    "relations": [
+      {
+        "target_faction_fid": "0x00123A16",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000C518D",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000BBF88",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0019DEF1",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "PrewarCultistGuardFaction",
+    "formid": "0x00123A16",
+    "name": "\t:\u0002",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000BBF88",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "PrydwenPlayerOwnerFaction",
+    "formid": "0x0023766F",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REAssaultFactionAttacker",
+    "formid": "0x000342D1",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000342D1",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000342D2",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "REAssaultFactionDefender",
+    "formid": "0x000342D2",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000342D2",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000342D1",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "REAssaultFactionFriend",
+    "formid": "0x0005894B",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0005894B",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "REAssaultSC07_FactionSpeakerFaction",
+    "formid": "0x0023D619",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REAssaultSC08_FactionSpeakerFaction",
+    "formid": "0x0023D618",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REAssaultSC09_FactionSpeakerFaction",
+    "formid": "0x0023D610",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REAssaultSC10_FactionSpeakerFaction",
+    "formid": "0x0023D61A",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REAssaultSC11_FactionSpeakerFaction",
+    "formid": "0x0023D615",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REAssaultSC12_FactionSpeakerFaction",
+    "formid": "0x0023D614",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REAssaultSC13_FactionSpeakerFaction",
+    "formid": "0x0023D61B",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REAssaultSC14_FactionSpeakerFaction",
+    "formid": "0x0023D613",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REAssaultSC15_FactionSpeakerFaction",
+    "formid": "0x0023D616",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REAssaultSC16_FactionSpeakerFaction",
+    "formid": "0x0023D611",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REAssaultSC17_FactionSpeakerFaction",
+    "formid": "0x0023D612",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REAssaultSC18_FactionSpeakerFaction",
+    "formid": "0x0023D61C",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REAssaultSC19_FactionSpeakerFaction",
+    "formid": "0x0023D617",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REAssaultSC20_FactionSpeakerFaction",
+    "formid": "0x0023D60F",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REBrahminVendorFaction",
+    "formid": "0x001A02BF",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001A02BF",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RECampKMK01CrimeFaction",
+    "formid": "0x002495A0",
+    "name": "Sa\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RECampKMK01Faction",
+    "formid": "0x0021BDF7",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0021BDF7",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RECampKMK02CrimeFaction",
+    "formid": "0x002495A1",
+    "name": "Ra\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RECampKMK02Faction",
+    "formid": "0x0021BDF6",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0021BDF6",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RECampLC01_CaptiveFaction",
+    "formid": "0x001905F1",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RECampLC01_CaptorFaction",
+    "formid": "0x001905F0",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001905F0",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RECampRJ02Faction",
+    "formid": "0x001ED5C3",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001ED5C3",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RECampRJ02_CrimeFaction",
+    "formid": "0x002473C0",
+    "name": "\ufffdW\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RECheckpointDialogueFaction",
+    "formid": "0x00183F2B",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RECheckpointFactionAttacker",
+    "formid": "0x000AC4FB",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000AC4FB",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000AC4FC",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "RECheckpointFactionDefender",
+    "formid": "0x000AC4FC",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000AC4FC",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000AC4FB",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "RECheckpointFactionFriend",
+    "formid": "0x000AC4FD",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000AC4FD",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "RECheckpointOwnerFaction",
+    "formid": "0x000A9833",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x00106CA3",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x0019E968",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "REChokepointCT02_MerchantFaction",
+    "formid": "0x0018A6D8",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0018A6D8",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "REChokepointCT02_MerchantVendorFaction",
+    "formid": "0x0018A6D9",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REChokepointKMK_COMNickFaction",
+    "formid": "0x0014FC41",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REChokepointMS13Faction",
+    "formid": "0x00084EB8",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00084EB8",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "REDialogueRescued",
+    "formid": "0x0002F126",
+    "name": "z>\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REDoctorVendorFaction",
+    "formid": "0x00192353",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REFarmerEnemy",
+    "formid": "0x0002E4EF",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0002E005",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "REFarmerFaction",
+    "formid": "0x0002E005",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0002E005",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "REGuardObjectFaction",
+    "formid": "0x00035E9A",
+    "name": "\ufffdW\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REIgnoreForCleanup",
+    "formid": "0x0005DDA8",
+    "name": "b\u0012\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REMantaManCrimeFaction",
+    "formid": "0x0024966E",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REMerchant01VendorFaction",
+    "formid": "0x0002F600",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REMerchant02Faction",
+    "formid": "0x0003D647",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003D647",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "REMerchant02VendorFaction",
+    "formid": "0x0003D63F",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REMerchant03Faction",
+    "formid": "0x00184492",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00184492",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "REMerchant03VendorFaction",
+    "formid": "0x00184491",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REMerchant04VendorFaction",
+    "formid": "0x001A9614",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REMerchant05VendorFaction",
+    "formid": "0x001C4034",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REMerchantArmorVendorFaction",
+    "formid": "0x001B2C17",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REMerchantBarVendorFaction",
+    "formid": "0x001B2C19",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REMerchantFaction",
+    "formid": "0x0002F5FD",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0002F5FD",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "REMerchantVendorFaction",
+    "formid": "0x0011B3B6",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REObjectRJ03_MacFaction",
+    "formid": "0x001AD492",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REPlayerAlly",
+    "formid": "0x00030BAC",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "REPlayerEnemy",
+    "formid": "0x0002DFEF",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "REPlayerFriend",
+    "formid": "0x0002DFF0",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "REPrisonerFreedCombatCaptorFaction",
+    "formid": "0x00148903",
+    "name": "h\ufffd\u0001",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00148904",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "REPrisonerFreedCombatPrisonerFaction",
+    "formid": "0x00148904",
+    "name": "rs\u0001",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00148903",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "REPrisonerFreedFaction",
+    "formid": "0x00148902",
+    "name": "J:\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RERaiderScavengerFaction",
+    "formid": "0x000392FA",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RESC_FactionMinutemenFaction",
+    "formid": "0x002458B3",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "REScavengerFaction",
+    "formid": "0x000342D0",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000342D0",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "RESceneKMK08Faction",
+    "formid": "0x00194336",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00194336",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RESceneKMK10DeathclawFaction",
+    "formid": "0x001B2C1C",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RESceneKMK_MQ202Faction",
+    "formid": "0x0014661B",
+    "name": "",
+    "relations_count": 10,
+    "relations": [
+      {
+        "target_faction_fid": "0x000994F6",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0014661E",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00188AE0",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00106C30",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0014661B",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0005E558",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00068043",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0005DE41",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0006E269",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00023C01",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "RESceneKMK_MQ202FactionFriend",
+    "formid": "0x0014661E",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0014661B",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "RESceneKMK_MS09JackVendorFaction01",
+    "formid": "0x00142407",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RESceneKMK_MS09JackVendorFaction02",
+    "formid": "0x00142408",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RESceneKMK_MS09JackVendorFaction03",
+    "formid": "0x00142409",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RESceneLC01_AccusedFaction",
+    "formid": "0x0017E790",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RESceneLC01_AccusorFaction",
+    "formid": "0x0017E791",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RESceneLC01_DialogueFaction",
+    "formid": "0x001C9712",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RETraveLCT03Faction",
+    "formid": "0x001AC03D",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001AC03D",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RETravelKMK03CrimeFaction",
+    "formid": "0x0024959E",
+    "name": "Ba\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RETravelKMK05CrimeFaction",
+    "formid": "0x0024959F",
+    "name": "Pa\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RETravelRJ01Faction",
+    "formid": "0x001AB2E6",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001AB2E6",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RETravelSC03_PrestonGarveyImpersonatorFaction",
+    "formid": "0x001AC7C5",
+    "name": "-\ufffd\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RR102TurretFaction",
+    "formid": "0x0005FEF7",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000994F6",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00083B31",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "RR201TunnelGuardFaction",
+    "formid": "0x0015EF6C",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0015EF6C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RR301SynthFaction",
+    "formid": "0x0010C4F4",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0010C4F4",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00083B31",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RR302TempBoSFriends",
+    "formid": "0x00148B89",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x00148B89",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0005DE41",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RRMercerEscapedSynthFaction",
+    "formid": "0x0014613F",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0014613F",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RRVendorDoctorCarrington",
+    "formid": "0x0016E917",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RRVendorTinkerTom",
+    "formid": "0x0016E918",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RadScorpionFaction",
+    "formid": "0x00020B89",
+    "name": "\ufffd\ufffd\u0001",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E5F60",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00052408",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00052407",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00020B89",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RadStagFaction",
+    "formid": "0x000267BF",
+    "name": "\ufffd\u0017\u0002",
+    "relations_count": 5,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E5F60",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000267BF",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00052408",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00052407",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "RadroachFaction",
+    "formid": "0x000EDCE1",
+    "name": "na\u0001",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E5F60",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000EDCE1",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RaiderEnemyFaction",
+    "formid": "0x000D356D",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x000D356D",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001CBED",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "RaiderFaction",
+    "formid": "0x0001CBED",
+    "name": "\ufffda\u0002",
+    "relations_count": 9,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001CBED",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0013101D",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000E83B7",
+        "modifier": 0,
+        "reaction": "Neutral"
+      },
+      {
+        "target_faction_fid": "0x000E356E",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000F5C3A",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x000EF40E",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000EF3F9",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001E722",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "RailroadFaction",
+    "formid": "0x000994F6",
+    "name": "",
+    "relations_count": 6,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E742F",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0005FEF7",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0014661B",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000BDAAA",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00061BE6",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000994F6",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RailroadGenericNPCFaction",
+    "formid": "0x00061BE6",
+    "name": "",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E742F",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000BDAAA",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000994F6",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00061BE6",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RailroadGenericSynthFaction",
+    "formid": "0x0003D02A",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003D02A",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "RailroadOvertAgentFaction",
+    "formid": "0x000A93D1",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000A93D1",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RebelSynthFaction",
+    "formid": "0x001E742F",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x000BDAAA",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00061BE6",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000994F6",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "RentRoomFaction",
+    "formid": "0x0010C92C",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "RobotFaction",
+    "formid": "0x00058304",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0011EA70",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00058304",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "SalemFaction",
+    "formid": "0x0002C125",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "SecurityDiamondCity",
+    "formid": "0x00002F65",
+    "name": "",
+    "relations_count": 5,
+    "relations": [
+      {
+        "target_faction_fid": "0x001A0416",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0002B075",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00002F65",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00002CB4",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00083900",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "SecurityDiamondCityExterior",
+    "formid": "0x0001FDB8",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "SecurityDiamondCityTurrets",
+    "formid": "0x0002B075",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00002F65",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "ServicesBunkerHillDeb",
+    "formid": "0x0005FD34",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesBunkerHillJoe",
+    "formid": "0x00197549",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesBunkerHillKay",
+    "formid": "0x0005FD37",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesBunkerHillMarket",
+    "formid": "0x00020D62",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesCZPatches",
+    "formid": "0x00097F68",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesCovenantDeezer",
+    "formid": "0x001A45AE",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesCovenantDoctorPatricia",
+    "formid": "0x000F2471",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesCovenantPennyShop",
+    "formid": "0x000F0C6C",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndChemICare",
+    "formid": "0x0001F1F4",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndChoiceChops",
+    "formid": "0x00063599",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndCommonWeap",
+    "formid": "0x00004AC7",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndDugoutInn",
+    "formid": "0x001338B5",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndFallons",
+    "formid": "0x0002E14C",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndMegaSurgery",
+    "formid": "0x0002C965",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndMegaSurgeryCrocker",
+    "formid": "0x00020CD0",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndPowerNoodles",
+    "formid": "0x00017C72",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndSheng",
+    "formid": "0x0002CB16",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndSuperSalon",
+    "formid": "0x0001F1E2",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndSurplusMyrna",
+    "formid": "0x00143AD6",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndSurplusPercy",
+    "formid": "0x00143AD7",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndSwatters",
+    "formid": "0x00004AC9",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndTaphouse",
+    "formid": "0x000F9387",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDmndTaphouseOutside",
+    "formid": "0x000F9388",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDrumlinDinerTrudy",
+    "formid": "0x00106C3D",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesDrumlinDinerWolfgang",
+    "formid": "0x00168979",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesGoodneighborDaisy",
+    "formid": "0x0010B695",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesGoodneighborFredAllen",
+    "formid": "0x0010C934",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesGoodneighborKillorBeKilled",
+    "formid": "0x0010B697",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesGoodneighborRufus",
+    "formid": "0x0017D577",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesGoodneighborThirdRail",
+    "formid": "0x0010D5F4",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesInstituteDoctor",
+    "formid": "0x001814EF",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesInstituteFood",
+    "formid": "0x0016A073",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesInstituteMisc",
+    "formid": "0x001814F7",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x001814F7",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Neutral"
+      }
+    ]
+  },
+  {
+    "edid": "ServicesRailroadHQDoctor",
+    "formid": "0x000BDAA8",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesRailroadHQMerchant",
+    "formid": "0x000BDAA9",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ServicesVault81HoratiosHairstyles",
+    "formid": "0x001520C9",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "SettlementBunkerHill",
+    "formid": "0x0001995B",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x001A0416",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001995B",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "SettlementConcordArea",
+    "formid": "0x0001D567",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x00068043",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001D567",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "SettlementDiamondCity",
+    "formid": "0x00002CB3",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "SettlementFactionEgretToursMarina",
+    "formid": "0x0024842A",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0024842A",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "SettlementGoodneighbor",
+    "formid": "0x000228A9",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00083AD0",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "SettlementSpokesmanFaction",
+    "formid": "0x000483AF",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "SettlementVault81",
+    "formid": "0x000581B4",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "StingwingFaction",
+    "formid": "0x000EDCE4",
+    "name": "\ufffd\u000b\u0002",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E5F60",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000EDCE4",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "StrongFaction",
+    "formid": "0x00135779",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0005DE41",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "SuperMutantFaction",
+    "formid": "0x00058305",
+    "name": "",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00058305",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x000948B4",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "SynthFaction",
+    "formid": "0x00083B31",
+    "name": "",
+    "relations_count": 7,
+    "relations": [
+      {
+        "target_faction_fid": "0x0022D9EF",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0005DE41",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0010C4F4",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00167FB7",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0005E558",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00083B31",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "TheForgedFaction",
+    "formid": "0x0013101D",
+    "name": "\ufffd\ufffd\u0001",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x0001CBED",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0013101D",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00058303",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "TheSlogFieldWorkers",
+    "formid": "0x000FA7F1",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "TheSlogPoolWorkers",
+    "formid": "0x000FA7F0",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "TheaterDrifter_FactionDondo",
+    "formid": "0x0015CD38",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0015CD38",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "TheaterDrifter_FactionSlim",
+    "formid": "0x0015DE8B",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ThompsonCoupleBedFaction",
+    "formid": "0x001ADB55",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "ToughCitizenDialogueFaction",
+    "formid": "0x00198846",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "TraderRyleeVendorFaction",
+    "formid": "0x00240702",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "TriggermanFaction",
+    "formid": "0x00083AD0",
+    "name": "",
+    "relations_count": 6,
+    "relations": [
+      {
+        "target_faction_fid": "0x001B2CC0",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x000228A9",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0010C265",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00083AD1",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00083AD0",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "TriggermanFriendFaction",
+    "formid": "0x00083AD1",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x00083AD0",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "TunnelingRaceNoDirtFromFurniture",
+    "formid": "0x00249E8F",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "TurretFaction",
+    "formid": "0x0011EA70",
+    "name": "Fj\u0002",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x0011EA70",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00058304",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "V81BobbyHostileFaction",
+    "formid": "0x001AC40D",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81DepotFaction",
+    "formid": "0x00130D9E",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81EntryFactionFemale",
+    "formid": "0x000AD479",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81EntryFactionMale",
+    "formid": "0x000AD478",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81MainFactionFemale",
+    "formid": "0x0012305B",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81MainFactionMale",
+    "formid": "0x0012305A",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81RoomOwnershipCombes",
+    "formid": "0x00245D23",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81RoomOwnershipDeLuca",
+    "formid": "0x00245D1E",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81RoomOwnershipForsythe",
+    "formid": "0x00245D20",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81RoomOwnershipHoratio",
+    "formid": "0x00245D24",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81RoomOwnershipMcNamara",
+    "formid": "0x00245D25",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81RoomOwnershipPenske",
+    "formid": "0x00245D22",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81RoomOwnershipPinn",
+    "formid": "0x00245D1F",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81RoomOwnershipRachel",
+    "formid": "0x00245D21",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81RoomOwnershipSummerset",
+    "formid": "0x00245D26",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "V81SunshineDinerFaction",
+    "formid": "0x00130D99",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "VRWorkshopShared_AlienFaction",
+    "formid": "0x0024A3E8",
+    "name": "Mk\u0003",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0024A3E8",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "Vault81ChildrenFaction",
+    "formid": "0x001AC5A7",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "Vault81CitizenFaction",
+    "formid": "0x00111F78",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "Vault81GuardFaction",
+    "formid": "0x0004F4A4",
+    "name": "\ufffdi\u0001",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x000581B3",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0004F4A4",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0008B5F0",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "Vault81MedicineFaction",
+    "formid": "0x001338E7",
+    "name": "YC\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "Vault81RepairShopFaction",
+    "formid": "0x00130D9D",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "VertibirdFaction",
+    "formid": "0x001E5F60",
+    "name": "",
+    "relations_count": 13,
+    "relations": [
+      {
+        "target_faction_fid": "0x0002689D",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000948B4",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00077C6C",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00020B89",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000EDCE1",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000EDCE3",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000EDCE2",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000EDCE4",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00031B22",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000B3D82",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000267BF",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001D15B",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x001E5F60",
+        "modifier": 0,
+        "reaction": "Friend"
+      }
+    ]
+  },
+  {
+    "edid": "ViciousDogFaction",
+    "formid": "0x0001D15B",
+    "name": ")\u0015\u0002",
+    "relations_count": 6,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E5F60",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0006E269",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0003E0C8",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00052408",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00052407",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001D15B",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "Voices_CompanionsFaction",
+    "formid": "0x00056122",
+    "name": "\"\ufffd\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "Voices_FollowersFaction_AO_Sniper",
+    "formid": "0x0003CDE5",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "WarwickHostile",
+    "formid": "0x000A274A",
+    "name": "",
+    "relations_count": 2,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003F22A",
+        "modifier": 0,
+        "reaction": "Enemy"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "WildlifeFaction",
+    "formid": "0x00058306",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "WorkshopAttackDialogueFaction",
+    "formid": "0x001125FE",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "WorkshopCaravanFaction",
+    "formid": "0x0003E0CD",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x0003E0CD",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction01",
+    "formid": "0x001EBAFE",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EBAFE",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction02",
+    "formid": "0x001EC191",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC191",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction03",
+    "formid": "0x001EC192",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC192",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction04",
+    "formid": "0x001EC193",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC193",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction05",
+    "formid": "0x001EC194",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC194",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction06",
+    "formid": "0x001EC195",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC195",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction07",
+    "formid": "0x001EC196",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC196",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction08",
+    "formid": "0x001EC197",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC197",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction09",
+    "formid": "0x001EC198",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC198",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction10",
+    "formid": "0x001EC199",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC199",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction11",
+    "formid": "0x001EC19A",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC19A",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction12",
+    "formid": "0x001EC19B",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC19B",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction13",
+    "formid": "0x001EC19C",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC19C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction14",
+    "formid": "0x001EC19D",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC19D",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction15",
+    "formid": "0x001EC19E",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC19E",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction16",
+    "formid": "0x001EC19F",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC19F",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction17",
+    "formid": "0x001EC1A0",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1A0",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction18",
+    "formid": "0x001EC1A1",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1A1",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction19",
+    "formid": "0x001EC1A2",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1A2",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction20",
+    "formid": "0x001EC1A3",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1A3",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction21",
+    "formid": "0x001EC1A4",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1A4",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction22",
+    "formid": "0x001EC1A5",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1A5",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction23",
+    "formid": "0x001EC1A6",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1A6",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction24",
+    "formid": "0x001EC1A7",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1A7",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction25",
+    "formid": "0x001EC1A8",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1A8",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction26",
+    "formid": "0x001EC1A9",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1A9",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction27",
+    "formid": "0x001EC1AA",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1AA",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction28",
+    "formid": "0x001EC1AB",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1AB",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction29",
+    "formid": "0x001EC1AC",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1AC",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction30",
+    "formid": "0x001EC1AD",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1AD",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction31",
+    "formid": "0x001EC1AE",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1AE",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction32",
+    "formid": "0x001EC1AF",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1AF",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction33",
+    "formid": "0x001EC1B0",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1B0",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction34",
+    "formid": "0x001EC1B1",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1B1",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction35",
+    "formid": "0x001EC1B2",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1B2",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction36",
+    "formid": "0x001EC1B3",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1B3",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction37",
+    "formid": "0x001EC1B4",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1B4",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction38",
+    "formid": "0x001EC1B5",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1B5",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction39",
+    "formid": "0x001EC1B6",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1B6",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopCrimeFaction40",
+    "formid": "0x001EC1B7",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x001EC1B7",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopDialogueFaction",
+    "formid": "0x000C8608",
+    "name": "\ufffd&\u0002",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "WorkshopEnemyFaction",
+    "formid": "0x001357E7",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000337F3",
+        "modifier": 0,
+        "reaction": "Enemy"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopNPCFaction",
+    "formid": "0x000337F3",
+    "name": "",
+    "relations_count": 1,
+    "relations": [
+      {
+        "target_faction_fid": "0x000337F3",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "WorkshopNoPackages",
+    "formid": "0x0005FD8B",
+    "name": "\ufffdX\u0001",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "WorkshopNoTrade",
+    "formid": "0x0024674F",
+    "name": "uW\u0003",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "WorkshopVendorFactionArmor",
+    "formid": "0x0010C88E",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "WorkshopVendorFactionBar",
+    "formid": "0x00062556",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "WorkshopVendorFactionClinic",
+    "formid": "0x0010C047",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "WorkshopVendorFactionClothing",
+    "formid": "0x0010C046",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "WorkshopVendorFactionMisc",
+    "formid": "0x00062555",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "WorkshopVendorFactionWeapons",
+    "formid": "0x0010C03F",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "YaoGuaiFaction",
+    "formid": "0x000B3D82",
+    "name": "\ufffdN\u0002",
+    "relations_count": 4,
+    "relations": [
+      {
+        "target_faction_fid": "0x001E5F60",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x00052408",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x00052407",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x000B3D82",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  },
+  {
+    "edid": "dialoguemer",
+    "formid": "0x00184496",
+    "name": "",
+    "relations_count": 0,
+    "relations": []
+  },
+  {
+    "edid": "terminalHackedPlayerAllyFaction",
+    "formid": "0x00188AE0",
+    "name": "\ufffd.\u0002",
+    "relations_count": 3,
+    "relations": [
+      {
+        "target_faction_fid": "0x00188AE0",
+        "modifier": 0,
+        "reaction": "Ally"
+      },
+      {
+        "target_faction_fid": "0x0014661B",
+        "modifier": 0,
+        "reaction": "Friend"
+      },
+      {
+        "target_faction_fid": "0x0001C21C",
+        "modifier": 0,
+        "reaction": "Ally"
+      }
+    ]
+  }
+]

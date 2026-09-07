@@ -1,0 +1,194 @@
+{
+  "$doc": "Settlement ledger skeleton (M6/P2-a3). Form IDs are placeholders to be re-resolved from the player's save/ESP at integration; the ledger schema is the contract.",
+  "schema": {
+    "id": "str",
+    "formid": "hex",
+    "kind": "str",
+    "population": "int",
+    "reputation": "float 0..1",
+    "raid_count_30d": "int",
+    "active_trades": "int"
+  },
+  "settlements": [
+    {
+      "id": "Goodneighbor",
+      "formid": "0x00016729",
+      "kind": "neighborhood",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "DiamondCity",
+      "formid": "0x0001672A",
+      "kind": "underground",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "CapeBramble",
+      "formid": "0x0001672B",
+      "kind": "coast",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "BostonCommons",
+      "formid": "0x0001672C",
+      "kind": "urban",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "BunkerHill",
+      "formid": "0x0001672D",
+      "kind": "urban",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "NukaWorld",
+      "formid": "0x0001672E",
+      "kind": "resort",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "FarHarbor",
+      "formid": "0x0001672F",
+      "kind": "island",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "NukaTown",
+      "formid": "0x00016730",
+      "kind": "theme_park",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "Sanctuary",
+      "formid": "0x00016731",
+      "kind": "compound",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "Foundation",
+      "formid": "0x00016732",
+      "kind": "institute",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "Prydwen",
+      "formid": "0x00016733",
+      "kind": "airship",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "TheCommonwealth",
+      "formid": "0x00016734",
+      "kind": "macro",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "RedRocket",
+      "formid": "0x00016735",
+      "kind": "gas_station",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "StarlightDiner",
+      "formid": "0x00016736",
+      "kind": "diner",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "Vault111",
+      "formid": "0x00016737",
+      "kind": "vault",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "Vault76",
+      "formid": "0x00016738",
+      "kind": "vault",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "VaultTecHQ",
+      "formid": "0x00016739",
+      "kind": "office",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "Quarry",
+      "formid": "0x0001673A",
+      "kind": "industrial",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "Hancock",
+      "formid": "0x0001673B",
+      "kind": "town",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    },
+    {
+      "id": "NorthCaven",
+      "formid": "0x0001673C",
+      "kind": "town",
+      "population": 10,
+      "reputation": 0.5,
+      "raid_count_30d": 0,
+      "active_trades": 0
+    }
+  ]
+}

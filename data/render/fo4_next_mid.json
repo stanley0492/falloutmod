@@ -1,0 +1,55 @@
+{
+  "$tier": "mid",
+  "$doc": "Target: 1440p @ 144 Hz \u2014 RTX 4070 / RX 7800 XT class",
+  "doc": "Target: 1440p @ 144 Hz \u2014 RTX 4070 / RX 7800 XT class",
+  "target": {
+    "width": 2560,
+    "height": 1440,
+    "hz": 144,
+    "vram_gb": 12
+  },
+  "upscaler": {
+    "slot": "d3d11_proxy",
+    "mode": "fsr3_frame_gen",
+    "quality": "balanced",
+    "fallback": "xess"
+  },
+  "render_scale": 0.9,
+  "dynamic_resolution": {
+    "enabled": true,
+    "min": 0.7,
+    "max": 0.95,
+    "target_ms": 6.8
+  },
+  "taa": true,
+  "lights": {
+    "dynamic_per_frame": 40,
+    "per_pixel": true,
+    "omni_fade_m": 15.0
+  },
+  "shadows": {
+    "cascade_splits": 3,
+    "distance_m": 120.0,
+    "soft_pc_f": 2.0,
+    "shadow_map_bias_percent": 2.0
+  },
+  "volumetrics": {
+    "enabled": true,
+    "step_count": 64,
+    "scatter": 0.3,
+    "via": "re_shade_or_enb"
+  },
+  "grass": {
+    "enabled": true,
+    "max_blades_per_bucket": 80
+  },
+  "particles": {
+    "max_decal_per_frame": 250
+  },
+  "post": {
+    "bloom": 0.9,
+    "chromatic_aberration": 0.2,
+    "film_grain": 0.06,
+    "fxaa": false
+  }
+}

@@ -1,0 +1,17 @@
+RCAI AI scoreboard (M2) — 5 seeds x 120 s
+
+seed    coverTime  coverShots  flankingShots  flankers  firstKillTick  survival@30s  kills
+1000  0.459       0.258        57          6       276             0.900       3
+1001  0.115       0.026        43          8       495             0.900       2
+1002  0.243       0.278        51          10       512             0.000       1
+1003  0.538       0.269        72          8       342             0.900       3
+1004  0.244       0.091        77          7       342             0.850       5
+
+avg     0.320       0.185        43          6       276             0.710
+
+PASS G1 combat time in cover >= 30%   [cover time fraction 0.320023, shots from cover 0.183780]
+PASS G2 flanking >= 2 shots and >= 2 distinct flankers   [43 flanking shots, 6 flankers]
+PASS G3 first kill within 30 s (600 ticks)   [first kill tick 276]
+PASS G4 >= 40% enemy survival at 30 s (fight is real)   [survival 0.710000]
+
+ALL GATES PASSED

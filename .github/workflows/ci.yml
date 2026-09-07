@@ -1,0 +1,50 @@
+name: CI — Linux (logic, tests, data, scripts)
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Build + run C++ unit tests (29)
+      run: |
+        g++ -std=c++17 -Wall -Wextra -Werror -O2 \
+          -I plugins/rcai -I plugins/rcai/src \
+          -o /tmp/rcai_tests plugins/rcai/tests/*.cpp
+        /tmp/rcai_tests
+
+    - name: AI scoreboard gates (M2)
+      run: |
+        g++ -std=c++17 -Wall -Wextra -O2 \
+          -I plugins/rcai -I plugins/rcai/src \
+          -o /tmp/rcai_bench plugins/rcai/bench/bench_ai.cpp
+        /tmp/rcai_bench
+        cat reports/ai_bench.txt
+
+    - name: Profiler CSV + perf report (M3)
+      run: |
+        /tmp/rcai_bench --profile reports/rcai_profile.csv >/dev/null || true
+        python3 tools/perf_report.py reports/rcai_profile.csv --out reports/perf_report.md
+
+    - name: Python tools (M4/M5/M6)
+      run: |
+        python3 -m compileall -q tools
+        python3 tools/render_preset.py
+        python3 tools/combat_tables.py
+        python3 tools/worldsim.py
+
+    - name: Python tests (M5/M6)
+      run: |
+        python3 tools/tests/test_combat_tables.py
+        python3 tools/tests/test_worldsim.py
+
+    - name: Papyrus lint (M7)
+      run: python3 tools/psc_lint.py --warnings-fatal
+
+    - name: Analyzer still green (M0 regression)
+      run: python3 tools/analyze_decompiled.py --out-json /tmp/insights_check.json --out-md /tmp/insights_check.md

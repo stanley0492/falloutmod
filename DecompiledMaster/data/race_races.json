@@ -1,0 +1,317 @@
+[
+  {
+    "edid": "AlienRace",
+    "formid": "0x00184C4D",
+    "name": "",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "AssaultronRace",
+    "formid": "0x000D8417",
+    "name": "\u0557\u0001",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "BloatflyRace",
+    "formid": "0x00029463",
+    "name": "]M\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "BloodbugRace",
+    "formid": "0x0002456D",
+    "name": "O\ufffd\u0001",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "BrahminRace",
+    "formid": "0x0002047E",
+    "name": "\ufffdl\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "CatRace",
+    "formid": "0x000C9ACF",
+    "name": "\ufffdS\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "DeathclawRace",
+    "formid": "0x0001DB4A",
+    "name": "\ufffd\u001c\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "DefaultRace",
+    "formid": "0x00000019",
+    "name": "m\ufffd",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "DogmeatRace",
+    "formid": "0x0001D698",
+    "name": "",
+    "body_parts_count": 0,
+    "desc": "+\ufffd\u0002"
+  },
+  {
+    "edid": "EyeBotRace",
+    "formid": "0x000A563A",
+    "name": "a\ufffd\u0001",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "FEVHoundRace",
+    "formid": "0x00090C33",
+    "name": "\t\ufffd\u0001",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "FeralGhoulGlowingRace",
+    "formid": "0x000A96BF",
+    "name": "d\ufffd\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "FeralGhoulRace",
+    "formid": "0x0006B4EC",
+    "name": "C{\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "GhoulChildRace",
+    "formid": "0x0011EB96",
+    "name": "(O\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "GhoulRace",
+    "formid": "0x000EAFB6",
+    "name": "\u0011]\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "GorillaRace",
+    "formid": "0x000D9804",
+    "name": "\ufffd3\u0001",
+    "body_parts_count": 0,
+    "desc": "\ufffdb\u0001"
+  },
+  {
+    "edid": "HandyRace",
+    "formid": "0x000359F4",
+    "name": "?N\u0002",
+    "body_parts_count": 0,
+    "desc": "r0\u0002"
+  },
+  {
+    "edid": "HumanChildRace",
+    "formid": "0x0011D83F",
+    "name": "PE\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "HumanRace",
+    "formid": "0x00013746",
+    "name": "\ufffd\ufffd",
+    "body_parts_count": 0,
+    "desc": "\ufffd"
+  },
+  {
+    "edid": "HumanRaceSubGraphData",
+    "formid": "0x00166729",
+    "name": "%\\\u0003",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "LibertyPrimeRace",
+    "formid": "0x00108019",
+    "name": "\u0484\u0001",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "MirelurkHunterRace",
+    "formid": "0x00064C60",
+    "name": "\ufffd-\u0001",
+    "body_parts_count": 0,
+    "desc": "\ufffd6\u0002"
+  },
+  {
+    "edid": "MirelurkKingRace",
+    "formid": "0x000B7F91",
+    "name": "\u0003@\u0001",
+    "body_parts_count": 0,
+    "desc": "\ufffd\ufffd\u0002"
+  },
+  {
+    "edid": "MirelurkQueenRace",
+    "formid": "0x000E12A6",
+    "name": "\ufffd^\u0002",
+    "body_parts_count": 0,
+    "desc": "\ufffdb\u0002"
+  },
+  {
+    "edid": "MirelurkRace",
+    "formid": "0x00023FFC",
+    "name": "\ufffdv\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "MoleratRace",
+    "formid": "0x0001D810",
+    "name": "\ufffdx\u0002",
+    "body_parts_count": 0,
+    "desc": "T\u001c\u0002"
+  },
+  {
+    "edid": "PowerArmorRace",
+    "formid": "0x0001D31E",
+    "name": "'\ufffd\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "ProtectronRace",
+    "formid": "0x000DFB33",
+    "name": "c\ufffd\u0001",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "RadRoachRace",
+    "formid": "0x0004716C",
+    "name": "_7\u0001",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "RadScorpionRace",
+    "formid": "0x000636AB",
+    "name": "\ufffd\ufffd\u0001",
+    "body_parts_count": 0,
+    "desc": "\ufffd\ufffd\u0002"
+  },
+  {
+    "edid": "RadStagRace",
+    "formid": "0x0007ED1D",
+    "name": "\b\ufffd\u0001",
+    "body_parts_count": 0,
+    "desc": "\ufffd\ufffd\u0001"
+  },
+  {
+    "edid": "RaiderDogRace",
+    "formid": "0x00187AF9",
+    "name": "",
+    "body_parts_count": 0,
+    "desc": "+\ufffd\u0002"
+  },
+  {
+    "edid": "SentryBotRace",
+    "formid": "0x000AE0B7",
+    "name": "\ufffd1\u0001",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "StingwingRace",
+    "formid": "0x0005FBB1",
+    "name": "-\u0004\u0002",
+    "body_parts_count": 0,
+    "desc": "cF\u0003"
+  },
+  {
+    "edid": "SuperMutantRace",
+    "formid": "0x0001A009",
+    "name": "",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "SupermutantBehemothRace",
+    "formid": "0x000BB7D9",
+    "name": "\u07e0\u0001",
+    "body_parts_count": 0,
+    "desc": "\u054b\u0001"
+  },
+  {
+    "edid": "SynthGen1Race",
+    "formid": "0x000E8D09",
+    "name": "\ufffd?\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "SynthGen2Race",
+    "formid": "0x0010BD65",
+    "name": "\rE\u0001",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "SynthGen2RaceValentine",
+    "formid": "0x002261A4",
+    "name": "LD\u0003",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "TurretBubbleRace",
+    "formid": "0x000B28D3",
+    "name": "a\u0016\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "TurretTripodRace",
+    "formid": "0x000B1F08",
+    "name": "\ufffd8\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "TurretWorkshopRace",
+    "formid": "0x001A6D64",
+    "name": "x\ufffd\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "VertibirdRace",
+    "formid": "0x000D77E3",
+    "name": "\ufffd\f\u0002",
+    "body_parts_count": 0,
+    "desc": ""
+  },
+  {
+    "edid": "ViciousDogRace",
+    "formid": "0x0003578A",
+    "name": "",
+    "body_parts_count": 0,
+    "desc": "W[\u0002"
+  },
+  {
+    "edid": "YaoGuaiRace",
+    "formid": "0x000A0F2F",
+    "name": "?~\u0001",
+    "body_parts_count": 0,
+    "desc": "\u007f\ufffd\u0001"
+  }
+]

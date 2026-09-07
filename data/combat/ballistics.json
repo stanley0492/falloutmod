@@ -1,0 +1,62 @@
+{
+  "$doc": "Combat 2.0 ballistics spec (M5/P1-b). Superset of the stock quadratic-falloff model; in-game verification via the 120 Hz combat gauntlet (docs/INTEGRATION_CHECKLIST.md).",
+  "model": "dmg(d) = dmg0 * (1 - clamp((d - start_m) / (end_m - start_m)) ** k) * pen",
+  "classes": {
+    "pistol": {
+      "start_m": 0.0,
+      "end_m": 30.0,
+      "k": 1.0,
+      "pen": 1.0,
+      "rofs_hertz": 4.0
+    },
+    "smg": {
+      "start_m": 0.0,
+      "end_m": 25.0,
+      "k": 1.2,
+      "pen": 0.9,
+      "rofs_hertz": 8.0
+    },
+    "rifle": {
+      "start_m": 5.0,
+      "end_m": 60.0,
+      "k": 1.0,
+      "pen": 1.0,
+      "rofs_hertz": 5.0
+    },
+    "shotgun": {
+      "start_m": 0.0,
+      "end_m": 12.0,
+      "k": 2.0,
+      "pen": 0.85,
+      "rofs_hertz": 1.2
+    },
+    "energy": {
+      "start_m": 0.0,
+      "end_m": 45.0,
+      "k": 1.0,
+      "pen": 1.1,
+      "rofs_hertz": 6.0
+    },
+    "melee": {
+      "start_m": 0.0,
+      "end_m": 2.5,
+      "k": 1.0,
+      "pen": 1.25,
+      "rofs_hertz": 1.5
+    },
+    "explosive": {
+      "start_m": 10.0,
+      "end_m": 80.0,
+      "k": 1.0,
+      "pen": 1.3,
+      "rofs_hertz": 0.3
+    },
+    "bow": {
+      "start_m": 0.0,
+      "end_m": 70.0,
+      "k": 0.8,
+      "pen": 1.05,
+      "rofs_hertz": 0.6
+    }
+  }
+}
