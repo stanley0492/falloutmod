@@ -1,0 +1,10 @@
+{
+  "what": "test-exception",
+  "pid": 1234,
+  "uptime_seconds": 512.5,
+  "actors_live": 37,
+  "in_combat": 12,
+  "last_cell": "Goodneighbor",
+  "program": "RCAI",
+  "schema": 1
+}
