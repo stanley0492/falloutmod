@@ -1,0 +1,3535 @@
+{
+  "$doc": "252 decompiled WEAP records classified (M5). Ballistics = stock-compatible superset curves.",
+  "count": 252,
+  "unclassified_fallback": 1,
+  "weapons": [
+    {
+      "edid": "10mm",
+      "formid": "0x00004822",
+      "class": "pistol",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 30.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 4.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "44",
+      "formid": "0x000CE97D",
+      "class": "pistol",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 30.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 4.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "AAA_StandardGun",
+      "formid": "0x0014831D",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "AlienBlaster",
+      "formid": "0x000FF995",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "AnchorHammer",
+      "formid": "0x00144A6C",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "ArtillerySmokeFlare",
+      "formid": "0x0012E2CA",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "AssaultRifle",
+      "formid": "0x0000463F",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "AssaultronLaser",
+      "formid": "0x000DD4B1",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "AssaultronLeftBlade",
+      "formid": "0x00210B62",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "AssaultronLeftClaw",
+      "formid": "0x000DF25A",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "AssaultronRightBlade",
+      "formid": "0x00210B63",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "AssaultronRightClaw",
+      "formid": "0x000DF259",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "BaseballBat",
+      "formid": "0x0008E736",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "BaseballGrenade",
+      "formid": "0x00107BD6",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Baton",
+      "formid": "0x0008C14D",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "BehemothBoulder",
+      "formid": "0x0014BBDA",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "BehemothBoulderSwan",
+      "formid": "0x000662A7",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "BloodBugBloodWeap",
+      "formid": "0x00031FB8",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "BoSVertibirdGrenade",
+      "formid": "0x00056917",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Board",
+      "formid": "0x0005C250",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "BottlecapMine",
+      "formid": "0x0010771F",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "BoxingGlove",
+      "formid": "0x0016498F",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Broadsider",
+      "formid": "0x000FD11B",
+      "class": "shotgun",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 12.0,
+        "k": 2.0,
+        "pen": 0.85,
+        "rofs_hertz": 1.2
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "ChineseOfficerSword",
+      "formid": "0x00147BE4",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CombatRifle",
+      "formid": "0x000DF42E",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CombatShotgun",
+      "formid": "0x0014831C",
+      "class": "shotgun",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 12.0,
+        "k": 2.0,
+        "pen": 0.85,
+        "rofs_hertz": 1.2
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompCaitDoubleBarrelShotgun",
+      "formid": "0x0005DF30",
+      "class": "shotgun",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 12.0,
+        "k": 2.0,
+        "pen": 0.85,
+        "rofs_hertz": 1.2
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompCodsworthFlamethrowerRight",
+      "formid": "0x002491A8",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompCurieLaserGun",
+      "formid": "0x0022CC13",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompCurie_LaserGun_Left",
+      "formid": "0x002491A5",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompDanseLaserGun",
+      "formid": "0x0005BBA6",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompDeaconHuntingRifle",
+      "formid": "0x00215CE3",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompHancockDoubleBarrelShotgun",
+      "formid": "0x00062AA4",
+      "class": "shotgun",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 12.0,
+        "k": 2.0,
+        "pen": 0.85,
+        "rofs_hertz": 1.2
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompHancockKnife",
+      "formid": "0x00062AA3",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompIngramLaserGun",
+      "formid": "0x00249D38",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompMcCreadyHuntingRifle",
+      "formid": "0x0005BBA4",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompPiper10mm",
+      "formid": "0x0005DF2D",
+      "class": "pistol",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 30.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 4.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompPrestonLaserMusket",
+      "formid": "0x00062AA6",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompStrongSledgehammer",
+      "formid": "0x0005DF2E",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompValentinePipeRevolver",
+      "formid": "0x0005BBA7",
+      "class": "pistol",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 30.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 4.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CompX6-88InstituteLaserRifle",
+      "formid": "0x00215CE4",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CryoGrenade",
+      "formid": "0x000FF21D",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "CryoMine",
+      "formid": "0x0010C669",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Cryolator",
+      "formid": "0x00171B2B",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "DN029CannonLauncher",
+      "formid": "0x000CA0B0",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "DN070WorldSeriesBat_OBSOLETE",
+      "formid": "0x000E9A43",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "DN102_FrenzyGrenade",
+      "formid": "0x000E98E5",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "DN160_GrognakAxe",
+      "formid": "0x00183FCD",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "DeathclawDirtThrow",
+      "formid": "0x00113339",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "DeathclawGauntlet",
+      "formid": "0x000D8576",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Deliverer",
+      "formid": "0x000DC8E7",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "DoubleBarrelShotgun",
+      "formid": "0x00092217",
+      "class": "shotgun",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 12.0,
+        "k": 2.0,
+        "pen": 0.85,
+        "rofs_hertz": 1.2
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "DummyHandmadeDontUse",
+      "formid": "0x0006E514",
+      "class": "rifle",
+      "role": "generic",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "FatManBomb",
+      "formid": "0x0010E689",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Fatman",
+      "formid": "0x000BD56F",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "FireHydrantBat",
+      "formid": "0x000DF621",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Flamer",
+      "formid": "0x000E5881",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "FlareGun",
+      "formid": "0x001025AC",
+      "class": "pistol",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 30.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 4.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "FusionCoreKnightWeapon",
+      "formid": "0x000865E9",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "FusionCoreWeapon",
+      "formid": "0x000897FF",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "GammaGun",
+      "formid": "0x000DDB7C",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "GasTrapDummy",
+      "formid": "0x000001F6",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "GatlingLaser",
+      "formid": "0x000E27BC",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "GaussRifle",
+      "formid": "0x000D1EB0",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Gutsy01LeftArmSawOBSOLETE",
+      "formid": "0x001AD8CA",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Gutsy01RightArmSawOBSOLETE",
+      "formid": "0x00148B42",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Gutsy02LeftArmCombatRifle",
+      "formid": "0x00148B47",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Gutsy02LeftArmLaserGunAuto",
+      "formid": "0x00148B48",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "HandyFlamethrowerLeft",
+      "formid": "0x000EDCE8",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "HandyFlamethrowerMiddle",
+      "formid": "0x000EDCE9",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "HandyFlamethrowerRight",
+      "formid": "0x00092A62",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "HandyPincherLeft",
+      "formid": "0x000EDCEA",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "HandyPincherMiddle",
+      "formid": "0x00092A60",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "HandyPincherRight",
+      "formid": "0x000EDCEB",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "HandySawLeft",
+      "formid": "0x00092A61",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "HandySawMiddle",
+      "formid": "0x000EDCED",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "HandySawRight",
+      "formid": "0x000EDCEC",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "HuntingRifle",
+      "formid": "0x0004F46A",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "InstituteBeaconGrenade",
+      "formid": "0x00174F8F",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "InstituteLaserGun",
+      "formid": "0x001633CC",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "JunkJet",
+      "formid": "0x000E942B",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Knife",
+      "formid": "0x000913CA",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Knuckles",
+      "formid": "0x0005524B",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "LaserGun",
+      "formid": "0x0009983B",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "LaserMusket",
+      "formid": "0x0001DACF",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "LeadPipe",
+      "formid": "0x000FC9C3",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "LibertyPrimeBomb",
+      "formid": "0x0017D52A",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "LibertyPrimeLaser",
+      "formid": "0x00110414",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MQ203InstituteLaserGun",
+      "formid": "0x0005A665",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MS02HomingBeacon",
+      "formid": "0x00065DEC",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MS02NukeMissileFar",
+      "formid": "0x00065DF2",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Machete",
+      "formid": "0x00033FE0",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MinFlareWeapon",
+      "formid": "0x00232261",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Minigun",
+      "formid": "0x0001F669",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Minigun_Vertibird",
+      "formid": "0x001299A6",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Minigun_Vertibird_Player",
+      "formid": "0x00064B87",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MissileLauncher",
+      "formid": "0x0003F6F8",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MolotovCocktail",
+      "formid": "0x0010C3C6",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MrGutsy_44_Left",
+      "formid": "0x00148B40",
+      "class": "pistol",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 30.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 4.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MrGutsy_44_Right",
+      "formid": "0x00148B45",
+      "class": "pistol",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 30.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 4.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MrGutsy_CombatRifle_Left",
+      "formid": "0x001E0959",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MrGutsy_CombatRifle_Middle",
+      "formid": "0x001E0957",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MrGutsy_CombatRifle_Right",
+      "formid": "0x001E0951",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MrGutsy_LaserGun_Left",
+      "formid": "0x001E0956",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MrGutsy_LaserGun_Middle",
+      "formid": "0x001E0952",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MrGutsy_LaserGun_Right",
+      "formid": "0x001E0958",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MrGutsy_Saw_Left",
+      "formid": "0x002216D1",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MrGutsy_Saw_Middle",
+      "formid": "0x002216CF",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MrGutsy_Saw_Right",
+      "formid": "0x002216D0",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MrHandy_Hand_Left_Saw",
+      "formid": "0x001E0953",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MrHandy_Hand_Middle_Saw",
+      "formid": "0x001E0955",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "MrHandy_Hand_Right_Saw",
+      "formid": "0x001E0954",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "NukeMine",
+      "formid": "0x0010A340",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "OxygenTankTrap",
+      "formid": "0x000D76F1",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "PipeBoltAction",
+      "formid": "0x0014831A",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "PipeGun",
+      "formid": "0x00024F55",
+      "class": "shotgun",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 12.0,
+        "k": 2.0,
+        "pen": 0.85,
+        "rofs_hertz": 1.2
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "PipeRevolver",
+      "formid": "0x0014831B",
+      "class": "pistol",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 30.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 4.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "PipeSyringer",
+      "formid": "0x0014D09E",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "PipeWrench",
+      "formid": "0x000D83BF",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "PlasmaGrenade",
+      "formid": "0x0010A33D",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "PlasmaGun",
+      "formid": "0x00100AE9",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "PlasmaMine",
+      "formid": "0x0010A342",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "PoolCue",
+      "formid": "0x000FA3E8",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "PowerFist",
+      "formid": "0x0011B336",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron01HeadLaser",
+      "formid": "0x000E07C4",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron01LeftArmLaserGun",
+      "formid": "0x001B9AF3",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron01LeftArmLaserGunBlue",
+      "formid": "0x001B3182",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron01LeftArmNailGun",
+      "formid": "0x001B3137",
+      "class": "pistol",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 30.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 4.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron01RightArmLaserGun",
+      "formid": "0x000FCDC7",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron01RightArmNailGun",
+      "formid": "0x001B3139",
+      "class": "pistol",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 30.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 4.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron02HeadLaser",
+      "formid": "0x00144FAA",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron02LeftArmCryo01",
+      "formid": "0x001D77A5",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron02LeftArmFlamer",
+      "formid": "0x0015B0DA",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron02LeftArmLaserGun",
+      "formid": "0x00144FAB",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron02RightArmCryo01",
+      "formid": "0x001D77A6",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron02RightArmFlamer",
+      "formid": "0x0015B0DB",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron02RightArmLaserGun",
+      "formid": "0x001B9AF4",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron03HeadLaser",
+      "formid": "0x00144FAD",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron03LeftArmLaserGun",
+      "formid": "0x00144FAE",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Protectron03RightArmLaserGun",
+      "formid": "0x00144FAF",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "PulseGrenade",
+      "formid": "0x000FF21F",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "PulseGrenadeInstitute",
+      "formid": "0x0018325E",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "PulseMine",
+      "formid": "0x0010A344",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "RESceneKMK_MQ202KelloggWeapon",
+      "formid": "0x002492A8",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "RR301SynthTeleportGrenade",
+      "formid": "0x0023CACB",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "RailwayRifle",
+      "formid": "0x000FE268",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "RailwayRifle_Fake",
+      "formid": "0x00221235",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "RevolutionarySword",
+      "formid": "0x00143AB5",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Ripper",
+      "formid": "0x000FA2F6",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "RollingPin",
+      "formid": "0x00142FAB",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "SelfDestructBot",
+      "formid": "0x0014781E",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "SentryBotLeftMiniRocketLauncher",
+      "formid": "0x000CFB4D",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "SentryBotLeftMinigun",
+      "formid": "0x000B0F56",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "SentryBotLeftShoulderClusterLauncher",
+      "formid": "0x00134271",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "SentryBotLeftShoulderClusterLauncherIndoors",
+      "formid": "0x0021635F",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "SentryBotRightMiniRocketLauncher",
+      "formid": "0x000B0F58",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "SentryBotRightMinigun",
+      "formid": "0x000CFB49",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "SentryBotRightShoulderClusterLauncher",
+      "formid": "0x00134272",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "SentryBotRightShoulderClusterLauncherIndoors",
+      "formid": "0x00216360",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Shishkebab",
+      "formid": "0x000FA2FB",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Sledgehammer",
+      "formid": "0x000E7AB9",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "SubmachineGun",
+      "formid": "0x0015B043",
+      "class": "smg",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 25.0,
+        "k": 1.2,
+        "pen": 0.9,
+        "rofs_hertz": 8.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "SuperMutantSuiciderBomb",
+      "formid": "0x0014245D",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "SuperSledge",
+      "formid": "0x000FF964",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "Switchblade",
+      "formid": "0x000FDC81",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "SynthMelee",
+      "formid": "0x0023F492",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "SynthTeleportGrenade",
+      "formid": "0x000589F2",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TestGammaGun",
+      "formid": "0x00249820",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TireIron",
+      "formid": "0x00185D25",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TrapGrenadeBouquetWeaponFrag1",
+      "formid": "0x0010845C",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TrapGrenadeBouquetWeaponFrag3",
+      "formid": "0x000FF276",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretBubbleBallistic3shot",
+      "formid": "0x001BBF99",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretBubbleLaserGun04",
+      "formid": "0x00019B52",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretMissileLauncher01",
+      "formid": "0x0022B18C",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretMountedBallistic",
+      "formid": "0x001BBF98",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretMountedLaserGun01",
+      "formid": "0x000BB6C1",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretMountedLaserGun02",
+      "formid": "0x00019B47",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretMountedLaserGun03",
+      "formid": "0x00019B4E",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretMountedLaserGun6shot",
+      "formid": "0x001BBF9E",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretMountedLaserGunLtBlue",
+      "formid": "0x001262F3",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretMountedShotgun01",
+      "formid": "0x0022B18B",
+      "class": "shotgun",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 12.0,
+        "k": 2.0,
+        "pen": 0.85,
+        "rofs_hertz": 1.2
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretMountedSpotlight01",
+      "formid": "0x0022B194",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretTripodMachineGunMkI",
+      "formid": "0x000BB6C0",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretTripodMachineGunMkIII",
+      "formid": "0x001B5ED8",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretTripodMachineGunMkV",
+      "formid": "0x001B5EDA",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TurretTripodMachineGunMkVII",
+      "formid": "0x001B5EDD",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "TutorialDummy10mm",
+      "formid": "0x000AB6AE",
+      "class": "pistol",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 30.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 4.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedAssaultron",
+      "formid": "0x001BD15A",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedBehemoth",
+      "formid": "0x000C2C37",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedBloodbug",
+      "formid": "0x000C2C28",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedBrahmin",
+      "formid": "0x000C2C29",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedDeathclaw",
+      "formid": "0x000C2C2A",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedDefault",
+      "formid": "0x000001F4",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedDogmeat",
+      "formid": "0x000C2C2B",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedFeralGhoul",
+      "formid": "0x000C2C2C",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedGlowingOne",
+      "formid": "0x001C403B",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedGorilla",
+      "formid": "0x000ED6E4",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedHuman",
+      "formid": "0x000C2C27",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedLibertyPrime",
+      "formid": "0x001BDDB7",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedMirelurk",
+      "formid": "0x000C2C30",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedMirelurkHunter",
+      "formid": "0x000C2C2E",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedMirelurkKing",
+      "formid": "0x000C2C2F",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedMirelurkQueen",
+      "formid": "0x00102796",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedMolerat",
+      "formid": "0x000C2C31",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedMutantHound",
+      "formid": "0x000C2C2D",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedPowerArmor",
+      "formid": "0x000C2C32",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedProtectron",
+      "formid": "0x001BD15B",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedRadRoach",
+      "formid": "0x000C2C34",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedRadScorpion",
+      "formid": "0x000C2C35",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedRadStag",
+      "formid": "0x000C2C33",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedSentryBot",
+      "formid": "0x0010FFFD",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedStingwing",
+      "formid": "0x000C2C36",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedStingwingNoPoison",
+      "formid": "0x000C9799",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedSuperMutant",
+      "formid": "0x000EB340",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedViciousDog",
+      "formid": "0x000C2C39",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "UnarmedYaoGuai",
+      "formid": "0x000C2C38",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_10mm_NonPlayable",
+      "formid": "0x0024A3B2",
+      "class": "pistol",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 30.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 4.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_44_NonPlayable",
+      "formid": "0x0024A3A1",
+      "class": "pistol",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 30.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 4.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_AlienBlaster_NonPlayable",
+      "formid": "0x0024A3B0",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_AssaultRifle_NonPlayable",
+      "formid": "0x0024A3A2",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_Board_NonPlayable",
+      "formid": "0x0024A3A3",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_CombatRifle_NonPlayable",
+      "formid": "0x0024A3A4",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_CombatShotgun_NonPlayable",
+      "formid": "0x0024A3A5",
+      "class": "shotgun",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 12.0,
+        "k": 2.0,
+        "pen": 0.85,
+        "rofs_hertz": 1.2
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_Flamer_NonPlayable",
+      "formid": "0x0024A3A6",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_GaussRifle_NonPlayable",
+      "formid": "0x0024A3B1",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_HuntingRifle_NonPlayable",
+      "formid": "0x0024A3A7",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_InstituteLaserGun_NonPlayable",
+      "formid": "0x0024A3A8",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_LaserGun_NonPlayable",
+      "formid": "0x0024A3A9",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_Minigun_NonPlayable",
+      "formid": "0x0024A3AA",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_MissileLauncher_NonPlayable",
+      "formid": "0x0024A3AB",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_PipeGun_NonPlayable",
+      "formid": "0x0024A3AC",
+      "class": "shotgun",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 12.0,
+        "k": 2.0,
+        "pen": 0.85,
+        "rofs_hertz": 1.2
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_PlasmaGun_NonPlayable",
+      "formid": "0x0024A3AD",
+      "class": "energy",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 45.0,
+        "k": 1.0,
+        "pen": 1.1,
+        "rofs_hertz": 6.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_Sledgehammer_NonPlayable",
+      "formid": "0x0024A3AE",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VRWorkshopShared_SuperSledge_NonPlayable",
+      "formid": "0x0024A3AF",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VertibirdGunLeft",
+      "formid": "0x000E27A3",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "VertibirdGunRight",
+      "formid": "0x000E27A4",
+      "class": "rifle",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 5.0,
+        "end_m": 60.0,
+        "k": 1.0,
+        "pen": 1.0,
+        "rofs_hertz": 5.0
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "WalkingCane",
+      "formid": "0x000FDC7D",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "WeapBloatfly",
+      "formid": "0x0003175B",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "WeapEyebot",
+      "formid": "0x000A7DA4",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "WeapEyebotMM",
+      "formid": "0x0015E649",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "WeapMirelurkKing",
+      "formid": "0x000FC3EC",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "WeapMirelurkQueenLeft",
+      "formid": "0x0011271C",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "WeapMirelurkQueenRight",
+      "formid": "0x0011271D",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "WeapMirelurkhunter01",
+      "formid": "0x0009F24D",
+      "class": "melee",
+      "role": "assault",
+      "ballistics": {
+        "start_m": 0.0,
+        "end_m": 2.5,
+        "k": 1.0,
+        "pen": 1.25,
+        "rofs_hertz": 1.5
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "WorkshopArtilleryWeapon",
+      "formid": "0x0005DE31",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "WorkshopArtilleryWeaponClose",
+      "formid": "0x00063B72",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "WorkshopArtilleryWeaponFar",
+      "formid": "0x00063B73",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "WorkshopTrapFlamethrowerWeap01",
+      "formid": "0x0020413E",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "WorkshopTrapFlamethrowerWeap02",
+      "formid": "0x0020413F",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "fragGrenade",
+      "formid": "0x000EEBED",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "fragMine",
+      "formid": "0x000E56C2",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    },
+    {
+      "edid": "nukaGrenade",
+      "formid": "0x000E5750",
+      "class": "explosive",
+      "role": "heavy",
+      "ballistics": {
+        "start_m": 10.0,
+        "end_m": 80.0,
+        "k": 1.0,
+        "pen": 1.3,
+        "rofs_hertz": 0.3
+      },
+      "ammo_formid": ""
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$tier": "low",
+  "$doc": "Target: 1080p @ 60 Hz \u2014 RX 6600 / GTX 1660 class (stable floor)",
+  "doc": "Target: 1080p @ 60 Hz \u2014 RX 6600 / GTX 1660 class (stable floor)",
+  "target": {
+    "width": 1920,
+    "height": 1080,
+    "hz": 60,
+    "vram_gb": 8
+  },
+  "upscaler": {
+    "slot": "d3d11_proxy",
+    "mode": "xess",
+    "quality": "performance",
+    "fallback": "none"
+  },
+  "render_scale": 1.0,
+  "dynamic_resolution": {
+    "enabled": true,
+    "min": 0.8,
+    "max": 1.0,
+    "target_ms": 15.0
+  },
+  "taa": true,
+  "lights": {
+    "dynamic_per_frame": 24,
+    "per_pixel": true,
+    "omni_fade_m": 10.0
+  },
+  "shadows": {
+    "cascade_splits": 2,
+    "distance_m": 80.0,
+    "soft_pc_f": 1.6,
+    "shadow_map_bias_percent": 3.0
+  },
+  "volumetrics": {
+    "enabled": false,
+    "step_count": 0,
+    "scatter": 0.0,
+    "via": "re_shade_or_enb"
+  },
+  "grass": {
+    "enabled": true,
+    "max_blades_per_bucket": 40
+  },
+  "particles": {
+    "max_decal_per_frame": 120
+  },
+  "post": {
+    "bloom": 0.8,
+    "chromatic_aberration": 0.15,
+    "film_grain": 0.04,
+    "fxaa": true
+  }
+}

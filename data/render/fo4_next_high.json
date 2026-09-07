@@ -1,0 +1,55 @@
+{
+  "$tier": "high",
+  "$doc": "Target: 4K @ 120 Hz \u2014 RTX 4080 / RX 7900 XT class",
+  "doc": "Target: 4K @ 120 Hz \u2014 RTX 4080 / RX 7900 XT class",
+  "target": {
+    "width": 3840,
+    "height": 2160,
+    "hz": 120,
+    "vram_gb": 12
+  },
+  "upscaler": {
+    "slot": "d3d11_proxy",
+    "mode": "fsr3_frame_gen",
+    "quality": "quality",
+    "fallback": "dlss"
+  },
+  "render_scale": 1.0,
+  "dynamic_resolution": {
+    "enabled": true,
+    "min": 0.75,
+    "max": 1.0,
+    "target_ms": 8.0
+  },
+  "taa": true,
+  "lights": {
+    "dynamic_per_frame": 48,
+    "per_pixel": true,
+    "omni_fade_m": 18.0
+  },
+  "shadows": {
+    "cascade_splits": 4,
+    "distance_m": 160.0,
+    "soft_pc_f": 2.4,
+    "shadow_map_bias_percent": 2.0
+  },
+  "volumetrics": {
+    "enabled": true,
+    "step_count": 96,
+    "scatter": 0.35,
+    "via": "re_shade_or_enb"
+  },
+  "grass": {
+    "enabled": true,
+    "max_blades_per_bucket": 120
+  },
+  "particles": {
+    "max_decal_per_frame": 400
+  },
+  "post": {
+    "bloom": 1.0,
+    "chromatic_aberration": 0.25,
+    "film_grain": 0.08,
+    "fxaa": false
+  }
+}
