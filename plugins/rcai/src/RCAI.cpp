@@ -285,61 +285,85 @@ void RegisterConsoleCommands() {
     ObScriptCommand* firstCmd = GetFirstConsoleCommand();
     if (!firstCmd) return;
 
-    for (ObScriptCommand* iter = firstCmd;
-         iter->opcode < (kObScript_NumConsoleCommands + kObScript_ConsoleOpBase);
-         ++iter) {
-        if (iter->longName && !_stricmp(iter->longName, "ToggleESRAM")) {
-            ObScriptCommand cmd = *iter;
-            cmd.longName = "rcai_status";
-            cmd.shortName = "rcais";
-            cmd.helpText = "RCAI: show version, state, perf and AI stats";
-            cmd.needsParent = 0;
-            cmd.numParams = 0;
-            cmd.execute = CmdRCAIStatus_Execute;
-            cmd.flags = 0;
-            SafeWriteBuf((uintptr_t)iter, &cmd, sizeof(cmd));
-            Log("RCAI: registered console command 'rcai_status'");
-        } else if (iter->longName && !_stricmp(iter->longName, "TestSeenData")) {
-            ObScriptCommand cmd = *iter;
-            cmd.longName = "rcai_toggle";
-            cmd.shortName = "rcait";
-            cmd.helpText = "RCAI: enable/disable tick processing";
-            cmd.needsParent = 0;
-            cmd.numParams = 0;
-            cmd.execute = CmdRCAIToggle_Execute;
-            cmd.flags = 0;
-            SafeWriteBuf((uintptr_t)iter, &cmd, sizeof(cmd));
-            Log("RCAI: registered console command 'rcai_toggle'");
-        } else if (iter->longName && !_stricmp(iter->longName, "ToggleBokeh")) {
-            ObScriptCommand cmd = *iter;
-            cmd.longName = "rcai_tune";
-            cmd.shortName = "rcaitune";
-            cmd.helpText = "RCAI: apply performance INI baseline";
-            cmd.needsParent = 0;
-            cmd.numParams = 0;
-            cmd.execute = CmdRCAITune_Execute;
-            cmd.flags = 0;
-            SafeWriteBuf((uintptr_t)iter, &cmd, sizeof(cmd));
-            Log("RCAI: registered console command 'rcai_tune'");
+#if defined(_WIN32)
+    __try {
+#endif
+        bool foundStatus = false;
+        bool foundToggle = false;
+
+        for (UInt32 i = 0; i < kObScript_NumConsoleCommands; ++i) {
+            ObScriptCommand* iter = &firstCmd[i];
+            if (!iter->longName) continue;
+
+            if (!foundStatus && !_stricmp(iter->longName, "ToggleESRAM")) {
+                ObScriptCommand cmd = *iter;
+                cmd.longName = "rcai_status";
+                cmd.shortName = "rcais";
+                cmd.helpText = "RCAI: show version, state, perf and AI stats";
+                cmd.needsParent = 0;
+                cmd.numParams = 0;
+                cmd.execute = CmdRCAIStatus_Execute;
+                cmd.flags = 0;
+                SafeWriteBuf((uintptr_t)iter, &cmd, sizeof(cmd));
+                Log("RCAI: registered console command 'rcai_status'");
+                foundStatus = true;
+            } else if (!foundToggle && !_stricmp(iter->longName, "TestSeenData")) {
+                ObScriptCommand cmd = *iter;
+                cmd.longName = "rcai_toggle";
+                cmd.shortName = "rcait";
+                cmd.helpText = "RCAI: enable/disable tick processing";
+                cmd.needsParent = 0;
+                cmd.numParams = 0;
+                cmd.execute = CmdRCAIToggle_Execute;
+                cmd.flags = 0;
+                SafeWriteBuf((uintptr_t)iter, &cmd, sizeof(cmd));
+                Log("RCAI: registered console command 'rcai_toggle'");
+                foundToggle = true;
+            }
+
+            if (foundStatus && foundToggle) {
+                break;
+            }
         }
+#if defined(_WIN32)
+    } __except (EXCEPTION_EXECUTE_HANDLER) {
+        Log("RCAI: warning - exception during RegisterConsoleCommands, safely handled");
     }
+#endif
 }
 
 // ---------------------------------------------------------------------------
 // task delegate & messaging
 // ---------------------------------------------------------------------------
 
+std::atomic<bool> g_gameReady{false};
+
 class RCAITickTask : public ITaskDelegate {
 public:
     void Run() override {
+        if (!g_gameReady.load(std::memory_order_acquire)) {
+            return;
+        }
+
         const std::uint64_t now = GetTickCount64();
-        if (g_config.iUpdateIntervalMS <= 0 || (now - g_lastTickMS >= (std::uint64_t)g_config.iUpdateIntervalMS)) {
-            g_lastTickMS = now;
-            if (g_config.bEnabled && g_active.load(std::memory_order_acquire)) {
-                Tick(now);
+        if (g_config.bEnabled && g_active.load(std::memory_order_acquire)) {
+            if (g_config.iUpdateIntervalMS <= 0 || (now - g_lastTickMS >= (std::uint64_t)g_config.iUpdateIntervalMS)) {
+                g_lastTickMS = now;
+#if defined(_WIN32)
+                __try {
+                    Tick(now);
+                } __except (EXCEPTION_EXECUTE_HANDLER) {
+                    // Safety: never crash if engine state is transitioning
+                }
+#else
+                try {
+                    Tick(now);
+                } catch (...) {}
+#endif
             }
         }
-        if (g_task) {
+
+        if (g_task && g_gameReady.load(std::memory_order_acquire)) {
             g_task->AddTask(this);
         }
     }
@@ -349,9 +373,14 @@ RCAITickTask g_tickTask;
 
 void OnF4SEMessage(F4SEMessagingInterface::Message* msg) {
     if (!msg) return;
-    if (msg->type == F4SEMessagingInterface::kMessage_GameLoaded ||
-        msg->type == F4SEMessagingInterface::kMessage_PostLoadGame) {
-        Log("RCAI: game loaded / post-load event, scheduling tick task");
+    Log("RCAI: F4SE message type %u", msg->type);
+
+    if (msg->type == F4SEMessagingInterface::kMessage_PreLoadGame) {
+        g_gameReady.store(false, std::memory_order_release);
+    } else if (msg->type == F4SEMessagingInterface::kMessage_PostLoadGame ||
+               msg->type == F4SEMessagingInterface::kMessage_NewGame) {
+        Log("RCAI: game world active (msg type %u), starting tick task", msg->type);
+        g_gameReady.store(true, std::memory_order_release);
         if (g_task) {
             g_task->AddTask(&g_tickTask);
         }
@@ -426,10 +455,7 @@ __declspec(dllexport) bool F4SEPlugin_Load(const F4SEInterface* f4se) {
 
     RegisterConsoleCommands();
 
-    if (g_task) {
-        g_task->AddTask(&g_tickTask);
-    }
-
+    Log("RCAI: plugin load complete");
     return true;
 }
 

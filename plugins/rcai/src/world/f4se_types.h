@@ -59,35 +59,43 @@ enum FormType : UInt8 {
 // Common Actor Values
 constexpr UInt32 kActorValue_Health = 0x000002D4;
 
-// Base Form
+// Base Form (0x20 bytes)
 class TESForm {
 public:
     virtual ~TESForm() = default;
 
+    void* unk08 = nullptr;
     UInt32 flags = 0;
     UInt32 formID = 0;
+    UInt16 unk18 = 0;
     UInt8 formType = kFormType_NONE;
-    UInt8 pad0D[3]{};
+    UInt8 unk1B = 0;
+    UInt32 pad1C = 0;
 
     bool isDeleted() const { return (flags & 0x00000020) != 0; }
     bool isDisabled() const { return (flags & 0x00000800) != 0; }
 };
+static_assert(sizeof(TESForm) == 0x20, "TESForm size mismatch");
 
 class TESObjectCELL;
 
-// Base Reference (matching GameReferences.h)
+// Base Reference (0x110 bytes, matching GameReferences.h)
 class TESObjectREFR : public TESForm {
 public:
-    virtual void Unk_01() {}
-    virtual void Unk_02() {}
-
-    TESObjectCELL* parentCell = nullptr;
-    NiPoint3 rot{};
-    float unkRotPad = 0.0f;
-    NiPoint3 pos{};
-    float unkPosPad = 0.0f;
-    TESForm* baseForm = nullptr;
+    UInt8 pad20[0xB8 - 0x20]{};
+    TESObjectCELL* parentCell = nullptr; // 0xB8
+    NiPoint3 rot{};                      // 0xC0
+    float unkCC = 0.0f;                  // 0xCC
+    NiPoint3 pos{};                      // 0xD0
+    float unkDC = 0.0f;                  // 0xDC
+    TESForm* baseForm = nullptr;         // 0xE0
+    UInt8 padE8[0x110 - 0xE8]{};         // 0xE8
 };
+static_assert(offsetof(TESObjectREFR, parentCell) == 0xB8, "parentCell offset mismatch");
+static_assert(offsetof(TESObjectREFR, rot) == 0xC0, "rot offset mismatch");
+static_assert(offsetof(TESObjectREFR, pos) == 0xD0, "pos offset mismatch");
+static_assert(offsetof(TESObjectREFR, baseForm) == 0xE0, "baseForm offset mismatch");
+static_assert(sizeof(TESObjectREFR) == 0x110, "TESObjectREFR size mismatch");
 
 // Actor Value Data entry in Actor
 struct ActorValueData {
@@ -119,15 +127,16 @@ public:
 // Live Actor Character (matching GameReferences.h)
 class Actor : public TESObjectREFR {
 public:
-    tArray<ActorValueData> actorValueData;
+    UInt8 pad110[0x2D0 - 0x110]{};
+    UInt32 actorFlags = 0;               // 0x2D0
+    tArray<ActorValueData> actorValueData; // 0x2D8 for test harness
     TESFaction* vendorFaction = nullptr;
     UInt32 currentCombatTarget = 0;
-    UInt32 actorFlags = 0;
 
     enum ActorFlagBits : UInt32 {
         kFlag_InCombat = (1 << 5),
-        kFlag_Teammate = (1 << 26),
-        kFlag_Dead = (1 << 20)
+        kFlag_Dead = (1 << 20),
+        kFlag_Teammate = (1 << 26)
     };
 
     bool isInCombat() const { return (actorFlags & kFlag_InCombat) != 0 || currentCombatTarget != 0; }
@@ -155,6 +164,7 @@ public:
         return true; // Live hook: CALL_MEMBER_FN(this, IsHostileToActor)(other)
     }
 };
+static_assert(offsetof(Actor, actorFlags) == 0x2D0, "actorFlags offset mismatch");
 
 // Player Character singleton
 class PlayerCharacter : public Actor {
@@ -163,17 +173,21 @@ public:
     float stealthNoise = 0.0f;
 };
 
-// Active Cell (matching GameForms.h)
+// Active Cell (0xF0 bytes, matching GameForms.h)
 class TESObjectCELL : public TESForm {
 public:
-    UInt16 cellFlags = 0;
-    UInt16 unk42 = 0;
-    tArray<TESObjectREFR*> objectList;
-    void* land = nullptr;
-    void* worldSpace = nullptr;
+    UInt8 pad20[0x40 - 0x20]{};
+    UInt16 cellFlags = 0;                // 0x40
+    UInt16 unk42 = 0;                    // 0x42
+    UInt8 pad44[0x70 - 0x44]{};          // pad to 0x70
+    tArray<TESObjectREFR*> objectList;   // 0x70
+    UInt8 pad88[0xF0 - 0x88]{};          // pad to 0xF0
 
     bool isInterior() const { return (cellFlags & 1) != 0; }
 };
+static_assert(offsetof(TESObjectCELL, cellFlags) == 0x40, "cellFlags offset mismatch");
+static_assert(offsetof(TESObjectCELL, objectList) == 0x70, "objectList offset mismatch");
+static_assert(sizeof(TESObjectCELL) == 0xF0, "TESObjectCELL size mismatch");
 
 // AI Packages for apply() integration
 class TESPackage : public TESForm {

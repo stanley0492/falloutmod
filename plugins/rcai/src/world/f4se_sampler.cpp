@@ -113,12 +113,12 @@ bool F4SEWorldSampler::sample(WorldSnapshot& out, float dt) {
     resetFrameStats();
 
     f4se::PlayerCharacter* player = testPlayer_ ? testPlayer_ : f4se::getPlayer();
-    if (!player) {
+    if (!player || (uintptr_t)player < 0x10000) {
         return false;
     }
 
     f4se::TESObjectCELL* cell = testCell_ ? testCell_ : player->parentCell;
-    if (!cell) {
+    if (!cell || (uintptr_t)cell < 0x10000) {
         return false;
     }
 
@@ -182,14 +182,25 @@ bool F4SEWorldSampler::sampleOccluders(f4se::TESObjectCELL* cell, const Vec2& pl
     out.walls.clear();
     diag_.occludersSampled = 0;
 
-    if (cell->objectList.empty()) {
+    if (!cell || cell->objectList.empty() || !cell->objectList.entries) {
+        return true;
+    }
+
+    const f4se::UInt32 count = cell->objectList.size();
+    if (count > 10000) {
         return true;
     }
 
     try {
-        for (f4se::UInt32 i = 0; i < cell->objectList.size(); ++i) {
+        for (f4se::UInt32 i = 0; i < count; ++i) {
             f4se::TESObjectREFR* refr = cell->objectList[i];
-            if (!refr || refr->isDeleted() || refr->isDisabled() || !refr->baseForm) {
+            if (!refr || (uintptr_t)refr < 0x10000) {
+                continue;
+            }
+            if (!refr->baseForm || (uintptr_t)refr->baseForm < 0x10000) {
+                continue;
+            }
+            if (refr->isDeleted() || refr->isDisabled()) {
                 continue;
             }
 
@@ -219,14 +230,25 @@ bool F4SEWorldSampler::sampleActors(f4se::TESObjectCELL* cell, f4se::PlayerChara
     out.actors.clear();
     diag_.actorsSampled = 0;
 
-    if (cell->objectList.empty()) {
+    if (!cell || cell->objectList.empty() || !cell->objectList.entries) {
+        return true;
+    }
+
+    const f4se::UInt32 count = cell->objectList.size();
+    if (count > 10000) {
         return true;
     }
 
     try {
-        for (f4se::UInt32 i = 0; i < cell->objectList.size(); ++i) {
+        for (f4se::UInt32 i = 0; i < count; ++i) {
             f4se::TESObjectREFR* refr = cell->objectList[i];
-            if (!refr || refr->isDeleted() || refr->isDisabled() || !refr->baseForm) {
+            if (!refr || (uintptr_t)refr < 0x10000) {
+                continue;
+            }
+            if (!refr->baseForm || (uintptr_t)refr->baseForm < 0x10000) {
+                continue;
+            }
+            if (refr->isDeleted() || refr->isDisabled()) {
                 continue;
             }
 
