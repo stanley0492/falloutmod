@@ -73,6 +73,56 @@ public:
 
     size_t size() const { return mem_.size(); }
 
+    size_t settlementCount() const {
+        size_t c = 0;
+        for (const auto& [id, _] : mem_) {
+            if (id.rfind("faction:", 0) == std::string::npos) ++c;
+        }
+        return c;
+    }
+
+    std::vector<std::string> settlementNames() const {
+        std::vector<std::string> names;
+        for (const auto& [id, _] : mem_) {
+            if (id.rfind("faction:", 0) == std::string::npos) names.push_back(id);
+        }
+        return names;
+    }
+
+    void loadSettlements(const std::string& text) {
+        try {
+            const json::Value v = json::Value::parse(text);
+            const json::Value* arr = v.find("settlements");
+            if (!arr || !arr->isArray()) return;
+            for (const auto& s : arr->asArray()) {
+                const std::string id = s.find("id") ? s.find("id")->asString() : "";
+                if (id.empty()) continue;
+                float rep = s.find("reputation") ? s.find("reputation")->asFloat() : 0.5f;
+                auto& sm = settlement(id, s.find("kind") ? s.find("kind")->asString() : "");
+                sm.trust = rep;
+                sm.attitude = (rep - 0.5f) * 2.0f;
+            }
+        } catch (...) {}
+    }
+
+    void loadFactions(const std::string& text) {
+        try {
+            const json::Value v = json::Value::parse(text);
+            const json::Value* arr = v.find("factions");
+            if (!arr || !arr->isArray()) return;
+            for (const auto& f : arr->asArray()) {
+                const std::string edid = f.find("edid") ? f.find("edid")->asString() : "";
+                const std::string cls = f.find("hostility_class") ? f.find("hostility_class")->asString() : "";
+                if (edid.empty()) continue;
+                float att = 0.f;
+                if (cls == "Hostile") att = -0.8f;
+                else if (cls == "Ally") att = 0.7f;
+                else if (cls == "Friendly") att = 0.4f;
+                settlement("faction:" + edid, edid).attitude = att;
+            }
+        } catch (...) {}
+    }
+
     json::Value toJson() const {
         json::Value v;
         for (const auto& [id, s] : mem_) {
@@ -96,23 +146,7 @@ public:
     // {"factions": [{"edid": "...", "hostility_class": "Hostile|Ally|Friendly|Neutral|Isolated"}, ...]}
     static FactionMemory loadSeed(const std::string& text) {
         FactionMemory fm;
-        try {
-            const json::Value v = json::Value::parse(text);
-            const json::Value* arr = v.find("factions");
-            if (!arr || !arr->isArray()) return fm;
-            for (const auto& f : arr->asArray()) {
-                const std::string edid = f.find("edid") ? f.find("edid")->asString() : "";
-                const std::string cls = f.find("hostility_class") ? f.find("hostility_class")->asString() : "";
-                if (edid.empty()) continue;
-                float att = 0.f;
-                if (cls == "Hostile") att = -0.8f;
-                else if (cls == "Ally") att = 0.7f;
-                else if (cls == "Friendly") att = 0.4f;
-                fm.settlement("faction:" + edid, edid).attitude = att;
-            }
-        } catch (...) {
-            return FactionMemory{}; // corrupt seed file: run unseeded, never throw
-        }
+        fm.loadFactions(text);
         return fm;
     }
 

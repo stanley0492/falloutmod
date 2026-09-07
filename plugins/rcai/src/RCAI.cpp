@@ -254,7 +254,7 @@ bool CmdRCAIStatus_Execute(void* paramInfo, void* scriptData, TESObjectREFR* thi
                   (unsigned long long)g_tickCount.load(std::memory_order_relaxed), s.frames,
                   s.medianMs, s.p95Ms, diag.actorsSampled,
                   diag.losCallsPerFrame, diag.coverPointsPerCell,
-                  g_factionMemory.size(),
+                  g_factionMemory.settlementCount(),
                   g_brain.antiCheese().describe().c_str());
     Console_Print("%s", buf);
     Log("%s: %s", kPluginName, buf);
@@ -267,6 +267,65 @@ bool CmdRCAIToggle_Execute(void* paramInfo, void* scriptData, TESObjectREFR* thi
     g_active.store(now, std::memory_order_release);
     Console_Print("RCAI: tick processing %s", now ? "enabled" : "disabled");
     Log("%s: tick processing %s", kPluginName, now ? "enabled" : "disabled");
+    return true;
+}
+
+bool CmdRCAIInjectRaid_Execute(void* paramInfo, void* scriptData, TESObjectREFR* thisObj, void* containingObj, void* scriptObj, void* locals, double* result, void* opcodeOffsetPtr) {
+    (void)paramInfo; (void)scriptData; (void)thisObj; (void)containingObj; (void)scriptObj; (void)locals; (void)result; (void)opcodeOffsetPtr;
+
+    static size_t s_raidIndex = 0;
+    std::vector<std::string> settlements = g_factionMemory.settlementNames();
+    if (settlements.empty()) {
+        settlements = {"DiamondCity", "Goodneighbor", "BunkerHill", "Sanctuary"};
+    }
+
+    std::string target = settlements[s_raidIndex % settlements.size()];
+    s_raidIndex++;
+
+    const float timeSec = static_cast<float>(GetTickCount64()) / 1000.0f;
+    g_factionMemory.record(target, -0.4f, timeSec, "Hostile raid incident");
+
+    const auto* mem = g_factionMemory.find(target);
+    const float att = mem ? mem->attitude : -0.4f;
+    const float trust = mem ? mem->trust : 0.45f;
+    const size_t evCount = mem ? mem->recentEvents.size() : 1;
+
+    char buf[256];
+    std::snprintf(buf, sizeof(buf), "RCAI: injected raid at %s | attitude: %.2f | trust: %.2f | events: %zu",
+                  target.c_str(), att, trust, evCount);
+    Console_Print("%s", buf);
+    Log("%s: %s", kPluginName, buf);
+    return true;
+}
+
+bool CmdRCAIDumpMemory_Execute(void* paramInfo, void* scriptData, TESObjectREFR* thisObj, void* containingObj, void* scriptObj, void* locals, double* result, void* opcodeOffsetPtr) {
+    (void)paramInfo; (void)scriptData; (void)thisObj; (void)containingObj; (void)scriptObj; (void)locals; (void)result; (void)opcodeOffsetPtr;
+
+    wchar_t myDocs[MAX_PATH];
+    if (SUCCEEDED(SHGetFolderPathW(NULL, CSIDL_MYDOCUMENTS, NULL, 0, myDocs))) {
+        std::wstring dumpPath = std::wstring(myDocs) + L"\\My Games\\Fallout4\\F4SE\\RCAI_memory.json";
+        std::string jsonText = g_factionMemory.toJson().dump(2);
+        std::ofstream ofs(dumpPath);
+        if (ofs.good()) {
+            ofs << jsonText;
+            ofs.close();
+            Log("%s: dumped faction memory to %ls", kPluginName, dumpPath.c_str());
+        }
+    }
+
+    Console_Print("=== RCAI Settlement Ledger (%zu settlements) ===", g_factionMemory.settlementCount());
+    std::vector<std::string> settlements = g_factionMemory.settlementNames();
+    size_t printed = 0;
+    for (const auto& name : settlements) {
+        if (const auto* s = g_factionMemory.find(name)) {
+            Console_Print("  [%s] att: %.2f | trust: %.2f | events: %zu",
+                          name.c_str(), s->attitude, s->trust, s->recentEvents.size());
+            if (++printed >= 6) break;
+        }
+    }
+    if (settlements.size() > printed) {
+        Console_Print("  ... (%zu more in RCAI_memory.json)", settlements.size() - printed);
+    }
     return true;
 }
 
@@ -292,6 +351,8 @@ void RegisterConsoleCommands() {
 #endif
         bool foundStatus = false;
         bool foundToggle = false;
+        bool foundRaid = false;
+        bool foundDump = false;
 
         for (UInt32 i = 0; i < kObScript_NumConsoleCommands; ++i) {
             ObScriptCommand* iter = &firstCmd[i];
@@ -321,9 +382,33 @@ void RegisterConsoleCommands() {
                 SafeWriteBuf((uintptr_t)iter, &cmd, sizeof(cmd));
                 Log("RCAI: registered console command 'rcai_toggle'");
                 foundToggle = true;
+            } else if (!foundRaid && !_stricmp(iter->longName, "SetESRAMSetup")) {
+                ObScriptCommand cmd = *iter;
+                cmd.longName = "rcai_inject_raid";
+                cmd.shortName = "rcair";
+                cmd.helpText = "RCAI: inject raid into settlement";
+                cmd.needsParent = 0;
+                cmd.numParams = 0;
+                cmd.execute = CmdRCAIInjectRaid_Execute;
+                cmd.flags = 0;
+                SafeWriteBuf((uintptr_t)iter, &cmd, sizeof(cmd));
+                Log("RCAI: registered console command 'rcai_inject_raid'");
+                foundRaid = true;
+            } else if (!foundDump && !_stricmp(iter->longName, "TestLocalMap")) {
+                ObScriptCommand cmd = *iter;
+                cmd.longName = "rcai_dump_memory";
+                cmd.shortName = "rcaid";
+                cmd.helpText = "RCAI: dump faction & settlement memory ledger";
+                cmd.needsParent = 0;
+                cmd.numParams = 0;
+                cmd.execute = CmdRCAIDumpMemory_Execute;
+                cmd.flags = 0;
+                SafeWriteBuf((uintptr_t)iter, &cmd, sizeof(cmd));
+                Log("RCAI: registered console command 'rcai_dump_memory'");
+                foundDump = true;
             }
 
-            if (foundStatus && foundToggle) {
+            if (foundStatus && foundToggle && foundRaid && foundDump) {
                 break;
             }
         }
@@ -453,20 +538,41 @@ __declspec(dllexport) bool F4SEPlugin_Load(const F4SEInterface* f4se) {
     g_profiler.setSubsystems({"brain", "perception", "behaviour", "streaming", "papyrus"});
 
     const std::string pluginDir = wstringToString(GetPluginDir());
-    std::string cstyPath = pluginDir + "..\\..\\RCAI\\combat\\combat_styles.json";
-    if (!std::ifstream(cstyPath).good()) {
-        cstyPath = pluginDir + "..\\RCAI\\combat\\combat_styles.json";
-    }
-    if (!std::ifstream(cstyPath).good()) {
-        cstyPath = "Data/RCAI/combat/combat_styles.json";
-    }
-    if (!std::ifstream(cstyPath).good()) {
-        cstyPath = "data/combat/combat_styles.json";
-    }
+    auto findDataPath = [&](const std::string& rel) -> std::string {
+        std::string p1 = pluginDir + "..\\..\\RCAI\\" + rel;
+        if (std::ifstream(p1).good()) return p1;
+        std::string p2 = pluginDir + "..\\RCAI\\" + rel;
+        if (std::ifstream(p2).good()) return p2;
+        std::string p3 = "Data/RCAI/" + rel;
+        if (std::ifstream(p3).good()) return p3;
+        std::string p4 = "data/" + rel;
+        if (std::ifstream(p4).good()) return p4;
+        return "";
+    };
+
+    std::string cstyPath = findDataPath("combat/combat_styles.json");
     g_sampler.init(cstyPath);
 
-    Log("%s v%s: initialized (world sampler: 7/7 points wired; %zu styles loaded)",
-        kPluginName, kPluginVersion, g_sampler.loadedStylesCount());
+    const std::string settlementsPath = findDataPath("worldsim/settlements.json");
+    if (!settlementsPath.empty()) {
+        std::ifstream ifs(settlementsPath);
+        if (ifs.good()) {
+            std::string content((std::istreambuf_iterator<char>(ifs)), std::istreambuf_iterator<char>());
+            g_factionMemory.loadSettlements(content);
+        }
+    }
+
+    const std::string factionsPath = findDataPath("worldsim/factions.json");
+    if (!factionsPath.empty()) {
+        std::ifstream ifs(factionsPath);
+        if (ifs.good()) {
+            std::string content((std::istreambuf_iterator<char>(ifs)), std::istreambuf_iterator<char>());
+            g_factionMemory.loadFactions(content);
+        }
+    }
+
+    Log("%s v%s: initialized (world sampler: 7/7 points wired; %zu styles loaded; %zu settlements seeded)",
+        kPluginName, kPluginVersion, g_sampler.loadedStylesCount(), g_factionMemory.settlementCount());
 
     g_messaging = (F4SEMessagingInterface*)f4se->QueryInterface(kInterface_Messaging);
     if (g_messaging) {
