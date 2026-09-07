@@ -19,12 +19,14 @@
 #pragma comment(lib, "Shell32.lib")
 
 #include <atomic>
+#include <chrono>
 #include <cstdint>
 #include <cstdio>
 #include <cstdlib>
 #include <cwchar>
 #include <fstream>
 #include <string>
+#include <thread>
 #include <vector>
 
 #include "common/ITypes.h"
@@ -55,23 +57,21 @@ constexpr std::uint32_t kDebugKey = 0x32; // VK_F3
 PluginHandle g_pluginHandle = kPluginHandle_Invalid;
 F4SEMessagingInterface* g_messaging = nullptr;
 F4SETaskInterface* g_task = nullptr;
-FILE* g_logFile = nullptr;
 
 void Log(const char* fmt, ...) {
-    if (!g_logFile) {
-        wchar_t myDocs[MAX_PATH];
-        if (SUCCEEDED(SHGetFolderPathW(NULL, CSIDL_MYDOCUMENTS, NULL, 0, myDocs))) {
-            std::wstring logPath = std::wstring(myDocs) + L"\\My Games\\Fallout4\\F4SE\\RCAI.log";
-            _wfopen_s(&g_logFile, logPath.c_str(), L"a");
+    wchar_t myDocs[MAX_PATH];
+    if (SUCCEEDED(SHGetFolderPathW(NULL, CSIDL_MYDOCUMENTS, NULL, 0, myDocs))) {
+        std::wstring logPath = std::wstring(myDocs) + L"\\My Games\\Fallout4\\F4SE\\RCAI.log";
+        FILE* f = _wfsopen(logPath.c_str(), L"a", _SH_DENYNO);
+        if (f) {
+            va_list args;
+            va_start(args, fmt);
+            vfprintf(f, fmt, args);
+            fprintf(f, "\n");
+            fflush(f);
+            va_end(args);
+            fclose(f);
         }
-    }
-    if (g_logFile) {
-        va_list args;
-        va_start(args, fmt);
-        vfprintf(g_logFile, fmt, args);
-        fprintf(g_logFile, "\n");
-        fflush(g_logFile);
-        va_end(args);
     }
 }
 
@@ -335,43 +335,62 @@ void RegisterConsoleCommands() {
 }
 
 // ---------------------------------------------------------------------------
-// task delegate & messaging
+// task delegate & background worker thread
 // ---------------------------------------------------------------------------
 
+std::atomic<bool> g_workerRunning{false};
 std::atomic<bool> g_gameReady{false};
+std::atomic<bool> g_tickInFlight{false};
 
-class RCAITickTask : public ITaskDelegate {
+class RCAISingleTickTask : public ITaskDelegate {
 public:
-    virtual ~RCAITickTask() = default;
+    virtual ~RCAISingleTickTask() = default;
 
     void Run() override {
-        if (!g_gameReady.load(std::memory_order_acquire)) {
-            return;
-        }
-
         const std::uint64_t now = GetTickCount64();
-        if (g_config.bEnabled && g_active.load(std::memory_order_acquire)) {
-            if (g_config.iUpdateIntervalMS <= 0 || (now - g_lastTickMS >= (std::uint64_t)g_config.iUpdateIntervalMS)) {
-                g_lastTickMS = now;
 #if defined(_WIN32)
-                __try {
-                    Tick(now);
-                } __except (EXCEPTION_EXECUTE_HANDLER) {
-                    Log("RCAI: caught exception during Tick, skipping frame");
-                }
-#else
-                try {
-                    Tick(now);
-                } catch (...) {}
-#endif
+        __try {
+            Tick(now);
+        } __except (EXCEPTION_EXECUTE_HANDLER) {
+            static int errCount = 0;
+            if (errCount++ < 5) {
+                Log("RCAI: caught exception during Tick, skipping frame");
             }
         }
-
-        if (g_task && g_gameReady.load(std::memory_order_acquire)) {
-            g_task->AddTask(new RCAITickTask());
-        }
+#else
+        try {
+            Tick(now);
+        } catch (...) {}
+#endif
+        g_tickInFlight.store(false, std::memory_order_release);
     }
 };
+
+void WorkerThreadFunc() {
+    Log("RCAI: background worker thread started");
+    while (g_workerRunning.load(std::memory_order_acquire)) {
+        const int interval = (g_config.iUpdateIntervalMS > 0) ? g_config.iUpdateIntervalMS : 50;
+        std::this_thread::sleep_for(std::chrono::milliseconds(interval));
+
+        if (!g_workerRunning.load(std::memory_order_acquire)) {
+            break;
+        }
+
+        if (g_gameReady.load(std::memory_order_acquire) &&
+            g_config.bEnabled &&
+            g_active.load(std::memory_order_acquire)) {
+            bool expected = false;
+            if (g_tickInFlight.compare_exchange_strong(expected, true, std::memory_order_acq_rel)) {
+                if (g_task) {
+                    g_task->AddTask(new RCAISingleTickTask());
+                } else {
+                    g_tickInFlight.store(false, std::memory_order_release);
+                }
+            }
+        }
+    }
+    Log("RCAI: background worker thread stopped");
+}
 
 void OnF4SEMessage(F4SEMessagingInterface::Message* msg) {
     if (!msg) return;
@@ -381,11 +400,12 @@ void OnF4SEMessage(F4SEMessagingInterface::Message* msg) {
         g_gameReady.store(false, std::memory_order_release);
     } else if (msg->type == F4SEMessagingInterface::kMessage_PostLoadGame ||
                msg->type == F4SEMessagingInterface::kMessage_NewGame) {
-        Log("RCAI: game world active (msg type %u), starting tick task", msg->type);
-        g_gameReady.store(true, std::memory_order_release);
-        if (g_task) {
-            g_task->AddTask(new RCAITickTask());
-        }
+        Log("RCAI: game world active (msg type %u), starting settle timer", msg->type);
+        std::thread([]() {
+            std::this_thread::sleep_for(std::chrono::milliseconds(1500));
+            g_gameReady.store(true, std::memory_order_release);
+            Log("RCAI: game world settled, AI ticking enabled");
+        }).detach();
     }
 }
 
@@ -456,6 +476,9 @@ __declspec(dllexport) bool F4SEPlugin_Load(const F4SEInterface* f4se) {
     g_task = (F4SETaskInterface*)f4se->QueryInterface(kInterface_Task);
 
     RegisterConsoleCommands();
+
+    g_workerRunning.store(true, std::memory_order_release);
+    std::thread(WorkerThreadFunc).detach();
 
     Log("RCAI: plugin load complete");
     return true;

@@ -25,20 +25,24 @@ struct NiPoint3 {
     float z = 0.0f;
 };
 
-// F4SE dynamic array layout
+// F4SE dynamic array layout (matching GameTypes.h)
 template <typename T>
 struct tArray {
-    T* entries = nullptr;
-    UInt32 count = 0;
-    UInt32 pad04 = 0;
-    UInt32 capacity = 0;
-    UInt32 pad0C = 0;
+    T* entries = nullptr;    // 00
+    UInt32 capacity = 0;     // 08
+    UInt32 pad0C = 0;        // 0C
+    UInt32 count = 0;        // 10
+    UInt32 pad14 = 0;        // 14
 
     UInt32 size() const { return count; }
     bool empty() const { return count == 0 || entries == nullptr; }
     T& operator[](UInt32 idx) { return entries[idx]; }
     const T& operator[](UInt32 idx) const { return entries[idx]; }
 };
+static_assert(offsetof(tArray<void*>, entries) == 0x00, "tArray entries offset");
+static_assert(offsetof(tArray<void*>, capacity) == 0x08, "tArray capacity offset");
+static_assert(offsetof(tArray<void*>, count) == 0x10, "tArray count offset");
+static_assert(sizeof(tArray<void*>) == 0x18, "tArray size mismatch");
 
 // Form Types (matching GameForms.h)
 enum FormType : UInt8 {
