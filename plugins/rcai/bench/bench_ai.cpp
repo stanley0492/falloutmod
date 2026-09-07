@@ -125,10 +125,11 @@ struct SeedResult {
     int heals = 0;
 };
 
-SeedResult runSeed(std::uint64_t seed) {
+SeedResult runSeed(std::uint64_t seed, perf::FrameProfiler* prof = nullptr) {
     SeedResult r;
     r.seed = seed;
     HeadlessSim sim(scenario(seed), seed);
+    sim.setProfiler(prof);
 
     // Snapshot stats at first contact (any enemy in combat) so the
     // combat-phase ratio is exact.
@@ -172,10 +173,23 @@ SeedResult runSeed(std::uint64_t seed) {
 
 } // namespace
 
-int main() {
+int main(int argc, char** argv) {
     const int kSeeds = 5;
+    perf::FrameProfiler profiler;
+    std::string profilePath;
+    for (int i = 1; i + 1 < argc; ++i)
+        if (argv[i] == std::string("--profile")) profilePath = argv[++i];
+    if (!profilePath.empty()) {
+        profiler.setSubsystems({"decision", "sim_step"});
+    }
     std::vector<SeedResult> results;
-    for (int i = 0; i < kSeeds; ++i) results.push_back(runSeed(1000 + i));
+    for (int i = 0; i < kSeeds; ++i)
+        results.push_back(runSeed(1000 + i, profilePath.empty() ? nullptr : &profiler));
+    if (!profilePath.empty()) {
+        profiler.exportCsv(profilePath);
+        std::printf("profiler CSV -> %s (%d frames)\n", profilePath.c_str(),
+                    profiler.summary().frames);
+    }
 
     auto avg = [&](float (SeedResult::*f)) {
         float t = 0;

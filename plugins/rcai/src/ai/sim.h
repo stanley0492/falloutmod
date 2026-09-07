@@ -9,6 +9,8 @@
 #include <cmath>
 #include <deque>
 
+#include "perf/profiler.h"
+
 #include "ai/behaviour.h"
 #include "util/rng.h"
 
@@ -66,6 +68,7 @@ public:
     Brain& brain() { return brain_; }
     PlayerModel& playerModel() { return pm_; }
     int tickIndex() const { return tickIndex_; }
+    void setProfiler(perf::FrameProfiler* p) { prof_ = p; }
 
     void step(float dt) {
         w_.time += dt;
@@ -75,19 +78,26 @@ public:
             w_.playerTrail.push_back(w_.player.pos);
             if (w_.playerTrail.size() > 6) w_.playerTrail.erase(w_.playerTrail.begin());
         }
+        if (prof_) prof_->beginFrame();
         // 1) Enemies: fold previous-tick events, decide, act.
         std::vector<WorldEvent> events = pending_;
         for (const auto& a : w_.actors)
             if (a.health <= 0.f)
                 events.push_back({WorldEvent::Kind::ActorDied, a.id, {}, 0.f, false});
-        const BrainResult br = brain_.tick(w_, events, dt);
-        for (const auto& act : br.actions) {
-            if (act.type == Action::Type::CallReinforcements) ++stats_.reinforcementsCalled;
-            applyEnemyAction(act, dt);
+        BrainResult br;
+        {
+            perf::FrameProfiler::Scope sc(prof_, "decision");
+            br = brain_.tick(w_, events, dt);
         }
-
-        // 2) Player acts; its events feed the enemies next tick (causality).
-        pending_ = stepPlayer(dt);
+        {
+            perf::FrameProfiler::Scope sc(prof_, "sim_step");
+            for (const auto& act : br.actions) {
+                if (act.type == Action::Type::CallReinforcements) ++stats_.reinforcementsCalled;
+                applyEnemyAction(act, dt);
+            }
+            // 2) Player acts; its events feed the enemies next tick (causality).
+            pending_ = stepPlayer(dt);
+        }
 
         // 3) First-kill + combat-time-in-cover bookkeeping.
         if (stats_.totalKills > 0 && stats_.firstKillTick < 0)
@@ -97,10 +107,13 @@ public:
             stats_.combatTime += dt;
             if (a.hasCover) stats_.coverCombatTime += dt;
         }
+        if (prof_) prof_->endFrame();
         ++tickIndex_;
     }
 
 private:
+    perf::FrameProfiler* prof_ = nullptr;
+
     void applyEnemyAction(const Action& act, float dt) {
         auto* a = w_.findActor(act.actorId);
         if (!a || a->health <= 0.f) return;
