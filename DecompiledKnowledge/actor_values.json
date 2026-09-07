@@ -1,0 +1,2515 @@
+[
+  {
+    "edid": "AO_Comp_Bar_Cooke",
+    "formid": "0x00231DA0",
+    "name": "KL\u0003",
+    "abbr": "JL\u0003",
+    "desc": ""
+  },
+  {
+    "edid": "AO_Comp_Bar_Deezer",
+    "formid": "0x00231DA1",
+    "name": "uL\u0003",
+    "abbr": "\ufffdK\u0003",
+    "desc": ""
+  },
+  {
+    "edid": "AO_Comp_Bar_Savoldi",
+    "formid": "0x00231DA2",
+    "name": "\ufffdL\u0003",
+    "abbr": "DL\u0003",
+    "desc": ""
+  },
+  {
+    "edid": "AO_Comp_Bar_Takahashi",
+    "formid": "0x00231DA3",
+    "name": "TJ\u0003",
+    "abbr": "nL\u0003",
+    "desc": ""
+  },
+  {
+    "edid": "AO_Comp_Bar_Vadim",
+    "formid": "0x00231DA4",
+    "name": "UM\u0003",
+    "abbr": "VK\u0003",
+    "desc": ""
+  },
+  {
+    "edid": "AO_Comp_Bar_Wellingham",
+    "formid": "0x00231DA5",
+    "name": "oJ\u0003",
+    "abbr": "SL\u0003",
+    "desc": ""
+  },
+  {
+    "edid": "AO_Comp_Bar_Whitechapel",
+    "formid": "0x00231D9F",
+    "name": "\ufffdJ\u0003",
+    "abbr": "\ufffdK\u0003",
+    "desc": ""
+  },
+  {
+    "edid": "ActionPoints",
+    "formid": "0x000002D5",
+    "name": "",
+    "abbr": "s\ufffd\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "AddictionAlcohol",
+    "formid": "0x00245EF1",
+    "name": "\ufffdV\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "AddictionBuffout",
+    "formid": "0x00245EF8",
+    "name": "\ufffdV\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "AddictionBuzzBites",
+    "formid": "0x0024615B",
+    "name": "\ufffdV\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "AddictionCalmex",
+    "formid": "0x00246BF5",
+    "name": "\ufffdW\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "AddictionCount",
+    "formid": "0x001EB998",
+    "name": "",
+    "abbr": "",
+    "desc": "\t&\u0003"
+  },
+  {
+    "edid": "AddictionDaddyO",
+    "formid": "0x00245EFF",
+    "name": "\ufffdV\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "AddictionDaytripper",
+    "formid": "0x00245F02",
+    "name": "\ufffdV\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "AddictionFury",
+    "formid": "0x00246BFE",
+    "name": "\ufffdW\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "AddictionJet",
+    "formid": "0x00245F05",
+    "name": ".W\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "AddictionLorenzoSerum",
+    "formid": "0x0024615F",
+    "name": "\ufffdV\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "AddictionMedX",
+    "formid": "0x002458B9",
+    "name": "MU\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "AddictionMentats",
+    "formid": "0x00245EF3",
+    "name": "\ufffdV\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOverdrive",
+    "formid": "0x00245F09",
+    "name": "\ufffdV\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "AddictionPsycho",
+    "formid": "0x00245EFA",
+    "name": "\ufffdV\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "AddictionXCell",
+    "formid": "0x00245EFC",
+    "name": "\ufffdV\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "Agility",
+    "formid": "0x000002C7",
+    "name": "[\ufffd\u0001",
+    "abbr": "R\ufffd\u0001",
+    "desc": "\u0018\ufffd\u0001"
+  },
+  {
+    "edid": "AimStability",
+    "formid": "0x0000035B",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "ArmorBlockPercent",
+    "formid": "0x0018330E",
+    "name": "\ufffdE\u0002",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "ArmorPenetration",
+    "formid": "0x00097341",
+    "name": "\ufffd\ufffd\u0002",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0002"
+  },
+  {
+    "edid": "ArmorQuietMod",
+    "formid": "0x00183316",
+    "name": "\u0000A\u0001",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "ArmorShadowHide",
+    "formid": "0x00183312",
+    "name": "\ufffd\ufffd\u0001",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "AvailableCondition3",
+    "formid": "0x00000375",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "BoughtHaircutAV",
+    "formid": "0x00043C2B",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0002"
+  },
+  {
+    "edid": "BoughtSurgeryAV",
+    "formid": "0x00043C95",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0002"
+  },
+  {
+    "edid": "BrainCondition",
+    "formid": "0x00000372",
+    "name": "\ufffdV\u0002",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "CA_Affinity",
+    "formid": "0x000A1B80",
+    "name": "\ufffd\u0014\u0002",
+    "abbr": "hL\u0002",
+    "desc": ""
+  },
+  {
+    "edid": "CA_AffinitySceneToPlay",
+    "formid": "0x000FA875",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0001"
+  },
+  {
+    "edid": "CA_CurrentThreshold",
+    "formid": "0x000A1B81",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "CA_Custom",
+    "formid": "0x000F75E0",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0001"
+  },
+  {
+    "edid": "CA_HighestReached",
+    "formid": "0x000A1B83",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "CA_HighestThreshold",
+    "formid": "0x000A1B86",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "CA_IsRomanceableNow",
+    "formid": "0x00148F8D",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0001"
+  },
+  {
+    "edid": "CA_IsRomantic",
+    "formid": "0x00148DF6",
+    "name": "",
+    "abbr": "",
+    "desc": "\u000bZ\u0002"
+  },
+  {
+    "edid": "CA_LastChangePositive",
+    "formid": "0x000A1B82",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "CA_LastDialogueBump",
+    "formid": "0x000971F3",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0002"
+  },
+  {
+    "edid": "CA_LowestReached",
+    "formid": "0x000A1B84",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "CA_LowestThreshold",
+    "formid": "0x000A1B87",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "CA_MurderSessionCount",
+    "formid": "0x000A2C4D",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0001"
+  },
+  {
+    "edid": "CA_MurderSessionDay",
+    "formid": "0x000A2C4E",
+    "name": "",
+    "abbr": "",
+    "desc": "/I\u0001"
+  },
+  {
+    "edid": "CA_MurderSessionVictimCount",
+    "formid": "0x000A2C4F",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffdD\u0001"
+  },
+  {
+    "edid": "CA_Trait_Generous",
+    "formid": "0x000A1B1C",
+    "name": "\u007f\ufffd\u0001",
+    "abbr": "",
+    "desc": "~\ufffd\u0001"
+  },
+  {
+    "edid": "CA_Trait_Mean",
+    "formid": "0x000A1B1F",
+    "name": "\ufffd\ufffd\u0001",
+    "abbr": "",
+    "desc": "L(\u0002"
+  },
+  {
+    "edid": "CA_Trait_Nice",
+    "formid": "0x000A1B1E",
+    "name": "S\ufffd\u0001",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0001"
+  },
+  {
+    "edid": "CA_Trait_Peaceful",
+    "formid": "0x000A1B20",
+    "name": "F\u0004\u0002",
+    "abbr": "",
+    "desc": "\ufffd\u0001"
+  },
+  {
+    "edid": "CA_Trait_Selfish",
+    "formid": "0x000A1B1D",
+    "name": "\ufffd\ufffd\u0001",
+    "abbr": "",
+    "desc": "\u00b9\u0001"
+  },
+  {
+    "edid": "CA_Trait_Violent",
+    "formid": "0x000A1B21",
+    "name": "\u0007d\u0002",
+    "abbr": "",
+    "desc": "\ufffdB\u0002"
+  },
+  {
+    "edid": "CA_WantsToTalk",
+    "formid": "0x000FA86B",
+    "name": "",
+    "abbr": "",
+    "desc": "\u0084\u0001"
+  },
+  {
+    "edid": "CA_WantsToTalkMurder",
+    "formid": "0x0021BDFF",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd=\u0003"
+  },
+  {
+    "edid": "CA_WantsToTalkRomanceRetry",
+    "formid": "0x00215DD3",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd=\u0003"
+  },
+  {
+    "edid": "CCE_TestCompanionChatEvent",
+    "formid": "0x002486EC",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd]\u0003"
+  },
+  {
+    "edid": "COMQC_BoS100HelpAtPDAV",
+    "formid": "0x002488DF",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_BoS101ArcJetDoneAV",
+    "formid": "0x002488E0",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_BoS200JoinedBoSAV",
+    "formid": "0x002488E1",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_BoS202FortStrongClearedAV",
+    "formid": "0x002488E2",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_BoS301BuildPrimeBeginsAV",
+    "formid": "0x002488E3",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_BoS302BRRDestroyedAV",
+    "formid": "0x002488E7",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_BoS302DanseDiedAV",
+    "formid": "0x002488E5",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_BoS302DanseIsSynthAV",
+    "formid": "0x002488E4",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_BoS302DanseLivedAV",
+    "formid": "0x002488E6",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_BoS303GettingAgitatorAV",
+    "formid": "0x002488E8",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_BoS304LibertyPrimeUnleashedAV",
+    "formid": "0x002488E9",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_Inst301AssaultLibertaliaAV",
+    "formid": "0x002488EA",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_Inst302AssaultedBunkerHillAV",
+    "formid": "0x002488EB",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_Inst305ReactorOnlineAV",
+    "formid": "0x002488EE",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_Inst306RRDestroyedAV",
+    "formid": "0x002488EF",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_Inst307InstituteWinsAV",
+    "formid": "0x002488F0",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_InstMassFusionBoSEnemyAV",
+    "formid": "0x002488EC",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_InstVsMinRecruitedCivilianAV",
+    "formid": "0x002488ED",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_MQ104RescueNickAV",
+    "formid": "0x002488CA",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_MQ106KelloggDeadAV",
+    "formid": "0x002488CC",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_MQ106KelloggHuntAV",
+    "formid": "0x002488CB",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_MQ201PrydwenArrivedAV",
+    "formid": "0x002488CD",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_MQ202AmariDenAV",
+    "formid": "0x002488CE",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_MQ204DenDoneAV",
+    "formid": "0x002488CF",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_MQ204VirgilAV",
+    "formid": "0x002488D0",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_MQ206BackFromInstituteAV",
+    "formid": "0x002488D3",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_MQ206HaveChipAV",
+    "formid": "0x002488D1",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_MQ206TeleporterBuildAV",
+    "formid": "0x002488D2",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_MQ302InstituteDestroyedAV",
+    "formid": "0x002488D4",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_Min00KilledDeathclawAV",
+    "formid": "0x002488F1",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_Min02AttackCastleAV",
+    "formid": "0x002488F2",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_Min02CourtyardClearedAV",
+    "formid": "0x002488F3",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_Min02MirelurkQueenDeadAV",
+    "formid": "0x002488F4",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_Min03ArtilleryFiredAV",
+    "formid": "0x002488F7",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_Min03EnteredArmoryAV",
+    "formid": "0x002488F6",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_Min03ShawKnowsTheWayAV",
+    "formid": "0x002488F5",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_PrydwenDestroyedByInstituteAV",
+    "formid": "0x002488D6",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_PrydwenDestroyedByMMAV",
+    "formid": "0x002488D7",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_PrydwenDestroyedByRRAV",
+    "formid": "0x002488D5",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_RR101MetDesdemonaNoJoinAV",
+    "formid": "0x002488D9",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_RR101StartTrailAV",
+    "formid": "0x002488D8",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_RR102AtSwitchboardAV",
+    "formid": "0x002488DB",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_RR102JoinedRRAV",
+    "formid": "0x002488DA",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_RR302PrepVbirdAV",
+    "formid": "0x002488DD",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_RR302RepelBoSAtHQAV",
+    "formid": "0x002488DC",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "COMQC_RRMQ302BoSDeadAttackInstituteAV",
+    "formid": "0x002488DE",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "CarryWeight",
+    "formid": "0x000002DC",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "Charisma",
+    "formid": "0x000002C5",
+    "name": "\ufffdo\u0002",
+    "abbr": "L\ufffd\u0001",
+    "desc": "\ufffdJ\u0001"
+  },
+  {
+    "edid": "ChemDurationMod",
+    "formid": "0x000BA447",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0001"
+  },
+  {
+    "edid": "CompStrongBerserkAV",
+    "formid": "0x00084287",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "DMP_ReleaseHoldPosition",
+    "formid": "0x000D97F3",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "DN035_ReserveRacersReleased",
+    "formid": "0x0013CB4E",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "DN049_Bake_Counter",
+    "formid": "0x000E9415",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "DN049_InRelevantStore",
+    "formid": "0x000E5259",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "DN084_ControlRoomOverride",
+    "formid": "0x00049647",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "DN084_DescentEndFloor",
+    "formid": "0x000F59D7",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "DN084_DescentHasTeleported",
+    "formid": "0x00047FD5",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "DN084_DescentStartFloor",
+    "formid": "0x000F59D6",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "DN131_CommonsTriggerTimestamp",
+    "formid": "0x000668D7",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "DN160_GhoulChargeToggle",
+    "formid": "0x00101DD9",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "DamageResist",
+    "formid": "0x000002E3",
+    "name": "b\ufffd\u0001",
+    "abbr": "\u0019\ufffd\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "DestroyBOSCompanion",
+    "formid": "0x0022333A",
+    "name": "",
+    "abbr": "",
+    "desc": "zA\u0003"
+  },
+  {
+    "edid": "DetectionMovementMod",
+    "formid": "0x000BA43C",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0001"
+  },
+  {
+    "edid": "Dogmeat_clickedPreMolerat",
+    "formid": "0x000C9B0E",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "EMSystemSleeping",
+    "formid": "0x00066514",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "ElectricResist",
+    "formid": "0x000002E6",
+    "name": "\t\ufffd\u0001",
+    "abbr": "i\ufffd\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "Endurance",
+    "formid": "0x000002C4",
+    "name": "\u0013\ufffd\u0001",
+    "abbr": "\ufffd\ufffd\u0001",
+    "desc": "E\ufffd\u0001"
+  },
+  {
+    "edid": "EnduranceCondition",
+    "formid": "0x0000036D",
+    "name": "#{\u0002",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "EnergyResist",
+    "formid": "0x000002EB",
+    "name": "p\ufffd\u0001",
+    "abbr": "o\ufffd\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "Experience",
+    "formid": "0x000002C9",
+    "name": "",
+    "abbr": "q\ufffd\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "FWIsAttacker",
+    "formid": "0x000B9635",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "FallingDamageMod",
+    "formid": "0x000BA43D",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0001"
+  },
+  {
+    "edid": "FastTravelOverEncumbered",
+    "formid": "0x00101CB8",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "FireResist",
+    "formid": "0x000002E5",
+    "name": "#\ufffd\u0001",
+    "abbr": "h\ufffd\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "FollowerEndgameForceGreetOn",
+    "formid": "0x00218F37",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd=\u0003"
+  },
+  {
+    "edid": "FollowerForceGreetOn",
+    "formid": "0x000E1D04",
+    "name": "",
+    "abbr": "",
+    "desc": " )\u0002"
+  },
+  {
+    "edid": "FollowerState",
+    "formid": "0x00000344",
+    "name": "",
+    "abbr": "",
+    "desc": "3I\u0001"
+  },
+  {
+    "edid": "ForceGreetOn",
+    "formid": "0x000AD3DA",
+    "name": "",
+    "abbr": "",
+    "desc": ";W\u0002"
+  },
+  {
+    "edid": "Freeze",
+    "formid": "0x0018C355",
+    "name": "\ufffd\ufffd\u0002",
+    "abbr": "S\ufffd\u0002",
+    "desc": "\ufffd\ufffd\u0002"
+  },
+  {
+    "edid": "FrostResist",
+    "formid": "0x000002E7",
+    "name": "\u01d1\u0001",
+    "abbr": "k\ufffd\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "GenericBrawlLoser",
+    "formid": "0x000AD3D5",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\\\u0002"
+  },
+  {
+    "edid": "GenericBrawlWinner",
+    "formid": "0x000AD3D4",
+    "name": "",
+    "abbr": "",
+    "desc": "C\ufffd\u0001"
+  },
+  {
+    "edid": "HC_Adrenaline",
+    "formid": "0x0000080F",
+    "name": "Pe\u0003",
+    "abbr": "\u0016",
+    "desc": "U"
+  },
+  {
+    "edid": "HC_CannibalEffect",
+    "formid": "0x000008C1",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd"
+  },
+  {
+    "edid": "HC_HungerEffect",
+    "formid": "0x00000855",
+    "name": "",
+    "abbr": "",
+    "desc": "E"
+  },
+  {
+    "edid": "HC_IncomingDamageMult",
+    "formid": "0x0000084A",
+    "name": "",
+    "abbr": "",
+    "desc": "8"
+  },
+  {
+    "edid": "HC_IsCompanionInNeedOfHealing",
+    "formid": "0x00249F6D",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffdf\u0003"
+  },
+  {
+    "edid": "HC_OutgoingDamageMult",
+    "formid": "0x00000849",
+    "name": "",
+    "abbr": "",
+    "desc": "]e\u0003"
+  },
+  {
+    "edid": "HC_SleepEffect",
+    "formid": "0x00000828",
+    "name": "",
+    "abbr": "",
+    "desc": "X"
+  },
+  {
+    "edid": "HC_ThirstEffect",
+    "formid": "0x00000868",
+    "name": "",
+    "abbr": "",
+    "desc": "?"
+  },
+  {
+    "edid": "HasItemForPlayer",
+    "formid": "0x0016FBC6",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0001"
+  },
+  {
+    "edid": "HealRate",
+    "formid": "0x000002D7",
+    "name": "ME\u0001",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "HealRateMult",
+    "formid": "0x00000358",
+    "name": "",
+    "abbr": "",
+    "desc": "\u01fe\u0001"
+  },
+  {
+    "edid": "Health",
+    "formid": "0x000002D4",
+    "name": "\ufffd@\u0001",
+    "abbr": "_d\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "HoldupAV",
+    "formid": "0x000E7726",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "HoldupCapsAV",
+    "formid": "0x000F3629",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "HoldupCommandAV",
+    "formid": "0x000F362A",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "HoldupExplosionAV",
+    "formid": "0x001E5F9B",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "HoldupFleeAV",
+    "formid": "0x000F362B",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "HoldupFrenzyAV",
+    "formid": "0x001C5050",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "HoldupImmuneAV",
+    "formid": "0x002049B5",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "IdleChatterTimeMax",
+    "formid": "0x000002CD",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "IdleChatterTimeMin",
+    "formid": "0x000002CC",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "IgnoreCrippledLimbs",
+    "formid": "0x000002F8",
+    "name": "|\ufffd\u0001",
+    "abbr": "{\ufffd\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "IgnoreExplosionKnockdown",
+    "formid": "0x0020A24E",
+    "name": "\ufffd3\u0003",
+    "abbr": "",
+    "desc": "\ufffd3\u0003"
+  },
+  {
+    "edid": "Incendiary",
+    "formid": "0x001B88D8",
+    "name": "\ufffd\u0007\u0003",
+    "abbr": "\ufffd\b\u0003",
+    "desc": "\u0019\b\u0003"
+  },
+  {
+    "edid": "Inst307Fight_AllowTowerCombat",
+    "formid": "0x001868BB",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "Inst307Fight_InPerimeterZone",
+    "formid": "0x0017846B",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "Intelligence",
+    "formid": "0x000002C6",
+    "name": "c\ufffd\u0001",
+    "abbr": "\"|\u0001",
+    "desc": "Q\ufffd\u0001"
+  },
+  {
+    "edid": "Invisibility",
+    "formid": "0x000002F3",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "JumpHeightMult",
+    "formid": "0x00249E95",
+    "name": "5e\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LGND_APCostMult",
+    "formid": "0x001F1D63",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LGND_ArmorDisarm",
+    "formid": "0x001F3A48",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LGND_Frenzied",
+    "formid": "0x001F6AD7",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LGND_LessDmgAnimals",
+    "formid": "0x001F1DEC",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LGND_LessDmgBlockSprint",
+    "formid": "0x001F579E",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LGND_LessDmgBugs",
+    "formid": "0x001F81E5",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LGND_LessDmgGhouls",
+    "formid": "0x001F1DF0",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LGND_LessDmgHumans",
+    "formid": "0x001F1DF2",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LGND_LessDmgRobots",
+    "formid": "0x001F81E6",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LGND_LessDmgStandStill",
+    "formid": "0x001F57E5",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LGND_LessDmgSupermutants",
+    "formid": "0x001F1DF6",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LGND_LessFallDamage",
+    "formid": "0x001F1DF8",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LGND_LockPickSweetSpot",
+    "formid": "0x001F3CAB",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LGND_PerkAV300",
+    "formid": "0x001E6D6E",
+    "name": "",
+    "abbr": "",
+    "desc": "e$\u0003"
+  },
+  {
+    "edid": "LGND_PerkAV50",
+    "formid": "0x001E6851",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd%\u0003"
+  },
+  {
+    "edid": "LGND_WeaponAV",
+    "formid": "0x001EF5D9",
+    "name": "",
+    "abbr": "",
+    "desc": "Y'\u0003"
+  },
+  {
+    "edid": "LGND_WeaponConsecutiveHits",
+    "formid": "0x001EF483",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd(\u0003"
+  },
+  {
+    "edid": "LeftAttackCondition",
+    "formid": "0x0000036E",
+    "name": "V\ufffd\u0001",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "LeftMobilityCondition",
+    "formid": "0x00000370",
+    "name": "+(\u0002",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "Luck",
+    "formid": "0x000002C8",
+    "name": "T\ufffd\u0001",
+    "abbr": "v\ufffd\u0001",
+    "desc": "S\ufffd\u0001"
+  },
+  {
+    "edid": "MQ203HideMe",
+    "formid": "0x000E2B07",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "MQ206Powered",
+    "formid": "0x000AB03C",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0002"
+  },
+  {
+    "edid": "MQ206SharedGrid",
+    "formid": "0x000AB03D",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0002"
+  },
+  {
+    "edid": "MQ302Companion",
+    "formid": "0x00218F39",
+    "name": "",
+    "abbr": "",
+    "desc": "\u001b=\u0003"
+  },
+  {
+    "edid": "MS04SilverShroudTarget",
+    "formid": "0x0001A7F5",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "MS09LorenzoSerumUse",
+    "formid": "0x001A7343",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "MS09LorenzoStunned",
+    "formid": "0x0010214A",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "MS16FahrenheitShield",
+    "formid": "0x000ADC87",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "MS16FahrenheitShieldDamage",
+    "formid": "0x000ADC8C",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "MS17CloseWork",
+    "formid": "0x0007C61C",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "MS19Infected",
+    "formid": "0x000A7981",
+    "name": "\ufffd~\u0002",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "MinDefendCastleAttackFromSouth",
+    "formid": "0x0016961B",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "MinDefendCastleAttackerPhase",
+    "formid": "0x000C2E4F",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "MinPrestonChat",
+    "formid": "0x0018BCC3",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "MineTriggerRangeMod",
+    "formid": "0x000BA43F",
+    "name": "",
+    "abbr": "",
+    "desc": "\u0000\u001b\u0002"
+  },
+  {
+    "edid": "MirelurkKingCanCloak",
+    "formid": "0x001E4504",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "MirelurkQueenActiveSpawn",
+    "formid": "0x0018AFB3",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "MirelurkQueenClimbOverride1",
+    "formid": "0x001B3BF8",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "MiscStatRobotHasBeenDisabled",
+    "formid": "0x0021A175",
+    "name": "",
+    "abbr": "",
+    "desc": "\u0015>\u0003"
+  },
+  {
+    "edid": "Mod_Brawler_AV",
+    "formid": "0x00245B9C",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "Mod_IgnoreArmor_AV",
+    "formid": "0x00245BA4",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "Mod_ReducedPowerAttack_AV",
+    "formid": "0x00245BDB",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "Mod_ReducedSprint_AV",
+    "formid": "0x00245B87",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "Mod_Stabilized_AV",
+    "formid": "0x00245BC6",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "Mod_StealthMove_AV",
+    "formid": "0x00245BEB",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PABatteryDamageRate",
+    "formid": "0x0015A8B2",
+    "name": "\ufffd\ufffd\u0001",
+    "abbr": "Wn\u0001",
+    "desc": "\ufffd\ufffd\u0001"
+  },
+  {
+    "edid": "PADamageMult",
+    "formid": "0x001C87D2",
+    "name": "\\\u0015\u0003",
+    "abbr": "7\u0013\u0003",
+    "desc": ""
+  },
+  {
+    "edid": "PARadResistMult",
+    "formid": "0x00203A3A",
+    "name": "l5\u0003",
+    "abbr": "\ufffd;\u0003",
+    "desc": ""
+  },
+  {
+    "edid": "PA_Agility_AV",
+    "formid": "0x0023C9E0",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PA_Charisma_AV",
+    "formid": "0x0023C9DF",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PA_Endurance_AV",
+    "formid": "0x0023C9E5",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PA_Explosives_AV",
+    "formid": "0x00245AC5",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PA_Intelligence_AV",
+    "formid": "0x0023C9E3",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PA_KineticServos_AV",
+    "formid": "0x0022B646",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PA_Luck_AV",
+    "formid": "0x0023C9E4",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PA_OptimizedBracers_AV",
+    "formid": "0x0022B645",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PA_OptimizedServos_AV",
+    "formid": "0x0020D96E",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PA_OverdriveServos_AV",
+    "formid": "0x00230599",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PA_Perception_AV",
+    "formid": "0x0023C9E1",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PA_RustyKnuckles_AV",
+    "formid": "0x0020D96F",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PA_ShockDmg_AV",
+    "formid": "0x00239EBA",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PA_Strength_AV",
+    "formid": "0x0023C9E2",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PA_Unarmed_AV",
+    "formid": "0x00248491",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "POISC21_DogState",
+    "formid": "0x0020618D",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "Perception",
+    "formid": "0x000002C3",
+    "name": "DF\u0001",
+    "abbr": "C\ufffd\u0001",
+    "desc": ".U\u0001"
+  },
+  {
+    "edid": "PerceptionCondition",
+    "formid": "0x0000036C",
+    "name": "\ufffdt\u0002",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "PoisonResist",
+    "formid": "0x000002E4",
+    "name": "d\ufffd\u0001",
+    "abbr": "\ufffdt\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "PowerArmorVent",
+    "formid": "0x00084283",
+    "name": "\b\ufffd\u0002",
+    "abbr": "\ufffd\ufffd\u0002",
+    "desc": ""
+  },
+  {
+    "edid": "ProtectronPersonalityValue",
+    "formid": "0x001C5A31",
+    "name": "\ufffd\u0011\u0003",
+    "abbr": "",
+    "desc": "\ufffd\u0011\u0003"
+  },
+  {
+    "edid": "ProtectronPodStatus",
+    "formid": "0x000F39E2",
+    "name": "",
+    "abbr": "",
+    "desc": "!\ufffd\u0001"
+  },
+  {
+    "edid": "REAssaultRole",
+    "formid": "0x000ABEA0",
+    "name": "q\ufffd\u0001",
+    "abbr": "\ufffdT\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "RECampSC03DrethState",
+    "formid": "0x000ABEA2",
+    "name": "\ufffd\ufffd\u0001",
+    "abbr": "\ufffd\ufffd\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "RECheckpointRole",
+    "formid": "0x000AC504",
+    "name": "\ufffd\ufffd\u0002",
+    "abbr": "\ufffd\ufffd\u0002",
+    "desc": ""
+  },
+  {
+    "edid": "REChokepointSC02State",
+    "formid": "0x000B40D2",
+    "name": "\ufffdr\u0001",
+    "abbr": "\ufffd\ufffd\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "REFactionShared_IsAttacker",
+    "formid": "0x001AEE94",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "REOfferToJoinWorkshop",
+    "formid": "0x000A56F8",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "REVertibirdLandAirport",
+    "formid": "0x00109868",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "RR101_TourbotState",
+    "formid": "0x0019D073",
+    "name": "\ufffd\ufffd\u0002",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "RadResistExposure",
+    "formid": "0x000002EA",
+    "name": "\ufffd\u0003\u0002",
+    "abbr": "\ufffd\ufffd\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "RadResistIngestion",
+    "formid": "0x000002E9",
+    "name": "l\ufffd\u0001",
+    "abbr": "\ufffd\ufffd\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "Rads",
+    "formid": "0x000002E1",
+    "name": "a\ufffd\u0001",
+    "abbr": "\\\ufffd\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "ReduceLimbDamageMod",
+    "formid": "0x000BA43E",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0001"
+  },
+  {
+    "edid": "RentRoomAV",
+    "formid": "0x0010C92E",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0001"
+  },
+  {
+    "edid": "RightAttackCondition",
+    "formid": "0x0000036F",
+    "name": "\ufffd\ufffd\u0001",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "RightMobilityCondition",
+    "formid": "0x00000371",
+    "name": "]\ufffd\u0001",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "RoboticsExpertTargetCanSelfDestruct",
+    "formid": "0x001F1A79",
+    "name": "",
+    "abbr": "",
+    "desc": "{-\u0003"
+  },
+  {
+    "edid": "RoboticsExpertTargetConscious",
+    "formid": "0x001CF28A",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\u0015\u0003"
+  },
+  {
+    "edid": "Safety",
+    "formid": "0x00000333",
+    "name": "eE\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "SentryBotMaxHeatLevel",
+    "formid": "0x000B287B",
+    "name": "\ufffd\ufffd\u0001",
+    "abbr": "\ufffdD\u0001",
+    "desc": "L/\u0001"
+  },
+  {
+    "edid": "SpawnedLegendaryItem",
+    "formid": "0x001CD0AA",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\u0016\u0003"
+  },
+  {
+    "edid": "SpeedMult",
+    "formid": "0x000002DA",
+    "name": "",
+    "abbr": "",
+    "desc": "}\ufffd\u0001"
+  },
+  {
+    "edid": "Strength",
+    "formid": "0x000002C2",
+    "name": "<\ufffd\u0001",
+    "abbr": "\ufffd9\u0002",
+    "desc": ";\ufffd\u0001"
+  },
+  {
+    "edid": "TeleportRefCollOnLoad",
+    "formid": "0x001642A5",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "TeleportRefCollOptionalRequired",
+    "formid": "0x001642A4",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "TemporaryAngerLevel",
+    "formid": "0x0002DA12",
+    "name": "",
+    "abbr": "",
+    "desc": "\u0019\ufffd\u0002"
+  },
+  {
+    "edid": "TerminalVariable01",
+    "formid": "0x000DCE0F",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedDamage",
+    "formid": "0x000002DF",
+    "name": "",
+    "abbr": "o1\u0002",
+    "desc": ""
+  },
+  {
+    "edid": "ValentineFailedToHack",
+    "formid": "0x001694E6",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "VertibirdLand",
+    "formid": "0x00110304",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WaterBreathing",
+    "formid": "0x000002F6",
+    "name": "z\ufffd\u0001",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopActorAlert",
+    "formid": "0x0024974A",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopActorAssigned",
+    "formid": "0x0023830C",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopActorFlee",
+    "formid": "0x00214027",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopAttackSAEFaction",
+    "formid": "0x00176339",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffd\ufffd\u0002"
+  },
+  {
+    "edid": "WorkshopBellDistance",
+    "formid": "0x000C4441",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopCanBePoweredAV",
+    "formid": "0x0024A03A",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopCaravanDestination",
+    "formid": "0x000A56F9",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopFastTravel",
+    "formid": "0x001BDDBA",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopFloraHarvestTime",
+    "formid": "0x0023830E",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopGuardPreference",
+    "formid": "0x00113342",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopHideHappinessBarAV",
+    "formid": "0x00249E91",
+    "name": "",
+    "abbr": "",
+    "desc": "3e\u0003"
+  },
+  {
+    "edid": "WorkshopIgnoreNonRefOccupiedSnap",
+    "formid": "0x00249E73",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopLightboxCycling",
+    "formid": "0x00210B6F",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopLightboxCyclingType",
+    "formid": "0x00210C75",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopMustBeSnappedAV",
+    "formid": "0x0024A013",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopOverrideXBoundMax",
+    "formid": "0x00249E6A",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopOverrideXBoundMin",
+    "formid": "0x00249E6B",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopOverrideXYBounds",
+    "formid": "0x00249D41",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopOverrideYBoundMax",
+    "formid": "0x00249E6D",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopOverrideYBoundMin",
+    "formid": "0x00249E6C",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopOverrideZBoundMax",
+    "formid": "0x00249F00",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopOverrideZBoundMin",
+    "formid": "0x00249F01",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopPlacementAllowWaterAV",
+    "formid": "0x002233CD",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopPlacementRestrictToDirtAV",
+    "formid": "0x002233CC",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopPlacementRestrictToWaterAV",
+    "formid": "0x002233CB",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopPlayerLostControl",
+    "formid": "0x0018BCC2",
+    "name": "",
+    "abbr": "",
+    "desc": "\ufffdk\u0002"
+  },
+  {
+    "edid": "WorkshopProhibitRename",
+    "formid": "0x00249F0B",
+    "name": "",
+    "abbr": "",
+    "desc": "Je\u0003"
+  },
+  {
+    "edid": "WorkshopRatingBonusHappiness",
+    "formid": "0x0012722C",
+    "name": "\ufffd\ufffd\u0001",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingBrahmin",
+    "formid": "0x0012722D",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingCaravan",
+    "formid": "0x000A46FD",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingDamageArtillery",
+    "formid": "0x0012722E",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingDamageCurrent",
+    "formid": "0x0012722F",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingDamageFood",
+    "formid": "0x00127230",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingDamageMax",
+    "formid": "0x00127231",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingDamagePopulation",
+    "formid": "0x00127232",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingDamagePower",
+    "formid": "0x00127233",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingDamageSafety",
+    "formid": "0x00127234",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingDamageWater",
+    "formid": "0x00127235",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingFoodActual",
+    "formid": "0x00127236",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingFoodTypeCarrot",
+    "formid": "0x000A46FF",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingFoodTypeCorn",
+    "formid": "0x000A4700",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingFoodTypeGourd",
+    "formid": "0x000A4701",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingFoodTypeMelon",
+    "formid": "0x000A4702",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingFoodTypeMutfruit",
+    "formid": "0x000A4703",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingFoodTypeRazorgrain",
+    "formid": "0x000A4704",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingFoodTypeTarberry",
+    "formid": "0x000A4705",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingFoodTypeTato",
+    "formid": "0x000A4706",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingHappiness",
+    "formid": "0x00129157",
+    "name": "e*\u0003",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingHappinessModifier",
+    "formid": "0x00127237",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingHappinessTarget",
+    "formid": "0x00127238",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingLastAttackDaysSince",
+    "formid": "0x00127239",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingLastAttackFaction",
+    "formid": "0x0012723A",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingMissingBeds",
+    "formid": "0x0012723B",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingMissingFood",
+    "formid": "0x0012723C",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingMissingSafety",
+    "formid": "0x001E3272",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingMissingWater",
+    "formid": "0x0012723D",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingPopulation",
+    "formid": "0x0012723E",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingPopulationRobots",
+    "formid": "0x0012723F",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingPopulationSynths",
+    "formid": "0x000CFF76",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingPopulationUnassigned",
+    "formid": "0x00127240",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingProvisioner",
+    "formid": "0x00249E5A",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingRadio",
+    "formid": "0x00127241",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingScavengeBuilding",
+    "formid": "0x00086749",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingScavengeGeneral",
+    "formid": "0x00086748",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingScavengeParts",
+    "formid": "0x0008674A",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingScavengeRare",
+    "formid": "0x0008674B",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingTotalBonusHappiness",
+    "formid": "0x00127242",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingTotalFood",
+    "formid": "0x00127243",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingTotalPower",
+    "formid": "0x00127244",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingTotalSafety",
+    "formid": "0x00127245",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingTotalWater",
+    "formid": "0x00127246",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingVendorIncome",
+    "formid": "0x00127247",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingVendorTypeArmor",
+    "formid": "0x00249E60",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingVendorTypeBar",
+    "formid": "0x00249E5D",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingVendorTypeClinic",
+    "formid": "0x00249E5F",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingVendorTypeClothing",
+    "formid": "0x00249E5E",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingVendorTypeGeneral",
+    "formid": "0x00249E61",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopRatingVendorTypeWeapon",
+    "formid": "0x00249E5C",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopResourceObject",
+    "formid": "0x00129A8C",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopSnapStacks",
+    "formid": "0x0024A006",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopSpotlightTarget",
+    "formid": "0x0022BF7C",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopTerminalLightBrightness",
+    "formid": "0x00210C77",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopTerminalLightColor",
+    "formid": "0x001F57D2",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopTerminalSpeakerOctave",
+    "formid": "0x002154BA",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopTerminalSpeakerPitch",
+    "formid": "0x002154BB",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopTerminalTimerIntervalType",
+    "formid": "0x001F57D5",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "crRangedDmg",
+    "formid": "0x001504FB",
+    "name": "%E\u0001",
+    "abbr": "5\ufffd\u0001",
+    "desc": ""
+  },
+  {
+    "edid": "elevatorDestinationFloor",
+    "formid": "0x000EC855",
+    "name": "",
+    "abbr": "",
+    "desc": ""
+  },
+  {
+    "edid": "overheating",
+    "formid": "0x0012A935",
+    "name": "RO\u0001",
+    "abbr": "",
+    "desc": "\ufffd`\u0001"
+  },
+  {
+    "edid": "vendorIncome",
+    "formid": "0x0010C847",
+    "name": "EI\u0002",
+    "abbr": "",
+    "desc": ""
+  }
+]

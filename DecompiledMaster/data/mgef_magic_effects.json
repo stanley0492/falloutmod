@@ -1,0 +1,4468 @@
+[
+  {
+    "edid": "AbConfidenceFoolhardy",
+    "formid": "0x000ADF5B",
+    "name": "\ufffdr\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbCourserSpeedEffect",
+    "formid": "0x00237E4E",
+    "name": "\ufffdI\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyActionPointRate",
+    "formid": "0x0004D899",
+    "name": "\u02c3\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyActionPoints",
+    "formid": "0x0004D870",
+    "name": "{6\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyActorAnimationMult",
+    "formid": "0x00086527",
+    "name": "_\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyActorSpeedMult",
+    "formid": "0x00084278",
+    "name": "H\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyAgility",
+    "formid": "0x00192199",
+    "name": "\u058d\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyBadLuck",
+    "formid": "0x00165559",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyCarryWeight",
+    "formid": "0x0004B24F",
+    "name": "\u0006d\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyCharisma",
+    "formid": "0x0004B268",
+    "name": "'8\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyCraftArmor",
+    "formid": "0x0004C93F",
+    "name": "\ufffds\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyCraftExplosive",
+    "formid": "0x0004C949",
+    "name": "^\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyCraftGun",
+    "formid": "0x0004C93C",
+    "name": "\ufffd\u0014\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyCraftMechanical",
+    "formid": "0x0004C946",
+    "name": "@U\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyCraftMelee",
+    "formid": "0x0004C93E",
+    "name": "\ufffdU\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyCraftMetallic",
+    "formid": "0x000207D2",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyCraftTechnical",
+    "formid": "0x0004C940",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyEndurance",
+    "formid": "0x00169559",
+    "name": "h:\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyFusionCore",
+    "formid": "0x0022E2FD",
+    "name": "\ufffdG\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyHealRate",
+    "formid": "0x0004D8A8",
+    "name": "W~\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyHealth",
+    "formid": "0x0004A0D2",
+    "name": "\ufffd\u0015\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyIntelligence",
+    "formid": "0x0004C938",
+    "name": "\ufffda\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyLuck",
+    "formid": "0x00192191",
+    "name": "\u0004\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyMeleeDmg",
+    "formid": "0x0019C79A",
+    "name": "\u0000\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyPerception",
+    "formid": "0x0004C939",
+    "name": "\u0011D\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyRadHealthMax",
+    "formid": "0x0004974A",
+    "name": "X\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyRadsRate",
+    "formid": "0x00246161",
+    "name": "\ufffdV\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyRadsRateMult",
+    "formid": "0x001D2486",
+    "name": "\ufffd\u0017\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyReloadSpeedMult",
+    "formid": "0x00127560",
+    "name": "\ufffd'\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyResistCryo",
+    "formid": "0x0004D86D",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyResistDamage",
+    "formid": "0x0004A0AC",
+    "name": "\ufffdP\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyResistElectricity",
+    "formid": "0x0004D86F",
+    "name": "]U\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyResistEnergy",
+    "formid": "0x000559A4",
+    "name": "\ufffd3\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyResistFire",
+    "formid": "0x0004D86E",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyResistPoison",
+    "formid": "0x0004D86B",
+    "name": "\ufffdB\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyResistRadiationExpose",
+    "formid": "0x0004C47D",
+    "name": "{8\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyResistRadiationIngest",
+    "formid": "0x0004A0C2",
+    "name": "\ufffd\u001a\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyStrength",
+    "formid": "0x0004D885",
+    "name": "AG\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbFortifyUnarmedDamage",
+    "formid": "0x001574CD",
+    "name": "9\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbLegendary2xDmgEffect",
+    "formid": "0x001FE6AD",
+    "name": "M4\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "AbLegendaryAccuracyEffect",
+    "formid": "0x001FE6BB",
+    "name": "\ufffd7\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "AbLegendaryDamageEffect",
+    "formid": "0x001FA243",
+    "name": "\ufffd&\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "AbLegendaryExplodeEffect",
+    "formid": "0x0022642E",
+    "name": ",D\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "AbLegendaryPoisonEffect",
+    "formid": "0x001FE6B5",
+    "name": "\ufffd1\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "AbLegendaryRadioactiveEffect",
+    "formid": "0x001FE6B1",
+    "name": "\ufffd:\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "AbMagCompanionExtraDmgEffect",
+    "formid": "0x001696B3",
+    "name": "G\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbNoExplosionKnockdown",
+    "formid": "0x0020A24D",
+    "name": "|2\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbReduceActionPoints",
+    "formid": "0x002049DF",
+    "name": "\ufffd2\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbReduceCarryWeight",
+    "formid": "0x00246B12",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbReduceConditionRate",
+    "formid": "0x00245A7D",
+    "name": "\ufffdU\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbReduceResistRadiation",
+    "formid": "0x0004BADF",
+    "name": "~\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbReduceResistRadiationAddiction",
+    "formid": "0x001C9A6B",
+    "name": "/\u0017\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbTerminalHackerTurretCowardly",
+    "formid": "0x0019559A",
+    "name": "L\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbVANS",
+    "formid": "0x0006AB36",
+    "name": "\ufffd`\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbWaterbreathing",
+    "formid": "0x000E36FA",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbWaterwalking",
+    "formid": "0x0002866B",
+    "name": "\ufffdc\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbWorkshopPopulationEffect",
+    "formid": "0x0022FED4",
+    "name": "?G\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbWorkshopProvisionerEffect",
+    "formid": "0x00249E59",
+    "name": "\u0017e\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AbsorbRads",
+    "formid": "0x0005DD97",
+    "name": "\u0000\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOddsAlcohol",
+    "formid": "0x00245EF2",
+    "name": "\ufffdV\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOddsBuffout",
+    "formid": "0x00245EF9",
+    "name": "*W\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOddsBuzzBites",
+    "formid": "0x0024615D",
+    "name": "\u0016W\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOddsCalmex",
+    "formid": "0x00246BFB",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOddsDaddyO",
+    "formid": "0x00245F00",
+    "name": "\ufffdV\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOddsDaytripper",
+    "formid": "0x00245F03",
+    "name": "\ufffdV\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOddsFury",
+    "formid": "0x00246C05",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOddsJet",
+    "formid": "0x00245F06",
+    "name": ">W\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOddsLorenzoSerum",
+    "formid": "0x00246160",
+    "name": "#W\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOddsMedX",
+    "formid": "0x002458BB",
+    "name": "\ufffdT\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOddsMentats",
+    "formid": "0x00245EF5",
+    "name": "2W\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOddsOverdrive",
+    "formid": "0x00245F0A",
+    "name": "\ufffdV\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOddsPsycho",
+    "formid": "0x00245EFB",
+    "name": "+W\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AddictionOddsXCell",
+    "formid": "0x00245EFD",
+    "name": "\u0014W\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AlienDisintegrationEnchEffect",
+    "formid": "0x00179638",
+    "name": "a[\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "Arena_Calm",
+    "formid": "0x00020754",
+    "name": "\ufffdH\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ArmorBlockModEffect",
+    "formid": "0x0018330F",
+    "name": "ud\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ArmorBrawlerEffect",
+    "formid": "0x00245B99",
+    "name": "WU\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ArmorExplosion1Effect",
+    "formid": "0x00245AC9",
+    "name": "\ufffdU\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ArmorExplosion2Effect",
+    "formid": "0x00245B01",
+    "name": "[U\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ArmorFallingEffect",
+    "formid": "0x00183314",
+    "name": "\u0017[\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ArmorIgnoreArmorEffect",
+    "formid": "0x00245B9D",
+    "name": "uU\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ArmorLessStaggerEffect",
+    "formid": "0x00245AFF",
+    "name": "\ufffdU\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ArmorQuietEffect",
+    "formid": "0x00183317",
+    "name": "\u05c6\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ArmorReducedPowerAttackEffect",
+    "formid": "0x00245BC7",
+    "name": "tV\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ArmorReducedSprintEffect",
+    "formid": "0x00245B84",
+    "name": "\ufffdU\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ArmorShadowEffect",
+    "formid": "0x00183311",
+    "name": "iW\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ArmorStabilizedEffect",
+    "formid": "0x00245BB2",
+    "name": "[V\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ArmorStealthMoveEffect",
+    "formid": "0x00245BDC",
+    "name": "\u0019U\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "AshPileOnDeathEffect",
+    "formid": "0x001A692F",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "AssaultronStealthEFFECT",
+    "formid": "0x001CFB16",
+    "name": "\ufffd\u0013\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "BlindnessPoison",
+    "formid": "0x0017E8F9",
+    "name": "#\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "BloodbugDrainHealthEffect",
+    "formid": "0x00017036",
+    "name": "\ufffd2\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "BloodyMessNearbyEffect",
+    "formid": "0x001F418D",
+    "name": "\ufffd&\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "BottleAndCapAdder",
+    "formid": "0x0015DE8E",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CA_AddictionEffect",
+    "formid": "0x0002A74C",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ChameleonEffect",
+    "formid": "0x0004F4A5",
+    "name": "L7\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ChameleonEffectArmorMod",
+    "formid": "0x000976E0",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ChameleonEffectStealthBoy",
+    "formid": "0x00102B70",
+    "name": "\ufffdk\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CigaretteLightEffect",
+    "formid": "0x000A7D76",
+    "name": "\n\u0015\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "CompCurieAvoidDeathEffect",
+    "formid": "0x001E67B8",
+    "name": "\ufffd!\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CompanionGetShouldAttackPlayerEffect",
+    "formid": "0x00245FD5",
+    "name": "\u0011W\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CritAcidEffectEnch",
+    "formid": "0x001B9A3D",
+    "name": "\ufffd\b\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CritCryoEffect",
+    "formid": "0x001478EB",
+    "name": "\ufffd2\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CritCryoFreezeEffect",
+    "formid": "0x00247A6C",
+    "name": "\ufffdZ\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CritFireEffect",
+    "formid": "0x001478EA",
+    "name": ",\ufffd\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CritLaserEffect",
+    "formid": "0x000731B3",
+    "name": "{\ufffd\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CritLaserLPrimeKillEffect",
+    "formid": "0x0023952E",
+    "name": "\u0003N\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CritLaserLtBlueEffect",
+    "formid": "0x001E4505",
+    "name": ".\u001d\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CritMirelurkQueenEffect",
+    "formid": "0x001C6BCB",
+    "name": "I\u000e\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CritPlasmaEffect",
+    "formid": "0x00139F8B",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CryoFreezeEffect01",
+    "formid": "0x0018C354",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CryoFreezeEffect02",
+    "formid": "0x0018C356",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CryoFreezeEffect03",
+    "formid": "0x0018C357",
+    "name": "5\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CryoFreezeEffectRemover",
+    "formid": "0x002473DB",
+    "name": "\ufffdW\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "CryoSlow",
+    "formid": "0x00072DF5",
+    "name": "2\t\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "CureAddiction",
+    "formid": "0x000459C4",
+    "name": "Ng\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DN021_TrapBugZapperArcMagicEffect",
+    "formid": "0x001A8561",
+    "name": "~\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DN049_HandyShortCircuitEffect",
+    "formid": "0x0016A64B",
+    "name": "#\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DN070_SecurityProtectronEffect",
+    "formid": "0x001C18B0",
+    "name": "\ufffd\u0011\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "DN070_WorldSeriesBatKnockdownEffect",
+    "formid": "0x001D2896",
+    "name": "\ufffd\u001a\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "DN084_DecontaminationEffect",
+    "formid": "0x0014FD8C",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DN102_DecontaminationHazardEffect",
+    "formid": "0x000AE177",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DN102_DruggedWaterVFX",
+    "formid": "0x000A4949",
+    "name": "m\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "DN102_EnemyFrenzyEffect",
+    "formid": "0x000DE962",
+    "name": "\u001f\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DN102_FrenzyGrenadeEffect",
+    "formid": "0x000E98E2",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DN102_GasHazardEffect",
+    "formid": "0x000E6203",
+    "name": "\ufffdK\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "DN102_LabDemo1IrradicatorEffect",
+    "formid": "0x000AE074",
+    "name": ")\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "DN102_LabDemo2InvisibilityEffect",
+    "formid": "0x000FFF94",
+    "name": "\ufffdx\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "DN102_LabDemo3DamageEffect",
+    "formid": "0x000AE050",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DN102_LabDemo3ParalyzeEffect",
+    "formid": "0x000AE04F",
+    "name": "j\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "DN102_LabDemo5FearEffect",
+    "formid": "0x000E6996",
+    "name": "\ufffd*\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DN121FireHazardEffect",
+    "formid": "0x001A7C6C",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DN121FireHazardEffectSmall",
+    "formid": "0x00212E6D",
+    "name": "\ufffd9\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DN131_AbSwanAmbushSplashEffect",
+    "formid": "0x00145D8F",
+    "name": "~\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "DamageBloatflyLarvaPoisonEffect",
+    "formid": "0x000644DC",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "DamageCalmPoisonEffect",
+    "formid": "0x000644DA",
+    "name": "'\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageDamageResistEffect",
+    "formid": "0x0018C35D",
+    "name": "]\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageDemoralizePoisonEffect",
+    "formid": "0x000628EA",
+    "name": "6\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageFrenzyPoisonEffect",
+    "formid": "0x000628E7",
+    "name": "\u0014\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageHealth",
+    "formid": "0x0011D53C",
+    "name": "{H\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageHealthBuzzBites",
+    "formid": "0x002466F0",
+    "name": "~W\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageHealthConcAimed",
+    "formid": "0x001D2472",
+    "name": "\ufffd\u001a\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageHealthContact",
+    "formid": "0x001A03FD",
+    "name": "\u0014\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageHealthPoison",
+    "formid": "0x000628E8",
+    "name": "7\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageParalyzePoisonEffect",
+    "formid": "0x000628EB",
+    "name": "\u05f3\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageRadiationChem",
+    "formid": "0x00024056",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageRadiationGammaGun",
+    "formid": "0x00248D77",
+    "name": "u_\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageRadiationHealingWeapon",
+    "formid": "0x00239552",
+    "name": ",N\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageRadiationWater",
+    "formid": "0x000B8587",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageRadiationWeapon",
+    "formid": "0x000DCDFA",
+    "name": "\ufffdS\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DamageRadiationWeaponDuration",
+    "formid": "0x001CD034",
+    "name": "u\u0014\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DeafnessPoisonEffect",
+    "formid": "0x0017E8FB",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DetectLifeChem",
+    "formid": "0x00225178",
+    "name": "\ufffdC\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DetectLifeCloakChemEffect",
+    "formid": "0x002486F7",
+    "name": "\ufffd]\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DetectLifeCloakEffect",
+    "formid": "0x0022517B",
+    "name": "\ufffdB\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DetectLifeCloakHostileEffect",
+    "formid": "0x0022517D",
+    "name": "\ufffdA\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DetectLifeCloakPATargetEffect",
+    "formid": "0x00247A40",
+    "name": "\ufffdY\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DetectLifeHostileChem",
+    "formid": "0x00225180",
+    "name": "\ufffdB\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DisDamageActionPoints",
+    "formid": "0x0003E060",
+    "name": "\ufffd`\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "DismemberonDeathEffect",
+    "formid": "0x001A3039",
+    "name": "*\u0005\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "DogmeatInvisibilityEffect",
+    "formid": "0x0022FC61",
+    "name": "\u0016H\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "EndangerolDamageDamageResistEffect",
+    "formid": "0x000628E5",
+    "name": "\u02f3\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ExplodeOnContactEffect",
+    "formid": "0x0017E1CF",
+    "name": "[\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ExtraDamage25Chem",
+    "formid": "0x00036942",
+    "name": "\ufffd\u0013\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ExtraDamage25Overdrive",
+    "formid": "0x00246735",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ExtraDamage25Psycho",
+    "formid": "0x0024672C",
+    "name": "\ufffdW\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "FXFireHitVisuals",
+    "formid": "0x001E84D3",
+    "name": "\ufffd\"\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FXFireHitVisualsMolotov",
+    "formid": "0x002407FD",
+    "name": "\ufffdT\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "FXFireSheild",
+    "formid": "0x0012880D",
+    "name": "\u001b~\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FireHazardEffect",
+    "formid": "0x00023C61",
+    "name": "\ufffd\t\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "FireHazardLightEffect",
+    "formid": "0x00240C1F",
+    "name": "\u0001U\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyActionPointRateJet",
+    "formid": "0x002466F7",
+    "name": "wW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyActionPoints",
+    "formid": "0x0003693F",
+    "name": "\u0012_\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyActionPointsAlcohol",
+    "formid": "0x000AA890",
+    "name": "u\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyActionPointsBuff",
+    "formid": "0x002466E7",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyActionPointsBuzzBites",
+    "formid": "0x002466F4",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyActionPointsChem",
+    "formid": "0x000B92E6",
+    "name": "s;\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyActionPointsFood",
+    "formid": "0x00150732",
+    "name": "\u0001\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyActionPointsJet",
+    "formid": "0x002466F3",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyActionPointsPsycho",
+    "formid": "0x0024672F",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyActorSpeedMult",
+    "formid": "0x00237E51",
+    "name": "[M\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyAgility",
+    "formid": "0x0003693C",
+    "name": "\ufffdJ\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyAgilityAlcohol",
+    "formid": "0x000AA888",
+    "name": "c\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyAgilityCalmex",
+    "formid": "0x00246BF8",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyAgilityFood",
+    "formid": "0x0015072F",
+    "name": "2\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyAgilityXCell",
+    "formid": "0x0024673D",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyAimStability",
+    "formid": "0x002458C0",
+    "name": "\u0013U\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyBarterMentats",
+    "formid": "0x002466FC",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyCarryWeight",
+    "formid": "0x00046959",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyCarryWeightFood",
+    "formid": "0x00150733",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyCharisma",
+    "formid": "0x0003693A",
+    "name": "\ufffd\u007f\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyCharismaAlcohol",
+    "formid": "0x00102252",
+    "name": "Rr\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyCharismaDaytripper",
+    "formid": "0x002466F1",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyCharismaMentats",
+    "formid": "0x002466F9",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyCharismaXCell",
+    "formid": "0x0024673A",
+    "name": "|W\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyCritChance25xOverdrive",
+    "formid": "0x00246737",
+    "name": "oW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyDamageResist",
+    "formid": "0x00036940",
+    "name": "^\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyDamageResistFood",
+    "formid": "0x00150734",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyDamageResistFury",
+    "formid": "0x00246C01",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyDamageResistHIDDEN",
+    "formid": "0x0005A666",
+    "name": "y\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyDamageResistMedX",
+    "formid": "0x002466F6",
+    "name": "nW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyDamageResistPsycho",
+    "formid": "0x0024672E",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyEndurance",
+    "formid": "0x00036937",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyEnduranceAlcohol",
+    "formid": "0x000AA797",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyEnduranceBuff",
+    "formid": "0x002466E8",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyEnduranceFood",
+    "formid": "0x0015072D",
+    "name": ">\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyEndurancePsycho",
+    "formid": "0x00246730",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyEnduranceXCell",
+    "formid": "0x00246739",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyExperience",
+    "formid": "0x00046967",
+    "name": "\"\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyHealRate",
+    "formid": "0x0004695F",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyHealth",
+    "formid": "0x0003693E",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyHealthAlcohol",
+    "formid": "0x000AA8A9",
+    "name": "$\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyHealthBuff",
+    "formid": "0x002466EA",
+    "name": "qW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyHealthChem",
+    "formid": "0x000B92EB",
+    "name": "\u0012T\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyHealthFood",
+    "formid": "0x00150731",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyHealthPsycho",
+    "formid": "0x00246733",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyIntelligence",
+    "formid": "0x0003693B",
+    "name": "\ufffd+\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyIntelligenceChem",
+    "formid": "0x000B92EC",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyIntelligenceDaddyO",
+    "formid": "0x002466EC",
+    "name": "\ufffdW\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyIntelligenceMentats",
+    "formid": "0x002466F8",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyIntelligenceXCell",
+    "formid": "0x0024673B",
+    "name": "zW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyLimbRegenRate",
+    "formid": "0x0005DD99",
+    "name": "mo\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyLuckAlcohol",
+    "formid": "0x000AA790",
+    "name": ":\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyLuckDaytripper",
+    "formid": "0x002466ED",
+    "name": "\ufffdW\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyLuckXCell",
+    "formid": "0x0024673C",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyMeleeDamage",
+    "formid": "0x0004696E",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyMeleeDamageFood",
+    "formid": "0x00150730",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyMeleeDamageFury",
+    "formid": "0x00246C03",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyNightEye",
+    "formid": "0x00046998",
+    "name": "h\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyPerception",
+    "formid": "0x00036938",
+    "name": "\ufffdL\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyPerceptionBuff",
+    "formid": "0x002466EB",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyPerceptionBuzzBites",
+    "formid": "0x002466F5",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyPerceptionCalmex",
+    "formid": "0x00246BF6",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyPerceptionDaddyO",
+    "formid": "0x002466EE",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyPerceptionFood",
+    "formid": "0x0015072C",
+    "name": "$\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyPerceptionMentats",
+    "formid": "0x002466FA",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyPerceptionPsycho",
+    "formid": "0x00246734",
+    "name": "mW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyPerceptionXCell",
+    "formid": "0x00246738",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyRadHealthMax",
+    "formid": "0x0004974B",
+    "name": "#\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyRadHealthMaxBuff",
+    "formid": "0x002466E9",
+    "name": "tW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyRadHealthMaxPsycho",
+    "formid": "0x00246731",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyResistCryo",
+    "formid": "0x00046968",
+    "name": "%\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyResistEnergyFood",
+    "formid": "0x0022699F",
+    "name": "\ufffdC\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyResistFire",
+    "formid": "0x0004696B",
+    "name": "*\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyResistFireFood",
+    "formid": "0x00150736",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyResistPoison",
+    "formid": "0x00046958",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyResistPoisonFood",
+    "formid": "0x00150735",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyResistRadsChem",
+    "formid": "0x00024058",
+    "name": "t\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyResistRadsFood",
+    "formid": "0x00150737",
+    "name": "\t\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyResistRadsRadX",
+    "formid": "0x00246B11",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifySneakAttackBonusCalmex",
+    "formid": "0x00246BFA",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyStrength",
+    "formid": "0x00036934",
+    "name": "f\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyStrengthAlcohol",
+    "formid": "0x00102253",
+    "name": "\ufffd0\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyStrengthBuff",
+    "formid": "0x002466E6",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyStrengthFood",
+    "formid": "0x0015072E",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyStrengthHIDDEN",
+    "formid": "0x0005A667",
+    "name": "\u07af\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyStrengthPsycho",
+    "formid": "0x0024672D",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyStrengthXCell",
+    "formid": "0x00246736",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyVATSAccuracyChem",
+    "formid": "0x0006167A",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyVATSAccuracyMentats",
+    "formid": "0x002466FB",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyWaterBreathing",
+    "formid": "0x000469AA",
+    "name": "\u06e9\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "FortifyXPBonusFood",
+    "formid": "0x00211891",
+    "name": "\ufffd8\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "GammaGunEffect",
+    "formid": "0x0021C766",
+    "name": "\ufffd>\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "GenericBrawlPreventLimbDamageEffect",
+    "formid": "0x000ED6DE",
+    "name": "\u000fs\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "GlowingLootDropEffect",
+    "formid": "0x0021C008",
+    "name": "\ufffd>\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "GlowingOneHealingRadiationBurst",
+    "formid": "0x00239551",
+    "name": "\ufffdM\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "GlowingOneRadiationBurst",
+    "formid": "0x000A5649",
+    "name": "\n-\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "GlowingOneReanimate",
+    "formid": "0x000AB678",
+    "name": "\ufffd4\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "GlowingSeaPlayerRadiationFoggyEffect",
+    "formid": "0x0023EC94",
+    "name": "\ufffdS\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "GlowingSeaPlayerRadiationOvercastEffect",
+    "formid": "0x0023EC92",
+    "name": "lP\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "GlowingSeaPlayerRadiationRadStormEffect",
+    "formid": "0x0018EFF5",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_AdrenalineDescriptionEffect_05",
+    "formid": "0x00249F5A",
+    "name": "\ufffdf\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_AdrenalineDescriptionEffect_10",
+    "formid": "0x00249F5C",
+    "name": "\ufffdf\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_AdrenalineDescriptionEffect_15",
+    "formid": "0x00249F5D",
+    "name": "\ufffdf\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_AdrenalineDescriptionEffect_20",
+    "formid": "0x00249F5E",
+    "name": "\ufffdf\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_AdrenalineDescriptionEffect_25",
+    "formid": "0x00249F5F",
+    "name": "\ufffdf\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_AdrenalineDescriptionEffect_30",
+    "formid": "0x00249F60",
+    "name": "\ufffdf\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_AdrenalineDescriptionEffect_35",
+    "formid": "0x00249F61",
+    "name": "\ufffdf\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_AdrenalineDescriptionEffect_40",
+    "formid": "0x00249F62",
+    "name": "\ufffdf\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_AdrenalineDescriptionEffect_45",
+    "formid": "0x00249F63",
+    "name": "\ufffdf\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_AdrenalineDescriptionEffect_50",
+    "formid": "0x00249F64",
+    "name": "\ufffdf\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_Antiboitics_Effect",
+    "formid": "0x000008AC",
+    "name": "\u0019",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_Caffeinated",
+    "formid": "0x00249F32",
+    "name": "\ufffdf\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HC_CaffeinatedDescription",
+    "formid": "0x00249F9E",
+    "name": "\u000bg\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_CannibalRavenousHunger_Effect",
+    "formid": "0x000008C0",
+    "name": "\ufffd",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_CureRavenousHunger",
+    "formid": "0x00249FF2",
+    "name": "@g\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HC_DamageLimb_LeftMobilityCondition",
+    "formid": "0x0000083F",
+    "name": "Y",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_DamageLimb_RightMobilityCondition",
+    "formid": "0x00000841",
+    "name": "Se\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_DamageMultPerkEffect",
+    "formid": "0x0000084D",
+    "name": "H",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_DisableRunningEffect",
+    "formid": "0x0000081F",
+    "name": "\t",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HC_DisableSprintingEffect",
+    "formid": "0x0000081D",
+    "name": "P",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HC_Disease_Fatigue_Effect",
+    "formid": "0x000008A1",
+    "name": "2",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HC_Disease_Infection_DamagePlayerEffect",
+    "formid": "0x000008A9",
+    "name": "Re\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HC_Disease_Insomnia_Effect",
+    "formid": "0x0000089F",
+    "name": "\u000e",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_Disease_NeedMoreFood_Effect",
+    "formid": "0x000008A2",
+    "name": "\\e\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_Disease_Weakness_Effect",
+    "formid": "0x000008A5",
+    "name": "\\",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_DrinkDirtyWaterEffect",
+    "formid": "0x00249F4D",
+    "name": "\ufffdf\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HC_DrinkWaterEffect",
+    "formid": "0x00000889",
+    "name": "s",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HC_EncumbranceEffect_DamagePlayerEffect",
+    "formid": "0x00000842",
+    "name": "r",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HC_Herbal_Anodyne_Effect",
+    "formid": "0x00249F9C",
+    "name": "\ufffdf\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_Herbal_Antimicrobial_Effect",
+    "formid": "0x00249F9A",
+    "name": "\ufffdf\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_Herbal_Stimulant_Effect",
+    "formid": "0x00249F9B",
+    "name": "\u0003g\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_Immunodeficiency",
+    "formid": "0x00249F2E",
+    "name": "\ufffdf\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HC_ImmunodeficiencyDescription",
+    "formid": "0x00249F2F",
+    "name": "\ufffdf\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_JetUseEffect",
+    "formid": "0x00249FF7",
+    "name": "Gg\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HC_QuantumAPDescription",
+    "formid": "0x00249F9F",
+    "name": "\ng\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_ReduceActionPointRateMultEffect_DiseaseEffectOnly",
+    "formid": "0x000008B3",
+    "name": "|",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_ReduceActionPointRateMultEffect_SleepEffectOnly",
+    "formid": "0x00000819",
+    "name": "\u0006",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_ReduceCarryWeight",
+    "formid": "0x00249F69",
+    "name": "\ufffdf\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_ReduceLimbConditionHealRateMultEffect",
+    "formid": "0x00000845",
+    "name": "=",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HC_SeverlyDehydratedEffect_DamagePlayerEffect",
+    "formid": "0x000008BF",
+    "name": "\u007f",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HC_StarvingEffect_DamagePlayerEffect",
+    "formid": "0x0000086A",
+    "name": "S",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HazmatSuitPerkEffect",
+    "formid": "0x0014EF48",
+    "name": "\ufffd@\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "HoldupCommandEffect",
+    "formid": "0x001C504F",
+    "name": "\ufffd\u000e\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HoldupFrenzyEffect",
+    "formid": "0x001C504D",
+    "name": "\ufffd\u000e\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "HoldupPoison",
+    "formid": "0x000644DB",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ImpactLandingStaggerEffect",
+    "formid": "0x002494E5",
+    "name": "=a\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "IncendiaryBurnEffect01",
+    "formid": "0x001B88D0",
+    "name": "\ufffd\b\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "IncendiaryBurnEffect02",
+    "formid": "0x001B88D1",
+    "name": "\ufffd\t\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "InvisibilityAbilityEffect",
+    "formid": "0x000E2B02",
+    "name": "DE\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "InvisibilityEffectStealthBoyTransition",
+    "formid": "0x00106E53",
+    "name": "\u0013?\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "JoelDogWhistleEffect",
+    "formid": "0x0019814B",
+    "name": "p\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "LGND_CryoFreezeEffect",
+    "formid": "0x00249DB9",
+    "name": "\re\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "Legendary2xDmgEffect",
+    "formid": "0x001FA244",
+    "name": ",-\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "LegendaryAccuracyEffect",
+    "formid": "0x001FE6B9",
+    "name": "\ufffd9\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "LegendaryPA_RadsCoreHealthEffect",
+    "formid": "0x0022B640",
+    "name": "ME\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "LegendaryPoisonEffect",
+    "formid": "0x001FE6B3",
+    "name": "a5\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "LegendaryRadioactiveEffect",
+    "formid": "0x001FE6AF",
+    "name": "\ufffd3\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "LongneckLukowskisRadiation",
+    "formid": "0x0018FB8D",
+    "name": "t\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "LoversEmbracePerkEffect",
+    "formid": "0x000F3C1C",
+    "name": "\ufffd\\\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "MQ00TheSightPerkEffect",
+    "formid": "0x0018358C",
+    "name": ",\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "MQ203FadeEffect",
+    "formid": "0x00186092",
+    "name": "#\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "MQ203MoteEffect",
+    "formid": "0x000FFC1A",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "MS09JackZetaRadiation",
+    "formid": "0x00106DB4",
+    "name": "\u0006Q\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "MS09JackZetaRadiationStagger",
+    "formid": "0x001A8C4B",
+    "name": "D\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "MS09LorenzoDeathEffectNEW",
+    "formid": "0x001FEFCB",
+    "name": "\ufffd2\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "MS09LorenzoSerumEffect",
+    "formid": "0x001A7342",
+    "name": "\u03db\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "MS09LorenzoSerumFrenzyEffect",
+    "formid": "0x001A7344",
+    "name": "\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "MS09LorenzoStaggerBurst",
+    "formid": "0x0019E73C",
+    "name": "\u001e\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "MS09LorenzoStaggerBurstNonHostile",
+    "formid": "0x001BD152",
+    "name": "\ufffd\n\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "MS09LorenzoStaggerBurstScriptEffect",
+    "formid": "0x001EEAC0",
+    "name": ".'\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "MS09LorenzoZetaRadiation",
+    "formid": "0x001FEFCA",
+    "name": "\ufffd7\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "MS10RewardEffect",
+    "formid": "0x00249856",
+    "name": "\ufffdb\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "MS19CureEffect",
+    "formid": "0x0009AC3E",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "MS19DamagePeakHealth",
+    "formid": "0x001A5DBB",
+    "name": "\ufffd\u0005\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "MS19Infect",
+    "formid": "0x0009AC3D",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "MirelurkHunterSpitEffect",
+    "formid": "0x00148D90",
+    "name": "\ufffd\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "MirelurkKingSonicEffect",
+    "formid": "0x000FC3F1",
+    "name": "\ufffd+\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "MirelurkQueenPoisonEffectNPC",
+    "formid": "0x00126289",
+    "name": "\ufffd\u0002\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "MirelurkQueenPoisonEffectPlayer",
+    "formid": "0x00126284",
+    "name": "mk\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "MirelurkQueenSpitSlow",
+    "formid": "0x00126283",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "MirelurkSpawnMagicEffect",
+    "formid": "0x00169636",
+    "name": "\ufffdZ\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ModArmorPenetrationAddPerkEffect",
+    "formid": "0x001F4423",
+    "name": "b/\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ModDisarm25Effect",
+    "formid": "0x00246C09",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ModDisarmEffect",
+    "formid": "0x000CF5EF",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ModEnergyWeaponFireDamage",
+    "formid": "0x00216353",
+    "name": "\u0001>\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ModHookDisarm",
+    "formid": "0x00246C07",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ModLegendaryArmorLowHealthSlowTimeEffect",
+    "formid": "0x001F2D3F",
+    "name": "\ufffd-\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ModLegendaryArmor_Disarm",
+    "formid": "0x001F3A4A",
+    "name": "\ufffd&\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ModLegendaryFrenzyEffect",
+    "formid": "0x001F6AD5",
+    "name": "\ufffd'\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ModLegendaryOnCritHitEffect_RefillAP",
+    "formid": "0x001ED380",
+    "name": "0%\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ModLegendaryOnCritHitEffect_RefillAP_Listener",
+    "formid": "0x001EF48D",
+    "name": "\ufffd)\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ModLegendaryOnHitEffect_ConsecutiveHits_Listener",
+    "formid": "0x001EF48B",
+    "name": "s(\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ModLegendaryOnHitEffect_ConsecutiveHits_Sender",
+    "formid": "0x001EF482",
+    "name": "\ufffd+\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ModLegendaryOnHitEffect_Cripple",
+    "formid": "0x001F1046",
+    "name": "9&\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ModLegendaryOnHitEffect_RestoreRads",
+    "formid": "0x001F109D",
+    "name": "\ufffd0\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ModLegendaryOnHitEffect_Stagger",
+    "formid": "0x001E81A8",
+    "name": "%%\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ModLegendaryOnHitEffect_Stimpak",
+    "formid": "0x001F109E",
+    "name": "\ufffd)\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "Mod_Lining_Kinetic_Effect",
+    "formid": "0x00064004",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "NukaColaBottlecapAdder",
+    "formid": "0x000A7922",
+    "name": "cq\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "PA_AddShockDmg",
+    "formid": "0x001D6CCC",
+    "name": "\ufffd\u0019\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_BloodCleanserEffect",
+    "formid": "0x0007C710",
+    "name": "\u01fe\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_CommonArmEffect",
+    "formid": "0x0024848F",
+    "name": " \\\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_EmergencyProtocolsEffect",
+    "formid": "0x0008427B",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_ExplosiveShieldingEffect",
+    "formid": "0x00245AC7",
+    "name": " V\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_ExplosiveVentEffect",
+    "formid": "0x00084281",
+    "name": "Q\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_FortifyUnarmedDamage",
+    "formid": "0x001D6CCB",
+    "name": "\ufffd\u0019\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_FortifyVATSChance",
+    "formid": "0x001D6CCD",
+    "name": "\ufffd\u0019\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_ImpactLandingAggroCloak",
+    "formid": "0x00248976",
+    "name": "\ufffd^\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_ImpactLandingAggroDamageEffect",
+    "formid": "0x00248977",
+    "name": "\ufffd^\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_ImpactLandingAggroEffect",
+    "formid": "0x0024852C",
+    "name": "\ufffd]\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_MedicPumpEffect",
+    "formid": "0x001C67F4",
+    "name": "\ufffd\u0011\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "PA_OptimizedBracersEffect",
+    "formid": "0x0018354A",
+    "name": ")\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_OptimizedServosEffect",
+    "formid": "0x0007C714",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_OverdriveServosEffect",
+    "formid": "0x00086525",
+    "name": "v\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_RadScrubbersEffect",
+    "formid": "0x001C5A42",
+    "name": "_\u000f\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_RustyKnucklesEffect",
+    "formid": "0x00146160",
+    "name": "U\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_StealthScriptEffect",
+    "formid": "0x001C4BB3",
+    "name": "\"\u0010\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "PA_SubsystemShieldingEffect",
+    "formid": "0x00086750",
+    "name": "\u001e\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_TargetingHUD_Cloak",
+    "formid": "0x00084285",
+    "name": "\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_TargetingHUD_Effect",
+    "formid": "0x001B34CC",
+    "name": "q\b\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_TeslaBracersDamage",
+    "formid": "0x0007C718",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_TeslaBracersEffect",
+    "formid": "0x0007C739",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_WaterBreathTimeEffect",
+    "formid": "0x001C8FB8",
+    "name": "\ufffd\u0015\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PA_WeldedRebarEffect",
+    "formid": "0x0008427F",
+    "name": "\u04fe\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ParalyzeEffect",
+    "formid": "0x0018526E",
+    "name": "v\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ParalyzeEffect25",
+    "formid": "0x0005240C",
+    "name": "\ufffdP\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PerkBigLeaguesDisarmEffect",
+    "formid": "0x001D33D4",
+    "name": "\ufffd\u0017\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PerkFortuneFinderEffect",
+    "formid": "0x00215CD5",
+    "name": "L=\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "PerkIdiotSavantXPBoostEffect",
+    "formid": "0x001F6B03",
+    "name": "Z)\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PerkLiveLoveCompExtraDmg",
+    "formid": "0x001B5B2B",
+    "name": "3\b\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PerkLiveLoveFortifyLuck",
+    "formid": "0x001B5B29",
+    "name": "\ufffd\t\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PerkNerdRageSlowTime",
+    "formid": "0x001D4AB5",
+    "name": "\ufffd\u001a\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "PerkNightPersonEffect",
+    "formid": "0x001E07A0",
+    "name": "\u0011\u001f\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "PerkPainTrainBlockEffect",
+    "formid": "0x00249BF2",
+    "name": "\rd\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PerkPainTrainCloakEffect",
+    "formid": "0x00171783",
+    "name": "sb\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PerkPainTrainDamageHealthConcAimed",
+    "formid": "0x00249D83",
+    "name": "\ufffdd\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PerkPainTrainKnockbackEffect",
+    "formid": "0x00171781",
+    "name": "\u03ed\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "PerkPainTrainStaggerEffect",
+    "formid": "0x00249C4B",
+    "name": "\ufffdd\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "PerkParalyzeStatEffect",
+    "formid": "0x0022B5F0",
+    "name": "0E\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "PerkPartyBoy03FortifyLuck",
+    "formid": "0x0003693D",
+    "name": "\u0400\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PerkRootedScriptEffect",
+    "formid": "0x001F6B0A",
+    "name": "\t*\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "PerkSneakInvisibilityEffect",
+    "formid": "0x001E3259",
+    "name": "2\u001f\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PerkSniperPushEffect",
+    "formid": "0x002466E4",
+    "name": "{W\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "PowerArmorAgilityEffect",
+    "formid": "0x0014EC09",
+    "name": "\u001d\u0005\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PowerArmorBatteryHealthEffect",
+    "formid": "0x0005E9D5",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PowerArmorCheapSprintEffect",
+    "formid": "0x0008EFB6",
+    "name": ")\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PowerArmorPerkEffect",
+    "formid": "0x000390C1",
+    "name": "nN\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "PowerArmorRadResistEffect",
+    "formid": "0x00204A54",
+    "name": "\ufffd1\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "PowerArmorStrengthEffect",
+    "formid": "0x0001F8BE",
+    "name": "\u0003l\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "QuietReflectionEffect",
+    "formid": "0x001C4027",
+    "name": "`\u0010\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "RESceneKMK03LimbDamageDisease",
+    "formid": "0x0022D0EB",
+    "name": "1G\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RadScorpion_dtPoisonEffectChanceAlways",
+    "formid": "0x00130DBC",
+    "name": "G\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RadiationCloak",
+    "formid": "0x000DB3AE",
+    "name": "7\u000e\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RadiationHazardEffect",
+    "formid": "0x0009252A",
+    "name": "\ufffd\u001a\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RadiationHealHazardEffect",
+    "formid": "0x00239550",
+    "name": "\u001bO\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RadiationImmunityEffect",
+    "formid": "0x001B1FF3",
+    "name": ":\b\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RadiationStormEffectM",
+    "formid": "0x001C5E7A",
+    "name": "\n\u0012\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RadscorpionPoisonEffectPlayer",
+    "formid": "0x00130DBE",
+    "name": "G\ufffd\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ReconScopeEffect",
+    "formid": "0x000A07F5",
+    "name": "\ufffdf\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ReconScopeEquippedEffect",
+    "formid": "0x00185923",
+    "name": "\ufffd\u0001\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ReduceAgility",
+    "formid": "0x00047661",
+    "name": "\ufffd-\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ReduceCharisma",
+    "formid": "0x00047662",
+    "name": "y\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ReduceCharismaDaddyO",
+    "formid": "0x002466EF",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ReduceEndurance",
+    "formid": "0x00047663",
+    "name": "OS\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ReduceIntelligence",
+    "formid": "0x00047664",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ReduceIntelligenceAlcohol",
+    "formid": "0x00102254",
+    "name": "\u0013\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ReduceLuck",
+    "formid": "0x00047665",
+    "name": "S=\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ReducePABatteryDamageRateEffect",
+    "formid": "0x0016939E",
+    "name": "&w\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ReducePADamageMultEffect",
+    "formid": "0x00204A56",
+    "name": "\ufffd1\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ReducePARadResistMultEffect",
+    "formid": "0x00204A57",
+    "name": "\ufffd6\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ReducePerception",
+    "formid": "0x00047666",
+    "name": ">'\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ReducePerceptionFury",
+    "formid": "0x00246BFF",
+    "name": "\ufffdW\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ReduceStrength",
+    "formid": "0x00047667",
+    "name": "n=\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ReduceStrengthDaytripper",
+    "formid": "0x002466F2",
+    "name": "\ufffdW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ReflectDamageEffect",
+    "formid": "0x00097343",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RegenerateHealthAbility",
+    "formid": "0x00102149",
+    "name": ",i\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreActionPoints",
+    "formid": "0x00047668",
+    "name": "Vo\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreAddictionAlcohol",
+    "formid": "0x00245F0C",
+    "name": "\ufffdV\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreAddictionBuffout",
+    "formid": "0x00245F0D",
+    "name": "\ufffdV\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreAddictionCalmex",
+    "formid": "0x00247552",
+    "name": "\ufffdX\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreAddictionDaddyO",
+    "formid": "0x00245F0E",
+    "name": "@W\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreAddictionDaytripper",
+    "formid": "0x00247A6A",
+    "name": "\ufffdY\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreAddictionFury",
+    "formid": "0x00247550",
+    "name": "\fY\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreAddictionJet",
+    "formid": "0x00245F0F",
+    "name": "\u001fW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreAddictionMedX",
+    "formid": "0x00245F10",
+    "name": "\ufffdV\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreAddictionMentats",
+    "formid": "0x00245F11",
+    "name": "\ufffdV\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreAddictionOverdrive",
+    "formid": "0x00245F13",
+    "name": "\ufffdV\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreAddictionPsycho",
+    "formid": "0x00245F12",
+    "name": "\u000fW\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreAddictionXCell",
+    "formid": "0x00245F14",
+    "name": "\ufffdV\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreConditionHead",
+    "formid": "0x0005C529",
+    "name": "kD\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreConditionLeftArm",
+    "formid": "0x0005C52C",
+    "name": "=\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreConditionLeftLeg",
+    "formid": "0x0005C52D",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreConditionRightArm",
+    "formid": "0x0005C52A",
+    "name": "~b\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreConditionRightLeg",
+    "formid": "0x0005C52B",
+    "name": "S^\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreConditionTorso",
+    "formid": "0x0005C52E",
+    "name": "\ufffd2\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreHealthChem",
+    "formid": "0x00024000",
+    "name": "\ufffd[\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreHealthFood",
+    "formid": "0x0000397E",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreHealthGeneric",
+    "formid": "0x00023735",
+    "name": "7C\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreHealthStimpak",
+    "formid": "0x0021DDB8",
+    "name": "\ufffdA\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreRadsChem",
+    "formid": "0x00023738",
+    "name": "\ufffdi\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreRadsCompanion",
+    "formid": "0x00018A86",
+    "name": ")\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RestoreRadsFood",
+    "formid": "0x0021188C",
+    "name": "\u00192\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "RoboticsExpertFrenzySpellEffect",
+    "formid": "0x002495DA",
+    "name": "Ia\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "SlowTimeChem",
+    "formid": "0x0021634F",
+    "name": "y>\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "SlowTimeEffect",
+    "formid": "0x001D4AB3",
+    "name": "\ufffd\u0019\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "SlowTimeJet",
+    "formid": "0x00248900",
+    "name": "\ufffd^\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "SniperPushEffect",
+    "formid": "0x001E325C",
+    "name": "\ufffd\u001b\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "StaggerEffect",
+    "formid": "0x001A03FB",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "StaggerSelfEffect",
+    "formid": "0x00226449",
+    "name": "\ufffd@\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "StingwingPoisonEffectNPC",
+    "formid": "0x00090866",
+    "name": "\ufffd\u001d\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "StingwingPoisonEffectPlayer",
+    "formid": "0x0006D2E3",
+    "name": "\u0017T\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "TeleportInSpellEffect",
+    "formid": "0x00062BDA",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "TeleportOutSpellEffect",
+    "formid": "0x00062BD9",
+    "name": "b\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "TeleportPlayer1stSpellEffect",
+    "formid": "0x001E55DD",
+    "name": "\ufffd#\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "TeleportPlayer3rdSpellEffect",
+    "formid": "0x001E55DE",
+    "name": "\ufffd$\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "TeleportPlayerOut1stSpellEffect",
+    "formid": "0x001F1023",
+    "name": "\ufffd,\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "TeleportPlayerOut3rdSpellEffect",
+    "formid": "0x001F1024",
+    "name": "\ufffd*\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "Template_effect_mod_LegendaryWeaponListener",
+    "formid": "0x001EF488",
+    "name": "\ufffd+\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "Template_effect_mod_LegendaryWeaponSender",
+    "formid": "0x001EF486",
+    "name": "\ufffd&\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "TrapElectricArcMagicEffect",
+    "formid": "0x00140F28",
+    "name": "{\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "TrapElectricArcMagicEffectV111",
+    "formid": "0x00041EC7",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "TrapOilFireHazardEffect",
+    "formid": "0x000F248C",
+    "name": "g\u0011\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "UMON",
+    "formid": "0x0000014B",
+    "name": "\ufffdN\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "V81MutfruitEffect",
+    "formid": "0x001847B7",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "VANSEffect",
+    "formid": "0x0003CC95",
+    "name": "o\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_AbWaterbreathing",
+    "formid": "0x0024A3E6",
+    "name": "Nk\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_GenericBrawlPreventLimbDamageEffect",
+    "formid": "0x0024A3E9",
+    "name": "Ok\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_NPCHologramFX",
+    "formid": "0x0024A3E4",
+    "name": "Lk\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_abModLegendaryAddNerfPerk",
+    "formid": "0x0024A379",
+    "name": "\u0011j\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_abVRDamageResist",
+    "formid": "0x0024A3CA",
+    "name": ")k\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "WaterRadiationHazardEffect",
+    "formid": "0x00023F16",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "WellRestedEffect",
+    "formid": "0x0005C527",
+    "name": "\u0011C\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopTrapFlamethrowerEffect",
+    "formid": "0x00204144",
+    "name": "+:\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "YaoGuaiRoarFearEffect",
+    "formid": "0x00106FBA",
+    "name": "\u0015#\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "ZetaRadiationPushEffect",
+    "formid": "0x001E07A2",
+    "name": "A\u001b\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "ZetaRadiationPushRewardEffect",
+    "formid": "0x00246FF1",
+    "name": "\ufffdW\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abAddictionCount",
+    "formid": "0x001EB997",
+    "name": "\b\"\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abAssaultronHeadFX",
+    "formid": "0x00122625",
+    "name": "\ufffd#\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abAssaultronLaserStealthFX",
+    "formid": "0x00210B60",
+    "name": "19\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abAssaultronRaceEffect",
+    "formid": "0x001680CB",
+    "name": "N\ufffd\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abBehemothRaceEffect",
+    "formid": "0x002404A5",
+    "name": "\ufffdQ\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abBloodbugRaceEffect",
+    "formid": "0x000294F6",
+    "name": "'\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abDeathMessageEffect",
+    "formid": "0x0019FFB8",
+    "name": "\u025c\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abDeathclawAoEEffect",
+    "formid": "0x0004C7EB",
+    "name": "\ufffdI\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abDeathclawClawsEffect",
+    "formid": "0x0005E1C8",
+    "name": "\u000eq\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abDeathclawRaceEffect",
+    "formid": "0x00021E80",
+    "name": "[M\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abEyebotRaceEffect",
+    "formid": "0x00122624",
+    "name": "\ufffdG\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abGlowingOneRaceEffect",
+    "formid": "0x000B73A5",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abGunButtKnockbackEffect",
+    "formid": "0x000986CC",
+    "name": "\ufffd5\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abHandyHoverFX",
+    "formid": "0x0002B4DB",
+    "name": "B\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abLegendaryCreatureItemEffect",
+    "formid": "0x001CCDA4",
+    "name": "F\u0017\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abLibertyPrimeRaceEffect",
+    "formid": "0x0017E1CD",
+    "name": "UB\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abModLegendaryAddCommonPerk",
+    "formid": "0x001E684B",
+    "name": "\ufffd!\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abModLegendaryWeaponsAddDamageInverseHealthPerk",
+    "formid": "0x001EC037",
+    "name": "\ufffd\u001f\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abModLegendaryWeaponsAddDamageNightPerk",
+    "formid": "0x001E8172",
+    "name": "\ufffd$\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abMoleratRaceEffect",
+    "formid": "0x000345AC",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abMrHandyRaceEffect",
+    "formid": "0x0022B6EF",
+    "name": "\ufffdE\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abPowerArmorJetpack",
+    "formid": "0x00125C83",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abProtectronRaceEffect",
+    "formid": "0x0002B6D8",
+    "name": "\u007f\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abRECheckpoint_LessDamage90Effect",
+    "formid": "0x00231BE8",
+    "name": "\ufffdL\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abRadscorpionRaceEffect",
+    "formid": "0x001090A7",
+    "name": "\nv\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abRadstagRaceEffect",
+    "formid": "0x001955B8",
+    "name": "y\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceAPAddiction",
+    "formid": "0x0017E603",
+    "name": " \ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceAgility",
+    "formid": "0x0004BAD7",
+    "name": "2)\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceAgilityAddiction",
+    "formid": "0x0017E601",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceAgilityAlcoholAddiction",
+    "formid": "0x0010224F",
+    "name": "\ufffd>\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceCharisma",
+    "formid": "0x0004BAD8",
+    "name": "je\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceCharismaAddiction",
+    "formid": "0x0017E5DF",
+    "name": ",\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceCharismaAlcoholAddiction",
+    "formid": "0x00102251",
+    "name": "X\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceDamageResistAddiction",
+    "formid": "0x0017E6C8",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceEndurance",
+    "formid": "0x0004BAD9",
+    "name": "P\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceEnduranceAddiction",
+    "formid": "0x0017E5CE",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceHealth",
+    "formid": "0x000A599B",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceHealthAddiction",
+    "formid": "0x0017E5C3",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceIntelligence",
+    "formid": "0x0004BADA",
+    "name": "B\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceIntelligenceAddiction",
+    "formid": "0x0017E5ED",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceLuck",
+    "formid": "0x0004BADC",
+    "name": "Nw\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceLuckAddiction",
+    "formid": "0x0017E602",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReducePerception",
+    "formid": "0x0004BADD",
+    "name": "\ufffdb\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReducePerceptionAddiction",
+    "formid": "0x0017E5CD",
+    "name": "*\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceStrength",
+    "formid": "0x0004BADE",
+    "name": "g\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abReduceStrengthAddiction",
+    "formid": "0x0017E5CC",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abRestoreHealth",
+    "formid": "0x001504F1",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "abRobotShockHandLeftFX",
+    "formid": "0x001A9497",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abRobotShockHandRightFX",
+    "formid": "0x001A9496",
+    "name": "\ufffd\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abSentryBotRaceEffect",
+    "formid": "0x0022B6EB",
+    "name": "^E\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abSentryFaceLightControl",
+    "formid": "0x00240570",
+    "name": "\ufffdP\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abSentryOverheatFX",
+    "formid": "0x0014781A",
+    "name": "\ufffd\u007f\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abSentryShoulderLeftClusterFX",
+    "formid": "0x00216355",
+    "name": "u<\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abSentryShoulderRightClusterFX",
+    "formid": "0x00216356",
+    "name": "\ufffd<\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abStingwingRaceEffect",
+    "formid": "0x000C9794",
+    "name": "O\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abSynthGen1RaceEffect",
+    "formid": "0x0022B6ED",
+    "name": "-F\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abTurretBubbleRaceEffect",
+    "formid": "0x00116005",
+    "name": "\u0006`\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abTurretTripodRaceEffect",
+    "formid": "0x00116004",
+    "name": "#F\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "abVertibirtRaceEffect",
+    "formid": "0x001125E0",
+    "name": "\ufffd\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "crBehemothSlamAreaEffect",
+    "formid": "0x00144AB1",
+    "name": "\ufffdt\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crBehemothStompAreaEffect",
+    "formid": "0x0014D17B",
+    "name": ")\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crBloatflyCloakEffect",
+    "formid": "0x0017FCED",
+    "name": "o\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crBloatflyFrenzyEffect",
+    "formid": "0x00036662",
+    "name": "\ufffdH\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crBloodbugBloodSpitEffect02",
+    "formid": "0x00032569",
+    "name": "\u000fI\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crBloodbugBloodSpitEffect03",
+    "formid": "0x0003256A",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crBloodbugBloodSpitEffect04",
+    "formid": "0x000328F9",
+    "name": "X?\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crBloodbugBloodSpitEffectVFX",
+    "formid": "0x00032568",
+    "name": "\ufffd1\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crBloodbugBloodSplatterFX",
+    "formid": "0x0002C947",
+    "name": "\u000ew\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crBloodbugCloakEffect",
+    "formid": "0x0017FCEC",
+    "name": "\ufffdW\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crBloodbugIchorSplatterFX",
+    "formid": "0x0002C948",
+    "name": "\u000e\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crDamageRadiationCloak",
+    "formid": "0x000DB3AF",
+    "name": "\u000eg\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crDeathclawAreaStaggerMagEffect",
+    "formid": "0x000D102B",
+    "name": "\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crDeathclawCloakEffect",
+    "formid": "0x00183301",
+    "name": "\u001ej\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crDeathclawIntimidateMagEffect",
+    "formid": "0x00031ED2",
+    "name": "z\ufffd\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "crDogCloakEffect",
+    "formid": "0x0017FCF5",
+    "name": "\ufffd\u0017\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crMirelurkCloakEffect",
+    "formid": "0x0017FCEE",
+    "name": "\ufffdv\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crMirelurkHunterCloakEffect",
+    "formid": "0x0017FCF2",
+    "name": "3E\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crMirelurkKingBlurCloakEffect",
+    "formid": "0x0004AB43",
+    "name": "\u001c\ufffd\u0002",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "crMirelurkKingBlurCloakScriptEffect",
+    "formid": "0x001E4503",
+    "name": "\ufffd\u001c\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "crMirelurkKingCloakEffect",
+    "formid": "0x0017FCF3",
+    "name": "\ufffd3\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crMirelurkKingStaggerEffect",
+    "formid": "0x001BF725",
+    "name": "\n\f\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crMirelurkQueenCloakEffect",
+    "formid": "0x0017FCF4",
+    "name": "V\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crMoleratCloakEffect",
+    "formid": "0x0017FCF1",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crPoisonEffect",
+    "formid": "0x001FE6A2",
+    "name": "\r5\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crRadscorpionCloakEffect",
+    "formid": "0x0017FD02",
+    "name": "\ufffd5\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crRadstagCloakEffect",
+    "formid": "0x0017FCF0",
+    "name": "\u0003\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crStingwingCloakEffect",
+    "formid": "0x0017FCEF",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "crYaoGuaiCloakEffect",
+    "formid": "0x0017FCF6",
+    "name": "\ufffdW\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "destWetEffect",
+    "formid": "0x00036904",
+    "name": "\ufffdU\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtAcidEffectChanceAlways",
+    "formid": "0x001B9A3B",
+    "name": "\u0018\b\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtBallisticEffectChanceAlways",
+    "formid": "0x001C611E",
+    "name": "\ufffd\r\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtCryoColdEffectChanceAlways",
+    "formid": "0x00084A52",
+    "name": "\ufffdL\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtCryoColdEffectChanceLow",
+    "formid": "0x0006F128",
+    "name": "\ufffdO\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtElectricalEffectChanceAlways",
+    "formid": "0x000856FC",
+    "name": "\ufffd\u0005\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtElectricalEffectChanceLow",
+    "formid": "0x0006F129",
+    "name": "\ufffde\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtFireFlameEffectChanceAlways",
+    "formid": "0x00084A4F",
+    "name": "^\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtFireFlameEffectChanceAlwaysShishkebab",
+    "formid": "0x001B3F72",
+    "name": "6\t\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtFireFlameEffectChanceLow",
+    "formid": "0x0006E51A",
+    "name": "5U\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtPlasmaEffectChanceAlways",
+    "formid": "0x002458BD",
+    "name": "gV\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtPoisonEffectChanceAlways",
+    "formid": "0x000856FA",
+    "name": "X\\\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtPoisonEffectChanceLow",
+    "formid": "0x0006F12A",
+    "name": "\u0721\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtPowerArmorShockLeft",
+    "formid": "0x001F2626",
+    "name": "\ufffd&\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtPowerArmorShockRight",
+    "formid": "0x001F2627",
+    "name": "\u000b'\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtRadiationEffectChanceAlways",
+    "formid": "0x000856FE",
+    "name": "\u0003\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtRadiationEffectChanceLow",
+    "formid": "0x0006F12B",
+    "name": "O}\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "dtRadiationEffectGhoul",
+    "formid": "0x000DCDF8",
+    "name": "\ufffd7\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "hackerTurretSabotageEffect",
+    "formid": "0x0011680E",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "holdupDispelEffect",
+    "formid": "0x001F4257",
+    "name": "\ufffd-\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "holdupExplosionEffect",
+    "formid": "0x001C2797",
+    "name": "-\u000f\u0003",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "holdupPacifyEffect",
+    "formid": "0x000E1A52",
+    "name": "\b\ufffd\u0001",
+    "has_scripts": true,
+    "desc": ""
+  },
+  {
+    "edid": "jetpackEFFECT",
+    "formid": "0x0012772D",
+    "name": "\u0010\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mindcloudPoisonEffect",
+    "formid": "0x0017E8F8",
+    "name": "\u007f\ufffd\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "modWeapBleedEffect",
+    "formid": "0x002387E2",
+    "name": "lM\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Grinder_Effect",
+    "formid": "0x001EC1F8",
+    "name": "j$\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Lining_Cushioned_MagicEffect",
+    "formid": "0x000BA437",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Lining_FieldGen_EMP_CloakEffect_1",
+    "formid": "0x000BA465",
+    "name": "\ufffd\t\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Lining_FieldGen_EMP_CloakEffect_2",
+    "formid": "0x000BA466",
+    "name": "\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Lining_FieldGen_EMP_CloakEffect_3",
+    "formid": "0x000BA467",
+    "name": "\ufffd\"\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Lining_FieldGen_EMP_CloakEffect_4",
+    "formid": "0x000BA468",
+    "name": "\ufffd\t\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Lining_FieldGen_EMP_MagicEffect",
+    "formid": "0x000BA45E",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Lining_FieldGen_Radiation_CloakEffect_1",
+    "formid": "0x000BA451",
+    "name": "Te\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Lining_FieldGen_Radiation_CloakEffect_2",
+    "formid": "0x000BA45D",
+    "name": "[o\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Lining_FieldGen_Radiation_CloakEffect_3",
+    "formid": "0x000BA45F",
+    "name": "\u0006S\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Lining_FieldGen_Radiation_CloakEffect_4",
+    "formid": "0x000BA460",
+    "name": "Vh\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Lining_FieldGen_Radiation_MagicEffect",
+    "formid": "0x000BA44F",
+    "name": "\ufffdA\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Lining_LighterBuild_MagicEffect",
+    "formid": "0x000BA441",
+    "name": "%Y\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Lining_Mesh_BioComm_ChemMagnitude_MagicEffect",
+    "formid": "0x000BA449",
+    "name": "k\ufffd\u0001",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_Lining_ReinforcedLimbs_MagicEffect",
+    "formid": "0x000BA430",
+    "name": "\ufffdE\u0002",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "mod_armor_Railroad_InstituteKiller_Effect",
+    "formid": "0x00226711",
+    "name": "\ufffdC\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "pa_mod_Lining_FieldGen_Radiation_CloakEffect",
+    "formid": "0x00249D6C",
+    "name": "\ufffdd\u0003",
+    "has_scripts": false,
+    "desc": ""
+  },
+  {
+    "edid": "tpShogunsDecapitatorEFFECT",
+    "formid": "0x00148431",
+    "name": "\ufffd\ufffd\u0001",
+    "has_scripts": true,
+    "desc": ""
+  }
+]

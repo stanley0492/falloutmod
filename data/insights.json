@@ -1,0 +1,281 @@
+{
+  "generated": "2026-09-07 00:35 UTC",
+  "source": "/home/user/falloutmod/DecompiledMaster/data",
+  "engine": {
+    "rtti_total_classes": 4097,
+    "rtti_subsystems": {
+      "AI, Combat & Actor Systems": 708,
+      "Core Engine, Memory & OS": 2208,
+      "Physics & Havok": 105,
+      "Animation Systems": 90,
+      "Audio & Acoustics": 55,
+      "Game Records & Form Types (TES/BGS)": 380,
+      "Scaleform UI & Menus": 263,
+      "Renderer & Scene Graph (NetImmerse)": 250,
+      "Papyrus VM (BSScript)": 38
+    },
+    "gmst_total": 3621,
+    "gmst_category_counts": {
+      "General Engine & World Simulation": 1212,
+      "Weapon Aiming & Ballistics": 54,
+      "Sensory Detection & Stealth": 149,
+      "VATS & Action Points": 226,
+      "Combat & Tactics": 1635,
+      "Physics & Ragdoll": 6,
+      "Movement & Locomotion": 95,
+      "AI Packages & Sandboxing": 42,
+      "Crime, Law & Bounties": 44,
+      "Dialogue, Persuasion & Economy": 45,
+      "Magic, Chems & Spells": 113
+    },
+    "gmst_reliable_prefix_counts": {
+      "AI (fAI*/bAI*)": 112,
+      "combat (fCombat*)": 1538,
+      "VATS (fVATS*)": 56,
+      "sneak (fSneak*)": 26,
+      "stagger (fStagger*)": 5,
+      "weapon (fWeapon*)": 37,
+      "action point (fActionPoint*)": 6,
+      "armor (fArmor*)": 2,
+      "magic (fMagic*)": 92
+    },
+    "address_library": {
+      "database_file": "version-1-10-163-0.bin",
+      "file_size_bytes": 25327608,
+      "total_mapped_functions_and_data": 1582975
+    }
+  },
+  "ai": {
+    "total_packages": 3828,
+    "classified_from_edid": 1087,
+    "generic_unclassified": 2741,
+    "edid_keyword_distribution": {
+      "generic/ambient (unclassifiable from edid)": 2741,
+      "use": 145,
+      "combat": 130,
+      "wait": 119,
+      "patrol": 115,
+      "follow": 105,
+      "work": 97,
+      "escort": 74,
+      "move": 60,
+      "rest": 51,
+      "attack": 43,
+      "home": 34,
+      "defend": 32,
+      "flee": 30,
+      "idle": 29,
+      "return": 12,
+      "visit": 10,
+      "acquire": 1
+    },
+    "flag_combo_count": 98,
+    "top_flag_combos": {
+      "0x00000000": 1978,
+      "0x00002000": 612,
+      "0x00800000": 271,
+      "0x00802000": 267,
+      "0x00003000": 63
+    },
+    "unique_procedure_type_ids": 254,
+    "top_procedure_types": {
+      "Type_131090": 1452,
+      "Type_65554": 255,
+      "Type_196626": 201,
+      "Type_1694629906": 107,
+      "Type_1862402066": 92
+    }
+  },
+  "records": {
+    "weapons": {
+      "total": 252,
+      "with_ammo_formid": 0,
+      "name_recoverable": [
+        166,
+        226
+      ]
+    },
+    "armor": {
+      "total": 682,
+      "name_recoverable": [
+        317,
+        477
+      ],
+      "distinct_body_slot_masks": 73
+    },
+    "combat_styles": {
+      "total": 112,
+      "subrecord_presence": {
+        "EDID": 112,
+        "CSGD": 112,
+        "CSME": 112,
+        "CSRA": 112,
+        "CSCR": 112,
+        "CSLR": 112,
+        "CSCV": 112,
+        "CSFL": 112,
+        "DATA": 112
+      },
+      "with_melee_data": 112,
+      "with_ranged_data": 112
+    },
+    "factions": {
+      "total": 699,
+      "with_zero_relations": 356,
+      "max_relations": 42,
+      "relation_count_distribution": {
+        "0": 356,
+        "1": 180,
+        "2": 73,
+        "3": 41,
+        "4": 22,
+        "5": 10,
+        "6": 4,
+        "7": 3,
+        "8": 4,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "13": 1,
+        "28": 1,
+        "42": 1
+      },
+      "reaction_totals": {
+        "Ally": 343,
+        "Friend": 262,
+        "Enemy": 94,
+        "Neutral": 78
+      }
+    },
+    "perks": {
+      "total": 538,
+      "playable": 323,
+      "rank_1_share": 227,
+      "rank_distribution": {
+        "1": 227,
+        "2": 19,
+        "3": 104,
+        "4": 59,
+        "5": 56,
+        "8": 1,
+        "9": 65,
+        "10": 7
+      },
+      "no_description": 105
+    },
+    "magic_effects": {
+      "total": 638,
+      "with_attached_scripts": 156
+    },
+    "projectiles": {
+      "total": 139,
+      "fields": [
+        "edid",
+        "formid",
+        "gravity_mult",
+        "name",
+        "range",
+        "speed"
+      ]
+    },
+    "object_modifications": {
+      "total": 2408,
+      "target_type_distribution": {
+        "0": 2033,
+        "1": 8,
+        "2": 112,
+        "3": 71,
+        "4": 63,
+        "5": 41,
+        "6": 29,
+        "7": 22,
+        "8": 17,
+        "9": 10,
+        "10": 1,
+        "30": 1
+      }
+    },
+    "races": {
+      "total": 45
+    },
+    "actor_values": {
+      "total": 359
+    }
+  },
+  "papyrus": {
+    "native_functions_total": 1669,
+    "bound_scripts_with_natives": 60,
+    "top_bound_scripts": {
+      "ObjectReference": 419,
+      "Actor": 384,
+      "Game": 207,
+      "ScriptObject": 120,
+      "Utility": 61,
+      "InstanceData": 54,
+      "Form": 39,
+      "ActorBase": 37,
+      "Location": 34,
+      "InputEnableLayer": 33
+    },
+    "events_total": 167,
+    "script_class_hierarchy_entries": 10260
+  },
+  "config": {
+    "ini_domains": {
+      "Display & Graphics": [
+        "bDeferredShadowing",
+        "fShadowLODMaxStartFade",
+        "iPresentInterval",
+        "iSize W / iSize H"
+      ],
+      "Physics & Havok": [
+        "fMaxTime",
+        "fMaxTimeComplex"
+      ],
+      "Papyrus Virtual Machine": [
+        "fExtraTaskletBudgetMS",
+        "fUpdateBudgetMS",
+        "iMaxMemoryPageSize",
+        "iMinMemoryPageSize"
+      ],
+      "General & Cell Streaming": [
+        "bUseThreadedAI",
+        "uExterior Cell Buffer",
+        "uGridsToLoad",
+        "uInterior Cell Buffer"
+      ],
+      "Archive & Loose File Loading": [
+        "bInvalidateOlderFiles",
+        "sResourceDataDirsFinal"
+      ]
+    },
+    "user_ini_sections": [
+      "Archive",
+      "Audio",
+      "Camera",
+      "Combat",
+      "Controls",
+      "Decals",
+      "Display",
+      "Gameplay",
+      "General",
+      "Grass",
+      "HAVOK",
+      "HairLighting",
+      "ImageSpace",
+      "Interface",
+      "LOD",
+      "Launcher",
+      "Main",
+      "MapMenu",
+      "Papyrus",
+      "Pathfinding",
+      "SSSSS",
+      "ScreenSplatter",
+      "VATS",
+      "Water",
+      "Weather",
+      "Workshop"
+    ]
+  }
+}

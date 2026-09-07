@@ -21,6 +21,36 @@ jobs:
     - name: Setup CMake
       uses: lukka/get-cmake@v3.29.3
 
+    - name: Setup F4SE SDK
+      shell: pwsh
+      run: |
+        if (Test-Path third_party/f4se/include) {
+          Write-Host "F4SE SDK already vendored"
+          exit 0
+        }
+        New-Item -ItemType Directory -Force -Path third_party | Out-Null
+        Write-Host "Fetching latest F4SE release SDK..."
+        $rel = Invoke-RestMethod -Uri "https://api.github.com/repos/afrocat/F4SE/releases/latest"
+        $asset = $rel.assets | Where-Object { $_.name -like "*.zip" } | Select-Object -First 1
+        if (-not $asset) { Write-Error "No zip asset in F4SE release"; exit 1 }
+        Write-Host "Downloading $($asset.name) (tag $($rel.tag_name))"
+        Invoke-WebRequest -Uri $asset.browser_download_url -OutFile f4se.zip
+        Expand-Archive f4se.zip -DestinationPath third_party/f4se-extract -Force
+        $inc = Get-ChildItem -Path third_party/f4se-extract -Recurse -Directory -Filter include | Select-Object -First 1
+        if (-not $inc) { Write-Error "Could not find include/ in the F4SE release"; exit 1 }
+        $root = Split-Path -Parent $inc.FullName
+        New-Item -ItemType Directory -Force -Path third_party/f4se | Out-Null
+        Copy-Item "$root/include" third_party/f4se/ -Recurse
+        if (Test-Path "$root/lib") { Copy-Item "$root/lib" third_party/f4se/ -Recurse }
+        if (-not (Test-Path third_party/f4se/lib/f4se_64.lib)) {
+          $lib = Get-ChildItem -Path third_party/f4se-extract -Recurse -Filter f4se_64.lib | Select-Object -First 1
+          if ($lib) {
+            New-Item -ItemType Directory -Force -Path third_party/f4se/lib | Out-Null
+            Copy-Item $lib.FullName third_party/f4se/lib/f4se_64.lib
+          } else { Write-Error "f4se_64.lib not found in the F4SE release"; exit 1 }
+        }
+        Write-Host "F4SE SDK ready at third_party/f4se"
+
     - name: Configure
       run: cmake -B build -S . -DCMAKE_BUILD_TYPE=Release
 

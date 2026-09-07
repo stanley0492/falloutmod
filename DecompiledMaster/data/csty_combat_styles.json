@@ -1,0 +1,3250 @@
+[
+  {
+    "edid": "CZ_MeleeOnly",
+    "formid": "0x001069A7",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.77,
+      0.85,
+      0.2,
+      10.0,
+      1.0,
+      0.01,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "edid": "DN017_csSynthGen1MeleeSpecial",
+    "formid": "0x00059AB8",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.05,
+      0.75,
+      0.75,
+      10.0,
+      1.0,
+      0.13,
+      1.0,
+      1.0,
+      1.0,
+      0.9,
+      0.9,
+      0.3
+    ]
+  },
+  {
+    "edid": "DN109_csGunnerBossBaker",
+    "formid": "0x00019417",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.3,
+      0.5,
+      0.3
+    ]
+  },
+  {
+    "edid": "DN121_csSlag",
+    "formid": "0x00051E4C",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      3.85,
+      1.0,
+      1.75,
+      1.0,
+      0.38,
+      1.0,
+      0.3,
+      0.5,
+      0.3
+    ]
+  },
+  {
+    "edid": "DefaultCombatStyle",
+    "formid": "0x0000334D",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "Inst302CourserCombatStyle",
+    "formid": "0x000D2A6F",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "csAlienRanged",
+    "formid": "0x001974BD",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csAssaultron",
+    "formid": "0x000E1AAF",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.5,
+      1.0,
+      10.0,
+      1.0,
+      0.98,
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.25,
+      0.5
+    ]
+  },
+  {
+    "edid": "csAssaultronCombatStyleRanged",
+    "formid": "0x000E8D6E",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csAssaultronStealth",
+    "formid": "0x001CFB15",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      1.0,
+      10.0,
+      1.0,
+      0.1,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.2,
+      0.6
+    ]
+  },
+  {
+    "edid": "csBloatfly",
+    "formid": "0x0003935F",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.11,
+      0.2,
+      0.11,
+      0.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "csBloatflyEasy",
+    "formid": "0x0015079C",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.11,
+      0.2,
+      0.11,
+      0.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csBloodbug",
+    "formid": "0x000289A8",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.7,
+      0.28,
+      0.8,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.0,
+      0.2
+    ]
+  },
+  {
+    "edid": "csBloodbugBloodSpit",
+    "formid": "0x00032A1D",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.28,
+      0.28,
+      0.14,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      0.0,
+      1.0,
+      0.2,
+      0.0,
+      0.2
+    ]
+  },
+  {
+    "edid": "csBloodbugInt",
+    "formid": "0x000DB3B3",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.0,
+      1.0,
+      0.8,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.0,
+      0.2
+    ]
+  },
+  {
+    "edid": "csBoS01Ranged",
+    "formid": "0x00076A09",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csBoS01RangedPowerArmor",
+    "formid": "0x0009A6B8",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.9,
+      0.2,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.7,
+      0.1,
+      0.3
+    ]
+  },
+  {
+    "edid": "csBrahmin",
+    "formid": "0x00102B5D",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.6,
+      0.05,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.5,
+      0.8
+    ]
+  },
+  {
+    "edid": "csChildrenOfAtom",
+    "formid": "0x0022140B",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.7,
+      0.3,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.3,
+      0.5,
+      0.3
+    ]
+  },
+  {
+    "edid": "csCompCait",
+    "formid": "0x00178E77",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "edid": "csCompCurie",
+    "formid": "0x0022123D",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "edid": "csCompDeacon",
+    "formid": "0x00237E25",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "edid": "csCompHancockMelee",
+    "formid": "0x0021634E",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.5,
+      0.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.1,
+      0.1,
+      0.1
+    ]
+  },
+  {
+    "edid": "csCompHancockRanged",
+    "formid": "0x00062AA5",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.1,
+      0.1,
+      0.1
+    ]
+  },
+  {
+    "edid": "csCompMacCready",
+    "formid": "0x00237E26",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "edid": "csCompPiper",
+    "formid": "0x00237E27",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "edid": "csCompStrong",
+    "formid": "0x00237E28",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "edid": "csCompValentine",
+    "formid": "0x00215E04",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.3,
+      0.5,
+      0.3
+    ]
+  },
+  {
+    "edid": "csCompX6-88",
+    "formid": "0x00237E29",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "edid": "csDN084OverrideNoMovement",
+    "formid": "0x0015EF41",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.9,
+      0.2,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csDN109Tessa",
+    "formid": "0x00248489",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.5,
+      0.0,
+      0.85,
+      1.0,
+      0.01,
+      1.0,
+      10.0,
+      1.0,
+      0.5,
+      0.45,
+      0.45
+    ]
+  },
+  {
+    "edid": "csDeathclaw",
+    "formid": "0x0004D8AE",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.7,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "edid": "csDeathclawMM",
+    "formid": "0x0002938B",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "edid": "csDeathclawOLD",
+    "formid": "0x000478ED",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "edid": "csDeathclawRanged",
+    "formid": "0x00116666",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.7,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  {
+    "edid": "csDogmeat",
+    "formid": "0x00047903",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "csDogmeatRevised",
+    "formid": "0x001EA89A",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.14,
+      0.73,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "csEyebot",
+    "formid": "0x000A7DA3",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.8,
+      1.0,
+      0.11,
+      0.0,
+      0.0,
+      10.0,
+      0.0,
+      0.0,
+      0.0,
+      0.8,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "edid": "csFahrenheit",
+    "formid": "0x00165577",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.75,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.3,
+      0.5,
+      0.3
+    ]
+  },
+  {
+    "edid": "csFeralGhoul",
+    "formid": "0x0009990E",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.1,
+      0.5,
+      10.0,
+      1.0,
+      0.01,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.5
+    ]
+  },
+  {
+    "edid": "csFeralGhoulGlowingOne",
+    "formid": "0x0015B53F",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      1.0,
+      0.0,
+      10.0,
+      1.0,
+      0.01,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.5
+    ]
+  },
+  {
+    "edid": "csGhoul",
+    "formid": "0x00028FD7",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.79,
+      0.28,
+      1.0,
+      1.3,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.33,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "csGorilla",
+    "formid": "0x000FDD1A",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      0.7,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "edid": "csGunnerRanged",
+    "formid": "0x0016CA4E",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.61,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.3,
+      0.5,
+      0.3
+    ]
+  },
+  {
+    "edid": "csKellogg",
+    "formid": "0x00098EE5",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.25,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ]
+  },
+  {
+    "edid": "csLibertyPrime",
+    "formid": "0x00188CF0",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      10.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csLorenzoCabot",
+    "formid": "0x001D4365",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.85,
+      0.05,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csMS16Fahrenheit",
+    "formid": "0x000ADC8B",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csMirelurk",
+    "formid": "0x000F0B87",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.7,
+      0.1,
+      0.2,
+      10.0,
+      1.0,
+      0.01,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "csMirelurkHunter",
+    "formid": "0x000ABEA5",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.6,
+      0.05,
+      1.0,
+      1.0,
+      1.0,
+      4.5,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.5,
+      0.8
+    ]
+  },
+  {
+    "edid": "csMirelurkKing",
+    "formid": "0x000CA02A",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.11,
+      1.0,
+      8.75,
+      8.5,
+      0.55,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.49,
+      0.68
+    ]
+  },
+  {
+    "edid": "csMirelurkKingOLD",
+    "formid": "0x0004AB1E",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.79,
+      0.11,
+      1.0,
+      0.34,
+      0.55,
+      6.2,
+      0.55,
+      1.0,
+      1.0,
+      0.2,
+      0.49,
+      0.68
+    ]
+  },
+  {
+    "edid": "csMirelurkQueen",
+    "formid": "0x0010817A",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      0.5,
+      1.3,
+      1.0,
+      1.5,
+      1.0,
+      1.3,
+      1.0,
+      0.14,
+      0.29,
+      0.17
+    ]
+  },
+  {
+    "edid": "csMolerat",
+    "formid": "0x0004291C",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.82,
+      0.25,
+      0.4,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.05,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "csMrGutsy",
+    "formid": "0x00149C9D",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.75,
+      0.5,
+      0.2,
+      1.1,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "edid": "csMrHandy",
+    "formid": "0x000EF218",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.77,
+      0.85,
+      0.2,
+      6.0,
+      1.0,
+      6.0,
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "edid": "csMutantHound",
+    "formid": "0x000AB719",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.2,
+      0.2,
+      10.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.38,
+      0.48
+    ]
+  },
+  {
+    "edid": "csMysteriousStrangerFight",
+    "formid": "0x00188AA9",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csPickman",
+    "formid": "0x0015D8C6",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.77,
+      0.85,
+      0.0,
+      10.0,
+      1.0,
+      0.01,
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.45,
+      0.45
+    ]
+  },
+  {
+    "edid": "csPowerArmorMelee",
+    "formid": "0x000F24A3",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.9,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csPowerArmorRanged",
+    "formid": "0x000F24A2",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.9,
+      0.2,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csPreston",
+    "formid": "0x000ADD7F",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      1.0,
+      1.0,
+      0.1,
+      1.0,
+      10.0,
+      1.0,
+      0.1,
+      1.0,
+      0.8,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "csProtectron",
+    "formid": "0x000D840C",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csREAssaultKMK05Sniper",
+    "formid": "0x0014CE9C",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.15,
+      0.85,
+      0.75,
+      0.55,
+      1.0,
+      10.0,
+      1.0,
+      0.23,
+      1.0,
+      0.7,
+      0.0,
+      0.3
+    ]
+  },
+  {
+    "edid": "csRadRoach",
+    "formid": "0x0004A094",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.6,
+      0.05,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csRadStag",
+    "formid": "0x00090E54",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.6,
+      0.2,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.5,
+      1.0
+    ]
+  },
+  {
+    "edid": "csRadStagCharge",
+    "formid": "0x0021A69D",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.6,
+      0.2,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.5,
+      1.0
+    ]
+  },
+  {
+    "edid": "csRadscorpion",
+    "formid": "0x000636A6",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.74,
+      0.08,
+      0.25,
+      3.4,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      1.0,
+      0.8
+    ]
+  },
+  {
+    "edid": "csRaider01AllOffenseMelee",
+    "formid": "0x0003DB05",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      1.0,
+      10.0,
+      0.0,
+      0.25,
+      0.0,
+      5.75,
+      0.0,
+      0.8,
+      0.68,
+      0.26
+    ]
+  },
+  {
+    "edid": "csRaider01Melee",
+    "formid": "0x00047165",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.77,
+      0.5,
+      0.0,
+      10.0,
+      1.0,
+      0.01,
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.45,
+      0.45
+    ]
+  },
+  {
+    "edid": "csRaider01MeleeDefenseHigh",
+    "formid": "0x000F5D8A",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.77,
+      1.0,
+      0.2,
+      10.0,
+      1.0,
+      0.01,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "edid": "csRaider01RangedAcc100",
+    "formid": "0x0007C846",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csRaider01RangedPowerArmor",
+    "formid": "0x000A36E5",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csRaiderDog_Dogmeat",
+    "formid": "0x001A9735",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "csRaiderDog_MutantHound",
+    "formid": "0x001A9736",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.2,
+      0.2,
+      10.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.48,
+      0.58
+    ]
+  },
+  {
+    "edid": "csRaiderDog_RaiderMelee",
+    "formid": "0x001A9734",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.77,
+      0.85,
+      0.0,
+      10.0,
+      1.0,
+      0.01,
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.45,
+      0.45
+    ]
+  },
+  {
+    "edid": "csRaiderRanged",
+    "formid": "0x0003183B",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.3,
+      0.5,
+      0.3
+    ]
+  },
+  {
+    "edid": "csRaiderRangedAuto",
+    "formid": "0x0006627F",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.3,
+      0.5,
+      0.3
+    ]
+  },
+  {
+    "edid": "csRaiderRangedDefenseHigh",
+    "formid": "0x00064126",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.25,
+      0.85,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csRaiderRangedGood",
+    "formid": "0x001EA89B",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.3,
+      0.5,
+      0.3
+    ]
+  },
+  {
+    "edid": "csRaiderRangedOffDefBalanced",
+    "formid": "0x000780B5",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csRaiderRangedOffenseHigh",
+    "formid": "0x00064125",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.85,
+      0.05,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csRaiderRangedo100d100",
+    "formid": "0x000780B6",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csSMBehemoth",
+    "formid": "0x000E4DD7",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      0.1,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "csSecurityDiamondCity01Ranged",
+    "formid": "0x00029970",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.3,
+      0.5,
+      0.3
+    ]
+  },
+  {
+    "edid": "csSentryBot",
+    "formid": "0x000B9D66",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      1.0,
+      1.1,
+      1.0,
+      2.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csStingwing",
+    "formid": "0x00066EB2",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.76,
+      0.28,
+      0.8,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "csSuperMutantBerserker",
+    "formid": "0x00130F03",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.5,
+      0.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.1,
+      0.1,
+      0.1
+    ]
+  },
+  {
+    "edid": "csSuperMutantSuicider",
+    "formid": "0x0010C64E",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.5,
+      1.0,
+      10.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csSupermutantRanged",
+    "formid": "0x000A881F",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.79,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.1,
+      0.1,
+      0.1
+    ]
+  },
+  {
+    "edid": "csSupermutantRangedAuto",
+    "formid": "0x0006627E",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.79,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.1,
+      0.1,
+      0.1
+    ]
+  },
+  {
+    "edid": "csSupermutantRangedSniper",
+    "formid": "0x00146154",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.79,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.1,
+      0.1,
+      0.1
+    ]
+  },
+  {
+    "edid": "csSynthCourser01Ranged",
+    "formid": "0x0004A9C0",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "edid": "csSynthGen1Melee",
+    "formid": "0x0006563B",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.5,
+      0.0,
+      10.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csSynthGen1Ranged",
+    "formid": "0x001603F0",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.75,
+      0.75,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csSynthGen2Flamer",
+    "formid": "0x001CFB1A",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.75,
+      0.01,
+      0.75,
+      1.0,
+      1.0,
+      5.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csSynthGen2Melee",
+    "formid": "0x001CFB1B",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.5,
+      0.0,
+      10.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "edid": "csSynthGen2Ranged",
+    "formid": "0x00119BB3",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.75,
+      0.5,
+      0.75,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csSynthGen2RangedSniper",
+    "formid": "0x001E0411",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.75,
+      0.5,
+      0.75,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csTestRaidero0d0c50",
+    "formid": "0x000673C8",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csTestRaidero1d1c1",
+    "formid": "0x000673CB",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csTestRaidero1d1c50",
+    "formid": "0x000673C7",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csTestRaidero50d50c0",
+    "formid": "0x000673C3",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csTestRaidero50d50c1",
+    "formid": "0x000673C4",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csTurretBubble",
+    "formid": "0x000E60B0",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csTurretStanding",
+    "formid": "0x000E60AF",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.6,
+      0.3
+    ]
+  },
+  {
+    "edid": "csUnarmedOnly",
+    "formid": "0x000AC071",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      10.0,
+      0.0,
+      0.8,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "csVertibird",
+    "formid": "0x000F2590",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "csVertibirdMinigun",
+    "formid": "0x00061650",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.5,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "edid": "csViciousDog",
+    "formid": "0x0003F2F2",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.71,
+      0.09,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.48,
+      0.58
+    ]
+  },
+  {
+    "edid": "csViciousDogDemoralized",
+    "formid": "0x00136254",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      0.71,
+      0.09,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.2,
+      0.48,
+      0.58
+    ]
+  },
+  {
+    "edid": "csYaoGuai",
+    "formid": "0x000B3D84",
+    "subrecords": [
+      "EDID",
+      "CSGD",
+      "CSME",
+      "CSRA",
+      "CSCR",
+      "CSLR",
+      "CSCV",
+      "CSFL",
+      "DATA"
+    ],
+    "general_data_floats": [
+      1.0,
+      0.0,
+      0.7,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.36,
+      0.36
+    ]
+  }
+]

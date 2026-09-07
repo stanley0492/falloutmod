@@ -1,0 +1,1114 @@
+[
+  {
+    "edid": "308Casing",
+    "formid": "0x00181B32",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "5mmProjectile",
+    "formid": "0x0005DDEF",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "AlienBlasterProjectile",
+    "formid": "0x001025A9",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "AmmoFlareGunProjectile",
+    "formid": "0x001025AF",
+    "name": "\ufffd~\u0001",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "AmmoFlareProjectile",
+    "formid": "0x000A292A",
+    "name": "\ufffd\ufffd\u0001",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "AmmoTNTProjectile",
+    "formid": "0x000A3A68",
+    "name": "\ufffd\u001b\u0002",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "ArtillerySmokeFlareProjectile",
+    "formid": "0x000A1337",
+    "name": "\ufffd|\u0001",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "AssaultRifleProjectile",
+    "formid": "0x0000481F",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "AssaultRifleProjectileSuppressor",
+    "formid": "0x001F1C3D",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "AssaultronProjectile",
+    "formid": "0x000DD4B6",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "BallisticHeavyProjectile",
+    "formid": "0x001B88DB",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "BaseballGrenadeProjectile",
+    "formid": "0x00107BD7",
+    "name": "<\ufffd\u0002",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "BehemothBoulderProjectile",
+    "formid": "0x0014BBDB",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "BloatflyMaggot",
+    "formid": "0x000314EB",
+    "name": "\ufffd/\u0001",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "BloodBugBloodSprayWeap01",
+    "formid": "0x00031FB5",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "BoSVertibirdGrenadeProjectile",
+    "formid": "0x00056918",
+    "name": "^\ufffd\u0002",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "BottlecapMineProjectile",
+    "formid": "0x00107720",
+    "name": "_i\u0001",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "BroadsiderProjectile",
+    "formid": "0x000FD11D",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "BroadsiderProjectileExploding",
+    "formid": "0x00118611",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "BroadsiderProjectileMortar",
+    "formid": "0x00122432",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "Casing308",
+    "formid": "0x0010815D",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "CryoGrenadeProjectile",
+    "formid": "0x000FF21E",
+    "name": "N\ufffd\u0002",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "CryoMineProjectile",
+    "formid": "0x0010C668",
+    "name": "\ufffd\ufffd\u0001",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "CryoProjectile",
+    "formid": "0x00230F88",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "CryoShotgunProjectile",
+    "formid": "0x0018C352",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "CryolatorStream",
+    "formid": "0x000B45EB",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "DN029CannonLauncherProjectile",
+    "formid": "0x000CA0B2",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "DN102_FrenzyGrenadeProjectile",
+    "formid": "0x000E98E4",
+    "name": "\ufffd\ufffd\u0002",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "DeathclawProjectile",
+    "formid": "0x0011333A",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "DetectLifeCloakChemProjectile",
+    "formid": "0x0024904D",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "DetectLifeCloakHostileProjectile",
+    "formid": "0x00239521",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "DetectLifeCloakProjectile",
+    "formid": "0x0024904E",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "FXNukeParticleTrailProjectile",
+    "formid": "0x0024629D",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "FatManProjectile",
+    "formid": "0x000E6B2F",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "FatManProjectileMIRV",
+    "formid": "0x001C6BFE",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "FatManProjectileMIRVChild",
+    "formid": "0x001CC2AE",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "FatManProjectileSeek",
+    "formid": "0x001C6BF9",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "FlamerProjectileStreamLong",
+    "formid": "0x000F06DA",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "FlamerProjectileStreamMedium",
+    "formid": "0x001C5AB6",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "FlamerProjectileStreamVaporizer",
+    "formid": "0x001C5AB5",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "FragMineProjectile",
+    "formid": "0x000E56C3",
+    "name": "%\ufffd\u0001",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "FusionCoreKnightProjectile",
+    "formid": "0x000865EB",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "FusionCoreProjectile",
+    "formid": "0x000897FE",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "FusionCoreShortFuseProjectile",
+    "formid": "0x0009BF1F",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "GammaGunProjectile",
+    "formid": "0x000F0DDC",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "GammaGunProjectileLarge",
+    "formid": "0x001C2629",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "GammaGunProjectileSmall",
+    "formid": "0x001C262A",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "GammaGunProjectileSplitter01",
+    "formid": "0x001C26A5",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "GaussRifleProjectile",
+    "formid": "0x001CC149",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "GaussRifleProjectileSuppressor",
+    "formid": "0x001F1C40",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "IncendiaryBullet",
+    "formid": "0x001B88D4",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "InstituteBeaconProjectile",
+    "formid": "0x00174F8E",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "JunkJetProjectile",
+    "formid": "0x000E942D",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "JunkJetProjectileFire",
+    "formid": "0x00112001",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "JunkJetProjectileShock",
+    "formid": "0x0022B2E9",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "LaserBeamFocusLtBlue",
+    "formid": "0x0012602F",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "LaserBeamFocusRed01",
+    "formid": "0x000C8BF9",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "LaserMusketBeam01",
+    "formid": "0x0001DBB8",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "LaserMusketBeamLtBlue",
+    "formid": "0x0012602E",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "LaserPowerBeamLtBlue",
+    "formid": "0x0012602D",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "LaserPowerBeamRed",
+    "formid": "0x000D4D7D",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "LaserRifleBeamLtBlue",
+    "formid": "0x0012602C",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "LaserRifleBeamRed",
+    "formid": "0x0009C663",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "LaserSmallBeamLtBlue",
+    "formid": "0x00126030",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "LaserSmallBeamRed",
+    "formid": "0x000A0F51",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "LibertyPrimeBombProjectile",
+    "formid": "0x0017FCE4",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "LibertyPrimeLaserProjectile",
+    "formid": "0x0018558D",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "MS02HomingBeaconProjectile",
+    "formid": "0x00065DED",
+    "name": "\u0539\u0002",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "MS02NukeMissileProjectileFar",
+    "formid": "0x00065DF4",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "MS09JackRadiationGunProjectile",
+    "formid": "0x00199048",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "MS09PushProjectile",
+    "formid": "0x00199046",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "MedShrapnelProjectileChild",
+    "formid": "0x001B88D9",
+    "name": "\ufffd\t\u0003",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "MiniGunProjectile",
+    "formid": "0x0003ADFB",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "MirelurkHunterSpitProj",
+    "formid": "0x000A8AFC",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "MirelurkKingProj",
+    "formid": "0x000FC3ED",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "MirelurkQueenSpitProj",
+    "formid": "0x00108177",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "MirelurkSpawnEggProjectile",
+    "formid": "0x0016962F",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "MissileProjectile",
+    "formid": "0x000CABA4",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "MissileProjectileSeek",
+    "formid": "0x0006FEB0",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "MolotovCocktailProjectile",
+    "formid": "0x0010C3C5",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "NukeMineProjectile",
+    "formid": "0x0010A33F",
+    "name": "\ufffdx\u0001",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "PainTrainDamageHealthProjectile",
+    "formid": "0x00239522",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "PlasmaFlamerProjectileStream",
+    "formid": "0x001B637B",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "PlasmaGrenadeProjectile",
+    "formid": "0x0010A33E",
+    "name": "\ufffd\ufffd\u0002",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "PlasmaMineProjectile",
+    "formid": "0x0010A341",
+    "name": "J\ufffd\u0001",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "PlasmaProjectileLarge",
+    "formid": "0x00125C9B",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "PlasmaProjectileSmall",
+    "formid": "0x00125C9D",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "PlasmaProjectileSmallFast",
+    "formid": "0x00127793",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "Projectile10mm",
+    "formid": "0x0001F277",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "Projectile10mmSuppressor",
+    "formid": "0x001F1C3C",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "Projectile32",
+    "formid": "0x00182E05",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "Projectile357Caliber",
+    "formid": "0x000FBF99",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "Projectile357CaliberSuppressor",
+    "formid": "0x001F1C3E",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "Projectile38",
+    "formid": "0x000FF12B",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "Projectile38Suppressor",
+    "formid": "0x001F1C41",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "Projectile45Caliber",
+    "formid": "0x000FBF9B",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "ProjectileOxygenTrap",
+    "formid": "0x000D76EF",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "ProjectileShotgun",
+    "formid": "0x0001F674",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "ProjectileShotgunSuppressor",
+    "formid": "0x001F1C3F",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "PulseGrenadeProjectile",
+    "formid": "0x000FF220",
+    "name": "\ufffd\ufffd\u0002",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "PulseGrenadeProjectileInstitute",
+    "formid": "0x0018325D",
+    "name": "\ufffd\ufffd\u0002",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "PulseMineProjectile",
+    "formid": "0x0010A343",
+    "name": "\ufffdg\u0001",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "PushProjectile",
+    "formid": "0x000E5785",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "RR301SynthTeleportGrenadeProjectile",
+    "formid": "0x0023CACC",
+    "name": ",P\u0003",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "RailwayRifleProjectile",
+    "formid": "0x000FE26A",
+    "name": "\ufffd|\u0001",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "SentryHandProjectileMissle",
+    "formid": "0x00216361",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "SentryShoulderCluster",
+    "formid": "0x00188450",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "SentryShoulderClusterChild",
+    "formid": "0x001ACAC6",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "SentryShoulderClusterIndoors",
+    "formid": "0x00188452",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "SmallShrapnelProjectileChild",
+    "formid": "0x001B5EE1",
+    "name": "\ufffd\t\u0003",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "SynthTeleportGrenadeProjectile",
+    "formid": "0x000589F3",
+    "name": "\ufffd\ufffd\u0002",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "SyringerProjectile",
+    "formid": "0x0018506C",
+    "name": "\ufffd\u0001",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "TrapElectricalArcBeam",
+    "formid": "0x00140F3C",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "TrapElectricalArcBeamV111",
+    "formid": "0x00041EC6",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "TrapFragGrenadeProjectile",
+    "formid": "0x000FF27B",
+    "name": "\ufffd\ufffd\u0002",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "TrapFragGrenadeProjectile1",
+    "formid": "0x001C037E",
+    "name": "\ufffd\f\u0003",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "TrapFragGrenadeProjectile2",
+    "formid": "0x001C037D",
+    "name": "\ufffd\u000b\u0003",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "TurretExplosiveProjectile",
+    "formid": "0x001B5EDB",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "TurretIncendiaryProjectile",
+    "formid": "0x001B5ED9",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "TurretProjectile",
+    "formid": "0x001B5EE2",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "VATSBullet10mm",
+    "formid": "0x000B1C07",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "VATSBullet308cal",
+    "formid": "0x0006B4D9",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "VATSBullet32",
+    "formid": "0x00182E06",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "VATSBullet38",
+    "formid": "0x000FF12A",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "VATSBullet45cal",
+    "formid": "0x000AEBB1",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "VATSBullet45cal_Explosive",
+    "formid": "0x00249369",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "VATSBulletGauss",
+    "formid": "0x0022E05B",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "VATSBulletMinigun",
+    "formid": "0x0023A608",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "VATSBulletShotgunPellet",
+    "formid": "0x00107433",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "WorkshopArtilleryProjectile",
+    "formid": "0x0005DE32",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "WorkshopArtilleryProjectileClose",
+    "formid": "0x00063B6E",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "WorkshopArtilleryProjectileFar",
+    "formid": "0x00063B6F",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "WorkshopTrapFlamethrowerProjectile",
+    "formid": "0x00204172",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "fragGrenadeProjectile",
+    "formid": "0x000E574E",
+    "name": "\ufffd\ufffd\u0002",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "fragGrenadelProjectileChild",
+    "formid": "0x000F79A6",
+    "name": "\ufffd\u0010\u0002",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "mod_Legendary_ExplosiveProjectile",
+    "formid": "0x001E73BA",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "nukaGrenadeProjectile",
+    "formid": "0x000E5751",
+    "name": "\u001e\ufffd\u0002",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "vertibirdHullProjectile",
+    "formid": "0x000210C3",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  },
+  {
+    "edid": "vertibirdPropellerProjectile",
+    "formid": "0x00020020",
+    "name": "",
+    "speed": 0.0,
+    "gravity_mult": 0.0,
+    "range": 0.0
+  }
+]

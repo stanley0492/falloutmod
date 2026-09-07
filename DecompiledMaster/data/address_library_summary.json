@@ -1,0 +1,91 @@
+{
+  "database_file": "version-1-10-163-0.bin",
+  "file_size_bytes": 25327608,
+  "total_mapped_functions_and_data": 1582975,
+  "offset_range_sample": {
+    "min_offset": "0x00002B6B",
+    "max_offset": "0x06A8BC48"
+  },
+  "sample_entries": [
+    {
+      "id": 1,
+      "offset": "0x01333020"
+    },
+    {
+      "id": 2,
+      "offset": "0x00806ED0"
+    },
+    {
+      "id": 3,
+      "offset": "0x06594C28"
+    },
+    {
+      "id": 4,
+      "offset": "0x0100DC80"
+    },
+    {
+      "id": 5,
+      "offset": "0x05A68A88"
+    },
+    {
+      "id": 6,
+      "offset": "0x068058D4"
+    },
+    {
+      "id": 7,
+      "offset": "0x02233C1F"
+    },
+    {
+      "id": 8,
+      "offset": "0x06A765E8"
+    },
+    {
+      "id": 9,
+      "offset": "0x032F4334"
+    },
+    {
+      "id": 10,
+      "offset": "0x00378E00"
+    },
+    {
+      "id": 11,
+      "offset": "0x06967BF8"
+    },
+    {
+      "id": 12,
+      "offset": "0x031E5920"
+    },
+    {
+      "id": 13,
+      "offset": "0x0085A810"
+    },
+    {
+      "id": 14,
+      "offset": "0x02EC0580"
+    },
+    {
+      "id": 15,
+      "offset": "0x05ABC3C8"
+    },
+    {
+      "id": 16,
+      "offset": "0x03131288"
+    },
+    {
+      "id": 17,
+      "offset": "0x033FC30C"
+    },
+    {
+      "id": 18,
+      "offset": "0x00D3C220"
+    },
+    {
+      "id": 19,
+      "offset": "0x06859214"
+    },
+    {
+      "id": 20,
+      "offset": "0x033A1FC0"
+    }
+  ]
+}

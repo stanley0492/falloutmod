@@ -1,0 +1,14 @@
+# build
+build/
+third_party/
+*.user
+
+# tooling / scratch
+__pycache__/
+*.pyc
+.venv/
+work/
+
+# OS noise
+Thumbs.db
+.DS_Store

@@ -1,0 +1,1766 @@
+[
+  {
+    "edid": "10mm",
+    "formid": "0x00004822",
+    "name": "Z2\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "44",
+    "formid": "0x000CE97D",
+    "name": "\u0000\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "AAA_StandardGun",
+    "formid": "0x0014831D",
+    "name": "\u0018L\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "AlienBlaster",
+    "formid": "0x000FF995",
+    "name": "\ufffds\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "AnchorHammer",
+    "formid": "0x00144A6C",
+    "name": "Mw\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "ArtillerySmokeFlare",
+    "formid": "0x0012E2CA",
+    "name": "\ufffd.\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "AssaultRifle",
+    "formid": "0x0000463F",
+    "name": "\ufffd-\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "AssaultronLaser",
+    "formid": "0x000DD4B1",
+    "name": "\ufffd*\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "AssaultronLeftBlade",
+    "formid": "0x00210B62",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "AssaultronLeftClaw",
+    "formid": "0x000DF25A",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "AssaultronRightBlade",
+    "formid": "0x00210B63",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "AssaultronRightClaw",
+    "formid": "0x000DF259",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "BaseballBat",
+    "formid": "0x0008E736",
+    "name": "\ufffdZ\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "BaseballGrenade",
+    "formid": "0x00107BD6",
+    "name": "\ufffd.\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Baton",
+    "formid": "0x0008C14D",
+    "name": "0B\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "BehemothBoulder",
+    "formid": "0x0014BBDA",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "BehemothBoulderSwan",
+    "formid": "0x000662A7",
+    "name": "\u0278\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "BloodBugBloodWeap",
+    "formid": "0x00031FB8",
+    "name": "JF\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "BoSVertibirdGrenade",
+    "formid": "0x00056917",
+    "name": "\ufffd\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Board",
+    "formid": "0x0005C250",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "BottlecapMine",
+    "formid": "0x0010771F",
+    "name": "\u0004\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "BoxingGlove",
+    "formid": "0x0016498F",
+    "name": "b\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Broadsider",
+    "formid": "0x000FD11B",
+    "name": "\f\u0000\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "ChineseOfficerSword",
+    "formid": "0x00147BE4",
+    "name": "l\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CombatRifle",
+    "formid": "0x000DF42E",
+    "name": "\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CombatShotgun",
+    "formid": "0x0014831C",
+    "name": "\u001ek\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompCaitDoubleBarrelShotgun",
+    "formid": "0x0005DF30",
+    "name": "\ufffd\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompCodsworthFlamethrowerRight",
+    "formid": "0x002491A8",
+    "name": "\ufffd`\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompCurieLaserGun",
+    "formid": "0x0022CC13",
+    "name": "\ufffdF\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompCurie_LaserGun_Left",
+    "formid": "0x002491A5",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompDanseLaserGun",
+    "formid": "0x0005BBA6",
+    "name": "\u0016\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompDeaconHuntingRifle",
+    "formid": "0x00215CE3",
+    "name": "\ufffd;\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompHancockDoubleBarrelShotgun",
+    "formid": "0x00062AA4",
+    "name": "F\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompHancockKnife",
+    "formid": "0x00062AA3",
+    "name": "9\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompIngramLaserGun",
+    "formid": "0x00249D38",
+    "name": "\ufffdd\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompMcCreadyHuntingRifle",
+    "formid": "0x0005BBA4",
+    "name": "y\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompPiper10mm",
+    "formid": "0x0005DF2D",
+    "name": "\ufffd\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompPrestonLaserMusket",
+    "formid": "0x00062AA6",
+    "name": "\ufffd\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompStrongSledgehammer",
+    "formid": "0x0005DF2E",
+    "name": "=\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompValentinePipeRevolver",
+    "formid": "0x0005BBA7",
+    "name": "\ufffd\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CompX6-88InstituteLaserRifle",
+    "formid": "0x00215CE4",
+    "name": "\ufffd>\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CryoGrenade",
+    "formid": "0x000FF21D",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "CryoMine",
+    "formid": "0x0010C669",
+    "name": "m`\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Cryolator",
+    "formid": "0x00171B2B",
+    "name": "`\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "DN029CannonLauncher",
+    "formid": "0x000CA0B0",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "DN070WorldSeriesBat_OBSOLETE",
+    "formid": "0x000E9A43",
+    "name": "n6\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "DN102_FrenzyGrenade",
+    "formid": "0x000E98E5",
+    "name": "\ufffdR\u0002",
+    "ammo_formid": "",
+    "desc": "[A\u0003"
+  },
+  {
+    "edid": "DN160_GrognakAxe",
+    "formid": "0x00183FCD",
+    "name": "/U\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "DeathclawDirtThrow",
+    "formid": "0x00113339",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "DeathclawGauntlet",
+    "formid": "0x000D8576",
+    "name": "\ufffdJ\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Deliverer",
+    "formid": "0x000DC8E7",
+    "name": "\ufffd4\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "DoubleBarrelShotgun",
+    "formid": "0x00092217",
+    "name": "\ufffd\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "DummyHandmadeDontUse",
+    "formid": "0x0006E514",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "FatManBomb",
+    "formid": "0x0010E689",
+    "name": "&&\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Fatman",
+    "formid": "0x000BD56F",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "FireHydrantBat",
+    "formid": "0x000DF621",
+    "name": "~\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Flamer",
+    "formid": "0x000E5881",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "FlareGun",
+    "formid": "0x001025AC",
+    "name": "\u00122\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "FusionCoreKnightWeapon",
+    "formid": "0x000865E9",
+    "name": "r\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "FusionCoreWeapon",
+    "formid": "0x000897FF",
+    "name": "*H\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "GammaGun",
+    "formid": "0x000DDB7C",
+    "name": "}P\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "GasTrapDummy",
+    "formid": "0x000001F6",
+    "name": "\ufffd9\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "GatlingLaser",
+    "formid": "0x000E27BC",
+    "name": "\ufffd\u0007\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "GaussRifle",
+    "formid": "0x000D1EB0",
+    "name": "\ufffdV\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Gutsy01LeftArmSawOBSOLETE",
+    "formid": "0x001AD8CA",
+    "name": "U\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Gutsy01RightArmSawOBSOLETE",
+    "formid": "0x00148B42",
+    "name": "\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Gutsy02LeftArmCombatRifle",
+    "formid": "0x00148B47",
+    "name": "\u00155\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Gutsy02LeftArmLaserGunAuto",
+    "formid": "0x00148B48",
+    "name": "v8\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "HandyFlamethrowerLeft",
+    "formid": "0x000EDCE8",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "HandyFlamethrowerMiddle",
+    "formid": "0x000EDCE9",
+    "name": "2R\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "HandyFlamethrowerRight",
+    "formid": "0x00092A62",
+    "name": ">M\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "HandyPincherLeft",
+    "formid": "0x000EDCEA",
+    "name": "\ufffdx\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "HandyPincherMiddle",
+    "formid": "0x00092A60",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "HandyPincherRight",
+    "formid": "0x000EDCEB",
+    "name": "\ufffdN\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "HandySawLeft",
+    "formid": "0x00092A61",
+    "name": "\\\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "HandySawMiddle",
+    "formid": "0x000EDCED",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "HandySawRight",
+    "formid": "0x000EDCEC",
+    "name": ">I\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "HuntingRifle",
+    "formid": "0x0004F46A",
+    "name": "\u0001\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "InstituteBeaconGrenade",
+    "formid": "0x00174F8F",
+    "name": "-\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "InstituteLaserGun",
+    "formid": "0x001633CC",
+    "name": "\ufffdT\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "JunkJet",
+    "formid": "0x000E942B",
+    "name": "#p\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Knife",
+    "formid": "0x000913CA",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Knuckles",
+    "formid": "0x0005524B",
+    "name": "\ufffd\r\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "LaserGun",
+    "formid": "0x0009983B",
+    "name": "\u001f\\\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "LaserMusket",
+    "formid": "0x0001DACF",
+    "name": "\ufffd{\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "LeadPipe",
+    "formid": "0x000FC9C3",
+    "name": "\ufffdS\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "LibertyPrimeBomb",
+    "formid": "0x0017D52A",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "LibertyPrimeLaser",
+    "formid": "0x00110414",
+    "name": "y\u000b\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MQ203InstituteLaserGun",
+    "formid": "0x0005A665",
+    "name": "\u0007\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MS02HomingBeacon",
+    "formid": "0x00065DEC",
+    "name": "V\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MS02NukeMissileFar",
+    "formid": "0x00065DF2",
+    "name": "\ufffd\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Machete",
+    "formid": "0x00033FE0",
+    "name": "\ufffdB\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MinFlareWeapon",
+    "formid": "0x00232261",
+    "name": "\ufffdJ\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Minigun",
+    "formid": "0x0001F669",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Minigun_Vertibird",
+    "formid": "0x001299A6",
+    "name": "\u0000\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Minigun_Vertibird_Player",
+    "formid": "0x00064B87",
+    "name": "\ufffd\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MissileLauncher",
+    "formid": "0x0003F6F8",
+    "name": "\ufffdm\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MolotovCocktail",
+    "formid": "0x0010C3C6",
+    "name": "\u07b9\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MrGutsy_44_Left",
+    "formid": "0x00148B40",
+    "name": "\u001c]\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MrGutsy_44_Right",
+    "formid": "0x00148B45",
+    "name": "\ufffd\u0012\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MrGutsy_CombatRifle_Left",
+    "formid": "0x001E0959",
+    "name": "\ufffd\u001d\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MrGutsy_CombatRifle_Middle",
+    "formid": "0x001E0957",
+    "name": "Q\u001b\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MrGutsy_CombatRifle_Right",
+    "formid": "0x001E0951",
+    "name": "\ufffd\u001e\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MrGutsy_LaserGun_Left",
+    "formid": "0x001E0956",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MrGutsy_LaserGun_Middle",
+    "formid": "0x001E0952",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MrGutsy_LaserGun_Right",
+    "formid": "0x001E0958",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MrGutsy_Saw_Left",
+    "formid": "0x002216D1",
+    "name": "\ufffdB\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MrGutsy_Saw_Middle",
+    "formid": "0x002216CF",
+    "name": "\ufffd?\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MrGutsy_Saw_Right",
+    "formid": "0x002216D0",
+    "name": "\ufffd@\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MrHandy_Hand_Left_Saw",
+    "formid": "0x001E0953",
+    "name": "\ufffd\u001f\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MrHandy_Hand_Middle_Saw",
+    "formid": "0x001E0955",
+    "name": "U\u001b\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "MrHandy_Hand_Right_Saw",
+    "formid": "0x001E0954",
+    "name": ")\u001d\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "NukeMine",
+    "formid": "0x0010A340",
+    "name": "\ufffdP\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "OxygenTankTrap",
+    "formid": "0x000D76F1",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "PipeBoltAction",
+    "formid": "0x0014831A",
+    "name": "\ufffd7\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "PipeGun",
+    "formid": "0x00024F55",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "PipeRevolver",
+    "formid": "0x0014831B",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "PipeSyringer",
+    "formid": "0x0014D09E",
+    "name": "\ufffd\\\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "PipeWrench",
+    "formid": "0x000D83BF",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "PlasmaGrenade",
+    "formid": "0x0010A33D",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "PlasmaGun",
+    "formid": "0x00100AE9",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "PlasmaMine",
+    "formid": "0x0010A342",
+    "name": "\ufffda\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "PoolCue",
+    "formid": "0x000FA3E8",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "PowerFist",
+    "formid": "0x0011B336",
+    "name": "Y3\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron01HeadLaser",
+    "formid": "0x000E07C4",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron01LeftArmLaserGun",
+    "formid": "0x001B9AF3",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron01LeftArmLaserGunBlue",
+    "formid": "0x001B3182",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron01LeftArmNailGun",
+    "formid": "0x001B3137",
+    "name": "\ufffd\t\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron01RightArmLaserGun",
+    "formid": "0x000FCDC7",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron01RightArmNailGun",
+    "formid": "0x001B3139",
+    "name": "\ufffd\u0007\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron02HeadLaser",
+    "formid": "0x00144FAA",
+    "name": "X;\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron02LeftArmCryo01",
+    "formid": "0x001D77A5",
+    "name": "\ufffd\u001a\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron02LeftArmFlamer",
+    "formid": "0x0015B0DA",
+    "name": "\ufffd\n\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron02LeftArmLaserGun",
+    "formid": "0x00144FAB",
+    "name": "\ufffdw\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron02RightArmCryo01",
+    "formid": "0x001D77A6",
+    "name": "\ufffd\u0018\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron02RightArmFlamer",
+    "formid": "0x0015B0DB",
+    "name": "I\r\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron02RightArmLaserGun",
+    "formid": "0x001B9AF4",
+    "name": "\ufffd\f\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron03HeadLaser",
+    "formid": "0x00144FAD",
+    "name": "FV\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron03LeftArmLaserGun",
+    "formid": "0x00144FAE",
+    "name": "\u00137\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Protectron03RightArmLaserGun",
+    "formid": "0x00144FAF",
+    "name": "[E\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "PulseGrenade",
+    "formid": "0x000FF21F",
+    "name": "\ufffdF\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "PulseGrenadeInstitute",
+    "formid": "0x0018325E",
+    "name": "ea\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "PulseMine",
+    "formid": "0x0010A344",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "RESceneKMK_MQ202KelloggWeapon",
+    "formid": "0x002492A8",
+    "name": "%a\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "RR301SynthTeleportGrenade",
+    "formid": "0x0023CACB",
+    "name": "dN\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "RailwayRifle",
+    "formid": "0x000FE268",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "RailwayRifle_Fake",
+    "formid": "0x00221235",
+    "name": "\u0014@\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "RevolutionarySword",
+    "formid": "0x00143AB5",
+    "name": "c\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Ripper",
+    "formid": "0x000FA2F6",
+    "name": "\ufffdO\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "RollingPin",
+    "formid": "0x00142FAB",
+    "name": "\ufffdC\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "SelfDestructBot",
+    "formid": "0x0014781E",
+    "name": " n\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "SentryBotLeftMiniRocketLauncher",
+    "formid": "0x000CFB4D",
+    "name": "4+\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "SentryBotLeftMinigun",
+    "formid": "0x000B0F56",
+    "name": "\ufffdW\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "SentryBotLeftShoulderClusterLauncher",
+    "formid": "0x00134271",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "SentryBotLeftShoulderClusterLauncherIndoors",
+    "formid": "0x0021635F",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "SentryBotRightMiniRocketLauncher",
+    "formid": "0x000B0F58",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "SentryBotRightMinigun",
+    "formid": "0x000CFB49",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "SentryBotRightShoulderClusterLauncher",
+    "formid": "0x00134272",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "SentryBotRightShoulderClusterLauncherIndoors",
+    "formid": "0x00216360",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Shishkebab",
+    "formid": "0x000FA2FB",
+    "name": "\ufffd#\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Sledgehammer",
+    "formid": "0x000E7AB9",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "SubmachineGun",
+    "formid": "0x0015B043",
+    "name": "2:\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "SuperMutantSuiciderBomb",
+    "formid": "0x0014245D",
+    "name": "y)\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "SuperSledge",
+    "formid": "0x000FF964",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "Switchblade",
+    "formid": "0x000FDC81",
+    "name": "\ufffdt\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "SynthMelee",
+    "formid": "0x0023F492",
+    "name": "2T\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "SynthTeleportGrenade",
+    "formid": "0x000589F2",
+    "name": "\ufffd\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TestGammaGun",
+    "formid": "0x00249820",
+    "name": "\ufffdb\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TireIron",
+    "formid": "0x00185D25",
+    "name": "JR\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TrapGrenadeBouquetWeaponFrag1",
+    "formid": "0x0010845C",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TrapGrenadeBouquetWeaponFrag3",
+    "formid": "0x000FF276",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretBubbleBallistic3shot",
+    "formid": "0x001BBF99",
+    "name": "\ufffd\u000b\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretBubbleLaserGun04",
+    "formid": "0x00019B52",
+    "name": "\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretMissileLauncher01",
+    "formid": "0x0022B18C",
+    "name": "wE\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretMountedBallistic",
+    "formid": "0x001BBF98",
+    "name": "\ufffd\r\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretMountedLaserGun01",
+    "formid": "0x000BB6C1",
+    "name": "\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretMountedLaserGun02",
+    "formid": "0x00019B47",
+    "name": "\u07dd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretMountedLaserGun03",
+    "formid": "0x00019B4E",
+    "name": "\b\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretMountedLaserGun6shot",
+    "formid": "0x001BBF9E",
+    "name": "\u0005\r\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretMountedLaserGunLtBlue",
+    "formid": "0x001262F3",
+    "name": "\ufffd)\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretMountedShotgun01",
+    "formid": "0x0022B18B",
+    "name": "`E\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretMountedSpotlight01",
+    "formid": "0x0022B194",
+    "name": "\ufffdE\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretTripodMachineGunMkI",
+    "formid": "0x000BB6C0",
+    "name": "X\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretTripodMachineGunMkIII",
+    "formid": "0x001B5ED8",
+    "name": "\ufffd\t\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretTripodMachineGunMkV",
+    "formid": "0x001B5EDA",
+    "name": "l\t\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TurretTripodMachineGunMkVII",
+    "formid": "0x001B5EDD",
+    "name": "\ufffd\b\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "TutorialDummy10mm",
+    "formid": "0x000AB6AE",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedAssaultron",
+    "formid": "0x001BD15A",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedBehemoth",
+    "formid": "0x000C2C37",
+    "name": "N}\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedBloodbug",
+    "formid": "0x000C2C28",
+    "name": "\u0012\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedBrahmin",
+    "formid": "0x000C2C29",
+    "name": "b\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedDeathclaw",
+    "formid": "0x000C2C2A",
+    "name": "\u000b1\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedDefault",
+    "formid": "0x000001F4",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedDogmeat",
+    "formid": "0x000C2C2B",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedFeralGhoul",
+    "formid": "0x000C2C2C",
+    "name": "v\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedGlowingOne",
+    "formid": "0x001C403B",
+    "name": "\ufffd\r\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedGorilla",
+    "formid": "0x000ED6E4",
+    "name": "\ufffdk\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedHuman",
+    "formid": "0x000C2C27",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedLibertyPrime",
+    "formid": "0x001BDDB7",
+    "name": "\ufffd\u000b\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedMirelurk",
+    "formid": "0x000C2C30",
+    "name": "\ufffdK\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedMirelurkHunter",
+    "formid": "0x000C2C2E",
+    "name": "\ufffdh\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedMirelurkKing",
+    "formid": "0x000C2C2F",
+    "name": "\ufffdJ\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedMirelurkQueen",
+    "formid": "0x00102796",
+    "name": "\ufffdH\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedMolerat",
+    "formid": "0x000C2C31",
+    "name": "\ufffd[\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedMutantHound",
+    "formid": "0x000C2C2D",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedPowerArmor",
+    "formid": "0x000C2C32",
+    "name": "\ufffd2\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedProtectron",
+    "formid": "0x001BD15B",
+    "name": "",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedRadRoach",
+    "formid": "0x000C2C34",
+    "name": "\ufffdE\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedRadScorpion",
+    "formid": "0x000C2C35",
+    "name": "\u0017S\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedRadStag",
+    "formid": "0x000C2C33",
+    "name": "F\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedSentryBot",
+    "formid": "0x0010FFFD",
+    "name": "t\u007f\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedStingwing",
+    "formid": "0x000C2C36",
+    "name": "c\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedStingwingNoPoison",
+    "formid": "0x000C9799",
+    "name": "R\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedSuperMutant",
+    "formid": "0x000EB340",
+    "name": "\ufffdS\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedViciousDog",
+    "formid": "0x000C2C39",
+    "name": "!+\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "UnarmedYaoGuai",
+    "formid": "0x000C2C38",
+    "name": "\u0014|\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_10mm_NonPlayable",
+    "formid": "0x0024A3B2",
+    "name": "\ufffdi\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_44_NonPlayable",
+    "formid": "0x0024A3A1",
+    "name": "\ufffdi\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_AlienBlaster_NonPlayable",
+    "formid": "0x0024A3B0",
+    "name": "1j\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_AssaultRifle_NonPlayable",
+    "formid": "0x0024A3A2",
+    "name": "\ufffdi\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_Board_NonPlayable",
+    "formid": "0x0024A3A3",
+    "name": "\ufffdi\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_CombatRifle_NonPlayable",
+    "formid": "0x0024A3A4",
+    "name": "!j\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_CombatShotgun_NonPlayable",
+    "formid": "0x0024A3A5",
+    "name": "\ufffdj\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_Flamer_NonPlayable",
+    "formid": "0x0024A3A6",
+    "name": "\u0018j\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_GaussRifle_NonPlayable",
+    "formid": "0x0024A3B1",
+    "name": "\ufffdj\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_HuntingRifle_NonPlayable",
+    "formid": "0x0024A3A7",
+    "name": "\ufffdi\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_InstituteLaserGun_NonPlayable",
+    "formid": "0x0024A3A8",
+    "name": "\ufffdj\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_LaserGun_NonPlayable",
+    "formid": "0x0024A3A9",
+    "name": "\ufffdi\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_Minigun_NonPlayable",
+    "formid": "0x0024A3AA",
+    "name": "\ufffdj\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_MissileLauncher_NonPlayable",
+    "formid": "0x0024A3AB",
+    "name": "\ufffdj\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_PipeGun_NonPlayable",
+    "formid": "0x0024A3AC",
+    "name": "\ufffdi\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_PlasmaGun_NonPlayable",
+    "formid": "0x0024A3AD",
+    "name": "\ufffdj\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_Sledgehammer_NonPlayable",
+    "formid": "0x0024A3AE",
+    "name": "\ufffdi\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VRWorkshopShared_SuperSledge_NonPlayable",
+    "formid": "0x0024A3AF",
+    "name": "\ufffdj\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VertibirdGunLeft",
+    "formid": "0x000E27A3",
+    "name": "\ufffd\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "VertibirdGunRight",
+    "formid": "0x000E27A4",
+    "name": "\ufffd9\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "WalkingCane",
+    "formid": "0x000FDC7D",
+    "name": "\t\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "WeapBloatfly",
+    "formid": "0x0003175B",
+    "name": "\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "WeapEyebot",
+    "formid": "0x000A7DA4",
+    "name": "\ufffdP\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "WeapEyebotMM",
+    "formid": "0x0015E649",
+    "name": "\u0001\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "WeapMirelurkKing",
+    "formid": "0x000FC3EC",
+    "name": "\ufffd.\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "WeapMirelurkQueenLeft",
+    "formid": "0x0011271C",
+    "name": "\u0017*\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "WeapMirelurkQueenRight",
+    "formid": "0x0011271D",
+    "name": "=\ufffd\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "WeapMirelurkhunter01",
+    "formid": "0x0009F24D",
+    "name": "6G\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopArtilleryWeapon",
+    "formid": "0x0005DE31",
+    "name": "\u0015\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopArtilleryWeaponClose",
+    "formid": "0x00063B72",
+    "name": "I\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopArtilleryWeaponFar",
+    "formid": "0x00063B73",
+    "name": "\ufffd\ufffd\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopTrapFlamethrowerWeap01",
+    "formid": "0x0020413E",
+    "name": "\ufffd3\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "WorkshopTrapFlamethrowerWeap02",
+    "formid": "0x0020413F",
+    "name": "z5\u0003",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "fragGrenade",
+    "formid": "0x000EEBED",
+    "name": "7=\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "fragMine",
+    "formid": "0x000E56C2",
+    "name": "\ufffdJ\u0002",
+    "ammo_formid": "",
+    "desc": ""
+  },
+  {
+    "edid": "nukaGrenade",
+    "formid": "0x000E5750",
+    "name": "cX\u0001",
+    "ammo_formid": "",
+    "desc": ""
+  }
+]

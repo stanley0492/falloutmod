@@ -1,0 +1,4094 @@
+[
+  {
+    "edid": "ArmorKellogg",
+    "formid": "0x001153DB",
+    "name": "9W\u0002",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "ArmorMinutemanGeneral",
+    "formid": "0x001C2214",
+    "name": "\ufffd\u000e\u0003",
+    "body_slots_mask": "0x0010FFF8"
+  },
+  {
+    "edid": "ArmorMinutemanGeneralHat",
+    "formid": "0x001C2216",
+    "name": "\ufffd\r\u0003",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ArmorPoweredFrame",
+    "formid": "0x0003E577",
+    "name": "l'\u0002",
+    "body_slots_mask": "0x40000038"
+  },
+  {
+    "edid": "ArmorPoweredFrameAtomCat",
+    "formid": "0x001909D1",
+    "name": "K\ufffd\u0002",
+    "body_slots_mask": "0x40000038"
+  },
+  {
+    "edid": "ArmorPoweredFrameBOS",
+    "formid": "0x00198B13",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x40000038"
+  },
+  {
+    "edid": "ArmorPoweredFrameIngram",
+    "formid": "0x00140D7B",
+    "name": "+E\u0002",
+    "body_slots_mask": "0x40000038"
+  },
+  {
+    "edid": "ArmorPoweredFrameRaider",
+    "formid": "0x001909D6",
+    "name": "\u06cc\u0002",
+    "body_slots_mask": "0x40000038"
+  },
+  {
+    "edid": "ArmorPoweredFrameWastelander",
+    "formid": "0x001909D5",
+    "name": ",\ufffd\u0002",
+    "body_slots_mask": "0x40000038"
+  },
+  {
+    "edid": "ArmorPoweredFrameWithModsNoHelmet",
+    "formid": "0x000B1C09",
+    "name": "\ufffdW\u0001",
+    "body_slots_mask": "0x4000F838"
+  },
+  {
+    "edid": "ArmorPrestonGarveyHat",
+    "formid": "0x000316D4",
+    "name": "%\u0006\u0002",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ArmorPrestonGarveyOutfit",
+    "formid": "0x0001F17B",
+    "name": "'Y\u0002",
+    "body_slots_mask": "0x0010F838"
+  },
+  {
+    "edid": "Armor_Army_Helmet",
+    "formid": "0x00023432",
+    "name": "~s\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "Armor_Army_Helmet_postwar",
+    "formid": "0x0019CBB1",
+    "name": "q\ufffd\u0002",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "Armor_Batting_HelmetBlue",
+    "formid": "0x000F6D8C",
+    "name": "#K\u0002",
+    "body_slots_mask": "0x00010003"
+  },
+  {
+    "edid": "Armor_BoS_Cade",
+    "formid": "0x001F1A7C",
+    "name": "\ufffd/\u0003",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_BoS_Engineer_Scribe",
+    "formid": "0x000DEDE7",
+    "name": "\ufffdY\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_BoS_Engineer_Scribe_Helmet",
+    "formid": "0x000DEDE9",
+    "name": "x/\u0001",
+    "body_slots_mask": "0x00010003"
+  },
+  {
+    "edid": "Armor_BoS_Field_Scribe",
+    "formid": "0x000E370E",
+    "name": "*\ufffd\u0001",
+    "body_slots_mask": "0x0000FFF8"
+  },
+  {
+    "edid": "Armor_BoS_Field_Scribe_Helmet",
+    "formid": "0x000E3710",
+    "name": "\u001dx\u0001",
+    "body_slots_mask": "0x00010003"
+  },
+  {
+    "edid": "Armor_BoS_Ingram",
+    "formid": "0x00225A5E",
+    "name": "*@\u0003",
+    "body_slots_mask": "0x0000FFF8"
+  },
+  {
+    "edid": "Armor_BoS_Kells",
+    "formid": "0x001F1A7F",
+    "name": "\f'\u0003",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_BoS_Knight_Lancer",
+    "formid": "0x000E1AF6",
+    "name": "}K\u0002",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_BoS_Knight_Lancer_Helmet",
+    "formid": "0x000E1AF8",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00030003"
+  },
+  {
+    "edid": "Armor_BoS_Knight_Underarmor",
+    "formid": "0x000DEDEB",
+    "name": "}j\u0001",
+    "body_slots_mask": "0x000007F8"
+  },
+  {
+    "edid": "Armor_BoS_Knight_UnderarmorHelmet",
+    "formid": "0x000E1A39",
+    "name": "\ufffdQ\u0002",
+    "body_slots_mask": "0x00010003"
+  },
+  {
+    "edid": "Armor_BoS_Officer_Underarmor",
+    "formid": "0x00134294",
+    "name": "\u0000@\u0001",
+    "body_slots_mask": "0x000007F8"
+  },
+  {
+    "edid": "Armor_BoS_Quinlan",
+    "formid": "0x00136335",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_BoS_Science_Scribe",
+    "formid": "0x000E44FF",
+    "name": "aM\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_BoS_Science_Scribe_Helmet",
+    "formid": "0x000E4501",
+    "name": "\u079a\u0001",
+    "body_slots_mask": "0x00010003"
+  },
+  {
+    "edid": "Armor_BoS_Soldier",
+    "formid": "0x00169523",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x0000FFF8"
+  },
+  {
+    "edid": "Armor_BoS_Soldier_Underarmor",
+    "formid": "0x002223E3",
+    "name": "\ufffdA\u0003",
+    "body_slots_mask": "0x000007F8"
+  },
+  {
+    "edid": "Armor_BoS_Teagan",
+    "formid": "0x00136166",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Combat_ArmLeft",
+    "formid": "0x0011D3C7",
+    "name": "\u01af\u0001",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_Combat_ArmRight",
+    "formid": "0x0011D3C6",
+    "name": "\\\ufffd\u0001",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_Combat_Helmet",
+    "formid": "0x0011E2C8",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x00010003"
+  },
+  {
+    "edid": "Armor_Combat_LegLeft",
+    "formid": "0x0011D3C5",
+    "name": "\ufffdP\u0002",
+    "body_slots_mask": "0x00004000"
+  },
+  {
+    "edid": "Armor_Combat_LegRight",
+    "formid": "0x0011D3C4",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x00008000"
+  },
+  {
+    "edid": "Armor_Combat_Torso",
+    "formid": "0x0011D3C3",
+    "name": "r\ufffd\u0001",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_DCGuard_Helmet01",
+    "formid": "0x000AF0F6",
+    "name": "\ufffd'\u0001",
+    "body_slots_mask": "0x00070003"
+  },
+  {
+    "edid": "Armor_DCGuard_Helmet02",
+    "formid": "0x000AF0F7",
+    "name": "\ufffd1\u0001",
+    "body_slots_mask": "0x000F0003"
+  },
+  {
+    "edid": "Armor_DCGuard_LArm",
+    "formid": "0x000AF0F1",
+    "name": "\ufffd)\u0001",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_DCGuard_LArmLower",
+    "formid": "0x000AF0EB",
+    "name": "\ufffdq\u0002",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_DCGuard_LArmUpper",
+    "formid": "0x000AF0EA",
+    "name": "ZQ\u0002",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_DCGuard_RArm",
+    "formid": "0x000AF0F2",
+    "name": "\ufffd@\u0002",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_DCGuard_RArmLower",
+    "formid": "0x000AF0EC",
+    "name": "\ufffdO\u0002",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_DCGuard_RArmUpper",
+    "formid": "0x000AF0ED",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_DCGuard_TorsoArmor",
+    "formid": "0x000AF0EE",
+    "name": "8y\u0002",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_DCGuard_UnderArmor",
+    "formid": "0x000AF0E4",
+    "name": "5Q\u0001",
+    "body_slots_mask": "0x0000C7F8"
+  },
+  {
+    "edid": "Armor_DeaconDCGuard_LArm",
+    "formid": "0x0023767B",
+    "name": "\ufffdJ\u0003",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_DeaconDCGuard_RArm",
+    "formid": "0x0023767C",
+    "name": "\ufffdJ\u0003",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_DeaconDCGuard_TorsoArmor",
+    "formid": "0x0023767D",
+    "name": "\ufffdL\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_DeaconDCGuard_UnderArmor",
+    "formid": "0x0023767E",
+    "name": "\ufffdL\u0003",
+    "body_slots_mask": "0x0000C7F8"
+  },
+  {
+    "edid": "Armor_DeaconHighschool_UnderArmor",
+    "formid": "0x00237681",
+    "name": "$L\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_DeaconLeather_LegRight",
+    "formid": "0x00237688",
+    "name": "\ufffdI\u0003",
+    "body_slots_mask": "0x00008000"
+  },
+  {
+    "edid": "Armor_DeaconRaider_Underarmor",
+    "formid": "0x00237687",
+    "name": "\ufffdK\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_DeaconRustic_Underarmor",
+    "formid": "0x00237684",
+    "name": "\ufffdL\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_DeaconVault81_Underwear",
+    "formid": "0x00237678",
+    "name": "\u0000L\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_FlightHelmet",
+    "formid": "0x00042565",
+    "name": "y\ufffd\u0002",
+    "body_slots_mask": "0x000F0003"
+  },
+  {
+    "edid": "Armor_FlightHelmetBrown",
+    "formid": "0x000D4166",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x000F0003"
+  },
+  {
+    "edid": "Armor_FlightHelmetRed",
+    "formid": "0x0004322C",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x000F0003"
+  },
+  {
+    "edid": "Armor_Gasmask",
+    "formid": "0x001184C1",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x000F0000"
+  },
+  {
+    "edid": "Armor_GunnerGuard_UnderArmor",
+    "formid": "0x00223CFA",
+    "name": "\u0016B\u0003",
+    "body_slots_mask": "0x0000C7F8"
+  },
+  {
+    "edid": "Armor_GunnerRaiderMod_Underarmor",
+    "formid": "0x00223CFC",
+    "name": "\ufffd?\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_GunnerRaider_Underwear2",
+    "formid": "0x00223CFB",
+    "name": ">D\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_GunnerRustic_Underarmor",
+    "formid": "0x00223CFD",
+    "name": "\ufffdC\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_HardHat",
+    "formid": "0x000F6D86",
+    "name": "\u0013M\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "Armor_HazmatSuit",
+    "formid": "0x000CEAC4",
+    "name": "1\ufffd\u0001",
+    "body_slots_mask": "0x000FFFFB"
+  },
+  {
+    "edid": "Armor_HazmatSuitDamaged",
+    "formid": "0x0018B214",
+    "name": "M\ufffd\u0002",
+    "body_slots_mask": "0x000FFFFB"
+  },
+  {
+    "edid": "Armor_Highschool_JacketRed",
+    "formid": "0x001574C7",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00003E08"
+  },
+  {
+    "edid": "Armor_Highschool_UnderArmor",
+    "formid": "0x000FFC21",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Leather_ArmLeft",
+    "formid": "0x0007B9C7",
+    "name": "\ufffd|\u0001",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_Leather_ArmRight",
+    "formid": "0x0007B9C3",
+    "name": "\u0005J\u0001",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_Leather_ArmRightE3",
+    "formid": "0x0022DA59",
+    "name": "\u000bH\u0003",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_Leather_LegLeft",
+    "formid": "0x0007B9C4",
+    "name": "X<\u0001",
+    "body_slots_mask": "0x00004000"
+  },
+  {
+    "edid": "Armor_Leather_LegRight",
+    "formid": "0x0007B9C5",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00008000"
+  },
+  {
+    "edid": "Armor_Leather_Torso",
+    "formid": "0x0007B9C6",
+    "name": "\u0003\ufffd\u0001",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_Leather_TorsoE3",
+    "formid": "0x0022DA5A",
+    "name": "xI\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_MacCready_Raider_Underarmor",
+    "formid": "0x0004A53B",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Metal_ArmLeft",
+    "formid": "0x0004B933",
+    "name": "f[\u0002",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_Metal_ArmRight",
+    "formid": "0x000536C1",
+    "name": "\ufffdw\u0002",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_Metal_Helmet",
+    "formid": "0x000787D3",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "Armor_Metal_LegLeft",
+    "formid": "0x000536C2",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x00004000"
+  },
+  {
+    "edid": "Armor_Metal_LegRight",
+    "formid": "0x000536C3",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00008000"
+  },
+  {
+    "edid": "Armor_Metal_Torso",
+    "formid": "0x000536C4",
+    "name": "\ufffd\u0005\u0002",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_MiningHelmet",
+    "formid": "0x001240F1",
+    "name": "VP\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "Armor_Piper_Underarmor",
+    "formid": "0x000BB16F",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Power_Raider_ArmLeft",
+    "formid": "0x00140C52",
+    "name": "\ufffd|\u0001",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_Power_Raider_ArmRight",
+    "formid": "0x00140C53",
+    "name": "![\u0001",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_Power_Raider_Helm",
+    "formid": "0x00140C54",
+    "name": "\ufffd5\u0001",
+    "body_slots_mask": "0x004F0003"
+  },
+  {
+    "edid": "Armor_Power_Raider_LegLeft",
+    "formid": "0x00140C55",
+    "name": "\ufffdu\u0001",
+    "body_slots_mask": "0x00004000"
+  },
+  {
+    "edid": "Armor_Power_Raider_LegRight",
+    "formid": "0x00140C56",
+    "name": "\ufffdA\u0002",
+    "body_slots_mask": "0x00008000"
+  },
+  {
+    "edid": "Armor_Power_Raider_Torso",
+    "formid": "0x00140C57",
+    "name": "q\ufffd\u0001",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_Power_T45_ArmLeft",
+    "formid": "0x00154ABD",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_Power_T45_ArmRight",
+    "formid": "0x00154ABE",
+    "name": "H\ufffd\u0002",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_Power_T45_Helm",
+    "formid": "0x00154ABF",
+    "name": "'c\u0002",
+    "body_slots_mask": "0x005F0007"
+  },
+  {
+    "edid": "Armor_Power_T45_LegLeft",
+    "formid": "0x00154AC0",
+    "name": "\n\ufffd\u0001",
+    "body_slots_mask": "0x00004000"
+  },
+  {
+    "edid": "Armor_Power_T45_LegRight",
+    "formid": "0x00154AC1",
+    "name": " \ufffd\u0001",
+    "body_slots_mask": "0x00008000"
+  },
+  {
+    "edid": "Armor_Power_T45_Torso",
+    "formid": "0x00154AC2",
+    "name": "pk\u0001",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_Power_T51_ArmLeft",
+    "formid": "0x00140C4C",
+    "name": "S\ufffd\u0001",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_Power_T51_ArmRight",
+    "formid": "0x00140C4D",
+    "name": "\ufffd\u0016\u0002",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_Power_T51_Helmet",
+    "formid": "0x00140C4E",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x005F0007"
+  },
+  {
+    "edid": "Armor_Power_T51_LegLeft",
+    "formid": "0x00140C4F",
+    "name": "\u0017\ufffd\u0002",
+    "body_slots_mask": "0x00004000"
+  },
+  {
+    "edid": "Armor_Power_T51_LegRight",
+    "formid": "0x00140C50",
+    "name": "\u0017=\u0001",
+    "body_slots_mask": "0x00008000"
+  },
+  {
+    "edid": "Armor_Power_T51_Torso",
+    "formid": "0x00140C51",
+    "name": "=\ufffd\u0001",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_Power_T60_ArmLeft",
+    "formid": "0x00140C3D",
+    "name": "\ufffdR\u0002",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_Power_T60_ArmLeft_Danse",
+    "formid": "0x0024984B",
+    "name": "\ufffdb\u0003",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_Power_T60_ArmRight",
+    "formid": "0x00140C45",
+    "name": "@\ufffd\u0001",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_Power_T60_ArmRight_Danse",
+    "formid": "0x0024984C",
+    "name": "\ufffdb\u0003",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_Power_T60_Helm",
+    "formid": "0x00140C4A",
+    "name": "\ufffd+\u0001",
+    "body_slots_mask": "0x005F0007"
+  },
+  {
+    "edid": "Armor_Power_T60_LegLeft",
+    "formid": "0x00140C49",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x00004000"
+  },
+  {
+    "edid": "Armor_Power_T60_LegLeft_Danse",
+    "formid": "0x0024984D",
+    "name": "\ufffdb\u0003",
+    "body_slots_mask": "0x00004000"
+  },
+  {
+    "edid": "Armor_Power_T60_LegRight",
+    "formid": "0x00140C3F",
+    "name": "\r\ufffd\u0001",
+    "body_slots_mask": "0x00008000"
+  },
+  {
+    "edid": "Armor_Power_T60_LegRight_Danse",
+    "formid": "0x0024984E",
+    "name": "\ufffdb\u0003",
+    "body_slots_mask": "0x00008000"
+  },
+  {
+    "edid": "Armor_Power_T60_Torso",
+    "formid": "0x00140C42",
+    "name": "\ufffd\t\u0002",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_Power_T60_Torso_Danse",
+    "formid": "0x0024984F",
+    "name": "\ufffdb\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_Power_X01_ArmLeft",
+    "formid": "0x00154AC3",
+    "name": "c@\u0001",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_Power_X01_ArmLeft_Danse",
+    "formid": "0x00249850",
+    "name": "\ufffdb\u0003",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_Power_X01_ArmRight",
+    "formid": "0x00154AC4",
+    "name": "q5\u0002",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_Power_X01_ArmRight_Danse",
+    "formid": "0x00249851",
+    "name": "\ufffdb\u0003",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_Power_X01_Helm",
+    "formid": "0x00154AC5",
+    "name": "\u0003f\u0002",
+    "body_slots_mask": "0x005F0007"
+  },
+  {
+    "edid": "Armor_Power_X01_LegLeft",
+    "formid": "0x00154AC6",
+    "name": "\u0580\u0002",
+    "body_slots_mask": "0x00004000"
+  },
+  {
+    "edid": "Armor_Power_X01_LegLeft_Danse",
+    "formid": "0x00249852",
+    "name": "\ufffdb\u0003",
+    "body_slots_mask": "0x00004000"
+  },
+  {
+    "edid": "Armor_Power_X01_LegRight",
+    "formid": "0x00154AC7",
+    "name": "8q\u0001",
+    "body_slots_mask": "0x00008000"
+  },
+  {
+    "edid": "Armor_Power_X01_LegRight_Danse",
+    "formid": "0x00249853",
+    "name": "\ufffdb\u0003",
+    "body_slots_mask": "0x00008000"
+  },
+  {
+    "edid": "Armor_Power_X01_Torso",
+    "formid": "0x00154AC8",
+    "name": "$8\u0002",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_Power_X01_Torso_Danse",
+    "formid": "0x00249854",
+    "name": "\ufffdb\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_RR303BoSDisguise",
+    "formid": "0x00148B86",
+    "name": "oz\u0002",
+    "body_slots_mask": "0x000007F8"
+  },
+  {
+    "edid": "Armor_RaiderMod_ArmLeft",
+    "formid": "0x0018E411",
+    "name": "V\ufffd\u0002",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_RaiderMod_ArmRight",
+    "formid": "0x0018E413",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_RaiderMod_LegLeft",
+    "formid": "0x0018E40F",
+    "name": "y\ufffd\u0002",
+    "body_slots_mask": "0x00004000"
+  },
+  {
+    "edid": "Armor_RaiderMod_LegRight",
+    "formid": "0x0018E40D",
+    "name": "[\ufffd\u0002",
+    "body_slots_mask": "0x00008000"
+  },
+  {
+    "edid": "Armor_RaiderMod_Torso",
+    "formid": "0x0018E415",
+    "name": "|\ufffd\u0002",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_RaiderMod_Underarmor",
+    "formid": "0x0018E3F7",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Raider_Gasmask",
+    "formid": "0x000787D8",
+    "name": "3\ufffd\u0001",
+    "body_slots_mask": "0x000F0000"
+  },
+  {
+    "edid": "Armor_Raider_GreenHood",
+    "formid": "0x000787EC",
+    "name": "\ufffd\u001a\u0002",
+    "body_slots_mask": "0x00000003"
+  },
+  {
+    "edid": "Armor_Raider_GreenHoodGasmask",
+    "formid": "0x0007239E",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x000F0003"
+  },
+  {
+    "edid": "Armor_Raider_Suit_01_GlovesB",
+    "formid": "0x000732B1",
+    "name": "z6\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Raider_Suit_02A_GlovesC",
+    "formid": "0x000732B5",
+    "name": "uR\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Raider_Suit_02B_GlovesC",
+    "formid": "0x000732B9",
+    "name": "l|\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Raider_Underarmor",
+    "formid": "0x000AF0E2",
+    "name": "\ufffd7\u0001",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Raider_Underwear",
+    "formid": "0x00019568",
+    "name": "\"S\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Raider_Underwear2",
+    "formid": "0x0008158D",
+    "name": "\ufffd:\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Railroad01",
+    "formid": "0x001BBCB5",
+    "name": "\ufffd\f\u0003",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Railroad02",
+    "formid": "0x001BBCB6",
+    "name": "t\r\u0003",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Railroad03",
+    "formid": "0x001BBCB7",
+    "name": "\ufffd\n\u0003",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Railroad04",
+    "formid": "0x001BBCB8",
+    "name": "\ufffd\u000b\u0003",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Railroad05",
+    "formid": "0x001BBCB9",
+    "name": "^\f\u0003",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Rustic_Jacket",
+    "formid": "0x00117EB7",
+    "name": "4\ufffd\u0001",
+    "body_slots_mask": "0x00003E08"
+  },
+  {
+    "edid": "Armor_Rustic_Underarmor",
+    "formid": "0x00117EB9",
+    "name": "B\ufffd\u0001",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Rustic_Underarmor_Unplayable",
+    "formid": "0x001346B7",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_SpouseWeddingRing",
+    "formid": "0x0007C70C",
+    "name": "w\ufffd\u0002",
+    "body_slots_mask": "0x00200000"
+  },
+  {
+    "edid": "Armor_Synth_ArmLeft",
+    "formid": "0x0018796C",
+    "name": "c\ufffd\u0001",
+    "body_slots_mask": "0x00001000"
+  },
+  {
+    "edid": "Armor_Synth_ArmRight",
+    "formid": "0x0018796E",
+    "name": "\ufffdk\u0001",
+    "body_slots_mask": "0x00002000"
+  },
+  {
+    "edid": "Armor_Synth_Helmet_Closed",
+    "formid": "0x0018796A",
+    "name": "\ufffd\u0001",
+    "body_slots_mask": "0x000F0003"
+  },
+  {
+    "edid": "Armor_Synth_Helmet_Open",
+    "formid": "0x00187976",
+    "name": "n`\u0001",
+    "body_slots_mask": "0x000B0003"
+  },
+  {
+    "edid": "Armor_Synth_LegLeft",
+    "formid": "0x00187972",
+    "name": "DR\u0001",
+    "body_slots_mask": "0x00004000"
+  },
+  {
+    "edid": "Armor_Synth_LegRight",
+    "formid": "0x00187970",
+    "name": "\ufffdt\u0002",
+    "body_slots_mask": "0x00008000"
+  },
+  {
+    "edid": "Armor_Synth_Torso",
+    "formid": "0x00187974",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "Armor_Synth_Underarmor",
+    "formid": "0x0012B91D",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Synth_Underarmor_forSynths",
+    "formid": "0x0018AC6E",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_TinkerHeadgear",
+    "formid": "0x001832F5",
+    "name": "\ufffdx\u0002",
+    "body_slots_mask": "0x00000003"
+  },
+  {
+    "edid": "Armor_Vault101_Underwear",
+    "formid": "0x000976B3",
+    "name": "6\ufffd\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Vault101_UnderwearClean",
+    "formid": "0x0022DA6A",
+    "name": "\ufffdG\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Vault111Clean_Underwear",
+    "formid": "0x000976B7",
+    "name": "9\ufffd\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Vault111_Underwear",
+    "formid": "0x0001EED7",
+    "name": "1g\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Vault111_Underwear_NoLoot",
+    "formid": "0x00050781",
+    "name": "\ufffd\u0003\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Vault114_Underwear",
+    "formid": "0x000976B5",
+    "name": "U\ufffd\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Vault114_UnderwearClean",
+    "formid": "0x0022DA68",
+    "name": "\u000bG\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Vault75_Underwear",
+    "formid": "0x00225F7E",
+    "name": "\bA\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Vault75_UnderwearClean",
+    "formid": "0x0022DA67",
+    "name": "xF\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Vault81_Underwear",
+    "formid": "0x001103A4",
+    "name": "4\u0011\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Vault81_UnderwearChild",
+    "formid": "0x001D5F43",
+    "name": "\ufffd\u001a\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Vault81_UnderwearClean",
+    "formid": "0x0022DA69",
+    "name": "\ufffdG\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Vault95_Underwear",
+    "formid": "0x0022DA73",
+    "name": "EI\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_Vault95_Underwear_Clean",
+    "formid": "0x0022DA66",
+    "name": "\ufffdF\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "Armor_VaultTecSecurity111",
+    "formid": "0x000821B4",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x0000F800"
+  },
+  {
+    "edid": "Armor_VaultTecSecurity111_Clean",
+    "formid": "0x001D884F",
+    "name": "\ufffd\u001c\u0003",
+    "body_slots_mask": "0x0000F800"
+  },
+  {
+    "edid": "Armor_VaultTecSecurity81",
+    "formid": "0x00154F10",
+    "name": ">,\u0001",
+    "body_slots_mask": "0x0000F800"
+  },
+  {
+    "edid": "Armor_VaultTecSecurityCovenant",
+    "formid": "0x00156C0D",
+    "name": "\u0010\ufffd\u0002",
+    "body_slots_mask": "0x0000F800"
+  },
+  {
+    "edid": "Armor_VaultTecSecurityHelmet",
+    "formid": "0x000821B6",
+    "name": "_\ufffd\u0001",
+    "body_slots_mask": "0x00010003"
+  },
+  {
+    "edid": "Armor_VaultTecSecurityHelmetCovenant",
+    "formid": "0x00156C0B",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x00010003"
+  },
+  {
+    "edid": "Armor_VaultTecSecurityHelmet_Clean",
+    "formid": "0x001D8853",
+    "name": "x\u001b\u0003",
+    "body_slots_mask": "0x00010003"
+  },
+  {
+    "edid": "Armor_Wastelander_01_GlovesA",
+    "formid": "0x00034595",
+    "name": "_\ufffd\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Wastelander_02_Hood_GlovesB",
+    "formid": "0x000732AC",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Wastelander_02_NoHood_GlovesB",
+    "formid": "0x000732AE",
+    "name": "7\ufffd\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Wastelander_Heavy",
+    "formid": "0x000B2D8E",
+    "name": "@\ufffd\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Wastelander_Heavy_Helmet",
+    "formid": "0x000B2D8F",
+    "name": "\t~\u0002",
+    "body_slots_mask": "0x001FF83F"
+  },
+  {
+    "edid": "Armor_Wastelander_Light",
+    "formid": "0x000B2D8D",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Wastelander_Medium",
+    "formid": "0x000DDB80",
+    "name": "\ufffdX\u0002",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "Armor_Wastelander_Medium_Helmet",
+    "formid": "0x000DDB81",
+    "name": "\u00193\u0001",
+    "body_slots_mask": "0x001FF83F"
+  },
+  {
+    "edid": "Armor_WeddingRing",
+    "formid": "0x0008925C",
+    "name": "\ufffd>\u0001",
+    "body_slots_mask": "0x00200000"
+  },
+  {
+    "edid": "AssaultronShield",
+    "formid": "0x0022BC24",
+    "name": "",
+    "body_slots_mask": "0x40000000"
+  },
+  {
+    "edid": "BabyBundledRight",
+    "formid": "0x0022F83F",
+    "name": "IF\u0003",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "BrahminPackLampLightArmor",
+    "formid": "0x0023A400",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "ChargenPlayerClothes",
+    "formid": "0x00174D2F",
+    "name": "\u0000\ufffd\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesBaseballHat",
+    "formid": "0x00144F04",
+    "name": "\u0014E\u0002",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesBaseballUniform",
+    "formid": "0x00144F03",
+    "name": "\ufffdz\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "ClothesBathrobe",
+    "formid": "0x0014A349",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesBlackRimGlasses",
+    "formid": "0x00125891",
+    "name": "I\ufffd\u0001",
+    "body_slots_mask": "0x00020000"
+  },
+  {
+    "edid": "ClothesBowlerHat",
+    "formid": "0x000FC104",
+    "name": "\u0014\ufffd\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesCait",
+    "formid": "0x001921D6",
+    "name": "p\ufffd\u0002",
+    "body_slots_mask": "0x000007F8"
+  },
+  {
+    "edid": "ClothesCaitBandolier",
+    "formid": "0x001921D8",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "ClothesCaptainsHat",
+    "formid": "0x000F6D89",
+    "name": "7\ufffd\u0002",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesChefsHat",
+    "formid": "0x000F6D88",
+    "name": "\u0005\ufffd\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesChildofAtom",
+    "formid": "0x000E6F18",
+    "name": "\u000b6\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesChildofAtom2",
+    "formid": "0x0022C673",
+    "name": "\u0013G\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesChildofAtom3",
+    "formid": "0x0022C672",
+    "name": "\ufffdG\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesChildofAtomBrown",
+    "formid": "0x0022C674",
+    "name": "\ufffdG\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesChildofAtomBrown2",
+    "formid": "0x0022C675",
+    "name": "_G\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesChildofAtomBrown3",
+    "formid": "0x0022C676",
+    "name": "\ufffdF\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesChildofAtomGreen",
+    "formid": "0x0022C677",
+    "name": "\ufffdH\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesChildofAtomGreen2",
+    "formid": "0x0022C678",
+    "name": "TF\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesChildofAtomGreen3",
+    "formid": "0x0022C679",
+    "name": "\ufffdG\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesCoastguardHat",
+    "formid": "0x000F6D87",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesCourserJacket",
+    "formid": "0x0012A332",
+    "name": "\u001eS\u0002",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "ClothesDeaconMechanic",
+    "formid": "0x00237686",
+    "name": "\ufffdJ\u0003",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "ClothesDeaconMinutemanHat",
+    "formid": "0x0023767F",
+    "name": "\ufffdK\u0003",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesDeaconMinutemanOutfit",
+    "formid": "0x00237680",
+    "name": "\ufffdK\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "ClothesDeaconMobster",
+    "formid": "0x00237679",
+    "name": "\ufffdJ\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesDeaconMobsterHat",
+    "formid": "0x0023767A",
+    "name": "NK\u0003",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesDeaconPrewarShortSleeves",
+    "formid": "0x0004A51F",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesDeaconResident3",
+    "formid": "0x00237685",
+    "name": "\ufffdL\u0003",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "ClothesDeaconResident7",
+    "formid": "0x00237682",
+    "name": "nK\u0003",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "ClothesDeaconResident7Hat",
+    "formid": "0x00237683",
+    "name": "%M\u0003",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesDeaconScientist",
+    "formid": "0x00237677",
+    "name": "\"J\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesDeaconSunGlasses",
+    "formid": "0x0004A520",
+    "name": "<\ufffd\u0002",
+    "body_slots_mask": "0x00020000"
+  },
+  {
+    "edid": "ClothesDeaconWig",
+    "formid": "0x0004A521",
+    "name": "@\ufffd\u0002",
+    "body_slots_mask": "0x00000003"
+  },
+  {
+    "edid": "ClothesDesdemona",
+    "formid": "0x001153D9",
+    "name": "S\ufffd\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "ClothesDog_ArmorHeavy",
+    "formid": "0x001C32C7",
+    "name": "\ufffd\u000e\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "ClothesDog_ArmorLight",
+    "formid": "0x001B5ACC",
+    "name": "w\b\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "ClothesDog_ArmorMedium",
+    "formid": "0x001C32C8",
+    "name": "c\u000e\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "ClothesDog_Bandana",
+    "formid": "0x0009C05B",
+    "name": "\ufffd\u0001",
+    "body_slots_mask": "0x001C0000"
+  },
+  {
+    "edid": "ClothesDog_BandanaBlue",
+    "formid": "0x0017E917",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x001C0000"
+  },
+  {
+    "edid": "ClothesDog_BandanaGunnerCamo",
+    "formid": "0x0017E922",
+    "name": "M\ufffd\u0002",
+    "body_slots_mask": "0x001C0000"
+  },
+  {
+    "edid": "ClothesDog_BandanaGunnerGreen",
+    "formid": "0x0017E923",
+    "name": "g\ufffd\u0002",
+    "body_slots_mask": "0x001C0000"
+  },
+  {
+    "edid": "ClothesDog_BandanaLeopard",
+    "formid": "0x0017E91B",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x001C0000"
+  },
+  {
+    "edid": "ClothesDog_BandanaMonkey",
+    "formid": "0x0017E91C",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x001C0000"
+  },
+  {
+    "edid": "ClothesDog_BandanaSkull",
+    "formid": "0x0017E91D",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x001C0000"
+  },
+  {
+    "edid": "ClothesDog_BandanaStarsNStripes",
+    "formid": "0x0017E925",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x001C0000"
+  },
+  {
+    "edid": "ClothesDog_BandanaStripes",
+    "formid": "0x0017E924",
+    "name": ";\ufffd\u0002",
+    "body_slots_mask": "0x001C0000"
+  },
+  {
+    "edid": "ClothesDog_DogCollar",
+    "formid": "0x00034602",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x00102000"
+  },
+  {
+    "edid": "ClothesDog_DogCollarChain",
+    "formid": "0x0018B210",
+    "name": "\ufffd\u0007\u0003",
+    "body_slots_mask": "0x00102000"
+  },
+  {
+    "edid": "ClothesDog_DogCollarDouble",
+    "formid": "0x001C67B1",
+    "name": "J\u000f\u0003",
+    "body_slots_mask": "0x00100000"
+  },
+  {
+    "edid": "ClothesDog_DogCollarReinforced",
+    "formid": "0x001C67B2",
+    "name": "\ufffd\u0011\u0003",
+    "body_slots_mask": "0x00100000"
+  },
+  {
+    "edid": "ClothesDog_DogCollarSpiked",
+    "formid": "0x001C67B0",
+    "name": "\ufffd\u0011\u0003",
+    "body_slots_mask": "0x00100000"
+  },
+  {
+    "edid": "ClothesDog_DogHeadHelmet",
+    "formid": "0x001C67B4",
+    "name": "\ufffd\r\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "ClothesDog_DogHeadMuzzle",
+    "formid": "0x001C67B3",
+    "name": "\u0019\u0010\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "ClothesEyeGlasses",
+    "formid": "0x001C4BE8",
+    "name": "\ufffd\u000e\u0003",
+    "body_slots_mask": "0x00020000"
+  },
+  {
+    "edid": "ClothesFancyGlasses",
+    "formid": "0x000FD9AA",
+    "name": "vN\u0002",
+    "body_slots_mask": "0x00020000"
+  },
+  {
+    "edid": "ClothesFather",
+    "formid": "0x0014FBD0",
+    "name": "\ufffde\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesFatiguesPostWar",
+    "formid": "0x0019CBB3",
+    "name": "\ufffd\u0004\u0003",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "ClothesFatiguesPreWar",
+    "formid": "0x00023431",
+    "name": "-D\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "ClothesGenericJumpsuit",
+    "formid": "0x001C26B9",
+    "name": "*\u0011\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesGrayKnitCap",
+    "formid": "0x000F6D84",
+    "name": "Q\ufffd\u0002",
+    "body_slots_mask": "0x00010003"
+  },
+  {
+    "edid": "ClothesGreaserJacket",
+    "formid": "0x0014BF50",
+    "name": "\u0007\ufffd\u0001",
+    "body_slots_mask": "0x00003E08"
+  },
+  {
+    "edid": "ClothesGreaserJacketAtomCats",
+    "formid": "0x0014BF53",
+    "name": "\ufffdy\u0001",
+    "body_slots_mask": "0x00003E08"
+  },
+  {
+    "edid": "ClothesHancocksHat",
+    "formid": "0x00116808",
+    "name": "\u0019\ufffd\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesHancocksOutfit",
+    "formid": "0x00116806",
+    "name": "\u001cG\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesIrmaDress",
+    "formid": "0x001B5F1B",
+    "name": "\ufffd\b\u0003",
+    "body_slots_mask": "0x0000FFC8"
+  },
+  {
+    "edid": "ClothesKids01",
+    "formid": "0x00167A75",
+    "name": "\ufffdR\u0002",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "ClothesKids01Hat",
+    "formid": "0x00167A74",
+    "name": "vX\u0002",
+    "body_slots_mask": "0x00000001"
+  },
+  {
+    "edid": "ClothesKids02",
+    "formid": "0x00167A76",
+    "name": "\ufffdd\u0002",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "ClothesKids03",
+    "formid": "0x001561D8",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "ClothesKids04",
+    "formid": "0x0015DBA6",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "ClothesLongshoreman",
+    "formid": "0x001536F4",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesLongshoremanHat",
+    "formid": "0x001FA250",
+    "name": ".(\u0003",
+    "body_slots_mask": "0x00000003"
+  },
+  {
+    "edid": "ClothesLorenzo",
+    "formid": "0x00169BBA",
+    "name": "\u0000_\u0001",
+    "body_slots_mask": "0x0000FFC8"
+  },
+  {
+    "edid": "ClothesMacCready",
+    "formid": "0x000D415A",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesMacCreadyHat",
+    "formid": "0x001E5F6C",
+    "name": ",$\u0003",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesMaxsonCoat",
+    "formid": "0x001FE1A6",
+    "name": "\ufffd8\u0003",
+    "body_slots_mask": "0x0000FFF8"
+  },
+  {
+    "edid": "ClothesMayor",
+    "formid": "0x000A28D7",
+    "name": "=/\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesMayorHat",
+    "formid": "0x000A28D8",
+    "name": "\n/\u0002",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesMilitaryCap",
+    "formid": "0x0016892E",
+    "name": "y0\u0002",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesMilitaryFatigues",
+    "formid": "0x0016892C",
+    "name": "X\ufffd\u0001",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "ClothesMinutemanHat",
+    "formid": "0x000E517D",
+    "name": "o|\u0002",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesMinutemanOutfit",
+    "formid": "0x000E517B",
+    "name": "Y\ufffd\u0001",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "ClothesMobster01",
+    "formid": "0x000FC100",
+    "name": "X1\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesMobster02",
+    "formid": "0x000FC102",
+    "name": "\"L\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesMobsterhat",
+    "formid": "0x001BA8DA",
+    "name": "-\f\u0003",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesMommaMurphy",
+    "formid": "0x0004D6AE",
+    "name": "A\ufffd\u0001",
+    "body_slots_mask": "0x0011FFC9"
+  },
+  {
+    "edid": "ClothesNat",
+    "formid": "0x001833C0",
+    "name": "WO\u0002",
+    "body_slots_mask": "0x00000038"
+  },
+  {
+    "edid": "ClothesPastor",
+    "formid": "0x001467A4",
+    "name": "\ufffd\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesPiper",
+    "formid": "0x0009F252",
+    "name": "\u00072\u0001",
+    "body_slots_mask": "0x0000FFF8"
+  },
+  {
+    "edid": "ClothesPiperCap",
+    "formid": "0x000A81AF",
+    "name": "\ufffdI\u0002",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesPiperGoggles",
+    "formid": "0x000A81B0",
+    "name": "\ufffd@\u0002",
+    "body_slots_mask": "0x00020000"
+  },
+  {
+    "edid": "ClothesPoliceGlasses",
+    "formid": "0x001738AA",
+    "name": "#\ufffd\u0001",
+    "body_slots_mask": "0x00020000"
+  },
+  {
+    "edid": "ClothesPostman",
+    "formid": "0x00146174",
+    "name": "_\ufffd\u0002",
+    "body_slots_mask": "0x0000FFC8"
+  },
+  {
+    "edid": "ClothesPostmanHat",
+    "formid": "0x001F9790",
+    "name": "\ufffd(\u0003",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesPostmanHatPostwar",
+    "formid": "0x001F9793",
+    "name": "\ufffd/\u0003",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesPostmanPostwar",
+    "formid": "0x00146177",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesPreWarDress",
+    "formid": "0x000EECF5",
+    "name": "\t\u0002\u0002",
+    "body_slots_mask": "0x0000C988"
+  },
+  {
+    "edid": "ClothesPreWarDressBlue",
+    "formid": "0x002075C0",
+    "name": "\u00127\u0003",
+    "body_slots_mask": "0x0000C988"
+  },
+  {
+    "edid": "ClothesPreWarDressPink",
+    "formid": "0x002075C1",
+    "name": "\n:\u0003",
+    "body_slots_mask": "0x0000C988"
+  },
+  {
+    "edid": "ClothesPrewarHouseDress",
+    "formid": "0x0014D08F",
+    "name": "\ufffd\u0018\u0002",
+    "body_slots_mask": "0x0000C988"
+  },
+  {
+    "edid": "ClothesPrewarHouseDress01NonPlayable",
+    "formid": "0x00156D02",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesPrewarHouseDress01NonPlayableA",
+    "formid": "0x002075BC",
+    "name": "\ufffd2\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesPrewarHouseDress01NonPlayableB",
+    "formid": "0x002075BD",
+    "name": "\ufffd:\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesPrewarHouseDressA",
+    "formid": "0x002075BE",
+    "name": "\ufffd3\u0003",
+    "body_slots_mask": "0x0000C988"
+  },
+  {
+    "edid": "ClothesPrewarHouseDressB",
+    "formid": "0x002075BF",
+    "name": "\ufffd9\u0003",
+    "body_slots_mask": "0x0000C988"
+  },
+  {
+    "edid": "ClothesPrewarShortSleeves",
+    "formid": "0x000E6288",
+    "name": "\ufffdE\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesPrewarShortSleevesAndSlacks",
+    "formid": "0x0013D65E",
+    "name": "i\ufffd\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesPrewarSweaterVest",
+    "formid": "0x000DFFC5",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesPrewarTshirtSlacks",
+    "formid": "0x0014B019",
+    "name": "\u0019C\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesPrewarWomensCasual",
+    "formid": "0x001410EC",
+    "name": "\ufffdk\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesPrewarWomensCasual2",
+    "formid": "0x0023CAA4",
+    "name": "\ufffdO\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesRRJumpsuit",
+    "formid": "0x0005E76C",
+    "name": "\ufffd\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesResident3",
+    "formid": "0x000E5084",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "ClothesResident3Hat",
+    "formid": "0x000E5086",
+    "name": "YT\u0002",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesResident4",
+    "formid": "0x000A36BE",
+    "name": "\r\u0004\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesResident4Hat",
+    "formid": "0x000A36C0",
+    "name": "\ufffd\\\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesResident5",
+    "formid": "0x000B3F4C",
+    "name": "\t\ufffd\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesResident5Hat",
+    "formid": "0x000B3F4D",
+    "name": "&c\u0001",
+    "body_slots_mask": "0x00010003"
+  },
+  {
+    "edid": "ClothesResident6",
+    "formid": "0x000B3F4E",
+    "name": "bU\u0002",
+    "body_slots_mask": "0x0000F80B"
+  },
+  {
+    "edid": "ClothesResident7",
+    "formid": "0x000A740B",
+    "name": "\u00ba\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "ClothesResident7Hat",
+    "formid": "0x000A740E",
+    "name": "\u0010\ufffd\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesScientistCabot",
+    "formid": "0x001E8CAB",
+    "name": "\u0010%\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesScientist_VariantWasteland",
+    "formid": "0x00178B68",
+    "name": " @\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesSequinDress",
+    "formid": "0x0011A27B",
+    "name": "\ufffd\u0006\u0002",
+    "body_slots_mask": "0x0000C988"
+  },
+  {
+    "edid": "ClothesSilverShroud",
+    "formid": "0x0014E58B",
+    "name": "\ufffde\u0002",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "ClothesSlinkyDress",
+    "formid": "0x000FD9A8",
+    "name": ".\ufffd\u0001",
+    "body_slots_mask": "0x0000C988"
+  },
+  {
+    "edid": "ClothesSquire",
+    "formid": "0x0003FB9F",
+    "name": "8\ufffd\u0002",
+    "body_slots_mask": "0x00000039"
+  },
+  {
+    "edid": "ClothesSturgesBeltAddons",
+    "formid": "0x00039A66",
+    "name": "A\ufffd\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "ClothesSuitClean_Black",
+    "formid": "0x001BDDF8",
+    "name": "\ufffd\u000b\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesSuitClean_Blue",
+    "formid": "0x001BDDF9",
+    "name": "D\r\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesSuitClean_Grey",
+    "formid": "0x001BDDFA",
+    "name": "@\r\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesSuitClean_Striped",
+    "formid": "0x001BDDFB",
+    "name": ":\n\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesSuitClean_Tan",
+    "formid": "0x00151E34",
+    "name": ";R\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesSuitDirty_Black",
+    "formid": "0x001BDE04",
+    "name": "\u001c\u000b\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesSuitDirty_Blue",
+    "formid": "0x001BDE05",
+    "name": "\ufffd\u000b\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesSuitDirty_Grey",
+    "formid": "0x001BDE06",
+    "name": "u\r\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesSuitDirty_Striped",
+    "formid": "0x001BDE07",
+    "name": "e\u000b\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesSuitDirty_Tan",
+    "formid": "0x00151E30",
+    "name": "\ufffdT\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesSummerShorts",
+    "formid": "0x0014941A",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00000F88"
+  },
+  {
+    "edid": "ClothesSunGlasses",
+    "formid": "0x000E628A",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x00020000"
+  },
+  {
+    "edid": "ClothesSynth_SynthValentineCoat",
+    "formid": "0x0010C3CA",
+    "name": "x}\u0002",
+    "body_slots_mask": "0x0000FFF8"
+  },
+  {
+    "edid": "ClothesSynth_SynthValentineHat",
+    "formid": "0x0010C3CC",
+    "name": "\ufffdN\u0001",
+    "body_slots_mask": "0x00000001"
+  },
+  {
+    "edid": "ClothesSynth_SynthValentineParts",
+    "formid": "0x0022F0DD",
+    "name": "\ufffdI\u0003",
+    "body_slots_mask": "0x00020000"
+  },
+  {
+    "edid": "ClothesTattered",
+    "formid": "0x0011609B",
+    "name": "\ufffdI\u0001",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "ClothesTuxedo",
+    "formid": "0x000FC395",
+    "name": "\u000e*\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesTuxedoHat",
+    "formid": "0x000FC396",
+    "name": "B\ufffd\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesValentineCoat",
+    "formid": "0x000E2E2C",
+    "name": "I+\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesValentineHat",
+    "formid": "0x000E2E2E",
+    "name": "\ufffdf\u0002",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesVaultTecSalesmanCoat",
+    "formid": "0x000DF455",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesVaultTecSalesmanCoatPW",
+    "formid": "0x001223CB",
+    "name": "}y\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesVaultTecSalesmanHat",
+    "formid": "0x000DF457",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesVaultTecSalesmanHatPW",
+    "formid": "0x001223CD",
+    "name": "\u05ae\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "ClothesVaultTecScientist",
+    "formid": "0x00068CF3",
+    "name": "\ufffd;\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "ClothesVisor",
+    "formid": "0x0012571C",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "ClothesWastelandCommon",
+    "formid": "0x001942D6",
+    "name": "\u0007\ufffd\u0002",
+    "body_slots_mask": "0x000007C8"
+  },
+  {
+    "edid": "ClothesWastelandDress",
+    "formid": "0x001B828C",
+    "name": "\u0004\b\u0003",
+    "body_slots_mask": "0x0000FFC8"
+  },
+  {
+    "edid": "ClothesWig",
+    "formid": "0x00165602",
+    "name": "\ufffdm\u0002",
+    "body_slots_mask": "0x00000003"
+  },
+  {
+    "edid": "ClothesWinterHat",
+    "formid": "0x000F6D83",
+    "name": "Ld\u0002",
+    "body_slots_mask": "0x00010003"
+  },
+  {
+    "edid": "Clothes_BoS_CaptainKells_Hat",
+    "formid": "0x0013AEF5",
+    "name": "\ufffd\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "Clothes_InstituteChildUniform",
+    "formid": "0x0016BFFE",
+    "name": "{\ufffd\u0001",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoat",
+    "formid": "0x0011E7B9",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoatDivisionHead",
+    "formid": "0x001236AD",
+    "name": "V4\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoatDivisionHead_Blue",
+    "formid": "0x001B34FA",
+    "name": "\ufffd\b\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoatDivisionHead_Dirty",
+    "formid": "0x001ACD06",
+    "name": "1\u0003\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoatDivisionHead_Dirty_Blue",
+    "formid": "0x001B3502",
+    "name": "\ufffd\t\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoatDivisionHead_Dirty_Green",
+    "formid": "0x001B3504",
+    "name": "a\t\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoatDivisionHead_Dirty_Orange",
+    "formid": "0x001B3506",
+    "name": "\ufffd\b\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoatDivisionHead_Dirty_Yellow",
+    "formid": "0x001B3508",
+    "name": "\ufffd\b\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoatDivisionHead_Green",
+    "formid": "0x001B34FC",
+    "name": "\u0002\n\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoatDivisionHead_Orange",
+    "formid": "0x001B34FD",
+    "name": "\ufffd\t\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoatDivisionHead_Yellow",
+    "formid": "0x001B34FE",
+    "name": "\ufffd\t\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoat_Dirty",
+    "formid": "0x001ACD08",
+    "name": "|\u0001\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoat_blacksleeves",
+    "formid": "0x001B350D",
+    "name": "M\t\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoat_blacksleeves_dirty",
+    "formid": "0x001B350C",
+    "name": "x\t\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoat_bluesleeves",
+    "formid": "0x001A5CFD",
+    "name": "9\ufffd\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoat_bluesleeves_dirty",
+    "formid": "0x001ACD0C",
+    "name": "\ufffd\u0001\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoat_greensleeves",
+    "formid": "0x001A5CFB",
+    "name": "\u000f\ufffd\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoat_greensleeves_dirty",
+    "formid": "0x001ACD0A",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoat_yellowsleeves",
+    "formid": "0x001B350A",
+    "name": "\ufffd\t\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteLabCoat_yellowsleeves_dirty",
+    "formid": "0x001B350B",
+    "name": "\ufffd\b\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteUniform",
+    "formid": "0x0011E7B8",
+    "name": "\ufffdS\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteUniform_Dirty",
+    "formid": "0x001AB214",
+    "name": "i\u0005\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Clothes_InstituteWorker",
+    "formid": "0x00115AEC",
+    "name": "\ufffdW\u0002",
+    "body_slots_mask": "0x0000FFF8"
+  },
+  {
+    "edid": "Clothes_InstituteWorkerwithHelmet",
+    "formid": "0x00115AEB",
+    "name": "\ufffd-\u0001",
+    "body_slots_mask": "0x0007FFFB"
+  },
+  {
+    "edid": "Clothes_Metal_Shades",
+    "formid": "0x000536C5",
+    "name": ",}\u0002",
+    "body_slots_mask": "0x00020000"
+  },
+  {
+    "edid": "Clothes_RaiderMod_Hood1",
+    "formid": "0x0018E417",
+    "name": "O\ufffd\u0002",
+    "body_slots_mask": "0x000F0003"
+  },
+  {
+    "edid": "Clothes_RaiderMod_Hood2",
+    "formid": "0x0018E419",
+    "name": "2\ufffd\u0002",
+    "body_slots_mask": "0x000F0003"
+  },
+  {
+    "edid": "Clothes_RaiderMod_Hood3",
+    "formid": "0x0018E41B",
+    "name": "\u0019\ufffd\u0002",
+    "body_slots_mask": "0x000F0003"
+  },
+  {
+    "edid": "Clothes_Raider_Goggles",
+    "formid": "0x000787D9",
+    "name": "P\ufffd\u0001",
+    "body_slots_mask": "0x00020000"
+  },
+  {
+    "edid": "Clothes_Raider_Hood",
+    "formid": "0x000787DB",
+    "name": "!v\u0001",
+    "body_slots_mask": "0x00000003"
+  },
+  {
+    "edid": "Clothes_Raider_SurgicalMask",
+    "formid": "0x000787DA",
+    "name": "\ufffd)\u0001",
+    "body_slots_mask": "0x000C0000"
+  },
+  {
+    "edid": "DBTech_Armor_Highschool_Jacket",
+    "formid": "0x001641F8",
+    "name": "v\ufffd\u0002",
+    "body_slots_mask": "0x00003E08"
+  },
+  {
+    "edid": "DN015_Armor_Power_Torso",
+    "formid": "0x001C0382",
+    "name": "\ufffd\n\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "DN028_Armor_Bear_Mascot",
+    "formid": "0x0011E46D",
+    "name": "N\ufffd\u0001",
+    "body_slots_mask": "0x00000003"
+  },
+  {
+    "edid": "DN054ZekesJacket",
+    "formid": "0x0014A0DC",
+    "name": "D\ufffd\u0002",
+    "body_slots_mask": "0x00003E08"
+  },
+  {
+    "edid": "DN160_ClothesGrognakCostume",
+    "formid": "0x001828CC",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x00000FB8"
+  },
+  {
+    "edid": "FFBK01GrandpaHat",
+    "formid": "0x00122246",
+    "name": "\ufffdC\u0002",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "FX1stPersonGroggyWakeArmor",
+    "formid": "0x000475D3",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "FXCriticalSkeleton",
+    "formid": "0x001E22E5",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "FXVault111ExitIdleLookUpInElevatorArmor",
+    "formid": "0x00056CF1",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "FeralGhoulArmwraps",
+    "formid": "0x00123D8F",
+    "name": "",
+    "body_slots_mask": "0x00000180"
+  },
+  {
+    "edid": "FeralGhoulArmwrapsRndColor",
+    "formid": "0x000A0751",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00000180"
+  },
+  {
+    "edid": "FeralGhoulBloodyHands",
+    "formid": "0x000A0766",
+    "name": "",
+    "body_slots_mask": "0x00200000"
+  },
+  {
+    "edid": "FeralGhoulBloodyPants",
+    "formid": "0x000A0768",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "FeralGhoulDress",
+    "formid": "0x0007ED0F",
+    "name": "",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "FeralGhoulDressColor",
+    "formid": "0x0005E148",
+    "name": "",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "FeralGhoulDressPink",
+    "formid": "0x0005E186",
+    "name": "",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "FeralGhoulDressRndColor",
+    "formid": "0x000A0757",
+    "name": "\u000b\ufffd\u0002",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "FeralGhoulFootwraps",
+    "formid": "0x00123D8D",
+    "name": "",
+    "body_slots_mask": "0x00000600"
+  },
+  {
+    "edid": "FeralGhoulPants",
+    "formid": "0x00123D91",
+    "name": "",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "FeralGhoulPantsColor",
+    "formid": "0x0005E173",
+    "name": "",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "FeralGhoulPantsRndColor",
+    "formid": "0x000A0758",
+    "name": "^\ufffd\u0002",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "FeralGhoulReaverArmor",
+    "formid": "0x0006388E",
+    "name": "",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "FeralGhoulReaverArmor2",
+    "formid": "0x00063891",
+    "name": "",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "FeralGhoulReaverArmor3",
+    "formid": "0x00063895",
+    "name": "",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "FeralGhoulShirt2",
+    "formid": "0x0007ED1A",
+    "name": "",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "FeralGhoulShirtBloody",
+    "formid": "0x000A0765",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "FeralGhoulShirtRndColor",
+    "formid": "0x000A0760",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "FeralGhoulShirtShreddedRndColor",
+    "formid": "0x000A0754",
+    "name": "M\ufffd\u0002",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "FeralGhoulShirtSmallBloody",
+    "formid": "0x000A0764",
+    "name": "x\ufffd\u0002",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "FeralGhoulShirtSmallRndColor",
+    "formid": "0x000A075F",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "FeralGhoulShorts",
+    "formid": "0x00123D90",
+    "name": "",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "FeralGhoulShortsColor",
+    "formid": "0x0005E17B",
+    "name": "",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "FeralGhoulShortsRndColor",
+    "formid": "0x000A074C",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "FeralGhoulShortsShreddedRndColor",
+    "formid": "0x000A0755",
+    "name": "[\ufffd\u0002",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "HandyArtObjectsFX",
+    "formid": "0x0002B4D7",
+    "name": "",
+    "body_slots_mask": "0xF0000000"
+  },
+  {
+    "edid": "HandyArtObjectsPrewarFX",
+    "formid": "0x00140CE4",
+    "name": "",
+    "body_slots_mask": "0x60000000"
+  },
+  {
+    "edid": "InstM02LiamsGlasses",
+    "formid": "0x001B5B26",
+    "name": "\ufffd\t\u0003",
+    "body_slots_mask": "0x00020000"
+  },
+  {
+    "edid": "MS02_ClothesSubmarineCrew",
+    "formid": "0x00118864",
+    "name": "F\ufffd\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "MS02_ClothesSubmarineCrewHat",
+    "formid": "0x00118865",
+    "name": "\ufffd\ufffd\u0001",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "MS04_SilverShroudArmor_15",
+    "formid": "0x0002F525",
+    "name": "4\ufffd\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "MS04_SilverShroudArmor_25",
+    "formid": "0x000DED27",
+    "name": "\ufffd+\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "MS04_SilverShroudArmor_35",
+    "formid": "0x000DED28",
+    "name": "\ufffdh\u0002",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "MS04_SilverShroudArmor_45",
+    "formid": "0x000DED29",
+    "name": "\u032b\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "MS04_SilverShroudCostume",
+    "formid": "0x000E1A25",
+    "name": "\u001a\ufffd\u0001",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "MS04_SilverShroudHat",
+    "formid": "0x0014E58E",
+    "name": "\ufffd4\u0002",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "MS09LorenzosCrown",
+    "formid": "0x001467F5",
+    "name": "\ufffdc\u0002",
+    "body_slots_mask": "0x00000003"
+  },
+  {
+    "edid": "MS10ClothesRewardF",
+    "formid": "0x000F15CF",
+    "name": "\ufffde\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "MS10ClothesRewardM",
+    "formid": "0x000F15D0",
+    "name": "g+\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "MS10ClothesRex",
+    "formid": "0x000F15D2",
+    "name": "\u0007-\u0001",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "MS11IronsidesHat",
+    "formid": "0x000F6D85",
+    "name": "\u0006\ufffd\u0002",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "MS11LieutenantsHat",
+    "formid": "0x001F599A",
+    "name": "8+\u0003",
+    "body_slots_mask": "0x00010001"
+  },
+  {
+    "edid": "MirelurkShield",
+    "formid": "0x000986CA",
+    "name": "",
+    "body_slots_mask": "0x40000000"
+  },
+  {
+    "edid": "NewsmanSuitA",
+    "formid": "0x0021B02F",
+    "name": "g<\u0003",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "Pipboy",
+    "formid": "0x00021B3B",
+    "name": ":Z\u0003",
+    "body_slots_mask": "0x40000000"
+  },
+  {
+    "edid": "PipboyDusty",
+    "formid": "0x0006D7B8",
+    "name": "#Z\u0003",
+    "body_slots_mask": "0x40000000"
+  },
+  {
+    "edid": "PipboyVault81",
+    "formid": "0x001B9B87",
+    "name": "&Z\u0003",
+    "body_slots_mask": "0x40000000"
+  },
+  {
+    "edid": "PowerArmorCoreGlow",
+    "formid": "0x000897FC",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "RR_PrewarSweaterVest_01",
+    "formid": "0x0009AC97",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x0000F808"
+  },
+  {
+    "edid": "RailroadArmoredCoat",
+    "formid": "0x0013BCD1",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x0000F838"
+  },
+  {
+    "edid": "SMBehemothShield",
+    "formid": "0x00165792",
+    "name": "",
+    "body_slots_mask": "0x20000000"
+  },
+  {
+    "edid": "SkinAlien",
+    "formid": "0x00184C4E",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinAssaultron",
+    "formid": "0x000D96DC",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinBloatfly",
+    "formid": "0x00029464",
+    "name": "",
+    "body_slots_mask": "0xA0000094"
+  },
+  {
+    "edid": "SkinBloatflyColor",
+    "formid": "0x000B03B7",
+    "name": "",
+    "body_slots_mask": "0xA0000094"
+  },
+  {
+    "edid": "SkinBloatflyDark",
+    "formid": "0x000B03B6",
+    "name": "",
+    "body_slots_mask": "0xA0000094"
+  },
+  {
+    "edid": "SkinBloatflyGlow",
+    "formid": "0x000B03BE",
+    "name": "",
+    "body_slots_mask": "0xA0000094"
+  },
+  {
+    "edid": "SkinBloatfly_dead",
+    "formid": "0x00247980",
+    "name": "",
+    "body_slots_mask": "0x00000094"
+  },
+  {
+    "edid": "SkinBloodbugBaseAdult",
+    "formid": "0x000264BA",
+    "name": "",
+    "body_slots_mask": "0xC0000004"
+  },
+  {
+    "edid": "SkinBloodbugBaseAdultGlow",
+    "formid": "0x000C9790",
+    "name": "",
+    "body_slots_mask": "0xC0000004"
+  },
+  {
+    "edid": "SkinBloodbugBaseTeen",
+    "formid": "0x000264B3",
+    "name": "",
+    "body_slots_mask": "0xC0000004"
+  },
+  {
+    "edid": "SkinBloodbugJuvenile",
+    "formid": "0x0002456E",
+    "name": "",
+    "body_slots_mask": "0xE0000004"
+  },
+  {
+    "edid": "SkinBloodbugRedAdult",
+    "formid": "0x000BEDF5",
+    "name": "",
+    "body_slots_mask": "0xE0000004"
+  },
+  {
+    "edid": "SkinBloodbugRedJuvi",
+    "formid": "0x000BEDF6",
+    "name": "",
+    "body_slots_mask": "0xE0000004"
+  },
+  {
+    "edid": "SkinBloodbugRedTeen",
+    "formid": "0x000BEDF7",
+    "name": "",
+    "body_slots_mask": "0xE0000004"
+  },
+  {
+    "edid": "SkinBloodbugSwampAdult",
+    "formid": "0x0014F6D4",
+    "name": "",
+    "body_slots_mask": "0xC000000C"
+  },
+  {
+    "edid": "SkinBloodbugSwampJuvi",
+    "formid": "0x0014F6E0",
+    "name": "",
+    "body_slots_mask": "0xC000000C"
+  },
+  {
+    "edid": "SkinBloodbugSwampTeen",
+    "formid": "0x0014F6DB",
+    "name": "",
+    "body_slots_mask": "0xC000000C"
+  },
+  {
+    "edid": "SkinBloodbugVampAdult",
+    "formid": "0x000BEDF4",
+    "name": "",
+    "body_slots_mask": "0xE000000C"
+  },
+  {
+    "edid": "SkinBloodbugVampJuvi",
+    "formid": "0x000BEDF2",
+    "name": "",
+    "body_slots_mask": "0xE000000C"
+  },
+  {
+    "edid": "SkinBloodbugVampTeen",
+    "formid": "0x000BEDF3",
+    "name": "",
+    "body_slots_mask": "0xE000000C"
+  },
+  {
+    "edid": "SkinBrahmin",
+    "formid": "0x0002047C",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinBrahminPackFootsteps",
+    "formid": "0x001852A7",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinCat",
+    "formid": "0x000C9AD0",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinChildGhoulNaked",
+    "formid": "0x001212A2",
+    "name": "",
+    "body_slots_mask": "0x00000038"
+  },
+  {
+    "edid": "SkinChildNaked",
+    "formid": "0x00107FE0",
+    "name": "",
+    "body_slots_mask": "0x00000038"
+  },
+  {
+    "edid": "SkinDeathclaw",
+    "formid": "0x0001DB49",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinDeathclawAlbino",
+    "formid": "0x001955A7",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinDeathclawAlpha",
+    "formid": "0x001955AB",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinDeathclawChameleon",
+    "formid": "0x001C88AE",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinDeathclawGlowing",
+    "formid": "0x001955B4",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinDeathclawMatriarch",
+    "formid": "0x001955AE",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinDeathclawSavage",
+    "formid": "0x001955B1",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinDogmeat",
+    "formid": "0x0001D725",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinEyeBot",
+    "formid": "0x000A563C",
+    "name": "",
+    "body_slots_mask": "0x20000008"
+  },
+  {
+    "edid": "SkinEyeBotBack",
+    "formid": "0x000A7DAA",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinEyeBotBackRadio",
+    "formid": "0x000A8499",
+    "name": "",
+    "body_slots_mask": "0x00000014"
+  },
+  {
+    "edid": "SkinEyeBotBigDig",
+    "formid": "0x001C982F",
+    "name": "",
+    "body_slots_mask": "0xA0000008"
+  },
+  {
+    "edid": "SkinEyeBotBoS",
+    "formid": "0x0015E64B",
+    "name": "",
+    "body_slots_mask": "0x20000008"
+  },
+  {
+    "edid": "SkinEyeBotHolotape",
+    "formid": "0x000B268D",
+    "name": "",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "SkinEyeBotMM",
+    "formid": "0x0015E646",
+    "name": "",
+    "body_slots_mask": "0x20000008"
+  },
+  {
+    "edid": "SkinEyeBotNoBack",
+    "formid": "0x000A7DA9",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFEVHoundWhole",
+    "formid": "0x00090C35",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFeralGhoul",
+    "formid": "0x0006B4EE",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFeralGhoulBloodyHead2",
+    "formid": "0x000A0767",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinFeralGhoulBubble1a",
+    "formid": "0x000B03B5",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFeralGhoulBubble1b",
+    "formid": "0x000B03B3",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFeralGhoulBubble1c",
+    "formid": "0x000B03B2",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFeralGhoulBubble2a",
+    "formid": "0x000B03C1",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFeralGhoulBubble2b",
+    "formid": "0x000B03C0",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFeralGhoulGengrenous",
+    "formid": "0x000A0762",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFeralGhoulGlowing",
+    "formid": "0x00020BCA",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFeralGhoulGlowingBloated",
+    "formid": "0x000A96BC",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFeralGhoulGlowingPutrid",
+    "formid": "0x000A96BB",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFeralGhoulGlowingPutridB",
+    "formid": "0x000A96BA",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFeralGhoulHead1",
+    "formid": "0x0008EC49",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinFeralGhoulHead2",
+    "formid": "0x0007ED02",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinFeralGhoulHead3",
+    "formid": "0x0007ED04",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinFeralGhoulHead4",
+    "formid": "0x0007ED06",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinFeralGhoulHeadBubble1",
+    "formid": "0x000B03B4",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinFeralGhoulHeadBubble2",
+    "formid": "0x000B03BC",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinFeralGhoulHeadBubble3",
+    "formid": "0x000B03BD",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinFeralGhoulHeadBubble4",
+    "formid": "0x000B03BF",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinFeralGhoulShadow",
+    "formid": "0x000A0763",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFeralGhoulWithered",
+    "formid": "0x000A074D",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinFeralGhoulWitheredHead1",
+    "formid": "0x000A076A",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinFeralGhoulWitheredHead2",
+    "formid": "0x000A0769",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinFeralGhoulWitheredHead3",
+    "formid": "0x000A0761",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinFeralGhoulWitheredHead4",
+    "formid": "0x000A074B",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinGhoulNaked",
+    "formid": "0x000EAFB8",
+    "name": "",
+    "body_slots_mask": "0x00000038"
+  },
+  {
+    "edid": "SkinGorilla",
+    "formid": "0x000D9805",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinLibertyPrime",
+    "formid": "0x0010801A",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMirelurk",
+    "formid": "0x00023FFE",
+    "name": "",
+    "body_slots_mask": "0x0000000F"
+  },
+  {
+    "edid": "SkinMirelurkBarnacleMax01",
+    "formid": "0x0013879C",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinMirelurkBarnacleMax02",
+    "formid": "0x0013879D",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinMirelurkBarnacleMax03",
+    "formid": "0x0013879E",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinMirelurkBarnacleMega01",
+    "formid": "0x0013879F",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinMirelurkBarnacleMega02",
+    "formid": "0x001387A0",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinMirelurkBarnacleMin01",
+    "formid": "0x001387A1",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinMirelurkBarnacleMin02",
+    "formid": "0x001387A2",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinMirelurkBarnacleMin03",
+    "formid": "0x001387A3",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinMirelurkBarnacleMin04",
+    "formid": "0x001387A4",
+    "name": "",
+    "body_slots_mask": "0x00000004"
+  },
+  {
+    "edid": "SkinMirelurkCaveMud",
+    "formid": "0x00140D19",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkDeepKing",
+    "formid": "0x001A4B24",
+    "name": "\u051b\u0002",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMirelurkDirtGravel",
+    "formid": "0x00140D16",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkFishingnet01",
+    "formid": "0x001387A5",
+    "name": "",
+    "body_slots_mask": "0x00000010"
+  },
+  {
+    "edid": "SkinMirelurkGlowing",
+    "formid": "0x001999FF",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMirelurkGlowingKing",
+    "formid": "0x001A4B26",
+    "name": "\u0012\ufffd\u0002",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMirelurkHunter",
+    "formid": "0x00064C5F",
+    "name": "\ufffde\u0001",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMirelurkHunterCaveMud",
+    "formid": "0x00142910",
+    "name": "\b\ufffd\u0002",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkHunterDirt",
+    "formid": "0x001428EE",
+    "name": "\u001e\ufffd\u0002",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkHunterGlow",
+    "formid": "0x001E03CD",
+    "name": "\ufffd\u001c\u0003",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMirelurkHunterNestMud",
+    "formid": "0x00142916",
+    "name": "K\ufffd\u0002",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkHunterSandRock",
+    "formid": "0x0014292F",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkHunterWater",
+    "formid": "0x00142939",
+    "name": "\ufffd\ufffd\u0002",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkKing",
+    "formid": "0x000B7F92",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMirelurkKingDirt",
+    "formid": "0x001D0ACD",
+    "name": "\ufffd\u0018\u0003",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkKingWater",
+    "formid": "0x001D0ACE",
+    "name": "\ufffd\u0019\u0003",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkNestMud",
+    "formid": "0x00140D85",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkQueen",
+    "formid": "0x000E12A7",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMirelurkQueenWet",
+    "formid": "0x00176E1F",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMirelurkRazorClaw",
+    "formid": "0x001999FB",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMirelurkRiverbedRocks",
+    "formid": "0x00140D86",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkRiverbedRocksWet01",
+    "formid": "0x00140D87",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkRiverbedRocksWet02",
+    "formid": "0x00140D88",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkSandRocksWet",
+    "formid": "0x00140D89",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkSeaweed01",
+    "formid": "0x001387A6",
+    "name": "",
+    "body_slots_mask": "0x00000001"
+  },
+  {
+    "edid": "SkinMirelurkSeaweed01vine",
+    "formid": "0x001387A7",
+    "name": "",
+    "body_slots_mask": "0x00000003"
+  },
+  {
+    "edid": "SkinMirelurkSeaweed02",
+    "formid": "0x001387A8",
+    "name": "",
+    "body_slots_mask": "0x00000001"
+  },
+  {
+    "edid": "SkinMirelurkSeaweed02vine",
+    "formid": "0x001387A9",
+    "name": "",
+    "body_slots_mask": "0x00000003"
+  },
+  {
+    "edid": "SkinMirelurkSpawn",
+    "formid": "0x0007154C",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMirelurkSpawnHatchlingJuice",
+    "formid": "0x00176DA1",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMirelurkUnderwater",
+    "formid": "0x000ECDB9",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMirelurkVine01",
+    "formid": "0x001387AA",
+    "name": "",
+    "body_slots_mask": "0x00000002"
+  },
+  {
+    "edid": "SkinMirelurkWaterDrops",
+    "formid": "0x00140F05",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMoleratBombVest",
+    "formid": "0x00100303",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  },
+  {
+    "edid": "SkinMoleratBroodmother",
+    "formid": "0x000498E0",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMoleratBroodmother01",
+    "formid": "0x001C2069",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMoleratGlowingWhole",
+    "formid": "0x0022CB58",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMoleratHairBack",
+    "formid": "0x00036148",
+    "name": "",
+    "body_slots_mask": "0x00000002"
+  },
+  {
+    "edid": "SkinMoleratHairBackBroodmother",
+    "formid": "0x001C2061",
+    "name": "",
+    "body_slots_mask": "0x00000002"
+  },
+  {
+    "edid": "SkinMoleratHairBasic",
+    "formid": "0x000824EE",
+    "name": "",
+    "body_slots_mask": "0x00000002"
+  },
+  {
+    "edid": "SkinMoleratHairBasicBroodmother",
+    "formid": "0x001C2060",
+    "name": "",
+    "body_slots_mask": "0x00000002"
+  },
+  {
+    "edid": "SkinMoleratHairExtra",
+    "formid": "0x00035881",
+    "name": "",
+    "body_slots_mask": "0x00000002"
+  },
+  {
+    "edid": "SkinMoleratHairExtraBroodmother",
+    "formid": "0x001C205F",
+    "name": "",
+    "body_slots_mask": "0x00000002"
+  },
+  {
+    "edid": "SkinMoleratWhole",
+    "formid": "0x0001D813",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMoleratWhole01",
+    "formid": "0x001C2065",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinMoleratWhole02",
+    "formid": "0x001C2067",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinNaked",
+    "formid": "0x00000D64",
+    "name": "",
+    "body_slots_mask": "0x00000038"
+  },
+  {
+    "edid": "SkinNakedDirty",
+    "formid": "0x000ADA90",
+    "name": "",
+    "body_slots_mask": "0x00000038"
+  },
+  {
+    "edid": "SkinNaked_UnderwearWhite",
+    "formid": "0x0014616D",
+    "name": "",
+    "body_slots_mask": "0x00000038"
+  },
+  {
+    "edid": "SkinOldNaked",
+    "formid": "0x00128C5C",
+    "name": "",
+    "body_slots_mask": "0x00000038"
+  },
+  {
+    "edid": "SkinPowerArmor",
+    "formid": "0x0001D320",
+    "name": "",
+    "body_slots_mask": "0x00003BFC"
+  },
+  {
+    "edid": "SkinProtectron",
+    "formid": "0x000E857D",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinRadRoach01",
+    "formid": "0x000475DD",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinRadRoach02",
+    "formid": "0x00047E03",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinRadRoach03",
+    "formid": "0x00047E04",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinRadRoachGlowing",
+    "formid": "0x0022CB59",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinRadRoachJuvi01",
+    "formid": "0x00047E0A",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinRadStag",
+    "formid": "0x0007ED1B",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinRadStagAlbino",
+    "formid": "0x0003D414",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinRadStagCorrupted",
+    "formid": "0x0003D417",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinRadStagFawn",
+    "formid": "0x0003D41A",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinRadStagGlowing",
+    "formid": "0x0003D41D",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinRadscorpion",
+    "formid": "0x000636A4",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinRadscorpionGlowing",
+    "formid": "0x001BC0E8",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinRaider",
+    "formid": "0x00017AD1",
+    "name": "",
+    "body_slots_mask": "0x00000038"
+  },
+  {
+    "edid": "SkinRaiderDog",
+    "formid": "0x000B2BF1",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinSentryBot",
+    "formid": "0x000E44FD",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinSentryBotOverheatLight",
+    "formid": "0x0023F20E",
+    "name": "",
+    "body_slots_mask": "0x20000000"
+  },
+  {
+    "edid": "SkinStingwing",
+    "formid": "0x0005FBAF",
+    "name": "",
+    "body_slots_mask": "0xA0000008"
+  },
+  {
+    "edid": "SkinStingwingFat",
+    "formid": "0x000C978E",
+    "name": "",
+    "body_slots_mask": "0xA0000008"
+  },
+  {
+    "edid": "SkinStingwingGlow",
+    "formid": "0x000C978F",
+    "name": "",
+    "body_slots_mask": "0xA0000008"
+  },
+  {
+    "edid": "SkinStingwingThin",
+    "formid": "0x000C9791",
+    "name": "",
+    "body_slots_mask": "0xA0000008"
+  },
+  {
+    "edid": "SkinStingwing_dead",
+    "formid": "0x00247983",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinSuperMutant",
+    "formid": "0x0001A00B",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinSupermutantBehemoth",
+    "formid": "0x000BB7DA",
+    "name": "",
+    "body_slots_mask": "0x80000008"
+  },
+  {
+    "edid": "SkinSupermutantBehemothSwan",
+    "formid": "0x00144A6A",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinSynthGen1",
+    "formid": "0x000E7311",
+    "name": "\ufffd4\u0001",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinSynthGen1teleportTest",
+    "formid": "0x000F62B7",
+    "name": "\u000e\ufffd\u0001",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinSynthGen2",
+    "formid": "0x0010BD68",
+    "name": "",
+    "body_slots_mask": "0x00000038"
+  },
+  {
+    "edid": "SkinSynthGen2Dirty",
+    "formid": "0x00049B50",
+    "name": "",
+    "body_slots_mask": "0x00000038"
+  },
+  {
+    "edid": "SkinSynthGen2Mech",
+    "formid": "0x001A7C2C",
+    "name": "",
+    "body_slots_mask": "0x0002003C"
+  },
+  {
+    "edid": "SkinTurretMounted",
+    "formid": "0x000B28D4",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinTurretMountedClean",
+    "formid": "0x0018BB55",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinTurretMountedDest",
+    "formid": "0x000CAB9A",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinTurretSpotlightWorkshop",
+    "formid": "0x0022B191",
+    "name": "",
+    "body_slots_mask": "0x80000008"
+  },
+  {
+    "edid": "SkinTurretStanding",
+    "formid": "0x000B1F09",
+    "name": "",
+    "body_slots_mask": "0x80000008"
+  },
+  {
+    "edid": "SkinTurretStandingCart",
+    "formid": "0x00116001",
+    "name": "",
+    "body_slots_mask": "0x80000008"
+  },
+  {
+    "edid": "SkinTurretStandingMounted",
+    "formid": "0x000CAB95",
+    "name": "",
+    "body_slots_mask": "0x80000008"
+  },
+  {
+    "edid": "SkinTurretWorkshop",
+    "formid": "0x0019EFE0",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinVertibird",
+    "formid": "0x000D77E5",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinViciousDog02",
+    "formid": "0x00194044",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinViciousDog03A",
+    "formid": "0x0019404A",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinViciousDog04A",
+    "formid": "0x00194047",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinViciousDog05A",
+    "formid": "0x0019404D",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinViciousDog06A",
+    "formid": "0x00194057",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinViciousDogA",
+    "formid": "0x00035873",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinViciousDogAlpha02A",
+    "formid": "0x00194051",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinViciousDogAlpha03A",
+    "formid": "0x00194053",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinViciousDogAlpha04A",
+    "formid": "0x0019404F",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinViciousDogAlpha05A",
+    "formid": "0x00194055",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinViciousDogAlphaA",
+    "formid": "0x00194041",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinViciousDogAlphaA06",
+    "formid": "0x00194059",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinViciousDogAlphaGlowingA",
+    "formid": "0x0022CB5C",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinViciousDogGlowingA",
+    "formid": "0x0022CB5B",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinVirgil",
+    "formid": "0x0013B3E5",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinYaoGuaiDusky",
+    "formid": "0x0008290A",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinYaoGuaiGlowing",
+    "formid": "0x00082902",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinYaoGuaiLumbering",
+    "formid": "0x00082907",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinYaoGuaiRabid",
+    "formid": "0x00082901",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinYaoGuaiShaggy",
+    "formid": "0x00082904",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SkinYaoGuaiWhole",
+    "formid": "0x000A0F31",
+    "name": "",
+    "body_slots_mask": "0x00000008"
+  },
+  {
+    "edid": "SuperMutantArmor1",
+    "formid": "0x00046972",
+    "name": "\rb\u0003",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "SuperMutantSuicideChains",
+    "formid": "0x0022CB5A",
+    "name": "\ufffda\u0003",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "SuperMutantSuicideChains_Playable",
+    "formid": "0x00248FE4",
+    "name": "\\a\u0003",
+    "body_slots_mask": "0x00000040"
+  },
+  {
+    "edid": "SupermutantArmor0_Arms",
+    "formid": "0x001B3A01",
+    "name": "h\u001b\u0003",
+    "body_slots_mask": "0x00003000"
+  },
+  {
+    "edid": "SupermutantArmor0_Arms_Playable",
+    "formid": "0x00248FD3",
+    "name": "E`\u0003",
+    "body_slots_mask": "0x00003000"
+  },
+  {
+    "edid": "SupermutantArmor0_Torso",
+    "formid": "0x001B3A00",
+    "name": "\ufffd\u001b\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "SupermutantArmor0_Torso_Playable",
+    "formid": "0x00248FD4",
+    "name": "\"`\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "SupermutantArmor1_Arms",
+    "formid": "0x001B3A03",
+    "name": "T\u001b\u0003",
+    "body_slots_mask": "0x00003000"
+  },
+  {
+    "edid": "SupermutantArmor1_Arms_Playable",
+    "formid": "0x00248FD6",
+    "name": "I`\u0003",
+    "body_slots_mask": "0x00003000"
+  },
+  {
+    "edid": "SupermutantArmor1_Lower",
+    "formid": "0x001B3A05",
+    "name": "\ufffd\u001c\u0003",
+    "body_slots_mask": "0x0000C000"
+  },
+  {
+    "edid": "SupermutantArmor1_Lower_Playable",
+    "formid": "0x00248FD7",
+    "name": "K`\u0003",
+    "body_slots_mask": "0x0000C000"
+  },
+  {
+    "edid": "SupermutantArmor1_Torso",
+    "formid": "0x001B3A07",
+    "name": "w\u001b\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "SupermutantArmor1_Torso_Playable",
+    "formid": "0x00248FD8",
+    "name": "L`\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "SupermutantArmor2_Arms",
+    "formid": "0x001B3A09",
+    "name": "\ufffd\u001b\u0003",
+    "body_slots_mask": "0x00003000"
+  },
+  {
+    "edid": "SupermutantArmor2_Arms_Playable",
+    "formid": "0x00248FD9",
+    "name": "M`\u0003",
+    "body_slots_mask": "0x00003000"
+  },
+  {
+    "edid": "SupermutantArmor2_Lower",
+    "formid": "0x001B3A0B",
+    "name": "\u0007\u001c\u0003",
+    "body_slots_mask": "0x0000C000"
+  },
+  {
+    "edid": "SupermutantArmor2_Lower_Playable",
+    "formid": "0x00248FDA",
+    "name": "\ufffd_\u0003",
+    "body_slots_mask": "0x0000C000"
+  },
+  {
+    "edid": "SupermutantArmor2_Torso",
+    "formid": "0x001B3A0D",
+    "name": "\ufffd\u001e\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "SupermutantArmor2_Torso_Playable",
+    "formid": "0x00248FDB",
+    "name": "N`\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "SupermutantArmor3_Torso",
+    "formid": "0x001B3A0F",
+    "name": "\ufffd\u001e\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "SupermutantBlindfold",
+    "formid": "0x00179F7A",
+    "name": "\ufffdc\u0001",
+    "body_slots_mask": "0x00020000"
+  },
+  {
+    "edid": "SupermutantHat1",
+    "formid": "0x001B3A15",
+    "name": "v\u001c\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "SupermutantHat1_Playable",
+    "formid": "0x00248FDC",
+    "name": "O`\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "SupermutantHat2",
+    "formid": "0x001B3A17",
+    "name": "a\u001f\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "SupermutantHat2_Playable",
+    "formid": "0x00248FDD",
+    "name": "\b`\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "SupermutantHat3",
+    "formid": "0x001B3A19",
+    "name": "H\u001b\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "SupermutantHat3_Playable",
+    "formid": "0x00248FDE",
+    "name": "P`\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "SupermutantHat4",
+    "formid": "0x001B3A1B",
+    "name": "y\u001f\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "SupermutantHat4_Playable",
+    "formid": "0x00248FDF",
+    "name": "Q`\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "SupermutantRags1_Lower",
+    "formid": "0x001B3A1D",
+    "name": "R\u001d\u0003",
+    "body_slots_mask": "0x0000C000"
+  },
+  {
+    "edid": "SupermutantRags1_Lower_Playable",
+    "formid": "0x00248FE0",
+    "name": "R`\u0003",
+    "body_slots_mask": "0x0000C000"
+  },
+  {
+    "edid": "SupermutantRags1_Torso",
+    "formid": "0x001B3A11",
+    "name": "\ufffd\u001f\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "SupermutantRags1_Torso_Playable",
+    "formid": "0x00248FE1",
+    "name": "S`\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "SupermutantRags2_Arms",
+    "formid": "0x001B3A13",
+    "name": "\ufffd\u001f\u0003",
+    "body_slots_mask": "0x00003000"
+  },
+  {
+    "edid": "SupermutantRags2_Arms_Playable",
+    "formid": "0x00248FE2",
+    "name": "T`\u0003",
+    "body_slots_mask": "0x00003000"
+  },
+  {
+    "edid": "SupermutantRags2_Torso",
+    "formid": "0x001B3A1F",
+    "name": "Y\u001e\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "SupermutantRags2_Torso_Playable",
+    "formid": "0x00248FE3",
+    "name": "U`\u0003",
+    "body_slots_mask": "0x00000800"
+  },
+  {
+    "edid": "SynthGen1Head1",
+    "formid": "0x001CB0B8",
+    "name": "h\u0012\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "SynthGen1Head2",
+    "formid": "0x001CB0B9",
+    "name": "\u000e\u0014\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "SynthGen1Head3",
+    "formid": "0x001CB0BA",
+    "name": "\ufffd\u0012\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "SynthGen1Head4",
+    "formid": "0x001CB0BB",
+    "name": "\u0013\u0013\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "SynthGen1Head5",
+    "formid": "0x001CB0BC",
+    "name": "\ufffd\u0015\u0003",
+    "body_slots_mask": "0x00010000"
+  },
+  {
+    "edid": "babybundled",
+    "formid": "0x000F468E",
+    "name": "",
+    "body_slots_mask": "0x40000000"
+  },
+  {
+    "edid": "mireLurkKingCloakingArmorFX",
+    "formid": "0x001AE477",
+    "name": "",
+    "body_slots_mask": "0x80000000"
+  }
+]
