@@ -46,5 +46,8 @@ jobs:
     - name: Papyrus lint (M7)
       run: python3 tools/psc_lint.py --warnings-fatal
 
+    - name: Release staging archive builds (M7)
+      run: python3 tools/pack_mod.py --no-regenerate --out /tmp/moddist
+
     - name: Analyzer still green (M0 regression)
       run: python3 tools/analyze_decompiled.py --out-json /tmp/insights_check.json --out-md /tmp/insights_check.md

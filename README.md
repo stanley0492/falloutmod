@@ -53,6 +53,12 @@ Reproduce: `g++ -std=c++17 -O2 -I plugins/rcai -I plugins/rcai/src
 -o /tmp/t plugins/rcai/tests/*.cpp && /tmp/t` (bench: same with
 `plugins/rcai/bench/bench_ai.cpp`).
 
+**Install package:** `python3 tools/pack_mod.py` builds
+`dist/RCAI-v0.2.0.zip` — a Vortex-compatible staging archive with the full
+`Data/` tree (all combat/worldsim/render/perf data, Papyrus source, the
+Windows DLL build script, and a step-by-step `README_INSTALL.txt`). The
+DLL and CK-compiled `.pex` are the two Windows-only steps it documents.
+
 **In-game wiring (Windows):** the IWorldSampler adapter + DLL build are the
 remaining step — see [`docs/INTEGRATION_CHECKLIST.md`](docs/INTEGRATION_CHECKLIST.md).
 
