@@ -40,6 +40,7 @@
 
 #include "util/ini.h"
 #include "world/world.h"
+#include "world/f4se_sampler.h"
 #include "ai/behaviour.h"
 #include "perf/profiler.h"
 #include "perf/ini_tuner.h"
@@ -51,7 +52,7 @@ namespace {
 using namespace rcai;
 
 constexpr const char* kPluginName = "RCAI";
-constexpr const char* kPluginVersion = "0.2.0";
+constexpr const char* kPluginVersion = "0.3.0";
 constexpr const wchar_t* kIniFile = L"RCAI.ini";
 constexpr const wchar_t* kIniSection = L"RCAI";
 constexpr std::uint32_t kDebugKey = 0x32; // VK_F3
@@ -111,32 +112,6 @@ bool LoadConfig() {
     F4SE::LogInfo("%s: loaded config from %ls", kPluginName, iniPath.c_str());
     return true;
 }
-
-// ---------------------------------------------------------------------------
-// world sampler seam
-// ---------------------------------------------------------------------------
-
-class IWorldSampler {
-public:
-    virtual ~IWorldSampler() = default;
-    // Fills the snapshot; returns false when no world data is available.
-    virtual bool sample(WorldSnapshot& out, float dt) = 0;
-    // Applies one brain action to the engine.
-    virtual void apply(const Action& a) = 0;
-};
-
-// The in-game sampler. Each numbered item is a documented integration point
-// (docs/INTEGRATION_CHECKLIST.md) — an F4SE API call list that runs on
-// Windows. Until wired, sample() returns false and the plugin no-ops safely.
-class F4SEWorldSampler : public IWorldSampler {
-public:
-    bool sample(WorldSnapshot& /*out*/, float /*dt*/) override {
-        return false; // INTEGRATION POINT 1..6 pending (see checklist)
-    }
-    void apply(const Action& /*a*/) override {
-        // INTEGRATION POINT 7: translate Action -> engine package/steer calls.
-    }
-};
 
 // ---------------------------------------------------------------------------
 // runtime state
@@ -209,14 +184,17 @@ std::string wstringToString(const std::wstring& w) {
 std::string CmdRCAIStatus(const F4SE::ConsoleCommand::Args& args) {
     (void)args;
     const perf::FrameProfiler::Summary s = g_profiler.summary();
-    char buf[320];
+    const auto& diag = g_sampler.diagnostics();
+    char buf[384];
     std::snprintf(buf, sizeof(buf),
                   "RCAI v%s (F4SE %s) | active=%s ticks=%llu | frames=%d med=%.1fms p95=%.1fms | "
-                  "mem=%zu settlements | %s",
+                  "actors=%zu losCalls=%zu cover=%zu | mem=%zu settlements | %s",
                   kPluginVersion, g_f4seVersion.c_str(),
                   g_active.load(std::memory_order_acquire) ? "on" : "off",
                   (unsigned long long)g_tickCount.load(std::memory_order_relaxed), s.frames,
-                  s.medianMs, s.p95Ms, g_factionMemory.size(),
+                  s.medianMs, s.p95Ms, diag.actorsSampled,
+                  diag.losCallsPerFrame, diag.coverPointsPerCell,
+                  g_factionMemory.size(),
                   g_brain.antiCheese().describe().c_str());
     F4SE::LogInfo("%s: %s", kPluginName, buf);
     return buf;
@@ -336,8 +314,21 @@ public:
         GetMessaging().Register("f4se::update", &UpdateHandler);
         GetInput().RegisterListener(kDebugKey, &InputHandler);
 
-        LogInfo("%s v%s: initialized (world sampler: %s)", kPluginName, kPluginVersion,
-                "stub — see docs/INTEGRATION_CHECKLIST.md");
+        const std::string pluginDir = wstringToString(GetPluginDir());
+        std::string cstyPath = pluginDir + "..\\..\\RCAI\\combat\\combat_styles.json";
+        if (!std::ifstream(cstyPath).good()) {
+            cstyPath = pluginDir + "..\\RCAI\\combat\\combat_styles.json";
+        }
+        if (!std::ifstream(cstyPath).good()) {
+            cstyPath = "Data/RCAI/combat/combat_styles.json";
+        }
+        if (!std::ifstream(cstyPath).good()) {
+            cstyPath = "data/combat/combat_styles.json";
+        }
+        g_sampler.init(cstyPath);
+
+        LogInfo("%s v%s: initialized (world sampler: 7/7 points wired; %zu styles loaded)",
+                kPluginName, kPluginVersion, g_sampler.loadedStylesCount());
         return true;
     }
 

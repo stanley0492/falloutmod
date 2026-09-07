@@ -27,13 +27,18 @@ endif()
 # ---------------------------------------------------------------------------
 
 add_executable(rcai_tests
+    src/world/f4se_sampler.cpp
     tests/main.cpp
     tests/test_util.cpp
     tests/test_perception.cpp
     tests/test_behaviour.cpp
     tests/test_systems.cpp
+    tests/test_f4se_sampler.cpp
 )
 add_executable(rcai_bench bench/bench_ai.cpp)
+
+target_include_directories(rcai_tests PRIVATE src .)
+target_include_directories(rcai_bench PRIVATE src .)
 
 if(MSVC)
     target_compile_options(rcai_tests PRIVATE /W4 /utf-8 /MP)
@@ -56,9 +61,12 @@ if(WIN32)
             "F4SE release 'include' and 'lib' folders under third_party/f4se/.")
     endif()
 
-    add_library(rcai SHARED src/RCAI.cpp)
+    add_library(rcai SHARED
+        src/RCAI.cpp
+        src/world/f4se_sampler.cpp
+    )
     set_target_properties(rcai PROPERTIES OUTPUT_NAME "RCAI")
-    target_include_directories(rcai PRIVATE ${F4SE_ROOT}/include)
+    target_include_directories(rcai PRIVATE src . ${F4SE_ROOT}/include)
     target_link_libraries(rcai PRIVATE ${F4SE_ROOT}/lib/f4se_64.lib)
     target_compile_definitions(rcai PRIVATE
         NOMINMAX WIN32_LEAN_AND_MEAN UNICODE _UNICODE

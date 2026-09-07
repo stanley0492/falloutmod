@@ -11,12 +11,18 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Build + run C++ unit tests (29)
+    - name: Build + run C++ unit tests (32)
       run: |
         g++ -std=c++17 -Wall -Wextra -Werror -O2 \
           -I plugins/rcai -I plugins/rcai/src \
-          -o /tmp/rcai_tests plugins/rcai/tests/*.cpp
+          -o /tmp/rcai_tests plugins/rcai/src/world/f4se_sampler.cpp plugins/rcai/tests/*.cpp
         /tmp/rcai_tests
+
+    - name: F4SE world adapter syntax check
+      run: |
+        g++ -std=c++17 -Wall -Wextra -Werror -fsyntax-only \
+          -I plugins/rcai -I plugins/rcai/src \
+          plugins/rcai/src/world/f4se_sampler.cpp
 
     - name: AI scoreboard gates (M2)
       run: |

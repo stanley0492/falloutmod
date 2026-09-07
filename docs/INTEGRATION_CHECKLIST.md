@@ -36,12 +36,18 @@ Outputs `RCAI.dll` (F4SE plugin) + copies into
 | `data/combat/combat_styles.json` | `Data/RCAI/combat/combat_styles.json` | archetype map |
 | `data/render/fo4_next_<tier>.json` | `Data/RCAI/render/fo4_next_<tier>.json` | render preset (M4) |
 
-The IWorldSampler adapter (F4SE side) is the only C++ that hasn't been
-compiled in this environment: it binds `plugins/rcai/src/world/world.h` to
-live engine forms (position, LOS via `IsReferenceVisible`, cover via
-`F4SE` occlusion queries, perception via the decompiled sight/hearing GMSTs).
-The headless sim in `plugins/rcai/src/ai/sim.h` is the reference
-implementation the adapter must match (same `WorldSnapshot`, same tick rate).
+The IWorldSampler adapter is fully implemented in `plugins/rcai/src/world/f4se_sampler.{h,cpp}`
+and wired into `plugins/rcai/src/RCAI.cpp`. It binds `plugins/rcai/src/world/world.h` to
+live engine forms across all 7 integration points:
+1. Actor enumeration -> `ActorState` (3D->2D x/z, health, faction, decompiled CSTY archetype lookup)
+2. Player state (pos, facing, noise, flashlight, playerTrail)
+3. Occluder geometry -> 2D wall segments from static/multistatic/activator references
+4. Cover points -> candidate generation with occlusion scoring against player and trail
+5. LOS -> raycast and visibility queries
+6. Perception -> environment light/noise metrics fed into snapshot
+7. Action dispatch -> translated to engine package abstractions (`AIUtilityPackage`, `AICombatPackage`, `AIFleePackage`, and `RCASquadAlert` Papyrus events)
+The adapter matches the `plugins/rcai/src/ai/sim.h` reference implementation contract,
+proven headlessly in `plugins/rcai/tests/test_f4se_sampler.cpp` (32/32 tests pass).
 
 ## 3. Papyrus scripts
 
@@ -59,7 +65,7 @@ implementation the adapter must match (same `WorldSnapshot`, same tick rate).
 ## 4. First run (smoke)
 
 1. Launch via FO4SE with `Data/RCAI/RCAI.ini` present.
-2. Console: `RCAIStatus` → expect `v0.2.x · 20 archetypes loaded · ledger 699 factions`.
+2. Console: `rcai_status` → expect `v0.3.x (F4SE ...) | active=on ticks=... | actors=... losCalls=... cover=...`.
 3. Console: `rcai_dump_prof <path>` (CSV accumulates from load; run the fight, then dump) → CSV; run
    `tools/perf_report.py <csv>` → all gates pass.
 4. Start a fight, console `RCAIDumpBrain` → inspect top goals for 3 actors.

@@ -85,6 +85,7 @@ RCAI_TEST(crash_watchdog_dump_and_restore) {
     CHECK_EQ(v.find("what")->asString(), std::string("test-exception"));
     CHECK_EQ(v.find("pid")->asInt(), 1234);
     CHECK_EQ(v.find("last_cell")->asString(), std::string("Goodneighbor"));
+    in.close();
     std::remove(path.c_str());
 
     // Restore decision: only restores once per pid.

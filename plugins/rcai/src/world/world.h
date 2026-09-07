@@ -196,4 +196,17 @@ struct BrainResult {
     std::string debugLine; // single-line state for logs / debug overlay
 };
 
+// ---------------------------------------------------------------------------
+// world sampler seam
+// ---------------------------------------------------------------------------
+
+class IWorldSampler {
+public:
+    virtual ~IWorldSampler() = default;
+    // Fills the snapshot; returns false when no world data is available.
+    virtual bool sample(WorldSnapshot& out, float dt) = 0;
+    // Applies one brain action to the engine.
+    virtual void apply(const Action& a) = 0;
+};
+
 } // namespace rcai

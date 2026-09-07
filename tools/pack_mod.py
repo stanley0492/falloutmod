@@ -40,7 +40,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-VERSION = "0.2.0"  # keep in sync with kPluginVersion in plugins/rcai/src/RCAI.cpp
+VERSION = "0.3.0"  # keep in sync with kPluginVersion in plugins/rcai/src/RCAI.cpp
 
 GENERATORS = [
     [sys.executable, "tools/render_preset.py"],
@@ -159,7 +159,7 @@ BUILD_POWERSHELL = """# build/build_dll_windows.ps1 — one-shot Windows build o
 #
 # Output: dist/RCAI-v$VERSION-windows-x64.dll -> copy to Data/F4SE/Plugins/RCAI.dll
 $ErrorActionPreference = "Stop"
-$VERSION = "0.2.0"
+$VERSION = "0.3.0"
 $repo = Split-Path -Parent $PSScriptRoot
 
 if (-not (Test-Path "$repo/third_party/f4se/include")) {

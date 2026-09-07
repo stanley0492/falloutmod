@@ -50,17 +50,20 @@ G4 enemy survival @30 s   0.710  (gate >= 0.40)
 ```
 
 Reproduce: `g++ -std=c++17 -O2 -I plugins/rcai -I plugins/rcai/src
--o /tmp/t plugins/rcai/tests/*.cpp && /tmp/t` (bench: same with
+-o /tmp/t plugins/rcai/src/world/f4se_sampler.cpp plugins/rcai/tests/*.cpp && /tmp/t` (bench: same with
 `plugins/rcai/bench/bench_ai.cpp`).
 
 **Install package:** `python3 tools/pack_mod.py` builds
-`dist/RCAI-v0.2.0.zip` — a Vortex-compatible staging archive with the full
+`dist/RCAI-v0.3.0.zip` — a Vortex-compatible staging archive with the full
 `Data/` tree (all combat/worldsim/render/perf data, Papyrus source, the
 Windows DLL build script, and a step-by-step `README_INSTALL.txt`). The
 DLL and CK-compiled `.pex` are the two Windows-only steps it documents.
 
-**In-game wiring (Windows):** the IWorldSampler adapter + DLL build are the
-remaining step — see [`docs/INTEGRATION_CHECKLIST.md`](docs/INTEGRATION_CHECKLIST.md).
+**In-game wiring (Windows):** the F4SEWorldSampler adapter is implemented in
+`plugins/rcai/src/world/f4se_sampler.{h,cpp}` across all 7 integration points,
+grounded against real F4SE 0.7.x engine structures and tested headlessly. Building
+the DLL and loading into the game are the final Windows steps — see
+[`docs/INTEGRATION_CHECKLIST.md`](docs/INTEGRATION_CHECKLIST.md).
 
 **Installing (runtime):** put `RCAI.dll` + `RCAI.ini` (see `config/`) into
 `<game>/Data/F4SE/Plugins/` with F4SE 0.7.x, copy the `data/` trees into

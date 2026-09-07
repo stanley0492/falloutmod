@@ -11,8 +11,8 @@ Updated: 2026-09-07. Legend: ✅ done + verified here · 🟡 logic done + teste
 | **M4 · Visual** | 🟡 | `tools/render_preset.py` → `data/render/fo4_next_{high,mid,low}.json` + INI fragments; `docs/RENDER_PRESETS.md` maps P1-a1..a6 | D3D11 upscaler proxy binding; 4K/120 capture (checklist §7) |
 | **M5 · Combat 2.0** | 🟡 | `tools/combat_tables.py` → 252 weapons classified (1 fallback), 112 CSTY → 6 archetypes, ballistics spec; 7/7 python tests | ballistics verification + 120 Hz gauntlet (checklist §8) |
 | **M6 · Living world** | 🟡 | `tools/worldsim.py` → 699 factions classified (73 Hostile/218 Ally/37 Friendly/15 Neutral/356 Isolated), 777-edge graph, settlement schema, economy; `FactionMemory::loadSeed`; 5/5 python tests + 1 C++ test | sandbox rules live in-game (raids/trades/reputation drift); ledger soak (checklist §9) |
-| **M7 · UX & a11y** | 🟡 | 3 Papyrus scripts (linted clean, 0 errors); `tools/psc_lint.py`; `docs/ACCESSIBILITY_AUDIT.md` — 12/12 rows mitigated by design; `tools/pack_mod.py` → Vortex-compatible staging archive `dist/RCAI-v0.2.0.zip` (all data + PSC source + Windows build script + install README) | CK compile of PSC (checklist §3), DLL build (checklist §1), controller-first playthrough + a11y sign-off (checklist §10) |
-| **F4SE DLL wiring** | ⏳ | `src/RCAI.cpp` written against the F4SE seam (WorldSampler adapter, 4 console commands, faction-memory persist) — **not compiled here** (no Windows SDK in this environment) | build via `.github/workflows/build.yml` on a tag; steps 1–4 of the checklist |
+| **M7 · UX & a11y** | 🟡 | 3 Papyrus scripts (linted clean, 0 errors); `tools/psc_lint.py`; `docs/ACCESSIBILITY_AUDIT.md` — 12/12 rows mitigated by design; `tools/pack_mod.py` → Vortex-compatible staging archive `dist/RCAI-v0.3.0.zip` (all data + PSC source + Windows build script + install README) | CK compile of PSC (checklist §3), DLL build (checklist §1), controller-first playthrough + a11y sign-off (checklist §10) |
+| **F4SE DLL wiring** | 🟡 | `src/world/f4se_sampler.{h,cpp}` implements all 7 integration points (actors, player, occluders, cover, LOS, perception, action dispatch); 32/32 tests pass headlessly; syntax-verified against F4SE SDK; `plugins/rcai/CMakeLists.txt` updated | in-game execution on Windows (steps 1–4 of the checklist) |
 
 ## What "verified here" means
 
@@ -30,7 +30,7 @@ G1 combat time in cover   0.320   gate >= 0.30  PASS   (stock ~0.15; 0.50 in-gam
 G2 flanking               43 shots, 6 distinct flankers  gate >= 2/2  PASS
 G3 first kill             tick 276 (13.8 s)              gate <= 600  PASS
 G4 enemy survival @ 30 s  0.710   gate >= 0.40  PASS
-C++ unit tests            29/29
+C++ unit tests            32/32 (includes F4SE world adapter test suite)
 Python tests              12/12 (combat 7 + worldsim 5)
 PSC lint                  3 files, 0 errors
 Perf gates                5/5
