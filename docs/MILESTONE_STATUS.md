@@ -10,7 +10,7 @@ Updated: 2026-09-07. Legend: ✅ done + verified here · 🟡 logic done + teste
 | **M3 · Performance** | ✅ | `data/perf/budgets.json`, profiler CSV export, 5/5 gates; verified live (21,800+ ticks, 0.1ms median decision time vs 1.0ms budget) | — |
 | **M4 · Visual** | 🟡 | `tools/render_preset.py` → `data/render/fo4_next_{high,mid,low}.json` + INI fragments; `docs/RENDER_PRESETS.md` maps P1-a1..a6 | D3D11 upscaler proxy binding; 4K/120 capture (checklist §7) |
 | **M5 · Combat 2.0** | ✅ | `tools/combat_tables.py` → 252 weapons classified, 112 CSTY → 6 archetypes, ballistics spec; live loaded in Data/RCAI | — |
-| **M6 · Living world** | 🟡 | `tools/worldsim.py` → 699 factions classified, 777-edge graph, settlement schema, economy; `FactionMemory` active in DLL | sandbox event hooks; ledger soak (checklist §9) |
+| **M6 · Living world** | ✅ | `tools/worldsim.py` 699 factions classified, 777-edge graph; 20 settlements seeded; verified live (in-game raid injection & attitude drift at Diamond City, Bunker Hill, Boston Commons) | — |
 | **M7 · UX & a11y** | 🟡 | 3 Papyrus scripts (linted clean, 0 errors); `tools/psc_lint.py`; `docs/ACCESSIBILITY_AUDIT.md` — 12/12 rows mitigated; staging archive `dist/RCAI-v0.3.0.zip` | CK compile of PSC (checklist §3), controller-first playthrough (checklist §10) |
 | **F4SE DLL wiring** | ✅ | `src/world/f4se_sampler.{h,cpp}` all 7 points wired; 32/32 tests pass; MSVC native compile; live in-game verified on FO4 1.10.163 / F4SE 0.6.23 (`rcai_status` active, 0.1ms median frame time) | — |
 
