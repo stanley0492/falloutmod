@@ -221,9 +221,25 @@ def main(argv=None):
         return 1
 
     # placeholders + generated text
-    (stage / "Data" / "F4SE" / "Plugins").mkdir(parents=True)
-    (stage / "Data" / "F4SE" / "Plugins" / "RCAI_PLUGIN_README.txt").write_text(
+    plugins_dir = stage / "Data" / "F4SE" / "Plugins"
+    plugins_dir.mkdir(parents=True)
+    plugins_dir.joinpath("RCAI_PLUGIN_README.txt").write_text(
         PLUGIN_README, encoding="utf-8")
+
+    # bundle prebuilt DLL and plugin config if present
+    dll_candidates = [
+        ROOT / "build" / "Release" / "RCAI.dll",
+        ROOT / "dist" / f"RCAI-v{VERSION}-windows-x64.dll",
+    ]
+    bundled_dll = False
+    for c in dll_candidates:
+        if c.exists():
+            print(f"bundling prebuilt DLL: {c}")
+            shutil.copy2(c, plugins_dir / "RCAI.dll")
+            shutil.copy2(ROOT / "config" / "RCAI.ini", plugins_dir / "RCAI.ini")
+            bundled_dll = True
+            break
+
     (stage / "build").mkdir(parents=True)
     (stage / "build" / "build_dll_windows.ps1").write_text(BUILD_POWERSHELL,
                                                            encoding="utf-8")

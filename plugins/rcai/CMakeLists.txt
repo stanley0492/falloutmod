@@ -66,8 +66,7 @@ if(WIN32)
         src/world/f4se_sampler.cpp
     )
     set_target_properties(rcai PROPERTIES OUTPUT_NAME "RCAI")
-    target_include_directories(rcai PRIVATE src . ${F4SE_ROOT}/include)
-    target_link_libraries(rcai PRIVATE ${F4SE_ROOT}/lib/f4se_64.lib)
+    target_include_directories(rcai PRIVATE src . ${F4SE_ROOT}/include ${F4SE_ROOT}/include/common)
     target_compile_definitions(rcai PRIVATE
         NOMINMAX WIN32_LEAN_AND_MEAN UNICODE _UNICODE
     )
